@@ -1,0 +1,32 @@
+ValueSet: AHIPBackgroundBlackCategories
+Id: ahip-background-black-category
+Title: "AHIP Black Background Categories"
+Description: "AHIP Black Background Categories"
+* ^version = "0.0.1"
+* ^status = #draft
+* ^experimental = false
+* ^date = "2025-03-24T00:00:00-04:00"
+* ^publisher = "AHIP"
+* ^contact.name = "AHIP"
+* ^jurisdiction = urn:iso:std:iso:3166#US
+* ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
+* $CDCRACE#2058-6 "African American"
+* $CDCRACE#2068-5 "Barbadian"
+* $CDCRACE#2184-0 "Dominican"
+* $CDCRACE#2062-8 "Ethiopian"
+* $CDCRACE#2071-9 "Haitian"
+* $CDCRACE#2072-7 "Jamaican"
+* $CDCRACE#2063-6 "Liberian"
+* $CDCRACE#2065-1 "Nigerian"
+* $CDCRACE#2074-3 "Trinidadian"
+* $AHIPDemoAdditionalBackgroundCodes#9999-5 "Angolan"
+* $AHIPDemoAdditionalBackgroundCodes#9999-6 "Cabo Verdean"
+* $AHIPDemoAdditionalBackgroundCodes#9999-7 "Congolese"
+* $AHIPDemoAdditionalBackgroundCodes#9999-8 "Ghanaian"
+* $AHIPDemoAdditionalBackgroundCodes#9999-9 "Kenyan"
+* $AHIPDemoAdditionalBackgroundCodes#9999-10 "Sudanese"
+* $AHIPDemoAdditionalBackgroundCodes#9999-11 "Somali"
+* $nullFlavor#ASKU "Asked but unknown"
+* $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
+* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
+* $AHIPDemoAdditionalNullFlavor#ICSA "I only identify as American"
