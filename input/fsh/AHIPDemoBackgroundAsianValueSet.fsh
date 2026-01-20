@@ -27,9 +27,8 @@ Description: "AHIP Asian Background Categories"
 * $CDCRACE#2045-3 "Sri Lankan"	
 * $CDCRACE#2046-1 "Thai"	
 * $CDCRACE#2047-9 "Vietnamese"	
-* $nullFlavor#ASKU "Asked but unknown"
+* $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
 * $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
-* $AHIPDemoAdditionalNullFlavor#ICSA "I only identify as American"
 
 

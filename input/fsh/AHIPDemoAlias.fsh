@@ -31,6 +31,7 @@ Alias: $AHIPDemoBackgroundWhiteValueSet = http://ahip.org/demographics/ValueSet/
 Alias: $AHIPDemoSpeakingLanguagePreferencesValueSet = http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences
 Alias: $AHIPDemoReadingLanguagePreferencesValueSet = http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences
 Alias: $AHIPDemoYesNoValueSet = http://ahip.org/demographics/ValueSet/ahip-yes-no
+Alias: $AHIPDemoYesNoPlainValueSet = http://ahip.org/demographics/ValueSet/ahip-yes-no-plain
 Alias: $AHIPDemoInterpreterModesValueSet = http://ahip.org/demographics/ValueSet/ahip-interpreter-modes
 Alias: $AHIPDemoOutreachModesValueSet = http://ahip.org/demographics/ValueSet/ahip-outreach-mode
 Alias: $AHIPDemoSexualOrientationValueSet = http://ahip.org/demographics/ValueSet/ahip-sexual-orientation

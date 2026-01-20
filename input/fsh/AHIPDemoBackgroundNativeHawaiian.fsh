@@ -23,9 +23,8 @@ Description: "AHIP Native Hawaiian Background Categories"
 * $CDCRACE#2080-0 "Samoan"
 * $CDCRACE#2082-6 "Tongan"
 * $CDCRACE#2098-2 "Yapese"
-* $nullFlavor#ASKU "Asked but unknown"
+* $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
 * $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
-* $AHIPDemoAdditionalNullFlavor#ICSA "I only identify as American"
 
 

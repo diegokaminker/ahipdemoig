@@ -30,9 +30,8 @@ Description: "AHIP Native American Background Categories"
 * $AHIPDemoAdditionalBackgroundCodes#9999-2 "Haudenosaunee"
 * $AHIPDemoAdditionalBackgroundCodes#9999-3 "Inupiat"
 * $AHIPDemoAdditionalBackgroundCodes#9999-4 "Muscogee (Eastern, Lower, Star Clan) "
-* $nullFlavor#ASKU "Asked but unknown"
+* $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
 * $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
-* $AHIPDemoAdditionalNullFlavor#ICSA "I only identify as American"
 
 
