@@ -67,6 +67,31 @@ dependencies:
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
+# The pages property corresponds to IG.definition.page. When set, SUSHI will not auto-generate pages.
+pages:
+  index.md:
+    title: Home
+  background.md:
+    title: Background
+  intellectual-property.md:
+    title: Intellectual Property Considerations
+  conventions.md:
+    title: Conventions
+  use-cases.md:
+    title: Use Cases
+  introduction.md:
+    title: Introduction
+  supporting-specifications.md:
+    title: Supporting Specifications
+  projects-and-participants.md:
+    title: Projects and Participants
+  security.md:
+    title: Security
+  mapping.md:
+    title: Mapping
+  support-menu.md:
+    title: Support
+
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
 # │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
@@ -77,6 +102,16 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Background: background.html
+  "Intellectual Property": intellectual-property.html
+  Conventions: conventions.html
+  "Use Cases": use-cases.html
+  Introduction: introduction.html
+  "Supporting Specifications": supporting-specifications.html
+  "Projects and Participants": projects-and-participants.html
+  Security: security.html
+  Mapping: mapping.html
+  Support: support-menu.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
