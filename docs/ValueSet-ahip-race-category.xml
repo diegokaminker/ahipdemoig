@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ahip-race-category"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-race-category</b></p><a name="ahip-race-category"> </a><a name="hcahip-race-category"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.2.0/CodeSystem-CDCREC.html"><code>urn:oid:2.16.840.1.113883.6.238</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1002-5</td><td>Native American, Alaska Native, or Indigenous</td></tr><tr><td>2028-9</td><td>Asian</td></tr><tr><td>2054-5</td><td>Black, African or African American</td></tr><tr><td>2118-8</td><td>Middle Eastern or North African</td></tr><tr><td>2076-8</td><td>Native Hawaiian or Other Pacific Islander</td></tr><tr><td>2106-3</td><td>White</td></tr><tr><td>2131-1</td><td>Hispanic or Latino/a/e</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://ahip.org/demographics/ValueSet/ahip-race-category"/>
+  <version value="0.1.0"/>
+  <name value="AHIPRaceCategories"/>
+  <title value="AHIP Race Categories"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-03-24T00:00:00-04:00"/>
+  <publisher value="AHIP"/>
+  <contact>
+    <name value="AHIP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ahip.org"/>
+    </telecom>
+  </contact>
+  <description value="Based on OMB Categories but adding Hispanic/Latino for consistency"/>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="urn:oid:2.16.840.1.113883.6.238"/>
+      <concept>
+        <code value="1002-5"/>
+        <display value="Native American, Alaska Native, or Indigenous"/>
+      </concept>
+      <concept>
+        <code value="2028-9"/>
+        <display value="Asian"/>
+      </concept>
+      <concept>
+        <code value="2054-5"/>
+        <display value="Black, African or African American"/>
+      </concept>
+      <concept>
+        <code value="2118-8"/>
+        <display value="Middle Eastern or North African"/>
+      </concept>
+      <concept>
+        <code value="2076-8"/>
+        <display value="Native Hawaiian or Other Pacific Islander"/>
+      </concept>
+      <concept>
+        <code value="2106-3"/>
+        <display value="White"/>
+      </concept>
+      <concept>
+        <code value="2131-1"/>
+        <display value="Hispanic or Latino/a/e"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <concept>
+        <code value="ASKU"/>
+        <display value="I don't know"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"/>
+      <concept>
+        <code value="CNTR"/>
+        <display value="I choose not to respond at this time"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

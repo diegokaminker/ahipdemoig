@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-care-consideration> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ahip-care-consideration"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-care-consideration</b></p><a name=\"ahip-care-consideration\"> </a><a name=\"hcahip-care-consideration\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-care-consideration-codes</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>HEBE</td><td>Health beliefs</td></tr><tr><td>CUPR</td><td>Cultural preferences</td></tr><tr><td>REBE</td><td>Religious beliefs (e.g., no blood transfusions, need or want particular people in the room with you or before procedures or for end of life rituals, etc.)</td></tr><tr><td>SPBE</td><td>Spiritual beliefs</td></tr><tr><td>DIET</td><td>Specific diet followed (e.g., Halal, Kosher, Pescatarian, Vegetarian, Vegan)</td></tr><tr><td>CARE</td><td>Caregiving status</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>Asked but unknown</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-care-consideration"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPCareConsideration"] ; # 
+  fhir:title [ fhir:v "AHIP Care Consideration Value Set"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "AHIP Care Consideration Codes"] ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-care-consideration-codes"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "HEBE" ] ;
+         fhir:display [ fhir:v "Health beliefs" ]
+       ] [
+         fhir:code [ fhir:v "CUPR" ] ;
+         fhir:display [ fhir:v "Cultural preferences" ]
+       ] [
+         fhir:code [ fhir:v "REBE" ] ;
+         fhir:display [ fhir:v "Religious beliefs (e.g., no blood transfusions, need or want particular people in the room with you or before procedures or for end of life rituals, etc.)" ]
+       ] [
+         fhir:code [ fhir:v "SPBE" ] ;
+         fhir:display [ fhir:v "Spiritual beliefs" ]
+       ] [
+         fhir:code [ fhir:v "DIET" ] ;
+         fhir:display [ fhir:v "Specific diet followed (e.g., Halal, Kosher, Pescatarian, Vegetarian, Vegan)" ]
+       ] [
+         fhir:code [ fhir:v "CARE" ] ;
+         fhir:display [ fhir:v "Caregiving status" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ASKU" ] ;
+         fhir:display [ fhir:v "Asked but unknown" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "CNTR" ] ;
+         fhir:display [ fhir:v "I choose not to respond at this time" ]
+       ] [
+         fhir:code [ fhir:v "PSIN" ] ;
+         fhir:display [ fhir:v "Please specify if not listed above" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

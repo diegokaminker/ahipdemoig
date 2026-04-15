@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ahip-demo-additional-outreach-modes",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-outreach-modes</b></p><a name=\"ahip-demo-additional-outreach-modes\"> </a><a name=\"hcahip-demo-additional-outreach-modes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"ahip-demo-additional-outreach-modes-P\"> </a></td><td>Phone Call</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"ahip-demo-additional-outreach-modes-T\"> </a></td><td>Text Message</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"ahip-demo-additional-outreach-modes-E\"> </a></td><td>Email</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"ahip-demo-additional-outreach-modes-M\"> </a></td><td>Mailed Letter</td></tr></table></div>"
+  },
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalOutreachModes",
+  "title" : "AHIP Demo Additional Outreach modes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-03-25T00:00:00-04:00",
+  "publisher" : "AHIP",
+  "contact" : [{
+    "name" : "AHIP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ahip.org"
+    }]
+  }],
+  "description" : "An additional collection of outreach modes",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "P",
+    "display" : "Phone Call"
+  },
+  {
+    "code" : "T",
+    "display" : "Text Message"
+  },
+  {
+    "code" : "E",
+    "display" : "Email"
+  },
+  {
+    "code" : "M",
+    "display" : "Mailed Letter"
+  }]
+}

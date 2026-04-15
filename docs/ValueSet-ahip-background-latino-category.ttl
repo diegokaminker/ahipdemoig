@@ -1,0 +1,116 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-background-latino-category> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ahip-background-latino-category"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-latino-category</b></p><a name=\"ahip-background-latino-category\"> </a><a name=\"hcahip-background-latino-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2166-7</td><td>Argentinian</td></tr><tr><td>2168-3</td><td>Chilean</td></tr><tr><td>2169-1</td><td>Colombian</td></tr><tr><td>2156-8</td><td>Costa Rican</td></tr><tr><td>2182-4</td><td>Cuban</td></tr><tr><td>2184-0</td><td>Dominican</td></tr><tr><td>2170-9</td><td>Ecuadorian</td></tr><tr><td>2157-6</td><td>Guatemalan</td></tr><tr><td>2158-4</td><td>Honduran</td></tr><tr><td>2148-5</td><td>Mexican</td></tr><tr><td>2151-9</td><td>Chicano/a</td></tr><tr><td>2159-2</td><td>Nicaraguan</td></tr><tr><td>2160-0</td><td>Panamanian</td></tr><tr><td>2172-5</td><td>Peruvian</td></tr><tr><td>2180-8</td><td>Puerto Rican</td></tr><tr><td>2161-8</td><td>Salvadoran</td></tr><tr><td>2137-8</td><td>Spanish</td></tr><tr><td>2174-1</td><td>Venezuelan</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>9999-12</td><td>Brazilian</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-background-latino-category"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPBackgroundLatinoCategories"] ; # 
+  fhir:title [ fhir:v "AHIP Hispanic Latino Background Categories"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "AHIP Hispanic Latino Background Categories"] ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "2166-7" ] ;
+         fhir:display [ fhir:v "Argentinian" ]
+       ] [
+         fhir:code [ fhir:v "2168-3" ] ;
+         fhir:display [ fhir:v "Chilean" ]
+       ] [
+         fhir:code [ fhir:v "2169-1" ] ;
+         fhir:display [ fhir:v "Colombian" ]
+       ] [
+         fhir:code [ fhir:v "2156-8" ] ;
+         fhir:display [ fhir:v "Costa Rican" ]
+       ] [
+         fhir:code [ fhir:v "2182-4" ] ;
+         fhir:display [ fhir:v "Cuban" ]
+       ] [
+         fhir:code [ fhir:v "2184-0" ] ;
+         fhir:display [ fhir:v "Dominican" ]
+       ] [
+         fhir:code [ fhir:v "2170-9" ] ;
+         fhir:display [ fhir:v "Ecuadorian" ]
+       ] [
+         fhir:code [ fhir:v "2157-6" ] ;
+         fhir:display [ fhir:v "Guatemalan" ]
+       ] [
+         fhir:code [ fhir:v "2158-4" ] ;
+         fhir:display [ fhir:v "Honduran" ]
+       ] [
+         fhir:code [ fhir:v "2148-5" ] ;
+         fhir:display [ fhir:v "Mexican" ]
+       ] [
+         fhir:code [ fhir:v "2151-9" ] ;
+         fhir:display [ fhir:v "Chicano/a" ]
+       ] [
+         fhir:code [ fhir:v "2159-2" ] ;
+         fhir:display [ fhir:v "Nicaraguan" ]
+       ] [
+         fhir:code [ fhir:v "2160-0" ] ;
+         fhir:display [ fhir:v "Panamanian" ]
+       ] [
+         fhir:code [ fhir:v "2172-5" ] ;
+         fhir:display [ fhir:v "Peruvian" ]
+       ] [
+         fhir:code [ fhir:v "2180-8" ] ;
+         fhir:display [ fhir:v "Puerto Rican" ]
+       ] [
+         fhir:code [ fhir:v "2161-8" ] ;
+         fhir:display [ fhir:v "Salvadoran" ]
+       ] [
+         fhir:code [ fhir:v "2137-8" ] ;
+         fhir:display [ fhir:v "Spanish" ]
+       ] [
+         fhir:code [ fhir:v "2174-1" ] ;
+         fhir:display [ fhir:v "Venezuelan" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "9999-12" ] ;
+         fhir:display [ fhir:v "Brazilian" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ASKU" ] ;
+         fhir:display [ fhir:v "I don't know" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "CNTR" ] ;
+         fhir:display [ fhir:v "I choose not to respond at this time" ]
+       ] [
+         fhir:code [ fhir:v "PSIN" ] ;
+         fhir:display [ fhir:v "Please specify if not listed above" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

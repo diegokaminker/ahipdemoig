@@ -1,0 +1,40 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "AHIP-Demo-Additional-Reading-Modes",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem AHIP-Demo-Additional-Reading-Modes</b></p><a name=\"AHIP-Demo-Additional-Reading-Modes\"> </a><a name=\"hcAHIP-Demo-Additional-Reading-Modes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">x-bra<a name=\"AHIP-Demo-Additional-Reading-Modes-x-bra\"> </a></td><td>Braille</td></tr><tr><td style=\"white-space:nowrap\">x-lar<a name=\"AHIP-Demo-Additional-Reading-Modes-x-lar\"> </a></td><td>Large Print</td></tr><tr><td style=\"white-space:nowrap\">x-dds<a name=\"AHIP-Demo-Additional-Reading-Modes-x-dds\"> </a></td><td>Digital Documents that Can Be Spoken Out Loud​</td></tr></table></div>"
+  },
+  "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalReadingModes",
+  "title" : "AHIP Demo Additional Reading Modes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-03-25T00:00:00-04:00",
+  "publisher" : "AHIP",
+  "contact" : [{
+    "name" : "AHIP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ahip.org"
+    }]
+  }],
+  "description" : "An additional collection of codes specifying reading modes",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "x-bra",
+    "display" : "Braille"
+  },
+  {
+    "code" : "x-lar",
+    "display" : "Large Print"
+  },
+  {
+    "code" : "x-dds",
+    "display" : "Digital Documents that Can Be Spoken Out Loud​"
+  }]
+}

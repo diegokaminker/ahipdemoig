@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ahip-background-asian-category"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-background-asian-category</b></p><a name="ahip-background-asian-category"> </a><a name="hcahip-background-asian-category"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.2.0/CodeSystem-CDCREC.html"><code>urn:oid:2.16.840.1.113883.6.238</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2126-1</td><td>Afghan</td></tr><tr><td>2030-5</td><td>Bangladeshi</td></tr><tr><td>2032-1</td><td>Burmese</td></tr><tr><td>2033-9</td><td>Cambodian</td></tr><tr><td>2034-7</td><td>Chinese</td></tr><tr><td>2036-2</td><td>Filipino</td></tr><tr><td>2037-0</td><td>Hmong</td></tr><tr><td>2029-7</td><td>Indian</td></tr><tr><td>2038-8</td><td>Indonesian</td></tr><tr><td>2039-6</td><td>Japanese</td></tr><tr><td>2040-4</td><td>Korean</td></tr><tr><td>2041-2</td><td>Lao</td></tr><tr><td>2050-3</td><td>Nepalese</td></tr><tr><td>2044-6</td><td>Pakistani</td></tr><tr><td>2045-3</td><td>Sri Lankan</td></tr><tr><td>2046-1</td><td>Thai</td></tr><tr><td>2047-9</td><td>Vietnamese</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://ahip.org/demographics/ValueSet/ahip-background-asian-category"/>
+  <version value="0.1.0"/>
+  <name value="AHIPBackgroundAsianCategories"/>
+  <title value="AHIP Asian Background Categories"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-03-24T00:00:00-04:00"/>
+  <publisher value="AHIP"/>
+  <contact>
+    <name value="AHIP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ahip.org"/>
+    </telecom>
+  </contact>
+  <description value="AHIP Asian Background Categories"/>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="urn:oid:2.16.840.1.113883.6.238"/>
+      <concept>
+        <code value="2126-1"/>
+        <display value="Afghan"/>
+      </concept>
+      <concept>
+        <code value="2030-5"/>
+        <display value="Bangladeshi"/>
+      </concept>
+      <concept>
+        <code value="2032-1"/>
+        <display value="Burmese"/>
+      </concept>
+      <concept>
+        <code value="2033-9"/>
+        <display value="Cambodian"/>
+      </concept>
+      <concept>
+        <code value="2034-7"/>
+        <display value="Chinese"/>
+      </concept>
+      <concept>
+        <code value="2036-2"/>
+        <display value="Filipino"/>
+      </concept>
+      <concept>
+        <code value="2037-0"/>
+        <display value="Hmong"/>
+      </concept>
+      <concept>
+        <code value="2029-7"/>
+        <display value="Indian"/>
+      </concept>
+      <concept>
+        <code value="2038-8"/>
+        <display value="Indonesian"/>
+      </concept>
+      <concept>
+        <code value="2039-6"/>
+        <display value="Japanese"/>
+      </concept>
+      <concept>
+        <code value="2040-4"/>
+        <display value="Korean"/>
+      </concept>
+      <concept>
+        <code value="2041-2"/>
+        <display value="Lao"/>
+      </concept>
+      <concept>
+        <code value="2050-3"/>
+        <display value="Nepalese"/>
+      </concept>
+      <concept>
+        <code value="2044-6"/>
+        <display value="Pakistani"/>
+      </concept>
+      <concept>
+        <code value="2045-3"/>
+        <display value="Sri Lankan"/>
+      </concept>
+      <concept>
+        <code value="2046-1"/>
+        <display value="Thai"/>
+      </concept>
+      <concept>
+        <code value="2047-9"/>
+        <display value="Vietnamese"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <concept>
+        <code value="ASKU"/>
+        <display value="I don't know"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"/>
+      <concept>
+        <code value="CNTR"/>
+        <display value="I choose not to respond at this time"/>
+      </concept>
+      <concept>
+        <code value="PSIN"/>
+        <display value="Please specify if not listed above"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

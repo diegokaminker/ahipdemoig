@@ -1,0 +1,13 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language,0.1.0,draft,,AHIPDemoAdditionalLanguage,AHIP Demo Additional Language,"An additional collection of codes specifying languages",
+http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor,0.1.0,draft,,AHIPDemoAdditionalNullFlavor,AHIP Demo Additional NullFlavor,"An additional collection of codes specifying why a valid value is not present.",
+http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes,0.1.0,draft,,AHIPDemoAdditionalReadingModes,AHIP Demo Additional Reading Modes,"An additional collection of codes specifying reading modes",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes,0.1.0,draft,,AHIPDemoAdditionalBackgroundCodes,AHIP Demo Additional Background Codes,"An additional collection of background codes completing the gaps in CDC codes",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-care-consideration-codes,0.1.0,draft,,AHIPDemoAdditionalCareConsiderationCodes,AHIP Demo Additional Care Consideration Codes,"An additional collection of care consideration codes",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-disability-codes,0.1.0,draft,,AHIPDemoAdditionalDisabilityCodes,AHIP Demo Additional Disability Codes,"An additional collection of disability codes",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-gender-codes,0.1.0,draft,,AHIPDemoAdditionalGenderCodes,AHIP Demo Additional Gender Codes,"An additional collection of gender codes",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-interpreter-modes,0.1.0,draft,,AHIPDemoAdditionalInterpreterModes,AHIP Demo Additional Interpreter modes,"An additional collection of interpreter modes",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-military-period,0.1.0,draft,,AHIPDemoMilitaryPeriodCodes,AHIP Demo Additional Military Period,"An additional collection of codes specifying US Military Periods",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes,0.1.0,draft,,AHIPDemoAdditionalOutreachModes,AHIP Demo Additional Outreach modes,"An additional collection of outreach modes",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes,0.1.0,draft,,AHIPDemoAdditionalRelationshipStatusCodes,AHIP Demo Additional Relationship Status Codes,"An additional collection of relationship status codes",
+http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes,0.1.0,draft,,AHIPDemoAdditionalReligionCodes,AHIP Demo Additional Religion Codes,"An additional collection of religion and spiritual belief codes",

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ahip-background-white-category"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-background-white-category</b></p><a name="ahip-background-white-category"> </a><a name="hcahip-background-white-category"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.2.0/CodeSystem-CDCREC.html"><code>urn:oid:2.16.840.1.113883.6.238</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2110-5</td><td>English</td></tr><tr><td>2111-3</td><td>French</td></tr><tr><td>2112-1</td><td>German</td></tr><tr><td>2113-9</td><td>Irish</td></tr><tr><td>2114-7</td><td>Italian</td></tr><tr><td>2115-4</td><td>Polish</td></tr><tr><td>2116-2</td><td>Scottish</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>9999-19</td><td>Saudi</td></tr><tr><td>9999-20</td><td>Danish</td></tr><tr><td>9999-21</td><td>Dutch</td></tr><tr><td>9999-22</td><td>Greek</td></tr><tr><td>9999-23</td><td>Jewish: Ashkenazi</td></tr><tr><td>9999-24</td><td>Jewish: Sephardic</td></tr><tr><td>9999-25</td><td>Lithuanian</td></tr><tr><td>9999-26</td><td>Norwegian</td></tr><tr><td>9999-27</td><td>Portuguese</td></tr><tr><td>9999-28</td><td>Russian</td></tr><tr><td>9999-29</td><td>Swedish</td></tr><tr><td>9999-30</td><td>Ukrainian</td></tr><tr><td>9999-31</td><td>Welsh</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://ahip.org/demographics/ValueSet/ahip-background-white-category"/>
+  <version value="0.1.0"/>
+  <name value="AHIPBackgroundWhiteCategories"/>
+  <title value="AHIP White Background Categories"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-03-24T00:00:00-04:00"/>
+  <publisher value="AHIP"/>
+  <contact>
+    <name value="AHIP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ahip.org"/>
+    </telecom>
+  </contact>
+  <description value="AHIP White Background Categories"/>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="urn:oid:2.16.840.1.113883.6.238"/>
+      <concept>
+        <code value="2110-5"/>
+        <display value="English"/>
+      </concept>
+      <concept>
+        <code value="2111-3"/>
+        <display value="French"/>
+      </concept>
+      <concept>
+        <code value="2112-1"/>
+        <display value="German"/>
+      </concept>
+      <concept>
+        <code value="2113-9"/>
+        <display value="Irish"/>
+      </concept>
+      <concept>
+        <code value="2114-7"/>
+        <display value="Italian"/>
+      </concept>
+      <concept>
+        <code value="2115-4"/>
+        <display value="Polish"/>
+      </concept>
+      <concept>
+        <code value="2116-2"/>
+        <display value="Scottish"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes"/>
+      <concept>
+        <code value="9999-19"/>
+        <display value="Saudi"/>
+      </concept>
+      <concept>
+        <code value="9999-20"/>
+        <display value="Danish"/>
+      </concept>
+      <concept>
+        <code value="9999-21"/>
+        <display value="Dutch"/>
+      </concept>
+      <concept>
+        <code value="9999-22"/>
+        <display value="Greek"/>
+      </concept>
+      <concept>
+        <code value="9999-23"/>
+        <display value="Jewish: Ashkenazi"/>
+      </concept>
+      <concept>
+        <code value="9999-24"/>
+        <display value="Jewish: Sephardic"/>
+      </concept>
+      <concept>
+        <code value="9999-25"/>
+        <display value="Lithuanian"/>
+      </concept>
+      <concept>
+        <code value="9999-26"/>
+        <display value="Norwegian"/>
+      </concept>
+      <concept>
+        <code value="9999-27"/>
+        <display value="Portuguese"/>
+      </concept>
+      <concept>
+        <code value="9999-28"/>
+        <display value="Russian"/>
+      </concept>
+      <concept>
+        <code value="9999-29"/>
+        <display value="Swedish"/>
+      </concept>
+      <concept>
+        <code value="9999-30"/>
+        <display value="Ukrainian"/>
+      </concept>
+      <concept>
+        <code value="9999-31"/>
+        <display value="Welsh"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <concept>
+        <code value="ASKU"/>
+        <display value="I don't know"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"/>
+      <concept>
+        <code value="CNTR"/>
+        <display value="I choose not to respond at this time"/>
+      </concept>
+      <concept>
+        <code value="PSIN"/>
+        <display value="Please specify if not listed above"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

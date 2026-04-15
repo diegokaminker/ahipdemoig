@@ -1,0 +1,156 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ahip-demo-additional-background-codes",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-background-codes</b></p><a name=\"ahip-demo-additional-background-codes\"> </a><a name=\"hcahip-demo-additional-background-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">9999-1<a name=\"ahip-demo-additional-background-codes-9999-1\"> </a></td><td>Athabascan</td></tr><tr><td style=\"white-space:nowrap\">9999-2<a name=\"ahip-demo-additional-background-codes-9999-2\"> </a></td><td>Haudenosaunee</td></tr><tr><td style=\"white-space:nowrap\">9999-3<a name=\"ahip-demo-additional-background-codes-9999-3\"> </a></td><td>Inupiat</td></tr><tr><td style=\"white-space:nowrap\">9999-4<a name=\"ahip-demo-additional-background-codes-9999-4\"> </a></td><td>Muscogee (Eastern, Lower, Star Clan)</td></tr><tr><td style=\"white-space:nowrap\">9999-5<a name=\"ahip-demo-additional-background-codes-9999-5\"> </a></td><td>Angolan</td></tr><tr><td style=\"white-space:nowrap\">9999-6<a name=\"ahip-demo-additional-background-codes-9999-6\"> </a></td><td>Cabo Verdean</td></tr><tr><td style=\"white-space:nowrap\">9999-7<a name=\"ahip-demo-additional-background-codes-9999-7\"> </a></td><td>Congolese</td></tr><tr><td style=\"white-space:nowrap\">9999-8<a name=\"ahip-demo-additional-background-codes-9999-8\"> </a></td><td>Ghanaian</td></tr><tr><td style=\"white-space:nowrap\">9999-9<a name=\"ahip-demo-additional-background-codes-9999-9\"> </a></td><td>Kenyan</td></tr><tr><td style=\"white-space:nowrap\">9999-10<a name=\"ahip-demo-additional-background-codes-9999-10\"> </a></td><td>Sudanese</td></tr><tr><td style=\"white-space:nowrap\">9999-11<a name=\"ahip-demo-additional-background-codes-9999-11\"> </a></td><td>Somali</td></tr><tr><td style=\"white-space:nowrap\">9999-12<a name=\"ahip-demo-additional-background-codes-9999-12\"> </a></td><td>Brazilian</td></tr><tr><td style=\"white-space:nowrap\">9999-13<a name=\"ahip-demo-additional-background-codes-9999-13\"> </a></td><td>Emirati</td></tr><tr><td style=\"white-space:nowrap\">9999-14<a name=\"ahip-demo-additional-background-codes-9999-14\"> </a></td><td>Jewish: Mizrahi</td></tr><tr><td style=\"white-space:nowrap\">9999-15<a name=\"ahip-demo-additional-background-codes-9999-15\"> </a></td><td>Jordanian</td></tr><tr><td style=\"white-space:nowrap\">9999-16<a name=\"ahip-demo-additional-background-codes-9999-16\"> </a></td><td>Kurdish</td></tr><tr><td style=\"white-space:nowrap\">9999-17<a name=\"ahip-demo-additional-background-codes-9999-17\"> </a></td><td>Kuwaiti</td></tr><tr><td style=\"white-space:nowrap\">9999-18<a name=\"ahip-demo-additional-background-codes-9999-18\"> </a></td><td>Libyan</td></tr><tr><td style=\"white-space:nowrap\">9999-19<a name=\"ahip-demo-additional-background-codes-9999-19\"> </a></td><td>Saudi</td></tr><tr><td style=\"white-space:nowrap\">9999-20<a name=\"ahip-demo-additional-background-codes-9999-20\"> </a></td><td>Danish</td></tr><tr><td style=\"white-space:nowrap\">9999-21<a name=\"ahip-demo-additional-background-codes-9999-21\"> </a></td><td>Dutch</td></tr><tr><td style=\"white-space:nowrap\">9999-22<a name=\"ahip-demo-additional-background-codes-9999-22\"> </a></td><td>Greek</td></tr><tr><td style=\"white-space:nowrap\">9999-23<a name=\"ahip-demo-additional-background-codes-9999-23\"> </a></td><td>Jewish: Ashkenazi</td></tr><tr><td style=\"white-space:nowrap\">9999-24<a name=\"ahip-demo-additional-background-codes-9999-24\"> </a></td><td>Jewish: Sephardic</td></tr><tr><td style=\"white-space:nowrap\">9999-25<a name=\"ahip-demo-additional-background-codes-9999-25\"> </a></td><td>Lithuanian</td></tr><tr><td style=\"white-space:nowrap\">9999-26<a name=\"ahip-demo-additional-background-codes-9999-26\"> </a></td><td>Norwegian</td></tr><tr><td style=\"white-space:nowrap\">9999-27<a name=\"ahip-demo-additional-background-codes-9999-27\"> </a></td><td>Portuguese</td></tr><tr><td style=\"white-space:nowrap\">9999-28<a name=\"ahip-demo-additional-background-codes-9999-28\"> </a></td><td>Russian</td></tr><tr><td style=\"white-space:nowrap\">9999-29<a name=\"ahip-demo-additional-background-codes-9999-29\"> </a></td><td>Swedish</td></tr><tr><td style=\"white-space:nowrap\">9999-30<a name=\"ahip-demo-additional-background-codes-9999-30\"> </a></td><td>Ukrainian</td></tr><tr><td style=\"white-space:nowrap\">9999-31<a name=\"ahip-demo-additional-background-codes-9999-31\"> </a></td><td>Welsh</td></tr><tr><td style=\"white-space:nowrap\">9999-32<a name=\"ahip-demo-additional-background-codes-9999-32\"> </a></td><td>Yemeni</td></tr></table></div>"
+  },
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalBackgroundCodes",
+  "title" : "AHIP Demo Additional Background Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-03-25T00:00:00-04:00",
+  "publisher" : "AHIP",
+  "contact" : [{
+    "name" : "AHIP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ahip.org"
+    }]
+  }],
+  "description" : "An additional collection of background codes completing the gaps in CDC codes",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 32,
+  "concept" : [{
+    "code" : "9999-1",
+    "display" : "Athabascan"
+  },
+  {
+    "code" : "9999-2",
+    "display" : "Haudenosaunee"
+  },
+  {
+    "code" : "9999-3",
+    "display" : "Inupiat"
+  },
+  {
+    "code" : "9999-4",
+    "display" : "Muscogee (Eastern, Lower, Star Clan)"
+  },
+  {
+    "code" : "9999-5",
+    "display" : "Angolan"
+  },
+  {
+    "code" : "9999-6",
+    "display" : "Cabo Verdean"
+  },
+  {
+    "code" : "9999-7",
+    "display" : "Congolese"
+  },
+  {
+    "code" : "9999-8",
+    "display" : "Ghanaian"
+  },
+  {
+    "code" : "9999-9",
+    "display" : "Kenyan"
+  },
+  {
+    "code" : "9999-10",
+    "display" : "Sudanese"
+  },
+  {
+    "code" : "9999-11",
+    "display" : "Somali"
+  },
+  {
+    "code" : "9999-12",
+    "display" : "Brazilian"
+  },
+  {
+    "code" : "9999-13",
+    "display" : "Emirati"
+  },
+  {
+    "code" : "9999-14",
+    "display" : "Jewish: Mizrahi"
+  },
+  {
+    "code" : "9999-15",
+    "display" : "Jordanian"
+  },
+  {
+    "code" : "9999-16",
+    "display" : "Kurdish"
+  },
+  {
+    "code" : "9999-17",
+    "display" : "Kuwaiti"
+  },
+  {
+    "code" : "9999-18",
+    "display" : "Libyan"
+  },
+  {
+    "code" : "9999-19",
+    "display" : "Saudi"
+  },
+  {
+    "code" : "9999-20",
+    "display" : "Danish"
+  },
+  {
+    "code" : "9999-21",
+    "display" : "Dutch"
+  },
+  {
+    "code" : "9999-22",
+    "display" : "Greek"
+  },
+  {
+    "code" : "9999-23",
+    "display" : "Jewish: Ashkenazi"
+  },
+  {
+    "code" : "9999-24",
+    "display" : "Jewish: Sephardic"
+  },
+  {
+    "code" : "9999-25",
+    "display" : "Lithuanian"
+  },
+  {
+    "code" : "9999-26",
+    "display" : "Norwegian"
+  },
+  {
+    "code" : "9999-27",
+    "display" : "Portuguese"
+  },
+  {
+    "code" : "9999-28",
+    "display" : "Russian"
+  },
+  {
+    "code" : "9999-29",
+    "display" : "Swedish"
+  },
+  {
+    "code" : "9999-30",
+    "display" : "Ukrainian"
+  },
+  {
+    "code" : "9999-31",
+    "display" : "Welsh"
+  },
+  {
+    "code" : "9999-32",
+    "display" : "Yemeni"
+  }]
+}

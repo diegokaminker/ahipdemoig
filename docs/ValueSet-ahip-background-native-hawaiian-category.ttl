@@ -1,0 +1,95 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ahip-background-native-hawaiian-category"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-native-hawaiian-category</b></p><a name=\"ahip-background-native-hawaiian-category\"> </a><a name=\"hcahip-background-native-hawaiian-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2097-4</td><td>Chuukese</td></tr><tr><td>2088-3</td><td>Chamorro</td></tr><tr><td>2101-4</td><td>Fijian</td></tr><tr><td>2078-4</td><td>Polynesian</td></tr><tr><td>2093-3</td><td>Kosraean</td></tr><tr><td>2090-9</td><td>Marshallese</td></tr><tr><td>2079-2</td><td>Native Hawaiian</td></tr><tr><td>2091-7</td><td>Palauan</td></tr><tr><td>2102-2</td><td>Papua New Guinean</td></tr><tr><td>2094-1</td><td>Pohnpeian</td></tr><tr><td>2080-0</td><td>Samoan</td></tr><tr><td>2082-6</td><td>Tongan</td></tr><tr><td>2098-2</td><td>Yapese</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPRaceNativeHawaiianCategories"] ; # 
+  fhir:title [ fhir:v "AHIP Native Hawaiian Background Categories"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "AHIP Native Hawaiian Background Categories"] ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "2097-4" ] ;
+         fhir:display [ fhir:v "Chuukese" ]
+       ] [
+         fhir:code [ fhir:v "2088-3" ] ;
+         fhir:display [ fhir:v "Chamorro" ]
+       ] [
+         fhir:code [ fhir:v "2101-4" ] ;
+         fhir:display [ fhir:v "Fijian" ]
+       ] [
+         fhir:code [ fhir:v "2078-4" ] ;
+         fhir:display [ fhir:v "Polynesian" ]
+       ] [
+         fhir:code [ fhir:v "2093-3" ] ;
+         fhir:display [ fhir:v "Kosraean" ]
+       ] [
+         fhir:code [ fhir:v "2090-9" ] ;
+         fhir:display [ fhir:v "Marshallese" ]
+       ] [
+         fhir:code [ fhir:v "2079-2" ] ;
+         fhir:display [ fhir:v "Native Hawaiian" ]
+       ] [
+         fhir:code [ fhir:v "2091-7" ] ;
+         fhir:display [ fhir:v "Palauan" ]
+       ] [
+         fhir:code [ fhir:v "2102-2" ] ;
+         fhir:display [ fhir:v "Papua New Guinean" ]
+       ] [
+         fhir:code [ fhir:v "2094-1" ] ;
+         fhir:display [ fhir:v "Pohnpeian" ]
+       ] [
+         fhir:code [ fhir:v "2080-0" ] ;
+         fhir:display [ fhir:v "Samoan" ]
+       ] [
+         fhir:code [ fhir:v "2082-6" ] ;
+         fhir:display [ fhir:v "Tongan" ]
+       ] [
+         fhir:code [ fhir:v "2098-2" ] ;
+         fhir:display [ fhir:v "Yapese" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ASKU" ] ;
+         fhir:display [ fhir:v "I don't know" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "CNTR" ] ;
+         fhir:display [ fhir:v "I choose not to respond at this time" ]
+       ] [
+         fhir:code [ fhir:v "PSIN" ] ;
+         fhir:display [ fhir:v "Please specify if not listed above" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

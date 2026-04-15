@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ahip-speaking-language-prereferences"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-speaking-language-prereferences</b></p><a name="ahip-speaking-language-prereferences"> </a><a name="hcahip-speaking-language-prereferences"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://tools.ietf.org/html/bcp47</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>amh</td><td>Amharic</td></tr><tr><td>ara</td><td>Arabic</td></tr><tr><td>ath</td><td>Athabaskan (Na-Deme)</td></tr><tr><td>ben</td><td>Bengali</td></tr><tr><td>bur</td><td>Burmese</td></tr><tr><td>yue</td><td>Cantonese</td></tr><tr><td>chr</td><td>Cherokee</td></tr><tr><td>cha</td><td>Chamorro</td></tr><tr><td>chk</td><td>Chuukese</td></tr><tr><td>cro</td><td>Crow</td></tr><tr><td>dak</td><td>Dakota</td></tr><tr><td>dan</td><td>Danish</td></tr><tr><td>prs</td><td>Dari</td></tr><tr><td>dut</td><td>Dutch</td></tr><tr><td>eng</td><td>English</td></tr><tr><td>far</td><td>Farsi</td></tr><tr><td>fij</td><td>Fijian</td></tr><tr><td>fre</td><td>French</td></tr><tr><td>ger</td><td>German</td></tr><tr><td>gre</td><td>Greek</td></tr><tr><td>hat</td><td>Haitian Creole</td></tr><tr><td>haw</td><td>Hawaiian</td></tr><tr><td>heb</td><td>Hebrew</td></tr><tr><td>hin</td><td>Hindi</td></tr><tr><td>hmn</td><td>Hmong</td></tr><tr><td>ind</td><td>Indonesian</td></tr><tr><td>ipk</td><td>Inupiaq</td></tr><tr><td>ita</td><td>Italian</td></tr><tr><td>jpn</td><td>Japanese</td></tr><tr><td>kar</td><td>Karen</td></tr><tr><td>kkh</td><td>Karenni</td></tr><tr><td>khm</td><td>Central Khmer</td></tr><tr><td>kor</td><td>Korean</td></tr><tr><td>kos</td><td>Kosraean</td></tr><tr><td>kur</td><td>Kurdish</td></tr><tr><td>lkt</td><td>Lakota (sioux)</td></tr><tr><td>lao</td><td>Lao</td></tr><tr><td>lit</td><td>Lithuanian</td></tr><tr><td>cmn</td><td>Mandarin</td></tr><tr><td>mah</td><td>Marshallese</td></tr><tr><td>mus</td><td>Muscogee</td></tr><tr><td>nav</td><td>Navajo (Dine')</td></tr><tr><td>nep</td><td>Nepali</td></tr><tr><td>nor</td><td>Norwegian</td></tr><tr><td>oji</td><td>Ojibwe</td></tr><tr><td>ood</td><td>O'oodham</td></tr><tr><td>pdc</td><td>Pennsylvania Dutch (Pennsylvania German)</td></tr><tr><td>pau</td><td>Palauan</td></tr><tr><td>pus</td><td>Pashto</td></tr><tr><td>per</td><td>Persian</td></tr><tr><td>pol</td><td>Polish</td></tr><tr><td>pon</td><td>Pohnpeian</td></tr><tr><td>por</td><td>Portuguese</td></tr><tr><td>rus</td><td>Russian</td></tr><tr><td>smo</td><td>Samoan</td></tr><tr><td>sin</td><td>Sinhala</td></tr><tr><td>som</td><td>Somali</td></tr><tr><td>spa</td><td>Spanish</td></tr><tr><td>swa</td><td>Swahili</td></tr><tr><td>swe</td><td>Swedish</td></tr><tr><td>tgl</td><td>Tagalog</td></tr><tr><td>tha</td><td>Thai</td></tr><tr><td>tam</td><td>Tamil</td></tr><tr><td>ton</td><td>Tongan</td></tr><tr><td>tli</td><td>Tlingit</td></tr><tr><td>tpi</td><td>Tok Pisin</td></tr><tr><td>ukr</td><td>Ukrainian</td></tr><tr><td>urd</td><td>Urdu</td></tr><tr><td>vie</td><td>Vietnamese</td></tr><tr><td>wel</td><td>Welsh</td></tr><tr><td>apw</td><td>Western Apache</td></tr><tr><td>yap</td><td>Yapese</td></tr><tr><td>yid</td><td>Yiddish</td></tr><tr><td>ypk</td><td>Yupik</td></tr><tr><td>zun</td><td>Zuni</td></tr><tr><td>ase</td><td>American Sign Language</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>tai</td><td>Taino</td></tr><tr><td>osl</td><td>Other Sign Language - Please specify</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU">ASKU</a></td><td>Asked but unknown</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences"/>
+  <version value="0.1.0"/>
+  <name value="AHIPSpeakingLanguagePreferences"/>
+  <title value="AHIP Speaking Language Preferences"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-03-24T00:00:00-04:00"/>
+  <publisher value="AHIP"/>
+  <contact>
+    <name value="AHIP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ahip.org"/>
+    </telecom>
+  </contact>
+  <description value="Based on IETF 3066 Language Codes"/>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="http://tools.ietf.org/html/bcp47"/>
+      <concept>
+        <code value="amh"/>
+        <display value="Amharic"/>
+      </concept>
+      <concept>
+        <code value="ara"/>
+        <display value="Arabic"/>
+      </concept>
+      <concept>
+        <code value="ath"/>
+        <display value="Athabaskan (Na-Deme)"/>
+      </concept>
+      <concept>
+        <code value="ben"/>
+        <display value="Bengali"/>
+      </concept>
+      <concept>
+        <code value="bur"/>
+        <display value="Burmese"/>
+      </concept>
+      <concept>
+        <code value="yue"/>
+        <display value="Cantonese"/>
+      </concept>
+      <concept>
+        <code value="chr"/>
+        <display value="Cherokee"/>
+      </concept>
+      <concept>
+        <code value="cha"/>
+        <display value="Chamorro"/>
+      </concept>
+      <concept>
+        <code value="chk"/>
+        <display value="Chuukese"/>
+      </concept>
+      <concept>
+        <code value="cro"/>
+        <display value="Crow"/>
+      </concept>
+      <concept>
+        <code value="dak"/>
+        <display value="Dakota"/>
+      </concept>
+      <concept>
+        <code value="dan"/>
+        <display value="Danish"/>
+      </concept>
+      <concept>
+        <code value="prs"/>
+        <display value="Dari"/>
+      </concept>
+      <concept>
+        <code value="dut"/>
+        <display value="Dutch"/>
+      </concept>
+      <concept>
+        <code value="eng"/>
+        <display value="English"/>
+      </concept>
+      <concept>
+        <code value="far"/>
+        <display value="Farsi"/>
+      </concept>
+      <concept>
+        <code value="fij"/>
+        <display value="Fijian"/>
+      </concept>
+      <concept>
+        <code value="fre"/>
+        <display value="French"/>
+      </concept>
+      <concept>
+        <code value="ger"/>
+        <display value="German"/>
+      </concept>
+      <concept>
+        <code value="gre"/>
+        <display value="Greek"/>
+      </concept>
+      <concept>
+        <code value="hat"/>
+        <display value="Haitian Creole"/>
+      </concept>
+      <concept>
+        <code value="haw"/>
+        <display value="Hawaiian"/>
+      </concept>
+      <concept>
+        <code value="heb"/>
+        <display value="Hebrew"/>
+      </concept>
+      <concept>
+        <code value="hin"/>
+        <display value="Hindi"/>
+      </concept>
+      <concept>
+        <code value="hmn"/>
+        <display value="Hmong"/>
+      </concept>
+      <concept>
+        <code value="ind"/>
+        <display value="Indonesian"/>
+      </concept>
+      <concept>
+        <code value="ipk"/>
+        <display value="Inupiaq"/>
+      </concept>
+      <concept>
+        <code value="ita"/>
+        <display value="Italian"/>
+      </concept>
+      <concept>
+        <code value="jpn"/>
+        <display value="Japanese"/>
+      </concept>
+      <concept>
+        <code value="kar"/>
+        <display value="Karen"/>
+      </concept>
+      <concept>
+        <code value="kkh"/>
+        <display value="Karenni"/>
+      </concept>
+      <concept>
+        <code value="khm"/>
+        <display value="Central Khmer"/>
+      </concept>
+      <concept>
+        <code value="kor"/>
+        <display value="Korean"/>
+      </concept>
+      <concept>
+        <code value="kos"/>
+        <display value="Kosraean"/>
+      </concept>
+      <concept>
+        <code value="kur"/>
+        <display value="Kurdish"/>
+      </concept>
+      <concept>
+        <code value="lkt"/>
+        <display value="Lakota (sioux)"/>
+      </concept>
+      <concept>
+        <code value="lao"/>
+        <display value="Lao"/>
+      </concept>
+      <concept>
+        <code value="lit"/>
+        <display value="Lithuanian"/>
+      </concept>
+      <concept>
+        <code value="cmn"/>
+        <display value="Mandarin"/>
+      </concept>
+      <concept>
+        <code value="mah"/>
+        <display value="Marshallese"/>
+      </concept>
+      <concept>
+        <code value="mus"/>
+        <display value="Muscogee"/>
+      </concept>
+      <concept>
+        <code value="nav"/>
+        <display value="Navajo (Dine')"/>
+      </concept>
+      <concept>
+        <code value="nep"/>
+        <display value="Nepali"/>
+      </concept>
+      <concept>
+        <code value="nor"/>
+        <display value="Norwegian"/>
+      </concept>
+      <concept>
+        <code value="oji"/>
+        <display value="Ojibwe"/>
+      </concept>
+      <concept>
+        <code value="ood"/>
+        <display value="O'oodham"/>
+      </concept>
+      <concept>
+        <code value="pdc"/>
+        <display value="Pennsylvania Dutch (Pennsylvania German)"/>
+      </concept>
+      <concept>
+        <code value="pau"/>
+        <display value="Palauan"/>
+      </concept>
+      <concept>
+        <code value="pus"/>
+        <display value="Pashto"/>
+      </concept>
+      <concept>
+        <code value="per"/>
+        <display value="Persian"/>
+      </concept>
+      <concept>
+        <code value="pol"/>
+        <display value="Polish"/>
+      </concept>
+      <concept>
+        <code value="pon"/>
+        <display value="Pohnpeian"/>
+      </concept>
+      <concept>
+        <code value="por"/>
+        <display value="Portuguese"/>
+      </concept>
+      <concept>
+        <code value="rus"/>
+        <display value="Russian"/>
+      </concept>
+      <concept>
+        <code value="smo"/>
+        <display value="Samoan"/>
+      </concept>
+      <concept>
+        <code value="sin"/>
+        <display value="Sinhala"/>
+      </concept>
+      <concept>
+        <code value="som"/>
+        <display value="Somali"/>
+      </concept>
+      <concept>
+        <code value="spa"/>
+        <display value="Spanish"/>
+      </concept>
+      <concept>
+        <code value="swa"/>
+        <display value="Swahili"/>
+      </concept>
+      <concept>
+        <code value="swe"/>
+        <display value="Swedish"/>
+      </concept>
+      <concept>
+        <code value="tgl"/>
+        <display value="Tagalog"/>
+      </concept>
+      <concept>
+        <code value="tha"/>
+        <display value="Thai"/>
+      </concept>
+      <concept>
+        <code value="tam"/>
+        <display value="Tamil"/>
+      </concept>
+      <concept>
+        <code value="ton"/>
+        <display value="Tongan"/>
+      </concept>
+      <concept>
+        <code value="tli"/>
+        <display value="Tlingit"/>
+      </concept>
+      <concept>
+        <code value="tpi"/>
+        <display value="Tok Pisin"/>
+      </concept>
+      <concept>
+        <code value="ukr"/>
+        <display value="Ukrainian"/>
+      </concept>
+      <concept>
+        <code value="urd"/>
+        <display value="Urdu"/>
+      </concept>
+      <concept>
+        <code value="vie"/>
+        <display value="Vietnamese"/>
+      </concept>
+      <concept>
+        <code value="wel"/>
+        <display value="Welsh"/>
+      </concept>
+      <concept>
+        <code value="apw"/>
+        <display value="Western Apache"/>
+      </concept>
+      <concept>
+        <code value="yap"/>
+        <display value="Yapese"/>
+      </concept>
+      <concept>
+        <code value="yid"/>
+        <display value="Yiddish"/>
+      </concept>
+      <concept>
+        <code value="ypk"/>
+        <display value="Yupik"/>
+      </concept>
+      <concept>
+        <code value="zun"/>
+        <display value="Zuni"/>
+      </concept>
+      <concept>
+        <code value="ase"/>
+        <display value="American Sign Language"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage"/>
+      <concept>
+        <code value="tai"/>
+        <display value="Taino"/>
+      </concept>
+      <concept>
+        <code value="osl"/>
+        <display value="Other Sign Language - Please specify"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <concept>
+        <code value="ASKU"/>
+        <display value="Asked but unknown"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"/>
+      <concept>
+        <code value="CNTR"/>
+        <display value="I choose not to respond at this time"/>
+      </concept>
+      <concept>
+        <code value="PSIN"/>
+        <display value="Please specify if not listed above"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

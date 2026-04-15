@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary -  v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"12"}
+    h3,h4,h5,h6{--heading-prefix:"12.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="background.html">Background</a>
+  </li>
+  <li>
+    <a href="intellectual-property.html">Intellectual Property</a>
+  </li>
+  <li>
+    <a href="conventions.html">Conventions</a>
+  </li>
+  <li>
+    <a href="use-cases.html">Use Cases</a>
+  </li>
+  <li>
+    <a href="introduction.html">Introduction</a>
+  </li>
+  <li>
+    <a href="supporting-specifications.html">Supporting Specifications</a>
+  </li>
+  <li>
+    <a href="projects-and-participants.html">Projects and Participants</a>
+  </li>
+  <li>
+    <a href="security.html">Security</a>
+  </li>
+  <li>
+    <a href="mapping.html">Mapping</a>
+  </li>
+  <li>
+    <a href="support-menu.html">Support</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">AhipDemoIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://ahip.org/demographics/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#2">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#3">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-background-asian-category.html"
+                  title="ValueSet/ahip-background-asian-category">AHIP Asian Background Categories</a>
+            </td>
+            <td>
+<p>AHIP Asian Background Categories</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-birth-sex.html" title="ValueSet/ahip-birth-sex">AHIP Birth Sex</a>
+            </td>
+            <td>
+<p>Based on SNOMED CT and US Core Birth Sex Value Set</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-background-black-category.html"
+                  title="ValueSet/ahip-background-black-category">AHIP Black Background Categories</a>
+            </td>
+            <td>
+<p>AHIP Black Background Categories</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-care-consideration.html"
+                  title="ValueSet/ahip-care-consideration">AHIP Care Consideration Value Set</a>
+            </td>
+            <td>
+<p>AHIP Care Consideration Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-religion-christian-detail.html"
+                  title="ValueSet/ahip-religion-christian-detail">AHIP Christian Religion Detail Value Set</a>
+            </td>
+            <td>
+<p>AHIP Christian Religion Detail Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-disability.html" title="ValueSet/ahip-disability">AHIP Disability</a>
+            </td>
+            <td>
+<p>Based on our own list of disabilities</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-demo-gender-identity.html"
+                  title="ValueSet/ahip-demo-gender-identity">AHIP Gender</a>
+            </td>
+            <td>
+<p>Based on HL7 Gender-Identity</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-background-latino-category.html"
+                  title="ValueSet/ahip-background-latino-category">AHIP Hispanic Latino Background Categories</a>
+            </td>
+            <td>
+<p>AHIP Hispanic Latino Background Categories</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-interpreter-modes.html"
+                  title="ValueSet/ahip-interpreter-modes">AHIP Interpreter Modes</a>
+            </td>
+            <td>
+<p>Interpreter Modes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-religion-jewish-detail.html"
+                  title="ValueSet/ahip-religion-jewish-detail">AHIP Jewish Religion Detail Value Set</a>
+            </td>
+            <td>
+<p>AHIP Jewish Religion Detail Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-background-middle-eastern-category.html"
+                  title="ValueSet/ahip-background-middle-eastern-category">AHIP Middle Eastern Background Categories</a>
+            </td>
+            <td>
+<p>AHIP Middle Eastern Background Categories</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-background-native-american-category.html"
+                  title="ValueSet/ahip-background-native-american-category">AHIP Native American Background Categories</a>
+            </td>
+            <td>
+<p>AHIP Native American Background Categories</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-background-native-hawaiian-category.html"
+                  title="ValueSet/ahip-background-native-hawaiian-category">AHIP Native Hawaiian Background Categories</a>
+            </td>
+            <td>
+<p>AHIP Native Hawaiian Background Categories</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-outreach-mode.html"
+                  title="ValueSet/ahip-outreach-mode">AHIP Outreach Modes</a>
+            </td>
+            <td>
+<p>Outreach Modes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-preferred-pronouns.html"
+                  title="ValueSet/ahip-preferred-pronouns">AHIP Preferred Pronouns</a>
+            </td>
+            <td>
+<p>Based on LOINC</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-race-category.html"
+                  title="ValueSet/ahip-race-category">AHIP Race Categories</a>
+            </td>
+            <td>
+<p>Based on OMB Categories but adding Hispanic/Latino for consistency</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-reading-language-prereferences.html"
+                  title="ValueSet/ahip-reading-language-prereferences">AHIP Reading Language Preferences</a>
+            </td>
+            <td>
+<p>Based on IETF 3066 Language Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-relationship-status.html"
+                  title="ValueSet/ahip-relationship-status">AHIP Relationship Status</a>
+            </td>
+            <td>
+<p>Based on HL7 Marital Status Value Set</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-religion-spirituality.html"
+                  title="ValueSet/ahip-religion-spirituality">AHIP Religion/Spirituality Value Set</a>
+            </td>
+            <td>
+<p>Based on HL7 Religion Value Set</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-sexual-orientation.html"
+                  title="ValueSet/ahip-sexual-orientation">AHIP Sexual Orientation</a>
+            </td>
+            <td>
+<p>Based on SNOMED CT and US Core Orientation Value Set</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-speaking-language-prereferences.html"
+                  title="ValueSet/ahip-speaking-language-prereferences">AHIP Speaking Language Preferences</a>
+            </td>
+            <td>
+<p>Based on IETF 3066 Language Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-military-service-period.html"
+                  title="ValueSet/ahip-military-service-period">AHIP US Military Service Period Codes</a>
+            </td>
+            <td>
+<p>AHIP US Military Service Period Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-background-white-category.html"
+                  title="ValueSet/ahip-background-white-category">AHIP White Background Categories</a>
+            </td>
+            <td>
+<p>AHIP White Background Categories</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-yes-no.html" title="ValueSet/ahip-yes-no">AHIP Yes or No Answer</a>
+            </td>
+            <td>
+<p>Based on LOINC Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ahip-yes-no-plain.html"
+                  title="ValueSet/ahip-yes-no-plain">AHIP Yes or No Answer</a>
+            </td>
+            <td>
+<p>Based on LOINC Codes</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-background-codes.html"
+                  title="CodeSystem/ahip-demo-additional-background-codes">AHIP Demo Additional Background Codes</a>
+            </td>
+            <td>
+<p>An additional collection of background codes completing the gaps in CDC codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-care-consideration-codes.html"
+                  title="CodeSystem/ahip-demo-additional-care-consideration-codes">AHIP Demo Additional Care Consideration Codes</a>
+            </td>
+            <td>
+<p>An additional collection of care consideration codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-disability-codes.html"
+                  title="CodeSystem/ahip-demo-additional-disability-codes">AHIP Demo Additional Disability Codes</a>
+            </td>
+            <td>
+<p>An additional collection of disability codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-gender-codes.html"
+                  title="CodeSystem/ahip-demo-additional-gender-codes">AHIP Demo Additional Gender Codes</a>
+            </td>
+            <td>
+<p>An additional collection of gender codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-interpreter-modes.html"
+                  title="CodeSystem/ahip-demo-additional-interpreter-modes">AHIP Demo Additional Interpreter modes</a>
+            </td>
+            <td>
+<p>An additional collection of interpreter modes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-AHIP-Demo-Additional-Language.html"
+                  title="CodeSystem/AHIP-Demo-Additional-Language">AHIP Demo Additional Language</a>
+            </td>
+            <td>
+<p>An additional collection of codes specifying languages</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-military-period.html"
+                  title="CodeSystem/ahip-demo-additional-military-period">AHIP Demo Additional Military Period</a>
+            </td>
+            <td>
+<p>An additional collection of codes specifying US Military Periods</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html"
+                  title="CodeSystem/AHIP-Demo-Additional-NullFlavor">AHIP Demo Additional NullFlavor</a>
+            </td>
+            <td>
+<p>An additional collection of codes specifying why a valid value is not present.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-outreach-modes.html"
+                  title="CodeSystem/ahip-demo-additional-outreach-modes">AHIP Demo Additional Outreach modes</a>
+            </td>
+            <td>
+<p>An additional collection of outreach modes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-AHIP-Demo-Additional-Reading-Modes.html"
+                  title="CodeSystem/AHIP-Demo-Additional-Reading-Modes">AHIP Demo Additional Reading Modes</a>
+            </td>
+            <td>
+<p>An additional collection of codes specifying reading modes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-relationship-status-codes.html"
+                  title="CodeSystem/ahip-demo-additional-relationship-status-codes">AHIP Demo Additional Relationship Status Codes</a>
+            </td>
+            <td>
+<p>An additional collection of relationship status codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ahip-demo-additional-religion-codes.html"
+                  title="CodeSystem/ahip-demo-additional-religion-codes">AHIP Demo Additional Religion Codes</a>
+            </td>
+            <td>
+<p>An additional collection of religion and spiritual belief codes</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Questionnaire-AHIPDemoQuestionnaire.html"
+                  title="Questionnaire/AHIPDemoQuestionnaire">AHIP CIVITAS DEMO QUESTIONNAIRE</a>
+            </td>
+            <td>
+<p>DRAFT QUESTIONNAIRE FOR AHIP - DRAFT VERSION FOR DISCUSSION ONLY</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ahip.org">AHIP</a>.  Package ahip.demo#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Apr 14, 2026 15:55-0300">2026-04-14</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

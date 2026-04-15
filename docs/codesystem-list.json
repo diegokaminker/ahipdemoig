@@ -1,0 +1,100 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalLanguage",
+      "title" : "AHIP Demo Additional Language",
+      "description" : "An additional collection of codes specifying languages"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalNullFlavor",
+      "title" : "AHIP Demo Additional NullFlavor",
+      "description" : "An additional collection of codes specifying why a valid value is not present."
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalReadingModes",
+      "title" : "AHIP Demo Additional Reading Modes",
+      "description" : "An additional collection of codes specifying reading modes"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalBackgroundCodes",
+      "title" : "AHIP Demo Additional Background Codes",
+      "description" : "An additional collection of background codes completing the gaps in CDC codes"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-care-consideration-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalCareConsiderationCodes",
+      "title" : "AHIP Demo Additional Care Consideration Codes",
+      "description" : "An additional collection of care consideration codes"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-disability-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalDisabilityCodes",
+      "title" : "AHIP Demo Additional Disability Codes",
+      "description" : "An additional collection of disability codes"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-gender-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalGenderCodes",
+      "title" : "AHIP Demo Additional Gender Codes",
+      "description" : "An additional collection of gender codes"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-interpreter-modes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalInterpreterModes",
+      "title" : "AHIP Demo Additional Interpreter modes",
+      "description" : "An additional collection of interpreter modes"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-military-period",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoMilitaryPeriodCodes",
+      "title" : "AHIP Demo Additional Military Period",
+      "description" : "An additional collection of codes specifying US Military Periods"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalOutreachModes",
+      "title" : "AHIP Demo Additional Outreach modes",
+      "description" : "An additional collection of outreach modes"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalRelationshipStatusCodes",
+      "title" : "AHIP Demo Additional Relationship Status Codes",
+      "description" : "An additional collection of relationship status codes"
+    },
+    {
+      "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoAdditionalReligionCodes",
+      "title" : "AHIP Demo Additional Religion Codes",
+      "description" : "An additional collection of religion and spiritual belief codes"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ahip-preferred-pronouns"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-preferred-pronouns</b></p><a name=\"ahip-preferred-pronouns\"> </a><a name=\"hcahip-preferred-pronouns\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA29518-0/\">LA29518-0</a></td><td>He, him, his</td></tr><tr><td><a href=\"https://loinc.org/LA29519-8/\">LA29519-8</a></td><td>She, her, hers</td></tr><tr><td><a href=\"https://loinc.org/LA29520-6/\">LA29520-6</a></td><td>They, them, theirs (non-binary)</td></tr><tr><td><a href=\"https://loinc.org/LA29523-0/\">LA29523-0</a></td><td>Ze, hir, hirs (non-binary)​</td></tr><tr><td><a href=\"https://loinc.org/LA29521-4/\">LA29521-4</a></td><td>Ze, zir, zirs (non-binary)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>UMN</td><td>Use my name</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPPreferredPronouns"] ; # 
+  fhir:title [ fhir:v "AHIP Preferred Pronouns"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Based on LOINC"] ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "LA29518-0" ] ;
+         fhir:display [ fhir:v "He, him, his" ]
+       ] [
+         fhir:code [ fhir:v "LA29519-8" ] ;
+         fhir:display [ fhir:v "She, her, hers" ]
+       ] [
+         fhir:code [ fhir:v "LA29520-6" ] ;
+         fhir:display [ fhir:v "They, them, theirs (non-binary)" ]
+       ] [
+         fhir:code [ fhir:v "LA29523-0" ] ;
+         fhir:display [ fhir:v "Ze, hir, hirs (non-binary)​" ]
+       ] [
+         fhir:code [ fhir:v "LA29521-4" ] ;
+         fhir:display [ fhir:v "Ze, zir, zirs (non-binary)" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "UMN" ] ;
+         fhir:display [ fhir:v "Use my name" ]
+       ] [
+         fhir:code [ fhir:v "PSIN" ] ;
+         fhir:display [ fhir:v "Please specify if not listed above" ]
+       ] [
+         fhir:code [ fhir:v "CNTR" ] ;
+         fhir:display [ fhir:v "I choose not to respond at this time" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ASKU" ] ;
+         fhir:display [ fhir:v "I don't know" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

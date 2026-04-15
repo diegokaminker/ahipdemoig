@@ -1,0 +1,135 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ahip-demo-additional-background-codes"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-background-codes</b></p><a name=\"ahip-demo-additional-background-codes\"> </a><a name=\"hcahip-demo-additional-background-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">9999-1<a name=\"ahip-demo-additional-background-codes-9999-1\"> </a></td><td>Athabascan</td></tr><tr><td style=\"white-space:nowrap\">9999-2<a name=\"ahip-demo-additional-background-codes-9999-2\"> </a></td><td>Haudenosaunee</td></tr><tr><td style=\"white-space:nowrap\">9999-3<a name=\"ahip-demo-additional-background-codes-9999-3\"> </a></td><td>Inupiat</td></tr><tr><td style=\"white-space:nowrap\">9999-4<a name=\"ahip-demo-additional-background-codes-9999-4\"> </a></td><td>Muscogee (Eastern, Lower, Star Clan)</td></tr><tr><td style=\"white-space:nowrap\">9999-5<a name=\"ahip-demo-additional-background-codes-9999-5\"> </a></td><td>Angolan</td></tr><tr><td style=\"white-space:nowrap\">9999-6<a name=\"ahip-demo-additional-background-codes-9999-6\"> </a></td><td>Cabo Verdean</td></tr><tr><td style=\"white-space:nowrap\">9999-7<a name=\"ahip-demo-additional-background-codes-9999-7\"> </a></td><td>Congolese</td></tr><tr><td style=\"white-space:nowrap\">9999-8<a name=\"ahip-demo-additional-background-codes-9999-8\"> </a></td><td>Ghanaian</td></tr><tr><td style=\"white-space:nowrap\">9999-9<a name=\"ahip-demo-additional-background-codes-9999-9\"> </a></td><td>Kenyan</td></tr><tr><td style=\"white-space:nowrap\">9999-10<a name=\"ahip-demo-additional-background-codes-9999-10\"> </a></td><td>Sudanese</td></tr><tr><td style=\"white-space:nowrap\">9999-11<a name=\"ahip-demo-additional-background-codes-9999-11\"> </a></td><td>Somali</td></tr><tr><td style=\"white-space:nowrap\">9999-12<a name=\"ahip-demo-additional-background-codes-9999-12\"> </a></td><td>Brazilian</td></tr><tr><td style=\"white-space:nowrap\">9999-13<a name=\"ahip-demo-additional-background-codes-9999-13\"> </a></td><td>Emirati</td></tr><tr><td style=\"white-space:nowrap\">9999-14<a name=\"ahip-demo-additional-background-codes-9999-14\"> </a></td><td>Jewish: Mizrahi</td></tr><tr><td style=\"white-space:nowrap\">9999-15<a name=\"ahip-demo-additional-background-codes-9999-15\"> </a></td><td>Jordanian</td></tr><tr><td style=\"white-space:nowrap\">9999-16<a name=\"ahip-demo-additional-background-codes-9999-16\"> </a></td><td>Kurdish</td></tr><tr><td style=\"white-space:nowrap\">9999-17<a name=\"ahip-demo-additional-background-codes-9999-17\"> </a></td><td>Kuwaiti</td></tr><tr><td style=\"white-space:nowrap\">9999-18<a name=\"ahip-demo-additional-background-codes-9999-18\"> </a></td><td>Libyan</td></tr><tr><td style=\"white-space:nowrap\">9999-19<a name=\"ahip-demo-additional-background-codes-9999-19\"> </a></td><td>Saudi</td></tr><tr><td style=\"white-space:nowrap\">9999-20<a name=\"ahip-demo-additional-background-codes-9999-20\"> </a></td><td>Danish</td></tr><tr><td style=\"white-space:nowrap\">9999-21<a name=\"ahip-demo-additional-background-codes-9999-21\"> </a></td><td>Dutch</td></tr><tr><td style=\"white-space:nowrap\">9999-22<a name=\"ahip-demo-additional-background-codes-9999-22\"> </a></td><td>Greek</td></tr><tr><td style=\"white-space:nowrap\">9999-23<a name=\"ahip-demo-additional-background-codes-9999-23\"> </a></td><td>Jewish: Ashkenazi</td></tr><tr><td style=\"white-space:nowrap\">9999-24<a name=\"ahip-demo-additional-background-codes-9999-24\"> </a></td><td>Jewish: Sephardic</td></tr><tr><td style=\"white-space:nowrap\">9999-25<a name=\"ahip-demo-additional-background-codes-9999-25\"> </a></td><td>Lithuanian</td></tr><tr><td style=\"white-space:nowrap\">9999-26<a name=\"ahip-demo-additional-background-codes-9999-26\"> </a></td><td>Norwegian</td></tr><tr><td style=\"white-space:nowrap\">9999-27<a name=\"ahip-demo-additional-background-codes-9999-27\"> </a></td><td>Portuguese</td></tr><tr><td style=\"white-space:nowrap\">9999-28<a name=\"ahip-demo-additional-background-codes-9999-28\"> </a></td><td>Russian</td></tr><tr><td style=\"white-space:nowrap\">9999-29<a name=\"ahip-demo-additional-background-codes-9999-29\"> </a></td><td>Swedish</td></tr><tr><td style=\"white-space:nowrap\">9999-30<a name=\"ahip-demo-additional-background-codes-9999-30\"> </a></td><td>Ukrainian</td></tr><tr><td style=\"white-space:nowrap\">9999-31<a name=\"ahip-demo-additional-background-codes-9999-31\"> </a></td><td>Welsh</td></tr><tr><td style=\"white-space:nowrap\">9999-32<a name=\"ahip-demo-additional-background-codes-9999-32\"> </a></td><td>Yemeni</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPDemoAdditionalBackgroundCodes"] ; # 
+  fhir:title [ fhir:v "AHIP Demo Additional Background Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "An additional collection of background codes completing the gaps in CDC codes"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "32"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "9999-1" ] ;
+     fhir:display [ fhir:v "Athabascan" ]
+  ] [
+     fhir:code [ fhir:v "9999-2" ] ;
+     fhir:display [ fhir:v "Haudenosaunee" ]
+  ] [
+     fhir:code [ fhir:v "9999-3" ] ;
+     fhir:display [ fhir:v "Inupiat" ]
+  ] [
+     fhir:code [ fhir:v "9999-4" ] ;
+     fhir:display [ fhir:v "Muscogee (Eastern, Lower, Star Clan)" ]
+  ] [
+     fhir:code [ fhir:v "9999-5" ] ;
+     fhir:display [ fhir:v "Angolan" ]
+  ] [
+     fhir:code [ fhir:v "9999-6" ] ;
+     fhir:display [ fhir:v "Cabo Verdean" ]
+  ] [
+     fhir:code [ fhir:v "9999-7" ] ;
+     fhir:display [ fhir:v "Congolese" ]
+  ] [
+     fhir:code [ fhir:v "9999-8" ] ;
+     fhir:display [ fhir:v "Ghanaian" ]
+  ] [
+     fhir:code [ fhir:v "9999-9" ] ;
+     fhir:display [ fhir:v "Kenyan" ]
+  ] [
+     fhir:code [ fhir:v "9999-10" ] ;
+     fhir:display [ fhir:v "Sudanese" ]
+  ] [
+     fhir:code [ fhir:v "9999-11" ] ;
+     fhir:display [ fhir:v "Somali" ]
+  ] [
+     fhir:code [ fhir:v "9999-12" ] ;
+     fhir:display [ fhir:v "Brazilian" ]
+  ] [
+     fhir:code [ fhir:v "9999-13" ] ;
+     fhir:display [ fhir:v "Emirati" ]
+  ] [
+     fhir:code [ fhir:v "9999-14" ] ;
+     fhir:display [ fhir:v "Jewish: Mizrahi" ]
+  ] [
+     fhir:code [ fhir:v "9999-15" ] ;
+     fhir:display [ fhir:v "Jordanian" ]
+  ] [
+     fhir:code [ fhir:v "9999-16" ] ;
+     fhir:display [ fhir:v "Kurdish" ]
+  ] [
+     fhir:code [ fhir:v "9999-17" ] ;
+     fhir:display [ fhir:v "Kuwaiti" ]
+  ] [
+     fhir:code [ fhir:v "9999-18" ] ;
+     fhir:display [ fhir:v "Libyan" ]
+  ] [
+     fhir:code [ fhir:v "9999-19" ] ;
+     fhir:display [ fhir:v "Saudi" ]
+  ] [
+     fhir:code [ fhir:v "9999-20" ] ;
+     fhir:display [ fhir:v "Danish" ]
+  ] [
+     fhir:code [ fhir:v "9999-21" ] ;
+     fhir:display [ fhir:v "Dutch" ]
+  ] [
+     fhir:code [ fhir:v "9999-22" ] ;
+     fhir:display [ fhir:v "Greek" ]
+  ] [
+     fhir:code [ fhir:v "9999-23" ] ;
+     fhir:display [ fhir:v "Jewish: Ashkenazi" ]
+  ] [
+     fhir:code [ fhir:v "9999-24" ] ;
+     fhir:display [ fhir:v "Jewish: Sephardic" ]
+  ] [
+     fhir:code [ fhir:v "9999-25" ] ;
+     fhir:display [ fhir:v "Lithuanian" ]
+  ] [
+     fhir:code [ fhir:v "9999-26" ] ;
+     fhir:display [ fhir:v "Norwegian" ]
+  ] [
+     fhir:code [ fhir:v "9999-27" ] ;
+     fhir:display [ fhir:v "Portuguese" ]
+  ] [
+     fhir:code [ fhir:v "9999-28" ] ;
+     fhir:display [ fhir:v "Russian" ]
+  ] [
+     fhir:code [ fhir:v "9999-29" ] ;
+     fhir:display [ fhir:v "Swedish" ]
+  ] [
+     fhir:code [ fhir:v "9999-30" ] ;
+     fhir:display [ fhir:v "Ukrainian" ]
+  ] [
+     fhir:code [ fhir:v "9999-31" ] ;
+     fhir:display [ fhir:v "Welsh" ]
+  ] [
+     fhir:code [ fhir:v "9999-32" ] ;
+     fhir:display [ fhir:v "Yemeni" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

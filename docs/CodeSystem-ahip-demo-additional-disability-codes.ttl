@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/ahip-demo-additional-disability-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ahip-demo-additional-disability-codes"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-disability-codes</b></p><a name=\"ahip-demo-additional-disability-codes\"> </a><a name=\"hcahip-demo-additional-disability-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-disability-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HEAR<a name=\"ahip-demo-additional-disability-codes-HEAR\"> </a></td><td>Hearing</td></tr><tr><td style=\"white-space:nowrap\">SEEI<a name=\"ahip-demo-additional-disability-codes-SEEI\"> </a></td><td>Seeing (even when wearing glasses)</td></tr><tr><td style=\"white-space:nowrap\">WALK<a name=\"ahip-demo-additional-disability-codes-WALK\"> </a></td><td>Walking or climbing stairs</td></tr><tr><td style=\"white-space:nowrap\">CONC<a name=\"ahip-demo-additional-disability-codes-CONC\"> </a></td><td>Concentrating, remembering, or making decisions</td></tr><tr><td style=\"white-space:nowrap\">DRES<a name=\"ahip-demo-additional-disability-codes-DRES\"> </a></td><td>Dressing or bathing</td></tr><tr><td style=\"white-space:nowrap\">COOK<a name=\"ahip-demo-additional-disability-codes-COOK\"> </a></td><td>Cooking for oneself</td></tr><tr><td style=\"white-space:nowrap\">FEED<a name=\"ahip-demo-additional-disability-codes-FEED\"> </a></td><td>Feeding oneself</td></tr><tr><td style=\"white-space:nowrap\">TOIL<a name=\"ahip-demo-additional-disability-codes-TOIL\"> </a></td><td>Using the toilet</td></tr><tr><td style=\"white-space:nowrap\">ERRA<a name=\"ahip-demo-additional-disability-codes-ERRA\"> </a></td><td>Doing errands alone, such as shopping or visiting a doctor’s office</td></tr><tr><td style=\"white-space:nowrap\">COMM<a name=\"ahip-demo-additional-disability-codes-COMM\"> </a></td><td>Communicating or being understood using your usual language</td></tr><tr><td style=\"white-space:nowrap\">UNDE<a name=\"ahip-demo-additional-disability-codes-UNDE\"> </a></td><td>Understanding when someone speaks in your usual language</td></tr><tr><td style=\"white-space:nowrap\">NONE<a name=\"ahip-demo-additional-disability-codes-NONE\"> </a></td><td>None</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-disability-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPDemoAdditionalDisabilityCodes"] ; # 
+  fhir:title [ fhir:v "AHIP Demo Additional Disability Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "An additional collection of disability codes"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "12"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "HEAR" ] ;
+     fhir:display [ fhir:v "Hearing" ]
+  ] [
+     fhir:code [ fhir:v "SEEI" ] ;
+     fhir:display [ fhir:v "Seeing (even when wearing glasses)" ]
+  ] [
+     fhir:code [ fhir:v "WALK" ] ;
+     fhir:display [ fhir:v "Walking or climbing stairs" ]
+  ] [
+     fhir:code [ fhir:v "CONC" ] ;
+     fhir:display [ fhir:v "Concentrating, remembering, or making decisions" ]
+  ] [
+     fhir:code [ fhir:v "DRES" ] ;
+     fhir:display [ fhir:v "Dressing or bathing" ]
+  ] [
+     fhir:code [ fhir:v "COOK" ] ;
+     fhir:display [ fhir:v "Cooking for oneself" ]
+  ] [
+     fhir:code [ fhir:v "FEED" ] ;
+     fhir:display [ fhir:v "Feeding oneself" ]
+  ] [
+     fhir:code [ fhir:v "TOIL" ] ;
+     fhir:display [ fhir:v "Using the toilet" ]
+  ] [
+     fhir:code [ fhir:v "ERRA" ] ;
+     fhir:display [ fhir:v "Doing errands alone, such as shopping or visiting a doctor’s office" ]
+  ] [
+     fhir:code [ fhir:v "COMM" ] ;
+     fhir:display [ fhir:v "Communicating or being understood using your usual language" ]
+  ] [
+     fhir:code [ fhir:v "UNDE" ] ;
+     fhir:display [ fhir:v "Understanding when someone speaks in your usual language" ]
+  ] [
+     fhir:code [ fhir:v "NONE" ] ;
+     fhir:display [ fhir:v "None" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

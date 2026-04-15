@@ -1,0 +1,72 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ahip-preferred-pronouns",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-preferred-pronouns</b></p><a name=\"ahip-preferred-pronouns\"> </a><a name=\"hcahip-preferred-pronouns\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA29518-0/\">LA29518-0</a></td><td>He, him, his</td></tr><tr><td><a href=\"https://loinc.org/LA29519-8/\">LA29519-8</a></td><td>She, her, hers</td></tr><tr><td><a href=\"https://loinc.org/LA29520-6/\">LA29520-6</a></td><td>They, them, theirs (non-binary)</td></tr><tr><td><a href=\"https://loinc.org/LA29523-0/\">LA29523-0</a></td><td>Ze, hir, hirs (non-binary)​</td></tr><tr><td><a href=\"https://loinc.org/LA29521-4/\">LA29521-4</a></td><td>Ze, zir, zirs (non-binary)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>UMN</td><td>Use my name</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns",
+  "version" : "0.1.0",
+  "name" : "AHIPPreferredPronouns",
+  "title" : "AHIP Preferred Pronouns",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-03-24T00:00:00-04:00",
+  "publisher" : "AHIP",
+  "contact" : [{
+    "name" : "AHIP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ahip.org"
+    }]
+  }],
+  "description" : "Based on LOINC",
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA29518-0",
+        "display" : "He, him, his"
+      },
+      {
+        "code" : "LA29519-8",
+        "display" : "She, her, hers"
+      },
+      {
+        "code" : "LA29520-6",
+        "display" : "They, them, theirs (non-binary)"
+      },
+      {
+        "code" : "LA29523-0",
+        "display" : "Ze, hir, hirs (non-binary)​"
+      },
+      {
+        "code" : "LA29521-4",
+        "display" : "Ze, zir, zirs (non-binary)"
+      }]
+    },
+    {
+      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "concept" : [{
+        "code" : "UMN",
+        "display" : "Use my name"
+      },
+      {
+        "code" : "PSIN",
+        "display" : "Please specify if not listed above"
+      },
+      {
+        "code" : "CNTR",
+        "display" : "I choose not to respond at this time"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "concept" : [{
+        "code" : "ASKU",
+        "display" : "I don't know"
+      }]
+    }]
+  }
+}

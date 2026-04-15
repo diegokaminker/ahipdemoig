@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/ahip-demo-additional-care-consideration-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ahip-demo-additional-care-consideration-codes"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-care-consideration-codes</b></p><a name=\"ahip-demo-additional-care-consideration-codes\"> </a><a name=\"hcahip-demo-additional-care-consideration-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-care-consideration-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HEBE<a name=\"ahip-demo-additional-care-consideration-codes-HEBE\"> </a></td><td>Health beliefs</td></tr><tr><td style=\"white-space:nowrap\">CUPR<a name=\"ahip-demo-additional-care-consideration-codes-CUPR\"> </a></td><td>Cultural preferences</td></tr><tr><td style=\"white-space:nowrap\">REBE<a name=\"ahip-demo-additional-care-consideration-codes-REBE\"> </a></td><td>Religious beliefs (e.g., no blood transfusions, need or want particular people in the room with you or before procedures or for end of life rituals, etc.)</td></tr><tr><td style=\"white-space:nowrap\">SPBE<a name=\"ahip-demo-additional-care-consideration-codes-SPBE\"> </a></td><td>Spiritual beliefs</td></tr><tr><td style=\"white-space:nowrap\">DIET<a name=\"ahip-demo-additional-care-consideration-codes-DIET\"> </a></td><td>Specific diet followed (e.g., Halal, Kosher, Pescatarian, Vegetarian, Vegan)</td></tr><tr><td style=\"white-space:nowrap\">CARE<a name=\"ahip-demo-additional-care-consideration-codes-CARE\"> </a></td><td>Caregiving status</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-care-consideration-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPDemoAdditionalCareConsiderationCodes"] ; # 
+  fhir:title [ fhir:v "AHIP Demo Additional Care Consideration Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "An additional collection of care consideration codes"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "HEBE" ] ;
+     fhir:display [ fhir:v "Health beliefs" ]
+  ] [
+     fhir:code [ fhir:v "CUPR" ] ;
+     fhir:display [ fhir:v "Cultural preferences" ]
+  ] [
+     fhir:code [ fhir:v "REBE" ] ;
+     fhir:display [ fhir:v "Religious beliefs (e.g., no blood transfusions, need or want particular people in the room with you or before procedures or for end of life rituals, etc.)" ]
+  ] [
+     fhir:code [ fhir:v "SPBE" ] ;
+     fhir:display [ fhir:v "Spiritual beliefs" ]
+  ] [
+     fhir:code [ fhir:v "DIET" ] ;
+     fhir:display [ fhir:v "Specific diet followed (e.g., Halal, Kosher, Pescatarian, Vegetarian, Vegan)" ]
+  ] [
+     fhir:code [ fhir:v "CARE" ] ;
+     fhir:display [ fhir:v "Caregiving status" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,73 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ahip-demo-additional-religion-codes",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-religion-codes</b></p><a name=\"ahip-demo-additional-religion-codes\"> </a><a name=\"hcahip-demo-additional-religion-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">OBEA<a name=\"ahip-demo-additional-religion-codes-OBEA\"> </a></td><td>Obeahism</td><td>System of beliefs and practices found primarily in the former British colonies of the Caribbean</td></tr><tr><td style=\"white-space:nowrap\">SBNR<a name=\"ahip-demo-additional-religion-codes-SBNR\"> </a></td><td>Spiritual But Not Religious</td><td>A term used to describe people who have a spiritual philosophy but do not adhere to any particular religious tradition</td></tr><tr><td style=\"white-space:nowrap\">ORCO<a name=\"ahip-demo-additional-religion-codes-ORCO\"> </a></td><td>Coptic Orthodox</td><td>Coptic Orthodox Church, one of the oldest Christian denominations, primarily found in Egypt and the Middle East</td></tr><tr><td style=\"white-space:nowrap\">ORGR<a name=\"ahip-demo-additional-religion-codes-ORGR\"> </a></td><td>Greek Orthodox Church</td><td>A branch of Eastern Orthodoxy, primarily found in Greece and among Greek communities worldwide</td></tr><tr><td style=\"white-space:nowrap\">ORRU<a name=\"ahip-demo-additional-religion-codes-ORRU\"> </a></td><td>Russian Orthodox Church</td><td>The largest autocephalous Orthodox Christian church, primarily found in Russia and Eastern Europe</td></tr><tr><td style=\"white-space:nowrap\">CHRI<a name=\"ahip-demo-additional-religion-codes-CHRI\"> </a></td><td>Christian</td><td>Catholic, Protestant, Orthodox, and other Christian denominations</td></tr><tr><td style=\"white-space:nowrap\">JREF<a name=\"ahip-demo-additional-religion-codes-JREF\"> </a></td><td>Reform</td><td>Jewish Reform Movement</td></tr><tr><td style=\"white-space:nowrap\">JCON<a name=\"ahip-demo-additional-religion-codes-JCON\"> </a></td><td>Conservative</td><td>Jewish Conservative Movement</td></tr><tr><td style=\"white-space:nowrap\">JORT<a name=\"ahip-demo-additional-religion-codes-JORT\"> </a></td><td>Orthodox</td><td>Jewish Orthodox Movement</td></tr></table></div>"
+  },
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalReligionCodes",
+  "title" : "AHIP Demo Additional Religion Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-03-25T00:00:00-04:00",
+  "publisher" : "AHIP",
+  "contact" : [{
+    "name" : "AHIP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ahip.org"
+    }]
+  }],
+  "description" : "An additional collection of religion and spiritual belief codes",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "OBEA",
+    "display" : "Obeahism",
+    "definition" : "System of beliefs and practices found primarily in the former British colonies of the Caribbean"
+  },
+  {
+    "code" : "SBNR",
+    "display" : "Spiritual But Not Religious",
+    "definition" : "A term used to describe people who have a spiritual philosophy but do not adhere to any particular religious tradition"
+  },
+  {
+    "code" : "ORCO",
+    "display" : "Coptic Orthodox",
+    "definition" : "Coptic Orthodox Church, one of the oldest Christian denominations, primarily found in Egypt and the Middle East"
+  },
+  {
+    "code" : "ORGR",
+    "display" : "Greek Orthodox Church",
+    "definition" : "A branch of Eastern Orthodoxy, primarily found in Greece and among Greek communities worldwide"
+  },
+  {
+    "code" : "ORRU",
+    "display" : "Russian Orthodox Church",
+    "definition" : "The largest autocephalous Orthodox Christian church, primarily found in Russia and Eastern Europe"
+  },
+  {
+    "code" : "CHRI",
+    "display" : "Christian",
+    "definition" : "Catholic, Protestant, Orthodox, and other Christian denominations"
+  },
+  {
+    "code" : "JREF",
+    "display" : "Reform",
+    "definition" : "Jewish Reform Movement"
+  },
+  {
+    "code" : "JCON",
+    "display" : "Conservative",
+    "definition" : "Jewish Conservative Movement"
+  },
+  {
+    "code" : "JORT",
+    "display" : "Orthodox",
+    "definition" : "Jewish Orthodox Movement"
+  }]
+}

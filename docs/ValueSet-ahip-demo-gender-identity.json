@@ -1,0 +1,79 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ahip-demo-gender-identity",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-demo-gender-identity</b></p><a name=\"ahip-demo-gender-identity\"> </a><a name=\"hcahip-demo-gender-identity\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-gender-identity.html\"><code>http://hl7.org/fhir/gender-identity</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-gender-identity.html#gender-identity-male\">male</a></td><td>Man</td><td>the patient identifies as male</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-gender-identity.html#gender-identity-female\">female</a></td><td>Woman</td><td>the patient identifies as female</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-gender-identity.html#gender-identity-transgender-man\">transgender-man</a></td><td>Transgender Man</td><td/></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-gender-identity.html#gender-identity-transgender-woman\">transgender-woman</a></td><td>Transgender Woman</td><td/></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-gender-identity.html#gender-identity-non-binary\">non-binary</a></td><td>Non-Binary (neither exclusively male nor female)</td><td>the patient identifies with neither/both female and male</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-gender-codes</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>#GF</td><td>Gender Fluid (non-fixed gender indentity that may change overtime)</td></tr><tr><td>TS</td><td>Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoGenderIdentityValueSet",
+  "title" : "AHIP Gender",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-03-24T00:00:00-04:00",
+  "publisher" : "AHIP",
+  "contact" : [{
+    "name" : "AHIP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ahip.org"
+    }]
+  }],
+  "description" : "Based on HL7 Gender-Identity",
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/gender-identity",
+      "concept" : [{
+        "code" : "male",
+        "display" : "Man"
+      },
+      {
+        "code" : "female",
+        "display" : "Woman"
+      },
+      {
+        "code" : "transgender-man",
+        "display" : "Transgender Man"
+      },
+      {
+        "code" : "transgender-woman",
+        "display" : "Transgender Woman"
+      },
+      {
+        "code" : "non-binary",
+        "display" : "Non-Binary (neither exclusively male nor female)"
+      }]
+    },
+    {
+      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-gender-codes",
+      "concept" : [{
+        "code" : "#GF",
+        "display" : "Gender Fluid (non-fixed gender indentity that may change overtime)"
+      },
+      {
+        "code" : "TS",
+        "display" : "Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)"
+      }]
+    },
+    {
+      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "concept" : [{
+        "code" : "PSIN",
+        "display" : "Please specify if not listed above"
+      },
+      {
+        "code" : "CNTR",
+        "display" : "I choose not to respond at this time"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "concept" : [{
+        "code" : "ASKU",
+        "display" : "I don't know"
+      }]
+    }]
+  }
+}

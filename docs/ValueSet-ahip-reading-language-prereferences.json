@@ -1,0 +1,366 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ahip-reading-language-prereferences",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-reading-language-prereferences</b></p><a name=\"ahip-reading-language-prereferences\"> </a><a name=\"hcahip-reading-language-prereferences\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://tools.ietf.org/html/bcp47</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>amh</td><td>Amharic</td></tr><tr><td>ara</td><td>Arabic</td></tr><tr><td>ath</td><td>Athabaskan (Na-Deme)</td></tr><tr><td>ben</td><td>Bengali</td></tr><tr><td>bur</td><td>Burmese</td></tr><tr><td>yue</td><td>Chinese (Simplified)</td></tr><tr><td>cha</td><td>Chamorro</td></tr><tr><td>chk</td><td>Chuukese</td></tr><tr><td>cro</td><td>Crow</td></tr><tr><td>dak</td><td>Dakota</td></tr><tr><td>dan</td><td>Danish</td></tr><tr><td>prs</td><td>Dari</td></tr><tr><td>dut</td><td>Dutch</td></tr><tr><td>eng</td><td>English</td></tr><tr><td>far</td><td>Farsi</td></tr><tr><td>fij</td><td>Fijian</td></tr><tr><td>fre</td><td>French</td></tr><tr><td>ger</td><td>German</td></tr><tr><td>gre</td><td>Greek</td></tr><tr><td>hat</td><td>Haitian Creole</td></tr><tr><td>haw</td><td>Hawaiian</td></tr><tr><td>heb</td><td>Hebrew</td></tr><tr><td>hin</td><td>Hindi</td></tr><tr><td>hmn</td><td>Hmong</td></tr><tr><td>ind</td><td>Indonesian</td></tr><tr><td>ipk</td><td>Inupiaq</td></tr><tr><td>ita</td><td>Italian</td></tr><tr><td>jpn</td><td>Japanese</td></tr><tr><td>kar</td><td>Karen</td></tr><tr><td>kkh</td><td>Karenni</td></tr><tr><td>khm</td><td>Central Khmer</td></tr><tr><td>kor</td><td>Korean</td></tr><tr><td>kos</td><td>Kosraean</td></tr><tr><td>kur</td><td>Kurdish</td></tr><tr><td>lkt</td><td>Lakota (sioux)</td></tr><tr><td>lao</td><td>Lao</td></tr><tr><td>lit</td><td>Lithuanian</td></tr><tr><td>cmn</td><td>Chinese (Traditional)</td></tr><tr><td>mah</td><td>Marshallese</td></tr><tr><td>mus</td><td>Muscogee</td></tr><tr><td>nav</td><td>Navajo (Dine')</td></tr><tr><td>nep</td><td>Nepali</td></tr><tr><td>nor</td><td>Norwegian</td></tr><tr><td>oji</td><td>Ojibwe</td></tr><tr><td>ood</td><td>O'oodham</td></tr><tr><td>pdc</td><td>Pennsylvania Dutch (Pennsylvania German)</td></tr><tr><td>pau</td><td>Palauan</td></tr><tr><td>pus</td><td>Pashto</td></tr><tr><td>per</td><td>Persian</td></tr><tr><td>pol</td><td>Polish</td></tr><tr><td>pon</td><td>Pohnpeian</td></tr><tr><td>por</td><td>Portuguese</td></tr><tr><td>rus</td><td>Russian</td></tr><tr><td>smo</td><td>Samoan</td></tr><tr><td>sin</td><td>Sinhala</td></tr><tr><td>som</td><td>Somali</td></tr><tr><td>spa</td><td>Spanish</td></tr><tr><td>swa</td><td>Swahili</td></tr><tr><td>swe</td><td>Swedish</td></tr><tr><td>tgl</td><td>Tagalog</td></tr><tr><td>tam</td><td>Tamil</td></tr><tr><td>tha</td><td>Thai</td></tr><tr><td>ton</td><td>Tongan</td></tr><tr><td>tli</td><td>Tlingit</td></tr><tr><td>tpi</td><td>Tok Pisin</td></tr><tr><td>ukr</td><td>Ukrainian</td></tr><tr><td>urd</td><td>Urdu</td></tr><tr><td>vie</td><td>Vietnamese</td></tr><tr><td>wel</td><td>Welsh</td></tr><tr><td>apw</td><td>Western Apache</td></tr><tr><td>yap</td><td>Yapese</td></tr><tr><td>yid</td><td>Yiddish</td></tr><tr><td>ypk</td><td>Yu'pik</td></tr><tr><td>zun</td><td>Zuni</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>tai</td><td>Taino</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalReadingModes</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>x-bra</td><td>Braille</td></tr><tr><td>x-lar</td><td>Large Print</td></tr><tr><td>x-dds</td><td>Digital Documents that Can Be Spoken Out Loud​</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences",
+  "version" : "0.1.0",
+  "name" : "AHIPReadingLanguagePreferences",
+  "title" : "AHIP Reading Language Preferences",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-03-24T00:00:00-04:00",
+  "publisher" : "AHIP",
+  "contact" : [{
+    "name" : "AHIP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ahip.org"
+    }]
+  }],
+  "description" : "Based on IETF 3066 Language Codes",
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "http://tools.ietf.org/html/bcp47",
+      "concept" : [{
+        "code" : "amh",
+        "display" : "Amharic"
+      },
+      {
+        "code" : "ara",
+        "display" : "Arabic"
+      },
+      {
+        "code" : "ath",
+        "display" : "Athabaskan (Na-Deme)"
+      },
+      {
+        "code" : "ben",
+        "display" : "Bengali"
+      },
+      {
+        "code" : "bur",
+        "display" : "Burmese"
+      },
+      {
+        "code" : "yue",
+        "display" : "Chinese (Simplified)"
+      },
+      {
+        "code" : "cha",
+        "display" : "Chamorro"
+      },
+      {
+        "code" : "chk",
+        "display" : "Chuukese"
+      },
+      {
+        "code" : "cro",
+        "display" : "Crow"
+      },
+      {
+        "code" : "dak",
+        "display" : "Dakota"
+      },
+      {
+        "code" : "dan",
+        "display" : "Danish"
+      },
+      {
+        "code" : "prs",
+        "display" : "Dari"
+      },
+      {
+        "code" : "dut",
+        "display" : "Dutch"
+      },
+      {
+        "code" : "eng",
+        "display" : "English"
+      },
+      {
+        "code" : "far",
+        "display" : "Farsi"
+      },
+      {
+        "code" : "fij",
+        "display" : "Fijian"
+      },
+      {
+        "code" : "fre",
+        "display" : "French"
+      },
+      {
+        "code" : "ger",
+        "display" : "German"
+      },
+      {
+        "code" : "gre",
+        "display" : "Greek"
+      },
+      {
+        "code" : "hat",
+        "display" : "Haitian Creole"
+      },
+      {
+        "code" : "haw",
+        "display" : "Hawaiian"
+      },
+      {
+        "code" : "heb",
+        "display" : "Hebrew"
+      },
+      {
+        "code" : "hin",
+        "display" : "Hindi"
+      },
+      {
+        "code" : "hmn",
+        "display" : "Hmong"
+      },
+      {
+        "code" : "ind",
+        "display" : "Indonesian"
+      },
+      {
+        "code" : "ipk",
+        "display" : "Inupiaq"
+      },
+      {
+        "code" : "ita",
+        "display" : "Italian"
+      },
+      {
+        "code" : "jpn",
+        "display" : "Japanese"
+      },
+      {
+        "code" : "kar",
+        "display" : "Karen"
+      },
+      {
+        "code" : "kkh",
+        "display" : "Karenni"
+      },
+      {
+        "code" : "khm",
+        "display" : "Central Khmer"
+      },
+      {
+        "code" : "kor",
+        "display" : "Korean"
+      },
+      {
+        "code" : "kos",
+        "display" : "Kosraean"
+      },
+      {
+        "code" : "kur",
+        "display" : "Kurdish"
+      },
+      {
+        "code" : "lkt",
+        "display" : "Lakota (sioux)"
+      },
+      {
+        "code" : "lao",
+        "display" : "Lao"
+      },
+      {
+        "code" : "lit",
+        "display" : "Lithuanian"
+      },
+      {
+        "code" : "cmn",
+        "display" : "Chinese (Traditional)"
+      },
+      {
+        "code" : "mah",
+        "display" : "Marshallese"
+      },
+      {
+        "code" : "mus",
+        "display" : "Muscogee"
+      },
+      {
+        "code" : "nav",
+        "display" : "Navajo (Dine')"
+      },
+      {
+        "code" : "nep",
+        "display" : "Nepali"
+      },
+      {
+        "code" : "nor",
+        "display" : "Norwegian"
+      },
+      {
+        "code" : "oji",
+        "display" : "Ojibwe"
+      },
+      {
+        "code" : "ood",
+        "display" : "O'oodham"
+      },
+      {
+        "code" : "pdc",
+        "display" : "Pennsylvania Dutch (Pennsylvania German)"
+      },
+      {
+        "code" : "pau",
+        "display" : "Palauan"
+      },
+      {
+        "code" : "pus",
+        "display" : "Pashto"
+      },
+      {
+        "code" : "per",
+        "display" : "Persian"
+      },
+      {
+        "code" : "pol",
+        "display" : "Polish"
+      },
+      {
+        "code" : "pon",
+        "display" : "Pohnpeian"
+      },
+      {
+        "code" : "por",
+        "display" : "Portuguese"
+      },
+      {
+        "code" : "rus",
+        "display" : "Russian"
+      },
+      {
+        "code" : "smo",
+        "display" : "Samoan"
+      },
+      {
+        "code" : "sin",
+        "display" : "Sinhala"
+      },
+      {
+        "code" : "som",
+        "display" : "Somali"
+      },
+      {
+        "code" : "spa",
+        "display" : "Spanish"
+      },
+      {
+        "code" : "swa",
+        "display" : "Swahili"
+      },
+      {
+        "code" : "swe",
+        "display" : "Swedish"
+      },
+      {
+        "code" : "tgl",
+        "display" : "Tagalog"
+      },
+      {
+        "code" : "tam",
+        "display" : "Tamil"
+      },
+      {
+        "code" : "tha",
+        "display" : "Thai"
+      },
+      {
+        "code" : "ton",
+        "display" : "Tongan"
+      },
+      {
+        "code" : "tli",
+        "display" : "Tlingit"
+      },
+      {
+        "code" : "tpi",
+        "display" : "Tok Pisin"
+      },
+      {
+        "code" : "ukr",
+        "display" : "Ukrainian"
+      },
+      {
+        "code" : "urd",
+        "display" : "Urdu"
+      },
+      {
+        "code" : "vie",
+        "display" : "Vietnamese"
+      },
+      {
+        "code" : "wel",
+        "display" : "Welsh"
+      },
+      {
+        "code" : "apw",
+        "display" : "Western Apache"
+      },
+      {
+        "code" : "yap",
+        "display" : "Yapese"
+      },
+      {
+        "code" : "yid",
+        "display" : "Yiddish"
+      },
+      {
+        "code" : "ypk",
+        "display" : "Yu'pik"
+      },
+      {
+        "code" : "zun",
+        "display" : "Zuni"
+      }]
+    },
+    {
+      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage",
+      "concept" : [{
+        "code" : "tai",
+        "display" : "Taino"
+      }]
+    },
+    {
+      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalReadingModes",
+      "concept" : [{
+        "code" : "x-bra",
+        "display" : "Braille"
+      },
+      {
+        "code" : "x-lar",
+        "display" : "Large Print"
+      },
+      {
+        "code" : "x-dds",
+        "display" : "Digital Documents that Can Be Spoken Out Loud​"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "concept" : [{
+        "code" : "ASKU",
+        "display" : "I don't know"
+      }]
+    },
+    {
+      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "concept" : [{
+        "code" : "CNTR",
+        "display" : "I choose not to respond at this time"
+      },
+      {
+        "code" : "PSIN",
+        "display" : "Please specify if not listed above"
+      }]
+    }]
+  }
+}

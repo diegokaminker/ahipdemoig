@@ -1,0 +1,405 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-background-asian-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPBackgroundAsianCategories",
+      "title" : "AHIP Asian Background Categories",
+      "description" : "AHIP Asian Background Categories",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "urn:oid:2.16.840.1.113883.6.238",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-background-black-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPBackgroundBlackCategories",
+      "title" : "AHIP Black Background Categories",
+      "description" : "AHIP Black Background Categories",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "urn:oid:2.16.840.1.113883.6.238",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-background-latino-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPBackgroundLatinoCategories",
+      "title" : "AHIP Hispanic Latino Background Categories",
+      "description" : "AHIP Hispanic Latino Background Categories",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "urn:oid:2.16.840.1.113883.6.238",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-background-middle-eastern-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPBackgroundMiddleEasternCategories",
+      "title" : "AHIP Middle Eastern Background Categories",
+      "description" : "AHIP Middle Eastern Background Categories",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "urn:oid:2.16.840.1.113883.6.238",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-american-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPBackgroundNativeAmericanCategories",
+      "title" : "AHIP Native American Background Categories",
+      "description" : "AHIP Native American Background Categories",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "urn:oid:2.16.840.1.113883.6.238",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPRaceNativeHawaiianCategories",
+      "title" : "AHIP Native Hawaiian Background Categories",
+      "description" : "AHIP Native Hawaiian Background Categories",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "urn:oid:2.16.840.1.113883.6.238",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-background-white-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPBackgroundWhiteCategories",
+      "title" : "AHIP White Background Categories",
+      "description" : "AHIP White Background Categories",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "urn:oid:2.16.840.1.113883.6.238",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-birth-sex",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPBirthSex",
+      "title" : "AHIP Birth Sex",
+      "description" : "Based on SNOMED CT and US Core Birth Sex Value Set",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-care-consideration",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPCareConsideration",
+      "title" : "AHIP Care Consideration Value Set",
+      "description" : "AHIP Care Consideration Codes",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-care-consideration-codes",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoGenderIdentityValueSet",
+      "title" : "AHIP Gender",
+      "description" : "Based on HL7 Gender-Identity",
+      "systems" : [
+        "http://hl7.org/fhir/gender-identity",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-gender-codes",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-disability",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDisability",
+      "title" : "AHIP Disability",
+      "description" : "Based on our own list of disabilities",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-disability-codes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-interpreter-modes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPInterpreterModes",
+      "title" : "AHIP Interpreter Modes",
+      "description" : "Interpreter Modes",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-interpreter-modes",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-military-service-period",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPMilitaryPeriod",
+      "title" : "AHIP US Military Service Period Codes",
+      "description" : "AHIP US Military Service Period Codes",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-military-period"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-outreach-mode",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPOutreachMode",
+      "title" : "AHIP Outreach Modes",
+      "description" : "Outreach Modes",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-outreach-modes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPPreferredPronouns",
+      "title" : "AHIP Preferred Pronouns",
+      "description" : "Based on LOINC",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://loinc.org",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-race-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPRaceCategories",
+      "title" : "AHIP Race Categories",
+      "description" : "Based on OMB Categories but adding Hispanic/Latino for consistency",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "urn:oid:2.16.840.1.113883.6.238",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPReadingLanguagePreferences",
+      "title" : "AHIP Reading Language Preferences",
+      "description" : "Based on IETF 3066 Language Codes",
+      "systems" : [
+        "http://tools.ietf.org/html/bcp47",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalReadingModes",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-relationship-status",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPRelationshipStatus",
+      "title" : "AHIP Relationship Status",
+      "description" : "Based on HL7 Marital Status Value Set",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-relationship-status-codes",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPReligionChristianDetail",
+      "title" : "AHIP Christian Religion Detail Value Set",
+      "description" : "AHIP Christian Religion Detail Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPReligionJewishDetail",
+      "title" : "AHIP Jewish Religion Detail Value Set",
+      "description" : "AHIP Jewish Religion Detail Codes",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-spirituality",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPReligionSpirituality",
+      "title" : "AHIP Religion/Spirituality Value Set",
+      "description" : "Based on HL7 Religion Value Set",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-sexual-orientation",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPSexualOrientation",
+      "title" : "AHIP Sexual Orientation",
+      "description" : "Based on SNOMED CT and US Core Orientation Value Set",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPSpeakingLanguagePreferences",
+      "title" : "AHIP Speaking Language Preferences",
+      "description" : "Based on IETF 3066 Language Codes",
+      "systems" : [
+        "http://tools.ietf.org/html/bcp47",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-yes-no",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoYesNo",
+      "title" : "AHIP Yes or No Answer",
+      "description" : "Based on LOINC Codes",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://loinc.org",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    },
+    {
+      "url" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-plain",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AHIPDemoYesNoPlain",
+      "title" : "AHIP Yes or No Answer",
+      "description" : "Based on LOINC Codes",
+      "systems" : [
+        "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+        "http://loinc.org"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
+    }
+  ]
+}

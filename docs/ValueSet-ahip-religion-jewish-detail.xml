@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ahip-religion-jewish-detail"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-religion-jewish-detail</b></p><a name="ahip-religion-jewish-detail"> </a><a name="hcahip-religion-jewish-detail"> </a><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>JREF</td><td>Reform</td></tr><tr><td>JCON</td><td>Conservative</td></tr><tr><td>JORT</td><td>Orthodox</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail"/>
+  <version value="0.1.0"/>
+  <name value="AHIPReligionJewishDetail"/>
+  <title value="AHIP Jewish Religion Detail Value Set"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-03-24T00:00:00-04:00"/>
+  <publisher value="AHIP"/>
+  <contact>
+    <name value="AHIP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ahip.org"/>
+    </telecom>
+  </contact>
+  <description value="AHIP Jewish Religion Detail Codes"/>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes"/>
+      <concept>
+        <code value="JREF"/>
+        <display value="Reform"/>
+      </concept>
+      <concept>
+        <code value="JCON"/>
+        <display value="Conservative"/>
+      </concept>
+      <concept>
+        <code value="JORT"/>
+        <display value="Orthodox"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

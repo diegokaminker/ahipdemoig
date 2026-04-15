@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ahip-demo-additional-religion-codes"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-religion-codes</b></p><a name=\"ahip-demo-additional-religion-codes\"> </a><a name=\"hcahip-demo-additional-religion-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">OBEA<a name=\"ahip-demo-additional-religion-codes-OBEA\"> </a></td><td>Obeahism</td><td>System of beliefs and practices found primarily in the former British colonies of the Caribbean</td></tr><tr><td style=\"white-space:nowrap\">SBNR<a name=\"ahip-demo-additional-religion-codes-SBNR\"> </a></td><td>Spiritual But Not Religious</td><td>A term used to describe people who have a spiritual philosophy but do not adhere to any particular religious tradition</td></tr><tr><td style=\"white-space:nowrap\">ORCO<a name=\"ahip-demo-additional-religion-codes-ORCO\"> </a></td><td>Coptic Orthodox</td><td>Coptic Orthodox Church, one of the oldest Christian denominations, primarily found in Egypt and the Middle East</td></tr><tr><td style=\"white-space:nowrap\">ORGR<a name=\"ahip-demo-additional-religion-codes-ORGR\"> </a></td><td>Greek Orthodox Church</td><td>A branch of Eastern Orthodoxy, primarily found in Greece and among Greek communities worldwide</td></tr><tr><td style=\"white-space:nowrap\">ORRU<a name=\"ahip-demo-additional-religion-codes-ORRU\"> </a></td><td>Russian Orthodox Church</td><td>The largest autocephalous Orthodox Christian church, primarily found in Russia and Eastern Europe</td></tr><tr><td style=\"white-space:nowrap\">CHRI<a name=\"ahip-demo-additional-religion-codes-CHRI\"> </a></td><td>Christian</td><td>Catholic, Protestant, Orthodox, and other Christian denominations</td></tr><tr><td style=\"white-space:nowrap\">JREF<a name=\"ahip-demo-additional-religion-codes-JREF\"> </a></td><td>Reform</td><td>Jewish Reform Movement</td></tr><tr><td style=\"white-space:nowrap\">JCON<a name=\"ahip-demo-additional-religion-codes-JCON\"> </a></td><td>Conservative</td><td>Jewish Conservative Movement</td></tr><tr><td style=\"white-space:nowrap\">JORT<a name=\"ahip-demo-additional-religion-codes-JORT\"> </a></td><td>Orthodox</td><td>Jewish Orthodox Movement</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPDemoAdditionalReligionCodes"] ; # 
+  fhir:title [ fhir:v "AHIP Demo Additional Religion Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "An additional collection of religion and spiritual belief codes"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "OBEA" ] ;
+     fhir:display [ fhir:v "Obeahism" ] ;
+     fhir:definition [ fhir:v "System of beliefs and practices found primarily in the former British colonies of the Caribbean" ]
+  ] [
+     fhir:code [ fhir:v "SBNR" ] ;
+     fhir:display [ fhir:v "Spiritual But Not Religious" ] ;
+     fhir:definition [ fhir:v "A term used to describe people who have a spiritual philosophy but do not adhere to any particular religious tradition" ]
+  ] [
+     fhir:code [ fhir:v "ORCO" ] ;
+     fhir:display [ fhir:v "Coptic Orthodox" ] ;
+     fhir:definition [ fhir:v "Coptic Orthodox Church, one of the oldest Christian denominations, primarily found in Egypt and the Middle East" ]
+  ] [
+     fhir:code [ fhir:v "ORGR" ] ;
+     fhir:display [ fhir:v "Greek Orthodox Church" ] ;
+     fhir:definition [ fhir:v "A branch of Eastern Orthodoxy, primarily found in Greece and among Greek communities worldwide" ]
+  ] [
+     fhir:code [ fhir:v "ORRU" ] ;
+     fhir:display [ fhir:v "Russian Orthodox Church" ] ;
+     fhir:definition [ fhir:v "The largest autocephalous Orthodox Christian church, primarily found in Russia and Eastern Europe" ]
+  ] [
+     fhir:code [ fhir:v "CHRI" ] ;
+     fhir:display [ fhir:v "Christian" ] ;
+     fhir:definition [ fhir:v "Catholic, Protestant, Orthodox, and other Christian denominations" ]
+  ] [
+     fhir:code [ fhir:v "JREF" ] ;
+     fhir:display [ fhir:v "Reform" ] ;
+     fhir:definition [ fhir:v "Jewish Reform Movement" ]
+  ] [
+     fhir:code [ fhir:v "JCON" ] ;
+     fhir:display [ fhir:v "Conservative" ] ;
+     fhir:definition [ fhir:v "Jewish Conservative Movement" ]
+  ] [
+     fhir:code [ fhir:v "JORT" ] ;
+     fhir:display [ fhir:v "Orthodox" ] ;
+     fhir:definition [ fhir:v "Jewish Orthodox Movement" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

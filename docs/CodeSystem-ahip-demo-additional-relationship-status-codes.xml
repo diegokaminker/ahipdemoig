@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ahip-demo-additional-relationship-status-codes"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><p class="res-header-id"><b>Generated Narrative: CodeSystem ahip-demo-additional-relationship-status-codes</b></p><a name="ahip-demo-additional-relationship-status-codes"> </a><a name="hcahip-demo-additional-relationship-status-codes"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">DATI<a name="ahip-demo-additional-relationship-status-codes-DATI"> </a></td><td>Dating (in a non-committed relationship with one person or more than one person)</td></tr><tr><td style="white-space:nowrap">MONR<a name="ahip-demo-additional-relationship-status-codes-MONR"> </a></td><td>In a committed relationship with one person but not married (monogamous relationship)​</td></tr><tr><td style="white-space:nowrap">POLY<a name="ahip-demo-additional-relationship-status-codes-POLY"> </a></td><td>In a committed relationship with more than one person (polyamorous relationship)​</td></tr></table></div>
+  </text>
+  <url value="http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes"/>
+  <version value="0.1.0"/>
+  <name value="AHIPDemoAdditionalRelationshipStatusCodes"/>
+  <title value="AHIP Demo Additional Relationship Status Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-03-25T00:00:00-04:00"/>
+  <publisher value="AHIP"/>
+  <contact>
+    <name value="AHIP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ahip.org"/>
+    </telecom>
+  </contact>
+  <description value="An additional collection of relationship status codes"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="DATI"/>
+    <display value="Dating (in a non-committed relationship with one person or more than one person)"/>
+  </concept>
+  <concept>
+    <code value="MONR"/>
+    <display value="In a committed relationship with one person but not married (monogamous relationship)​"/>
+  </concept>
+  <concept>
+    <code value="POLY"/>
+    <display value="In a committed relationship with more than one person (polyamorous relationship)​"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ahip-outreach-mode"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-outreach-mode</b></p><a name="ahip-outreach-mode"> </a><a name="hcahip-outreach-mode"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-outreach-modes</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>E</td><td>Email</td></tr><tr><td>P</td><td>Phone Call</td></tr><tr><td>M</td><td>Mailed Letter</td></tr><tr><td>T</td><td>Text Message</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://ahip.org/demographics/ValueSet/ahip-outreach-mode"/>
+  <version value="0.1.0"/>
+  <name value="AHIPOutreachMode"/>
+  <title value="AHIP Outreach Modes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-03-24T00:00:00-04:00"/>
+  <publisher value="AHIP"/>
+  <contact>
+    <name value="AHIP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ahip.org"/>
+    </telecom>
+  </contact>
+  <description value="Outreach Modes"/>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <compose>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-outreach-modes"/>
+      <concept>
+        <code value="E"/>
+        <display value="Email"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Phone Call"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Mailed Letter"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Text Message"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"/>
+      <concept>
+        <code value="CNTR"/>
+        <display value="I choose not to respond at this time"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

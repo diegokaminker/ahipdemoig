@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AHIP-Demo-Additional-NullFlavor"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem AHIP-Demo-Additional-NullFlavor</b></p><a name=\"AHIP-Demo-Additional-NullFlavor\"> </a><a name=\"hcAHIP-Demo-Additional-NullFlavor\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CNTR<a name=\"AHIP-Demo-Additional-NullFlavor-CNTR\"> </a></td><td>I choose not to respond at this time</td><td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td></tr><tr><td style=\"white-space:nowrap\">UMN<a name=\"AHIP-Demo-Additional-NullFlavor-UMN\"> </a></td><td>Use My Name</td><td>**Description:**This code is to represent explicitly that the patient do not want a pronoun to be used but instead use their name</td></tr><tr><td style=\"white-space:nowrap\">PSIN<a name=\"AHIP-Demo-Additional-NullFlavor-PSIN\"> </a></td><td>Please specify if not listed above</td><td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AHIPDemoAdditionalNullFlavor"] ; # 
+  fhir:title [ fhir:v "AHIP Demo Additional NullFlavor"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "AHIP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "AHIP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ahip.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "An additional collection of codes specifying why a valid value is not present."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CNTR" ] ;
+     fhir:display [ fhir:v "I choose not to respond at this time" ] ;
+     fhir:definition [ fhir:v "**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time" ]
+  ] [
+     fhir:code [ fhir:v "UMN" ] ;
+     fhir:display [ fhir:v "Use My Name" ] ;
+     fhir:definition [ fhir:v "**Description:**This code is to represent explicitly that the patient do not want a pronoun to be used but instead use their name" ]
+  ] [
+     fhir:code [ fhir:v "PSIN" ] ;
+     fhir:display [ fhir:v "Please specify if not listed above" ] ;
+     fhir:definition [ fhir:v "**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
