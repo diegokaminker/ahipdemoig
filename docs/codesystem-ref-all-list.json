@@ -1,115 +1,113 @@
 {
-  "codeSystems" : [
-    {
-      "url" : "http://hl7.org/fhir/gender-identity",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "GenderIdentity",
-      "title" : "Gender identity",
-      "description" : "This example value set defines a set of codes that can be used to indicate a patient's gender identity.",
-      "oids" : ["2.16.840.1.113883.4.642.4.973"],
-      "uses" : {
-      },
-      "ValueSet-ahip-demo-gender-identity.html" : "AHIP Gender"
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/gender-identity",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "GenderIdentity",
+    "title" : "Gender identity",
+    "description" : "This example value set defines a set of codes that can be used to indicate a patient's gender identity.",
+    "oids" : ["2.16.840.1.113883.4.642.4.973"],
+    "uses" : {
     },
-    {
-      "url" : "http://loinc.org",
-      "version" : "3.1.0",
-      "status" : "active",
-      "name" : "LOINC",
-      "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
-      "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
-      "oids" : ["2.16.840.1.113883.6.1"],
-      "uses" : {
-      },
-      "ValueSet-ahip-yes-no.html" : "AHIP Yes or No Answer",
-      "ValueSet-ahip-yes-no-plain.html" : "AHIP Yes or No Answer",
-      "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns"
+    "ValueSet-ahip-demo-gender-identity.html" : "AHIP Gender"
+  },
+  {
+    "url" : "http://loinc.org",
+    "version" : "3.1.0",
+    "status" : "active",
+    "name" : "LOINC",
+    "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
+    "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
+    "oids" : ["2.16.840.1.113883.6.1"],
+    "uses" : {
     },
-    {
-      "url" : "http://snomed.info/sct",
-      "version" : null,
-      "status" : "active",
-      "name" : "SNOMED_CT",
-      "title" : "SNOMED CT (all versions)",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "oids" : ["2.16.840.1.113883.6.96"],
-      "uses" : {
-      },
-      "ValueSet-ahip-birth-sex.html" : "AHIP Birth Sex",
-      "ValueSet-ahip-sexual-orientation.html" : "AHIP Sexual Orientation"
+    "ValueSet-ahip-yes-no.html" : "AHIP Yes or No Answer",
+    "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns",
+    "ValueSet-ahip-yes-no-plain.html" : "AHIP Yes or No Answer"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
     },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "MaritalStatus",
-      "title" : "MaritalStatus",
-      "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
-      "oids" : ["2.16.840.1.113883.5.2"],
-      "uses" : {
-      },
-      "ValueSet-ahip-relationship-status.html" : "AHIP Relationship Status"
+    "ValueSet-ahip-sexual-orientation.html" : "AHIP Sexual Orientation",
+    "ValueSet-ahip-birth-sex.html" : "AHIP Birth Sex"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "MaritalStatus",
+    "title" : "MaritalStatus",
+    "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+    "oids" : ["2.16.840.1.113883.5.2"],
+    "uses" : {
     },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "NullFlavor",
-      "title" : "NullFlavor",
-      "description" : "A collection of codes specifying why a valid value is not present.",
-      "oids" : ["2.16.840.1.113883.5.1008"],
-      "uses" : {
-      },
-      "ValueSet-ahip-reading-language-prereferences.html" : "AHIP Reading Language Preferences",
-      "ValueSet-ahip-yes-no.html" : "AHIP Yes or No Answer",
-      "ValueSet-ahip-speaking-language-prereferences.html" : "AHIP Speaking Language Preferences",
-      "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
-      "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
-      "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
-      "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
-      "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
-      "ValueSet-ahip-birth-sex.html" : "AHIP Birth Sex",
-      "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories",
-      "ValueSet-ahip-sexual-orientation.html" : "AHIP Sexual Orientation",
-      "ValueSet-ahip-background-asian-category.html" : "AHIP Asian Background Categories",
-      "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns",
-      "ValueSet-ahip-race-category.html" : "AHIP Race Categories",
-      "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories",
-      "ValueSet-ahip-demo-gender-identity.html" : "AHIP Gender",
-      "ValueSet-ahip-care-consideration.html" : "AHIP Care Consideration Value Set"
+    "ValueSet-ahip-relationship-status.html" : "AHIP Relationship Status"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "NullFlavor",
+    "title" : "NullFlavor",
+    "description" : "A collection of codes specifying why a valid value is not present.",
+    "oids" : ["2.16.840.1.113883.5.1008"],
+    "uses" : {
     },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "ReligiousAffiliation",
-      "title" : "Religious Affiliation",
-      "description" : "Assigment of spiritual faith affiliation",
-      "oids" : ["2.16.840.1.113883.5.1076"],
-      "uses" : {
-      },
-      "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
-      "ValueSet-ahip-religion-christian-detail.html" : "AHIP Christian Religion Detail Value Set"
+    "ValueSet-ahip-speaking-language-prereferences.html" : "AHIP Speaking Language Preferences",
+    "ValueSet-ahip-yes-no.html" : "AHIP Yes or No Answer",
+    "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
+    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories",
+    "ValueSet-ahip-care-consideration.html" : "AHIP Care Consideration Value Set",
+    "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories",
+    "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
+    "ValueSet-ahip-background-asian-category.html" : "AHIP Asian Background Categories",
+    "ValueSet-ahip-sexual-orientation.html" : "AHIP Sexual Orientation",
+    "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
+    "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns",
+    "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
+    "ValueSet-ahip-birth-sex.html" : "AHIP Birth Sex",
+    "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
+    "ValueSet-ahip-race-category.html" : "AHIP Race Categories",
+    "ValueSet-ahip-demo-gender-identity.html" : "AHIP Gender",
+    "ValueSet-ahip-reading-language-prereferences.html" : "AHIP Reading Language Preferences"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ReligiousAffiliation",
+    "title" : "Religious Affiliation",
+    "description" : "Assigment of spiritual faith affiliation",
+    "oids" : ["2.16.840.1.113883.5.1076"],
+    "uses" : {
     },
-    {
-      "url" : "urn:oid:2.16.840.1.113883.6.238",
-      "version" : "3.0.2",
-      "status" : "active",
-      "name" : "CDCREC",
-      "title" : "CDC Race and Ethnicity",
-      "description" : "The U.S. Centers for Disease Control and Prevention (CDC) has prepared a code set for use in coding race and ethnicity data. This code set is based on current federal standards for classifying data on race and ethnicity, specifically the minimum race and ethnicity categories defined by the U.S. Office of Management and Budget (OMB) and a more detailed set of race and ethnicity categories maintained by the U.S. Bureau of the Census (BC). The main purpose of the code set is to facilitate use of federal standards for classifying data on race and ethnicity when these data are exchanged, stored, retrieved, or analyzed in electronic form. At the same time, the code set can be applied to paper-based record systems to the extent that these systems are used to collect, maintain, and report data on race and ethnicity in accordance with current federal standards.\r\n\r\nThe content is available at https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.6.238#.",
-      "oids" : ["2.16.840.1.113883.6.238"],
-      "uses" : {
-      },
-      "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
-      "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
-      "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories",
-      "ValueSet-ahip-background-asian-category.html" : "AHIP Asian Background Categories",
-      "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
-      "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
-      "ValueSet-ahip-race-category.html" : "AHIP Race Categories",
-      "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories"
-    }
-  ]
+    "ValueSet-ahip-religion-christian-detail.html" : "AHIP Christian Religion Detail Value Set",
+    "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set"
+  },
+  {
+    "url" : "urn:oid:2.16.840.1.113883.6.238",
+    "version" : "3.0.2",
+    "status" : "active",
+    "name" : "CDCREC",
+    "title" : "CDC Race and Ethnicity",
+    "description" : "The U.S. Centers for Disease Control and Prevention (CDC) has prepared a code set for use in coding race and ethnicity data. This code set is based on current federal standards for classifying data on race and ethnicity, specifically the minimum race and ethnicity categories defined by the U.S. Office of Management and Budget (OMB) and a more detailed set of race and ethnicity categories maintained by the U.S. Bureau of the Census (BC). The main purpose of the code set is to facilitate use of federal standards for classifying data on race and ethnicity when these data are exchanged, stored, retrieved, or analyzed in electronic form. At the same time, the code set can be applied to paper-based record systems to the extent that these systems are used to collect, maintain, and report data on race and ethnicity in accordance with current federal standards.\r\n\r\nThe content is available at https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.6.238#.",
+    "oids" : ["2.16.840.1.113883.6.238"],
+    "uses" : {
+    },
+    "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
+    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories",
+    "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
+    "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
+    "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories",
+    "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
+    "ValueSet-ahip-background-asian-category.html" : "AHIP Asian Background Categories",
+    "ValueSet-ahip-race-category.html" : "AHIP Race Categories"
+  }]
 }

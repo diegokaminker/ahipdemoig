@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,64 +7,82 @@
 
 <http://ahip.org/demographics/ValueSet/ahip-sexual-orientation> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ahip-sexual-orientation"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-sexual-orientation</b></p><a name=\"ahip-sexual-orientation\"> </a><a name=\"hcahip-sexual-orientation\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/20430005\">20430005</a></td><td>Straight or heterosexual (attracted to gender different from your own)​</td></tr><tr><td><a href=\"http://snomed.info/id/38628009\">38628009</a></td><td>Gay or lesbian (attracted to the same gender as your own)​</td></tr><tr><td><a href=\"http://snomed.info/id/42035005\">42035005</a></td><td>Bisexual (attracted to same gender as your own and gender different from your own)​</td></tr><tr><td><a href=\"http://snomed.info/id/765288000\">765288000</a></td><td>Asexual (little or no attraction to any gender)</td></tr><tr><td><a href=\"http://snomed.info/id/51431000087101\">51431000087101</a></td><td>Pansexual (attracted to any gender)​</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-sexual-orientation"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "AHIPSexualOrientation"] ; # 
-  fhir:title [ fhir:v "AHIP Sexual Orientation"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "AHIP"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "AHIP" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://ahip.org" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Based on SNOMED CT and US Core Orientation Value Set"] ; # 
-  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "20430005" ] ;
-         fhir:display [ fhir:v "Straight or heterosexual (attracted to gender different from your own)​" ]
-       ] [
-         fhir:code [ fhir:v "38628009" ] ;
-         fhir:display [ fhir:v "Gay or lesbian (attracted to the same gender as your own)​" ]
-       ] [
-         fhir:code [ fhir:v "42035005" ] ;
-         fhir:display [ fhir:v "Bisexual (attracted to same gender as your own and gender different from your own)​" ]
-       ] [
-         fhir:code [ fhir:v "765288000" ] ;
-         fhir:display [ fhir:v "Asexual (little or no attraction to any gender)" ]
-       ] [
-         fhir:code [ fhir:v "51431000087101" ] ;
-         fhir:display [ fhir:v "Pansexual (attracted to any gender)​" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "PSIN" ] ;
-         fhir:display [ fhir:v "Please specify if not listed above" ]
-       ] [
-         fhir:code [ fhir:v "CNTR" ] ;
-         fhir:display [ fhir:v "I choose not to respond at this time" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "ASKU" ] ;
-         fhir:display [ fhir:v "I don't know" ]
-       ] )
-     ] )
-  ] . # 
+  fhir:Resource.id [ fhir:value "ahip-sexual-orientation"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-sexual-orientation</b></p><a name=\"ahip-sexual-orientation\"> </a><a name=\"hcahip-sexual-orientation\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/20430005\">20430005</a></td><td>Straight or heterosexual (attracted to gender different from your own)​</td></tr><tr><td><a href=\"http://snomed.info/id/38628009\">38628009</a></td><td>Gay or lesbian (attracted to the same gender as your own)​</td></tr><tr><td><a href=\"http://snomed.info/id/42035005\">42035005</a></td><td>Bisexual (attracted to same gender as your own and gender different from your own)​</td></tr><tr><td><a href=\"http://snomed.info/id/765288000\">765288000</a></td><td>Asexual (little or no attraction to any gender)</td></tr><tr><td><a href=\"http://snomed.info/id/51431000087101\">51431000087101</a></td><td>Pansexual (attracted to any gender)​</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references\"> version ?3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-sexual-orientation"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "AHIPSexualOrientation"] ;
+  fhir:ValueSet.title [ fhir:value "AHIP Sexual Orientation"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Based on SNOMED CT and US Core Orientation Value Set"] ;
+  fhir:ValueSet.copyright [ fhir:value "Used by permission of HL7 International, all rights reserved Creative Commons License"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20430005" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Straight or heterosexual (attracted to gender different from your own)​" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "38628009" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gay or lesbian (attracted to the same gender as your own)​" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42035005" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bisexual (attracted to same gender as your own and gender different from your own)​" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "765288000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Asexual (little or no attraction to any gender)" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51431000087101" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pansexual (attracted to any gender)​" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PSIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Please specify if not listed above" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I choose not to respond at this time" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-NullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ASKU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I don't know" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-sexual-orientation.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

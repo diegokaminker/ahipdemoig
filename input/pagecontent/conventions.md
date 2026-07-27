@@ -1,23 +1,21 @@
 # Conventions
 
-This Implementation Guide uses the following terminology to indicate conformance expectations:
+This implementation guide (IG) uses specific terminology to flag statements that have relevance for the evaluation of conformance with the guide:
 
-- **SHALL** – Requirements that must be satisfied for an implementation to be conformant with this specification.
-- **SHOULD** – Strongly recommended behavior; not required for conformance but may affect interoperability or quality if not followed.
-- **MAY** – Optional; no recommendation for or against.
+- **SHALL** indicates requirements that must be met to be conformant with the specification.
+- **SHOULD** indicates behaviors that are strongly recommended (and which may result in interoperability issues or sub-optimal behavior if not adhered to) but which do not, for this version of the specification, affect the determination of specification conformance.
+- **MAY** describes optional behaviors that are free to consider but where there is no recommendation for, or against, adoption.
 
 ---
 
 ## Must Support
 
-For profiles and artifacts defined in other IGs, the meaning of **Must Support** is defined in that IG. For artifacts defined in this IG, Must Support (when specified) indicates that implementers **SHALL** be able to capture, store, and/or exchange the element when it is applicable; they **SHALL** be able to represent the absence of the element when it is not applicable or not known. Implementers **SHOULD** populate Must Support elements when the information is available and within scope of the use case.
-
-*[If this IG defines profiles, add a short paragraph aligning with US Core or other base IG Must Support definitions, or state that this IG does not define additional Must Support at this time.]*
+For profiles defined in other IGs, the meaning of Must Support is established in the defining IG. Note that the Must Support requirements for this IG are modeled after the US Core Implementation Guide. For further information see the Must Support section in the [Introduction](introduction.html) page.
 
 ---
 
 ## Security and Privacy
 
-Demographic data is sensitive. Security and privacy are critical when collecting, storing, and exchanging this information. Implementers **SHALL** comply with applicable law and policy (e.g., HIPAA in the U.S.) and **SHOULD** follow industry best practices for handling demographic and identity data.
+Security and Privacy are critically important when exchanging information.
 
-For additional guidance, refer to the [Security](security.html) page in this IG and to relevant sections in the [HL7 FHIR Security](http://hl7.org/fhir/R4/security.html) and, where applicable, the [US Core Implementation Guide](https://hl7.org/fhir/us/core/) or other referenced IGs.
+Please refer to the [Security](security.html) page in this IG and the guidance it references in the [Health Record Exchange (HRex) IG](https://hl7.org/fhir/us/davinci-hrex/security.html).

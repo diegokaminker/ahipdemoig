@@ -1,0 +1,29 @@
+# Background - v0.1.0
+
+* [**Table of Contents**](toc.md)
+* **Background**
+
+## Background
+
+# Background
+
+In the U.S., health data collection for key demographic domains is inconsistent, incomplete, lacks interoperability, and often uses ambiguous or non-inclusive concepts. This limits the ability of clinicians, health systems, payers, public health, and researchers to reliably identify disparities, design culturally responsive interventions, and measure outcomes to monitor progress over time.
+
+From 2020 to 2023, AHIP convened a workgroup that developed modernized and enhanced demographic data content standards through a multi-stakeholder-driven process resulting in voluntary best practices for health plans. AHIP identified that the impact of this work would be heightened by creating accredited standards that could be used broadly across the healthcare industry. For example, within electronic health records, as part of health risk assessments, or at health plan enrollment. Thus, AHIP began a partnership with Civitas and HL7 to create the national, multi-phased, multi-stakeholder, DEMo Initiative.
+
+The mission of DEMo Initiative is to effectively address gaps in care across America with better demographic data. The goal is to enhance and modernize national demographic data content and exchange standards so that they are person centered, culturally sensitive, sufficiently granular, and allow for voluntary alignment across stakeholders. The objective is to establish evidence-based, consensus-driven, and publicly available national standards that are suitable for wide adoption and permit the collection of accurate, complete, comparable, actionable, and interoperable data to support better patient outcomes, fewer disparities, improved patient trust, and enhanced operational efficiency. The initiative hopes to accomplish this by conducting a transparent, multi-phase, stakeholder-driven process seeking to refine existing, and develop new, demographic questions and response choices that are scientifically valid, reliable, and operationally feasible.
+
+Beginning January 2024, AHIP, Civitas, and HL7 convened a diverse group of more than 130 participants—representing health plans, provider organizations, consumer and patient advocates, governmental agencies, standards bodies, and other stakeholders. Across five national virtual focus groups, participants reviewed and refined strawman questions and response options for demographic domains including race, ethnicity, language preference, sexual orientation, sex, gender, pronouns, relationship status, military experience, disability status, and spiritual beliefs. Contributors were encouraged to apply their professional and lived experience to improve wording and response choices for clarity, inclusiveness, and cultural appropriateness.
+
+Following the focus groups, the revised content underwent cognitive testing in collaboration with the Patient Advocate Foundation to assess whether patients understood what was being asked, whether the response option allowed them to appropriately identify themselves, and their comfort in answering the questions; further refinements were made based on those results. Finally, after identifying a sponsoring HL7 workgroup, the updated questions and response options were circulated for additional stakeholder and public review through the HL7 community.
+
+The DEMo questionnaire and IG are intended to address the gaps in data and data sharing by specifying standardized, granular, and person-centered data elements and exchange mechanisms that preserve respectful language to improve data comprehensiveness, quality, usability, and interoperability.
+
+## Intended use and interactions
+
+* **Primary Uses:** Support standardized data collection, data sharing, population-health analytics, quality measurement, and care gap monitoring for point-of-care clinical decision-making, person-centered care, and care management; facilitate public-health reporting and research; and inform operational and policy decisions to reduce disparities in health and health care.
+* **Collection Points and Actors:** Demographic data are intended to be captured primarily via patient self-report at enrollment, registration, intake, patient portals, or structured patient interviews. Clinicians, registration staff, and authorized proxies may also record or update elements when self-reported data is not feasible, following documented consent and verification practices.
+* **Systems and Exchange:** Data capture occurs in EHRs, enrollment platforms, and other patient engagement systems and may be shared with EHRs, registries, analytics platforms, payer systems, public-health agencies, HIEs, research databases and other relevant systems consistent with state and federal law and regulation. The IG defines FHIR resources, profiles, value sets, and mapping guidance to enable consistent exchange across systems, with support for persistence, updates, provenance, and consent metadata.
+
+By collecting standardized data and enabling data interoperability, the DEMo Initiative supports the notion of "collecting data once and using it many times" among trusted stakeholders to minimize patient burden, improve data quality, enhance efficiency, and enable actionability. As we move into the future and interoperability improves, the vision is for patients to have a demographic profile based on the Questionnaire that they could share with trusted entities as they seek benefits, care, case management, or other services.
+

@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,41 +7,51 @@
 
 <http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "AHIP-Demo-Additional-Reading-Modes"] ; # 
-  fhir:language [ fhir:v "en"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem AHIP-Demo-Additional-Reading-Modes</b></p><a name=\"AHIP-Demo-Additional-Reading-Modes\"> </a><a name=\"hcAHIP-Demo-Additional-Reading-Modes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">x-bra<a name=\"AHIP-Demo-Additional-Reading-Modes-x-bra\"> </a></td><td>Braille</td></tr><tr><td style=\"white-space:nowrap\">x-lar<a name=\"AHIP-Demo-Additional-Reading-Modes-x-lar\"> </a></td><td>Large Print</td></tr><tr><td style=\"white-space:nowrap\">x-dds<a name=\"AHIP-Demo-Additional-Reading-Modes-x-dds\"> </a></td><td>Digital Documents that Can Be Spoken Out Loud​</td></tr></table></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:url [ fhir:v "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "AHIPDemoAdditionalReadingModes"] ; # 
-  fhir:title [ fhir:v "AHIP Demo Additional Reading Modes"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "AHIP"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "AHIP" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://ahip.org" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "An additional collection of codes specifying reading modes"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "x-bra" ] ;
-     fhir:display [ fhir:v "Braille" ]
-  ] [
-     fhir:code [ fhir:v "x-lar" ] ;
-     fhir:display [ fhir:v "Large Print" ]
-  ] [
-     fhir:code [ fhir:v "x-dds" ] ;
-     fhir:display [ fhir:v "Digital Documents that Can Be Spoken Out Loud​" ]
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "AHIP-Demo-Additional-Reading-Modes"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem AHIP-Demo-Additional-Reading-Modes</b></p><a name=\"AHIP-Demo-Additional-Reading-Modes\"> </a><a name=\"hcAHIP-Demo-Additional-Reading-Modes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">x-bra<a name=\"AHIP-Demo-Additional-Reading-Modes-x-bra\"> </a></td><td>Braille</td></tr><tr><td style=\"white-space:nowrap\">x-lar<a name=\"AHIP-Demo-Additional-Reading-Modes-x-lar\"> </a></td><td>Large Print</td></tr><tr><td style=\"white-space:nowrap\">x-dds<a name=\"AHIP-Demo-Additional-Reading-Modes-x-dds\"> </a></td><td>Digital Documents that Can Be Spoken Out Loud​</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "AHIPDemoAdditionalReadingModes"] ;
+  fhir:CodeSystem.title [ fhir:value "AHIP Demo Additional Reading Modes"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "AHIP"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "An additional collection of codes specifying reading modes"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "x-bra" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Braille" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "x-lar" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Large Print" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "x-dds" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Digital Documents that Can Be Spoken Out Loud​" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

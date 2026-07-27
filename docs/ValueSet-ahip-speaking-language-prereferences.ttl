@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,286 +7,378 @@
 
 <http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ahip-speaking-language-prereferences"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-speaking-language-prereferences</b></p><a name=\"ahip-speaking-language-prereferences\"> </a><a name=\"hcahip-speaking-language-prereferences\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://tools.ietf.org/html/bcp47</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>amh</td><td>Amharic</td></tr><tr><td>ara</td><td>Arabic</td></tr><tr><td>ath</td><td>Athabaskan (Na-Deme)</td></tr><tr><td>ben</td><td>Bengali</td></tr><tr><td>bur</td><td>Burmese</td></tr><tr><td>yue</td><td>Cantonese</td></tr><tr><td>chr</td><td>Cherokee</td></tr><tr><td>cha</td><td>Chamorro</td></tr><tr><td>chk</td><td>Chuukese</td></tr><tr><td>cro</td><td>Crow</td></tr><tr><td>dak</td><td>Dakota</td></tr><tr><td>dan</td><td>Danish</td></tr><tr><td>prs</td><td>Dari</td></tr><tr><td>dut</td><td>Dutch</td></tr><tr><td>eng</td><td>English</td></tr><tr><td>far</td><td>Farsi</td></tr><tr><td>fij</td><td>Fijian</td></tr><tr><td>fre</td><td>French</td></tr><tr><td>ger</td><td>German</td></tr><tr><td>gre</td><td>Greek</td></tr><tr><td>hat</td><td>Haitian Creole</td></tr><tr><td>haw</td><td>Hawaiian</td></tr><tr><td>heb</td><td>Hebrew</td></tr><tr><td>hin</td><td>Hindi</td></tr><tr><td>hmn</td><td>Hmong</td></tr><tr><td>ind</td><td>Indonesian</td></tr><tr><td>ipk</td><td>Inupiaq</td></tr><tr><td>ita</td><td>Italian</td></tr><tr><td>jpn</td><td>Japanese</td></tr><tr><td>kar</td><td>Karen</td></tr><tr><td>kkh</td><td>Karenni</td></tr><tr><td>khm</td><td>Central Khmer</td></tr><tr><td>kor</td><td>Korean</td></tr><tr><td>kos</td><td>Kosraean</td></tr><tr><td>kur</td><td>Kurdish</td></tr><tr><td>lkt</td><td>Lakota (sioux)</td></tr><tr><td>lao</td><td>Lao</td></tr><tr><td>lit</td><td>Lithuanian</td></tr><tr><td>cmn</td><td>Mandarin</td></tr><tr><td>mah</td><td>Marshallese</td></tr><tr><td>mus</td><td>Muscogee</td></tr><tr><td>nav</td><td>Navajo (Dine')</td></tr><tr><td>nep</td><td>Nepali</td></tr><tr><td>nor</td><td>Norwegian</td></tr><tr><td>oji</td><td>Ojibwe</td></tr><tr><td>ood</td><td>O'oodham</td></tr><tr><td>pdc</td><td>Pennsylvania Dutch (Pennsylvania German)</td></tr><tr><td>pau</td><td>Palauan</td></tr><tr><td>pus</td><td>Pashto</td></tr><tr><td>per</td><td>Persian</td></tr><tr><td>pol</td><td>Polish</td></tr><tr><td>pon</td><td>Pohnpeian</td></tr><tr><td>por</td><td>Portuguese</td></tr><tr><td>rus</td><td>Russian</td></tr><tr><td>smo</td><td>Samoan</td></tr><tr><td>sin</td><td>Sinhala</td></tr><tr><td>som</td><td>Somali</td></tr><tr><td>spa</td><td>Spanish</td></tr><tr><td>swa</td><td>Swahili</td></tr><tr><td>swe</td><td>Swedish</td></tr><tr><td>tgl</td><td>Tagalog</td></tr><tr><td>tha</td><td>Thai</td></tr><tr><td>tam</td><td>Tamil</td></tr><tr><td>ton</td><td>Tongan</td></tr><tr><td>tli</td><td>Tlingit</td></tr><tr><td>tpi</td><td>Tok Pisin</td></tr><tr><td>ukr</td><td>Ukrainian</td></tr><tr><td>urd</td><td>Urdu</td></tr><tr><td>vie</td><td>Vietnamese</td></tr><tr><td>wel</td><td>Welsh</td></tr><tr><td>apw</td><td>Western Apache</td></tr><tr><td>yap</td><td>Yapese</td></tr><tr><td>yid</td><td>Yiddish</td></tr><tr><td>ypk</td><td>Yupik</td></tr><tr><td>zun</td><td>Zuni</td></tr><tr><td>ase</td><td>American Sign Language</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>tai</td><td>Taino</td></tr><tr><td>osl</td><td>Other Sign Language - Please specify</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>Asked but unknown</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "AHIPSpeakingLanguagePreferences"] ; # 
-  fhir:title [ fhir:v "AHIP Speaking Language Preferences"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "AHIP"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "AHIP" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://ahip.org" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Based on IETF 3066 Language Codes"] ; # 
-  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [ fhir:v "http://tools.ietf.org/html/bcp47"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "amh" ] ;
-         fhir:display [ fhir:v "Amharic" ]
-       ] [
-         fhir:code [ fhir:v "ara" ] ;
-         fhir:display [ fhir:v "Arabic" ]
-       ] [
-         fhir:code [ fhir:v "ath" ] ;
-         fhir:display [ fhir:v "Athabaskan (Na-Deme)" ]
-       ] [
-         fhir:code [ fhir:v "ben" ] ;
-         fhir:display [ fhir:v "Bengali" ]
-       ] [
-         fhir:code [ fhir:v "bur" ] ;
-         fhir:display [ fhir:v "Burmese" ]
-       ] [
-         fhir:code [ fhir:v "yue" ] ;
-         fhir:display [ fhir:v "Cantonese" ]
-       ] [
-         fhir:code [ fhir:v "chr" ] ;
-         fhir:display [ fhir:v "Cherokee" ]
-       ] [
-         fhir:code [ fhir:v "cha" ] ;
-         fhir:display [ fhir:v "Chamorro" ]
-       ] [
-         fhir:code [ fhir:v "chk" ] ;
-         fhir:display [ fhir:v "Chuukese" ]
-       ] [
-         fhir:code [ fhir:v "cro" ] ;
-         fhir:display [ fhir:v "Crow" ]
-       ] [
-         fhir:code [ fhir:v "dak" ] ;
-         fhir:display [ fhir:v "Dakota" ]
-       ] [
-         fhir:code [ fhir:v "dan" ] ;
-         fhir:display [ fhir:v "Danish" ]
-       ] [
-         fhir:code [ fhir:v "prs" ] ;
-         fhir:display [ fhir:v "Dari" ]
-       ] [
-         fhir:code [ fhir:v "dut" ] ;
-         fhir:display [ fhir:v "Dutch" ]
-       ] [
-         fhir:code [ fhir:v "eng" ] ;
-         fhir:display [ fhir:v "English" ]
-       ] [
-         fhir:code [ fhir:v "far" ] ;
-         fhir:display [ fhir:v "Farsi" ]
-       ] [
-         fhir:code [ fhir:v "fij" ] ;
-         fhir:display [ fhir:v "Fijian" ]
-       ] [
-         fhir:code [ fhir:v "fre" ] ;
-         fhir:display [ fhir:v "French" ]
-       ] [
-         fhir:code [ fhir:v "ger" ] ;
-         fhir:display [ fhir:v "German" ]
-       ] [
-         fhir:code [ fhir:v "gre" ] ;
-         fhir:display [ fhir:v "Greek" ]
-       ] [
-         fhir:code [ fhir:v "hat" ] ;
-         fhir:display [ fhir:v "Haitian Creole" ]
-       ] [
-         fhir:code [ fhir:v "haw" ] ;
-         fhir:display [ fhir:v "Hawaiian" ]
-       ] [
-         fhir:code [ fhir:v "heb" ] ;
-         fhir:display [ fhir:v "Hebrew" ]
-       ] [
-         fhir:code [ fhir:v "hin" ] ;
-         fhir:display [ fhir:v "Hindi" ]
-       ] [
-         fhir:code [ fhir:v "hmn" ] ;
-         fhir:display [ fhir:v "Hmong" ]
-       ] [
-         fhir:code [ fhir:v "ind" ] ;
-         fhir:display [ fhir:v "Indonesian" ]
-       ] [
-         fhir:code [ fhir:v "ipk" ] ;
-         fhir:display [ fhir:v "Inupiaq" ]
-       ] [
-         fhir:code [ fhir:v "ita" ] ;
-         fhir:display [ fhir:v "Italian" ]
-       ] [
-         fhir:code [ fhir:v "jpn" ] ;
-         fhir:display [ fhir:v "Japanese" ]
-       ] [
-         fhir:code [ fhir:v "kar" ] ;
-         fhir:display [ fhir:v "Karen" ]
-       ] [
-         fhir:code [ fhir:v "kkh" ] ;
-         fhir:display [ fhir:v "Karenni" ]
-       ] [
-         fhir:code [ fhir:v "khm" ] ;
-         fhir:display [ fhir:v "Central Khmer" ]
-       ] [
-         fhir:code [ fhir:v "kor" ] ;
-         fhir:display [ fhir:v "Korean" ]
-       ] [
-         fhir:code [ fhir:v "kos" ] ;
-         fhir:display [ fhir:v "Kosraean" ]
-       ] [
-         fhir:code [ fhir:v "kur" ] ;
-         fhir:display [ fhir:v "Kurdish" ]
-       ] [
-         fhir:code [ fhir:v "lkt" ] ;
-         fhir:display [ fhir:v "Lakota (sioux)" ]
-       ] [
-         fhir:code [ fhir:v "lao" ] ;
-         fhir:display [ fhir:v "Lao" ]
-       ] [
-         fhir:code [ fhir:v "lit" ] ;
-         fhir:display [ fhir:v "Lithuanian" ]
-       ] [
-         fhir:code [ fhir:v "cmn" ] ;
-         fhir:display [ fhir:v "Mandarin" ]
-       ] [
-         fhir:code [ fhir:v "mah" ] ;
-         fhir:display [ fhir:v "Marshallese" ]
-       ] [
-         fhir:code [ fhir:v "mus" ] ;
-         fhir:display [ fhir:v "Muscogee" ]
-       ] [
-         fhir:code [ fhir:v "nav" ] ;
-         fhir:display [ fhir:v "Navajo (Dine')" ]
-       ] [
-         fhir:code [ fhir:v "nep" ] ;
-         fhir:display [ fhir:v "Nepali" ]
-       ] [
-         fhir:code [ fhir:v "nor" ] ;
-         fhir:display [ fhir:v "Norwegian" ]
-       ] [
-         fhir:code [ fhir:v "oji" ] ;
-         fhir:display [ fhir:v "Ojibwe" ]
-       ] [
-         fhir:code [ fhir:v "ood" ] ;
-         fhir:display [ fhir:v "O'oodham" ]
-       ] [
-         fhir:code [ fhir:v "pdc" ] ;
-         fhir:display [ fhir:v "Pennsylvania Dutch (Pennsylvania German)" ]
-       ] [
-         fhir:code [ fhir:v "pau" ] ;
-         fhir:display [ fhir:v "Palauan" ]
-       ] [
-         fhir:code [ fhir:v "pus" ] ;
-         fhir:display [ fhir:v "Pashto" ]
-       ] [
-         fhir:code [ fhir:v "per" ] ;
-         fhir:display [ fhir:v "Persian" ]
-       ] [
-         fhir:code [ fhir:v "pol" ] ;
-         fhir:display [ fhir:v "Polish" ]
-       ] [
-         fhir:code [ fhir:v "pon" ] ;
-         fhir:display [ fhir:v "Pohnpeian" ]
-       ] [
-         fhir:code [ fhir:v "por" ] ;
-         fhir:display [ fhir:v "Portuguese" ]
-       ] [
-         fhir:code [ fhir:v "rus" ] ;
-         fhir:display [ fhir:v "Russian" ]
-       ] [
-         fhir:code [ fhir:v "smo" ] ;
-         fhir:display [ fhir:v "Samoan" ]
-       ] [
-         fhir:code [ fhir:v "sin" ] ;
-         fhir:display [ fhir:v "Sinhala" ]
-       ] [
-         fhir:code [ fhir:v "som" ] ;
-         fhir:display [ fhir:v "Somali" ]
-       ] [
-         fhir:code [ fhir:v "spa" ] ;
-         fhir:display [ fhir:v "Spanish" ]
-       ] [
-         fhir:code [ fhir:v "swa" ] ;
-         fhir:display [ fhir:v "Swahili" ]
-       ] [
-         fhir:code [ fhir:v "swe" ] ;
-         fhir:display [ fhir:v "Swedish" ]
-       ] [
-         fhir:code [ fhir:v "tgl" ] ;
-         fhir:display [ fhir:v "Tagalog" ]
-       ] [
-         fhir:code [ fhir:v "tha" ] ;
-         fhir:display [ fhir:v "Thai" ]
-       ] [
-         fhir:code [ fhir:v "tam" ] ;
-         fhir:display [ fhir:v "Tamil" ]
-       ] [
-         fhir:code [ fhir:v "ton" ] ;
-         fhir:display [ fhir:v "Tongan" ]
-       ] [
-         fhir:code [ fhir:v "tli" ] ;
-         fhir:display [ fhir:v "Tlingit" ]
-       ] [
-         fhir:code [ fhir:v "tpi" ] ;
-         fhir:display [ fhir:v "Tok Pisin" ]
-       ] [
-         fhir:code [ fhir:v "ukr" ] ;
-         fhir:display [ fhir:v "Ukrainian" ]
-       ] [
-         fhir:code [ fhir:v "urd" ] ;
-         fhir:display [ fhir:v "Urdu" ]
-       ] [
-         fhir:code [ fhir:v "vie" ] ;
-         fhir:display [ fhir:v "Vietnamese" ]
-       ] [
-         fhir:code [ fhir:v "wel" ] ;
-         fhir:display [ fhir:v "Welsh" ]
-       ] [
-         fhir:code [ fhir:v "apw" ] ;
-         fhir:display [ fhir:v "Western Apache" ]
-       ] [
-         fhir:code [ fhir:v "yap" ] ;
-         fhir:display [ fhir:v "Yapese" ]
-       ] [
-         fhir:code [ fhir:v "yid" ] ;
-         fhir:display [ fhir:v "Yiddish" ]
-       ] [
-         fhir:code [ fhir:v "ypk" ] ;
-         fhir:display [ fhir:v "Yupik" ]
-       ] [
-         fhir:code [ fhir:v "zun" ] ;
-         fhir:display [ fhir:v "Zuni" ]
-       ] [
-         fhir:code [ fhir:v "ase" ] ;
-         fhir:display [ fhir:v "American Sign Language" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "tai" ] ;
-         fhir:display [ fhir:v "Taino" ]
-       ] [
-         fhir:code [ fhir:v "osl" ] ;
-         fhir:display [ fhir:v "Other Sign Language - Please specify" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "ASKU" ] ;
-         fhir:display [ fhir:v "Asked but unknown" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "CNTR" ] ;
-         fhir:display [ fhir:v "I choose not to respond at this time" ]
-       ] [
-         fhir:code [ fhir:v "PSIN" ] ;
-         fhir:display [ fhir:v "Please specify if not listed above" ]
-       ] )
-     ] )
-  ] . # 
+  fhir:Resource.id [ fhir:value "ahip-speaking-language-prereferences"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-speaking-language-prereferences</b></p><a name=\"ahip-speaking-language-prereferences\"> </a><a name=\"hcahip-speaking-language-prereferences\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://tools.ietf.org/html/bcp47</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>amh</td><td>Amharic</td></tr><tr><td>ara</td><td>Arabic</td></tr><tr><td>ath</td><td>Athabaskan (Na-Deme)</td></tr><tr><td>ben</td><td>Bengali</td></tr><tr><td>bur</td><td>Burmese</td></tr><tr><td>yue</td><td>Cantonese</td></tr><tr><td>chr</td><td>Cherokee</td></tr><tr><td>cha</td><td>Chamorro</td></tr><tr><td>chk</td><td>Chuukese</td></tr><tr><td>cro</td><td>Crow</td></tr><tr><td>dak</td><td>Dakota</td></tr><tr><td>dan</td><td>Danish</td></tr><tr><td>prs</td><td>Dari</td></tr><tr><td>dut</td><td>Dutch</td></tr><tr><td>eng</td><td>English</td></tr><tr><td>far</td><td>Farsi</td></tr><tr><td>fij</td><td>Fijian</td></tr><tr><td>fre</td><td>French</td></tr><tr><td>ger</td><td>German</td></tr><tr><td>gre</td><td>Greek</td></tr><tr><td>hat</td><td>Haitian Creole</td></tr><tr><td>haw</td><td>Hawaiian</td></tr><tr><td>heb</td><td>Hebrew</td></tr><tr><td>hin</td><td>Hindi</td></tr><tr><td>hmn</td><td>Hmong</td></tr><tr><td>ind</td><td>Indonesian</td></tr><tr><td>ipk</td><td>Inupiaq</td></tr><tr><td>ita</td><td>Italian</td></tr><tr><td>jpn</td><td>Japanese</td></tr><tr><td>kar</td><td>Karen</td></tr><tr><td>kkh</td><td>Karenni</td></tr><tr><td>khm</td><td>Central Khmer</td></tr><tr><td>kor</td><td>Korean</td></tr><tr><td>kos</td><td>Kosraean</td></tr><tr><td>kur</td><td>Kurdish</td></tr><tr><td>lkt</td><td>Lakota (sioux)</td></tr><tr><td>lao</td><td>Lao</td></tr><tr><td>lit</td><td>Lithuanian</td></tr><tr><td>cmn</td><td>Mandarin</td></tr><tr><td>mah</td><td>Marshallese</td></tr><tr><td>mus</td><td>Muscogee</td></tr><tr><td>nav</td><td>Navajo (Dine')</td></tr><tr><td>nep</td><td>Nepali</td></tr><tr><td>nor</td><td>Norwegian</td></tr><tr><td>oji</td><td>Ojibwe</td></tr><tr><td>ood</td><td>O'oodham</td></tr><tr><td>pdc</td><td>Pennsylvania Dutch (Pennsylvania German)</td></tr><tr><td>pau</td><td>Palauan</td></tr><tr><td>pus</td><td>Pashto</td></tr><tr><td>per</td><td>Persian</td></tr><tr><td>pol</td><td>Polish</td></tr><tr><td>pon</td><td>Pohnpeian</td></tr><tr><td>por</td><td>Portuguese</td></tr><tr><td>rus</td><td>Russian</td></tr><tr><td>smo</td><td>Samoan</td></tr><tr><td>sin</td><td>Sinhala</td></tr><tr><td>som</td><td>Somali</td></tr><tr><td>spa</td><td>Spanish</td></tr><tr><td>swa</td><td>Swahili</td></tr><tr><td>swe</td><td>Swedish</td></tr><tr><td>tgl</td><td>Tagalog</td></tr><tr><td>tha</td><td>Thai</td></tr><tr><td>tam</td><td>Tamil</td></tr><tr><td>ton</td><td>Tongan</td></tr><tr><td>tli</td><td>Tlingit</td></tr><tr><td>tpi</td><td>Tok Pisin</td></tr><tr><td>ukr</td><td>Ukrainian</td></tr><tr><td>urd</td><td>Urdu</td></tr><tr><td>vie</td><td>Vietnamese</td></tr><tr><td>wel</td><td>Welsh</td></tr><tr><td>apw</td><td>Western Apache</td></tr><tr><td>yap</td><td>Yapese</td></tr><tr><td>yid</td><td>Yiddish</td></tr><tr><td>ypk</td><td>Yupik</td></tr><tr><td>zun</td><td>Zuni</td></tr><tr><td>ase</td><td>American Sign Language</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>tai</td><td>Taino</td></tr><tr><td>osl</td><td>Other Sign Language - Please specify</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references\"> version ?3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>Asked but unknown</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "AHIPSpeakingLanguagePreferences"] ;
+  fhir:ValueSet.title [ fhir:value "AHIP Speaking Language Preferences"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Based on IETF 3066 Language Codes"] ;
+  fhir:ValueSet.copyright [ fhir:value "Used by permission of HL7 International, all rights reserved Creative Commons License"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://tools.ietf.org/html/bcp47" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "amh" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Amharic" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ara" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Arabic" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ath" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Athabaskan (Na-Deme)" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ben" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bengali" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "bur" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burmese" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "yue" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cantonese" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "chr" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cherokee" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "cha" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chamorro" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "chk" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chuukese" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "cro" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Crow" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dak" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dakota" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dan" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Danish" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "prs" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dari" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "dut" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dutch" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "eng" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "English" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "far" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Farsi" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "fij" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fijian" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "fre" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "French" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ger" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "German" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "gre" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Greek" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hat" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Haitian Creole" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "haw" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hawaiian" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "heb" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hebrew" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hin" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hindi" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "hmn" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hmong" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ind" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indonesian" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ipk" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inupiaq" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ita" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Italian" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "jpn" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Japanese" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kar" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Karen" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kkh" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Karenni" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "khm" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Central Khmer" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kor" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Korean" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kos" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kosraean" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "kur" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kurdish" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lkt" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lakota (sioux)" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lao" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lao" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "lit" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lithuanian" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "cmn" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mandarin" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mah" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marshallese" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "mus" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscogee" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nav" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Navajo (Dine')" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nep" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nepali" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "nor" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Norwegian" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "oji" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ojibwe" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ood" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "O'oodham" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pdc" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pennsylvania Dutch (Pennsylvania German)" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pau" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Palauan" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pus" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pashto" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "per" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Persian" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pol" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polish" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "pon" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pohnpeian" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "por" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Portuguese" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "rus" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Russian" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "smo" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Samoan" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "sin" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sinhala" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "som" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Somali" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "spa" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spanish" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "swa" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Swahili" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "swe" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Swedish" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tgl" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tagalog" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tha" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thai" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tam" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tamil" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ton" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tongan" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tli" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tlingit" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tpi" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tok Pisin" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ukr" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ukrainian" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "urd" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urdu" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "vie" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vietnamese" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "wel" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Welsh" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "apw" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Western Apache" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "yap" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yapese" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "yid" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yiddish" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ypk" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yupik" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "zun" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zuni" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ase" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "American Sign Language" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "tai" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Taino" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "osl" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Other Sign Language - Please specify" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-NullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ASKU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Asked but unknown" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I choose not to respond at this time" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PSIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Please specify if not listed above" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

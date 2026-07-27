@@ -1,275 +1,273 @@
-[
-  {
-    "id" : "AHIP-Demo-Additional-Language",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalLanguage"
-  },
-  {
-    "id" : "AHIP-Demo-Additional-NullFlavor",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalNullFlavor"
-  },
-  {
-    "id" : "AHIP-Demo-Additional-Reading-Modes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalReadingModes"
-  },
-  {
-    "id" : "ahip-demo-additional-background-codes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalBackgroundCodes"
-  },
-  {
-    "id" : "ahip-demo-additional-care-consideration-codes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-care-consideration-codes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalCareConsiderationCodes"
-  },
-  {
-    "id" : "ahip-demo-additional-disability-codes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-disability-codes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalDisabilityCodes"
-  },
-  {
-    "id" : "ahip-demo-additional-gender-codes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-gender-codes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalGenderCodes"
-  },
-  {
-    "id" : "ahip-demo-additional-interpreter-modes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-interpreter-modes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalInterpreterModes"
-  },
-  {
-    "id" : "ahip-demo-additional-military-period",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-military-period",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoMilitaryPeriodCodes"
-  },
-  {
-    "id" : "ahip-demo-additional-outreach-modes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalOutreachModes"
-  },
-  {
-    "id" : "ahip-demo-additional-relationship-status-codes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalRelationshipStatusCodes"
-  },
-  {
-    "id" : "ahip-demo-additional-religion-codes",
-    "type" : "CodeSystem",
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoAdditionalReligionCodes"
-  },
-  {
-    "id" : "ahip.demo",
-    "type" : "ImplementationGuide",
-    "url" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo",
-    "version" : "0.1.0",
-    "name" : "AhipDemoIG"
-  },
-  {
-    "id" : "AHIPDemoQuestionnaire",
-    "type" : "Questionnaire",
-    "url" : "http://ahip.org/demographics/Questionnaire/AHIPDemoQuestionnaire",
-    "version" : "0.1.0",
-    "name" : "AHIP-DEMOGRAPHIC-QUESTIONNAIRE"
-  },
-  {
-    "id" : "ahip-background-asian-category",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-background-asian-category",
-    "version" : "0.1.0",
-    "name" : "AHIPBackgroundAsianCategories"
-  },
-  {
-    "id" : "ahip-background-black-category",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-background-black-category",
-    "version" : "0.1.0",
-    "name" : "AHIPBackgroundBlackCategories"
-  },
-  {
-    "id" : "ahip-background-latino-category",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-background-latino-category",
-    "version" : "0.1.0",
-    "name" : "AHIPBackgroundLatinoCategories"
-  },
-  {
-    "id" : "ahip-background-middle-eastern-category",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-background-middle-eastern-category",
-    "version" : "0.1.0",
-    "name" : "AHIPBackgroundMiddleEasternCategories"
-  },
-  {
-    "id" : "ahip-background-native-american-category",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-american-category",
-    "version" : "0.1.0",
-    "name" : "AHIPBackgroundNativeAmericanCategories"
-  },
-  {
-    "id" : "ahip-background-native-hawaiian-category",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category",
-    "version" : "0.1.0",
-    "name" : "AHIPRaceNativeHawaiianCategories"
-  },
-  {
-    "id" : "ahip-background-white-category",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-background-white-category",
-    "version" : "0.1.0",
-    "name" : "AHIPBackgroundWhiteCategories"
-  },
-  {
-    "id" : "ahip-birth-sex",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-birth-sex",
-    "version" : "0.1.0",
-    "name" : "AHIPBirthSex"
-  },
-  {
-    "id" : "ahip-care-consideration",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-care-consideration",
-    "version" : "0.1.0",
-    "name" : "AHIPCareConsideration"
-  },
-  {
-    "id" : "ahip-demo-gender-identity",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoGenderIdentityValueSet"
-  },
-  {
-    "id" : "ahip-disability",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-disability",
-    "version" : "0.1.0",
-    "name" : "AHIPDisability"
-  },
-  {
-    "id" : "ahip-interpreter-modes",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-interpreter-modes",
-    "version" : "0.1.0",
-    "name" : "AHIPInterpreterModes"
-  },
-  {
-    "id" : "ahip-military-service-period",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-military-service-period",
-    "version" : "0.1.0",
-    "name" : "AHIPMilitaryPeriod"
-  },
-  {
-    "id" : "ahip-outreach-mode",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-outreach-mode",
-    "version" : "0.1.0",
-    "name" : "AHIPOutreachMode"
-  },
-  {
-    "id" : "ahip-preferred-pronouns",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns",
-    "version" : "0.1.0",
-    "name" : "AHIPPreferredPronouns"
-  },
-  {
-    "id" : "ahip-race-category",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-race-category",
-    "version" : "0.1.0",
-    "name" : "AHIPRaceCategories"
-  },
-  {
-    "id" : "ahip-reading-language-prereferences",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences",
-    "version" : "0.1.0",
-    "name" : "AHIPReadingLanguagePreferences"
-  },
-  {
-    "id" : "ahip-relationship-status",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-relationship-status",
-    "version" : "0.1.0",
-    "name" : "AHIPRelationshipStatus"
-  },
-  {
-    "id" : "ahip-religion-christian-detail",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail",
-    "version" : "0.1.0",
-    "name" : "AHIPReligionChristianDetail"
-  },
-  {
-    "id" : "ahip-religion-jewish-detail",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail",
-    "version" : "0.1.0",
-    "name" : "AHIPReligionJewishDetail"
-  },
-  {
-    "id" : "ahip-religion-spirituality",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-spirituality",
-    "version" : "0.1.0",
-    "name" : "AHIPReligionSpirituality"
-  },
-  {
-    "id" : "ahip-sexual-orientation",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-sexual-orientation",
-    "version" : "0.1.0",
-    "name" : "AHIPSexualOrientation"
-  },
-  {
-    "id" : "ahip-speaking-language-prereferences",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences",
-    "version" : "0.1.0",
-    "name" : "AHIPSpeakingLanguagePreferences"
-  },
-  {
-    "id" : "ahip-yes-no",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-yes-no",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoYesNo"
-  },
-  {
-    "id" : "ahip-yes-no-plain",
-    "type" : "ValueSet",
-    "url" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-plain",
-    "version" : "0.1.0",
-    "name" : "AHIPDemoYesNoPlain"
-  }
-]
+[{
+  "id" : "AHIP-Demo-Additional-Language",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalLanguage"
+},
+{
+  "id" : "AHIP-Demo-Additional-NullFlavor",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalNullFlavor"
+},
+{
+  "id" : "AHIP-Demo-Additional-Reading-Modes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Reading-Modes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalReadingModes"
+},
+{
+  "id" : "ahip-demo-additional-background-codes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalBackgroundCodes"
+},
+{
+  "id" : "ahip-demo-additional-care-consideration-codes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-care-consideration-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalCareConsiderationCodes"
+},
+{
+  "id" : "ahip-demo-additional-disability-codes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-disability-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalDisabilityCodes"
+},
+{
+  "id" : "ahip-demo-additional-gender-codes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-gender-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalGenderCodes"
+},
+{
+  "id" : "ahip-demo-additional-interpreter-modes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-interpreter-modes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalInterpreterModes"
+},
+{
+  "id" : "ahip-demo-additional-military-period",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-military-period",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoMilitaryPeriodCodes"
+},
+{
+  "id" : "ahip-demo-additional-outreach-modes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalOutreachModes"
+},
+{
+  "id" : "ahip-demo-additional-relationship-status-codes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalRelationshipStatusCodes"
+},
+{
+  "id" : "ahip-demo-additional-religion-codes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoAdditionalReligionCodes"
+},
+{
+  "id" : "ahip.demo",
+  "type" : "ImplementationGuide",
+  "url" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo",
+  "version" : "0.1.0",
+  "name" : "AhipDemoIG"
+},
+{
+  "id" : "AHIPDemoQuestionnaire",
+  "type" : "Questionnaire",
+  "url" : "http://ahip.org/demographics/Questionnaire/AHIPDemoQuestionnaire",
+  "version" : "0.1.0",
+  "name" : "AHIP-DEMOGRAPHIC-QUESTIONNAIRE"
+},
+{
+  "id" : "ahip-background-asian-category",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-asian-category",
+  "version" : "0.1.0",
+  "name" : "AHIPBackgroundAsianCategories"
+},
+{
+  "id" : "ahip-background-black-category",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-black-category",
+  "version" : "0.1.0",
+  "name" : "AHIPBackgroundBlackCategories"
+},
+{
+  "id" : "ahip-background-latino-category",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-latino-category",
+  "version" : "0.1.0",
+  "name" : "AHIPBackgroundLatinoCategories"
+},
+{
+  "id" : "ahip-background-middle-eastern-category",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-middle-eastern-category",
+  "version" : "0.1.0",
+  "name" : "AHIPBackgroundMiddleEasternCategories"
+},
+{
+  "id" : "ahip-background-native-american-category",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-american-category",
+  "version" : "0.1.0",
+  "name" : "AHIPBackgroundNativeAmericanCategories"
+},
+{
+  "id" : "ahip-background-native-hawaiian-category",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category",
+  "version" : "0.1.0",
+  "name" : "AHIPRaceNativeHawaiianCategories"
+},
+{
+  "id" : "ahip-background-white-category",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-white-category",
+  "version" : "0.1.0",
+  "name" : "AHIPBackgroundWhiteCategories"
+},
+{
+  "id" : "ahip-birth-sex",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-birth-sex",
+  "version" : "0.1.0",
+  "name" : "AHIPBirthSex"
+},
+{
+  "id" : "ahip-care-consideration",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-care-consideration",
+  "version" : "0.1.0",
+  "name" : "AHIPCareConsideration"
+},
+{
+  "id" : "ahip-demo-gender-identity",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoGenderIdentityValueSet"
+},
+{
+  "id" : "ahip-disability",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-disability",
+  "version" : "0.1.0",
+  "name" : "AHIPDisability"
+},
+{
+  "id" : "ahip-interpreter-modes",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-interpreter-modes",
+  "version" : "0.1.0",
+  "name" : "AHIPInterpreterModes"
+},
+{
+  "id" : "ahip-military-service-period",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-military-service-period",
+  "version" : "0.1.0",
+  "name" : "AHIPMilitaryPeriod"
+},
+{
+  "id" : "ahip-outreach-mode",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-outreach-mode",
+  "version" : "0.1.0",
+  "name" : "AHIPOutreachMode"
+},
+{
+  "id" : "ahip-preferred-pronouns",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns",
+  "version" : "0.1.0",
+  "name" : "AHIPPreferredPronouns"
+},
+{
+  "id" : "ahip-race-category",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-race-category",
+  "version" : "0.1.0",
+  "name" : "AHIPRaceCategories"
+},
+{
+  "id" : "ahip-reading-language-prereferences",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences",
+  "version" : "0.1.0",
+  "name" : "AHIPReadingLanguagePreferences"
+},
+{
+  "id" : "ahip-relationship-status",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-relationship-status",
+  "version" : "0.1.0",
+  "name" : "AHIPRelationshipStatus"
+},
+{
+  "id" : "ahip-religion-christian-detail",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail",
+  "version" : "0.1.0",
+  "name" : "AHIPReligionChristianDetail"
+},
+{
+  "id" : "ahip-religion-jewish-detail",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail",
+  "version" : "0.1.0",
+  "name" : "AHIPReligionJewishDetail"
+},
+{
+  "id" : "ahip-religion-spirituality",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-spirituality",
+  "version" : "0.1.0",
+  "name" : "AHIPReligionSpirituality"
+},
+{
+  "id" : "ahip-sexual-orientation",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-sexual-orientation",
+  "version" : "0.1.0",
+  "name" : "AHIPSexualOrientation"
+},
+{
+  "id" : "ahip-speaking-language-prereferences",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences",
+  "version" : "0.1.0",
+  "name" : "AHIPSpeakingLanguagePreferences"
+},
+{
+  "id" : "ahip-yes-no",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-yes-no",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoYesNo"
+},
+{
+  "id" : "ahip-yes-no-plain",
+  "type" : "ValueSet",
+  "url" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-plain",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoYesNoPlain"
+}]

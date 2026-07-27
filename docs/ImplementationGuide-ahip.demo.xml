@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="AhipDemoIG"/>
   <status value="draft"/>
-  <date value="2026-04-14T15:54:47-03:00"/>
+  <date value="2026-07-27T16:39:33-03:00"/>
   <publisher value="AHIP"/>
   <contact>
     <name value="AHIP"/>
@@ -27,7 +27,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.3.0-ballot-tc1"/>
+    <version value="5.3.0"/>
   </dependsOn>
   <dependsOn id="hl7_terminology_r4">
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
@@ -236,7 +236,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#1.1.2"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">

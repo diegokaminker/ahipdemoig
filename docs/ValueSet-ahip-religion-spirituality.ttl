@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,121 +7,158 @@
 
 <http://ahip.org/demographics/ValueSet/ahip-religion-spirituality> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ahip-religion-spirituality"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-religion-spirituality</b></p><a name=\"ahip-religion-spirituality\"> </a><a name=\"hcahip-religion-spirituality\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1006\">1006</a></td><td>Animism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1004\">1004</a></td><td>Agnostic (not sure if there is a God)​</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1007\">1007</a></td><td>Atheist (do not believe in God)​</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1008\">1008</a></td><td>Baha'I</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1059\">1059</a></td><td>Buddhism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1043\">1043</a></td><td>Church of Scientology</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1014\">1014</a></td><td>Confucianism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1020\">1020</a></td><td>Hinduism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1021\">1021</a></td><td>Humanism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1023\">1023</a></td><td>Islam,Nation of Islam (Muslim)</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1025\">1025</a></td><td>Jehovah's Witnesses</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1026\">1026</a></td><td>Judaism (Jewish)</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1027\">1027</a></td><td>Mormonism (Church of Jesus Christ of Latterday Saints/LDS)</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1037\">1037</a></td><td>Paganism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1044\">1044</a></td><td>Shamanism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1047\">1047</a></td><td>Sikhism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1050\">1050</a></td><td>Taoism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1052\">1052</a></td><td>Unitarian Universalist</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1056\">1056</a></td><td>VooDoo</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1060\">1060</a></td><td>Zoroastrianism</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CHRI</td><td>Christianity (e.g. Protestant, Roman Catholic, Russian Orthodox, Seventh-day Adventist)</td></tr><tr><td>OBEA</td><td>Obeahism</td></tr><tr><td>SBNR</td><td>Spiritual but not religious</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>Asked but unknown</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-religion-spirituality"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "AHIPReligionSpirituality"] ; # 
-  fhir:title [ fhir:v "AHIP Religion/Spirituality Value Set"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "AHIP"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "AHIP" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://ahip.org" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Based on HL7 Religion Value Set"] ; # 
-  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "1006" ] ;
-         fhir:display [ fhir:v "Animism" ]
-       ] [
-         fhir:code [ fhir:v "1004" ] ;
-         fhir:display [ fhir:v "Agnostic (not sure if there is a God)​" ]
-       ] [
-         fhir:code [ fhir:v "1007" ] ;
-         fhir:display [ fhir:v "Atheist (do not believe in God)​" ]
-       ] [
-         fhir:code [ fhir:v "1008" ] ;
-         fhir:display [ fhir:v "Baha'I" ]
-       ] [
-         fhir:code [ fhir:v "1059" ] ;
-         fhir:display [ fhir:v "Buddhism" ]
-       ] [
-         fhir:code [ fhir:v "1043" ] ;
-         fhir:display [ fhir:v "Church of Scientology" ]
-       ] [
-         fhir:code [ fhir:v "1014" ] ;
-         fhir:display [ fhir:v "Confucianism" ]
-       ] [
-         fhir:code [ fhir:v "1020" ] ;
-         fhir:display [ fhir:v "Hinduism" ]
-       ] [
-         fhir:code [ fhir:v "1021" ] ;
-         fhir:display [ fhir:v "Humanism" ]
-       ] [
-         fhir:code [ fhir:v "1023" ] ;
-         fhir:display [ fhir:v "Islam,Nation of Islam (Muslim)" ]
-       ] [
-         fhir:code [ fhir:v "1025" ] ;
-         fhir:display [ fhir:v "Jehovah's Witnesses" ]
-       ] [
-         fhir:code [ fhir:v "1026" ] ;
-         fhir:display [ fhir:v "Judaism (Jewish)" ]
-       ] [
-         fhir:code [ fhir:v "1027" ] ;
-         fhir:display [ fhir:v "Mormonism (Church of Jesus Christ of Latterday Saints/LDS)" ]
-       ] [
-         fhir:code [ fhir:v "1037" ] ;
-         fhir:display [ fhir:v "Paganism" ]
-       ] [
-         fhir:code [ fhir:v "1044" ] ;
-         fhir:display [ fhir:v "Shamanism" ]
-       ] [
-         fhir:code [ fhir:v "1047" ] ;
-         fhir:display [ fhir:v "Sikhism" ]
-       ] [
-         fhir:code [ fhir:v "1050" ] ;
-         fhir:display [ fhir:v "Taoism" ]
-       ] [
-         fhir:code [ fhir:v "1052" ] ;
-         fhir:display [ fhir:v "Unitarian Universalist" ]
-       ] [
-         fhir:code [ fhir:v "1056" ] ;
-         fhir:display [ fhir:v "VooDoo" ]
-       ] [
-         fhir:code [ fhir:v "1060" ] ;
-         fhir:display [ fhir:v "Zoroastrianism" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "CHRI" ] ;
-         fhir:display [ fhir:v "Christianity (e.g. Protestant, Roman Catholic, Russian Orthodox, Seventh-day Adventist)" ]
-       ] [
-         fhir:code [ fhir:v "OBEA" ] ;
-         fhir:display [ fhir:v "Obeahism" ]
-       ] [
-         fhir:code [ fhir:v "SBNR" ] ;
-         fhir:display [ fhir:v "Spiritual but not religious" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "PSIN" ] ;
-         fhir:display [ fhir:v "Please specify if not listed above" ]
-       ] [
-         fhir:code [ fhir:v "CNTR" ] ;
-         fhir:display [ fhir:v "I choose not to respond at this time" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "ASKU" ] ;
-         fhir:display [ fhir:v "Asked but unknown" ]
-       ] )
-     ] )
-  ] . # 
+  fhir:Resource.id [ fhir:value "ahip-religion-spirituality"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-religion-spirituality</b></p><a name=\"ahip-religion-spirituality\"> </a><a name=\"hcahip-religion-spirituality\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references\"> version ?3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1006\">1006</a></td><td>Animism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1004\">1004</a></td><td>Agnostic (not sure if there is a God)​</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1007\">1007</a></td><td>Atheist (do not believe in God)​</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1008\">1008</a></td><td>Baha'I</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1059\">1059</a></td><td>Buddhism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1043\">1043</a></td><td>Church of Scientology</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1014\">1014</a></td><td>Confucianism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1020\">1020</a></td><td>Hinduism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1021\">1021</a></td><td>Humanism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1023\">1023</a></td><td>Islam,Nation of Islam (Muslim)</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1025\">1025</a></td><td>Jehovah's Witnesses</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1026\">1026</a></td><td>Judaism (Jewish)</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1027\">1027</a></td><td>Mormonism (Church of Jesus Christ of Latterday Saints/LDS)</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1037\">1037</a></td><td>Paganism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1044\">1044</a></td><td>Shamanism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1047\">1047</a></td><td>Sikhism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1050\">1050</a></td><td>Taoism</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1052\">1052</a></td><td>Unitarian Universalist</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1056\">1056</a></td><td>VooDoo</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ReligiousAffiliation.html#v3-ReligiousAffiliation-1060\">1060</a></td><td>Zoroastrianism</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CHRI</td><td>Christianity (e.g. Protestant, Roman Catholic, Russian Orthodox, Seventh-day Adventist)</td></tr><tr><td>OBEA</td><td>Obeahism</td></tr><tr><td>SBNR</td><td>Spiritual but not religious</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references\"> version ?3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>Asked but unknown</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-religion-spirituality"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "AHIPReligionSpirituality"] ;
+  fhir:ValueSet.title [ fhir:value "AHIP Religion/Spirituality Value Set"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Based on HL7 Religion Value Set"] ;
+  fhir:ValueSet.copyright [ fhir:value "Used by permission of HL7 International, all rights reserved Creative Commons License"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1006" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Animism" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1004" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Agnostic (not sure if there is a God)​" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1007" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atheist (do not believe in God)​" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1008" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Baha'I" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1059" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Buddhism" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1043" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Church of Scientology" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1014" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Confucianism" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1020" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hinduism" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1021" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Humanism" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1023" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Islam,Nation of Islam (Muslim)" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1025" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jehovah's Witnesses" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1026" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Judaism (Jewish)" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1027" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mormonism (Church of Jesus Christ of Latterday Saints/LDS)" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1037" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paganism" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1044" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Shamanism" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1047" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sikhism" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1050" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Taoism" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1052" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unitarian Universalist" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1056" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VooDoo" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1060" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zoroastrianism" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHRI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Christianity (e.g. Protestant, Roman Catholic, Russian Orthodox, Seventh-day Adventist)" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "OBEA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Obeahism" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SBNR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spiritual but not religious" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PSIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Please specify if not listed above" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I choose not to respond at this time" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-NullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ASKU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Asked but unknown" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-religion-spirituality.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,44 +7,55 @@
 
 <http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ahip-demo-additional-outreach-modes"] ; # 
-  fhir:language [ fhir:v "en"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-outreach-modes</b></p><a name=\"ahip-demo-additional-outreach-modes\"> </a><a name=\"hcahip-demo-additional-outreach-modes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"ahip-demo-additional-outreach-modes-P\"> </a></td><td>Phone Call</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"ahip-demo-additional-outreach-modes-T\"> </a></td><td>Text Message</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"ahip-demo-additional-outreach-modes-E\"> </a></td><td>Email</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"ahip-demo-additional-outreach-modes-M\"> </a></td><td>Mailed Letter</td></tr></table></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:url [ fhir:v "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "AHIPDemoAdditionalOutreachModes"] ; # 
-  fhir:title [ fhir:v "AHIP Demo Additional Outreach modes"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "AHIP"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "AHIP" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://ahip.org" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "An additional collection of outreach modes"] ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "P" ] ;
-     fhir:display [ fhir:v "Phone Call" ]
-  ] [
-     fhir:code [ fhir:v "T" ] ;
-     fhir:display [ fhir:v "Text Message" ]
-  ] [
-     fhir:code [ fhir:v "E" ] ;
-     fhir:display [ fhir:v "Email" ]
-  ] [
-     fhir:code [ fhir:v "M" ] ;
-     fhir:display [ fhir:v "Mailed Letter" ]
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "ahip-demo-additional-outreach-modes"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-additional-outreach-modes</b></p><a name=\"ahip-demo-additional-outreach-modes\"> </a><a name=\"hcahip-demo-additional-outreach-modes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"ahip-demo-additional-outreach-modes-P\"> </a></td><td>Phone Call</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"ahip-demo-additional-outreach-modes-T\"> </a></td><td>Text Message</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"ahip-demo-additional-outreach-modes-E\"> </a></td><td>Email</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"ahip-demo-additional-outreach-modes-M\"> </a></td><td>Mailed Letter</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "AHIPDemoAdditionalOutreachModes"] ;
+  fhir:CodeSystem.title [ fhir:value "AHIP Demo Additional Outreach modes"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "AHIP"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "An additional collection of outreach modes"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "P" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Phone Call" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "T" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Text Message" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "E" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Email" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "M" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mailed Letter" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/ahip-demo-additional-outreach-modes.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

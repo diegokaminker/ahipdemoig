@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,100 +7,130 @@
 
 <http://ahip.org/demographics/ValueSet/ahip-background-asian-category> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ahip-background-asian-category"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-asian-category</b></p><a name=\"ahip-background-asian-category\"> </a><a name=\"hcahip-background-asian-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2126-1</td><td>Afghan</td></tr><tr><td>2030-5</td><td>Bangladeshi</td></tr><tr><td>2032-1</td><td>Burmese</td></tr><tr><td>2033-9</td><td>Cambodian</td></tr><tr><td>2034-7</td><td>Chinese</td></tr><tr><td>2036-2</td><td>Filipino</td></tr><tr><td>2037-0</td><td>Hmong</td></tr><tr><td>2029-7</td><td>Indian</td></tr><tr><td>2038-8</td><td>Indonesian</td></tr><tr><td>2039-6</td><td>Japanese</td></tr><tr><td>2040-4</td><td>Korean</td></tr><tr><td>2041-2</td><td>Lao</td></tr><tr><td>2050-3</td><td>Nepalese</td></tr><tr><td>2044-6</td><td>Pakistani</td></tr><tr><td>2045-3</td><td>Sri Lankan</td></tr><tr><td>2046-1</td><td>Thai</td></tr><tr><td>2047-9</td><td>Vietnamese</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-background-asian-category"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "AHIPBackgroundAsianCategories"] ; # 
-  fhir:title [ fhir:v "AHIP Asian Background Categories"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "AHIP"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "AHIP" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://ahip.org" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "AHIP Asian Background Categories"] ; # 
-  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "2126-1" ] ;
-         fhir:display [ fhir:v "Afghan" ]
-       ] [
-         fhir:code [ fhir:v "2030-5" ] ;
-         fhir:display [ fhir:v "Bangladeshi" ]
-       ] [
-         fhir:code [ fhir:v "2032-1" ] ;
-         fhir:display [ fhir:v "Burmese" ]
-       ] [
-         fhir:code [ fhir:v "2033-9" ] ;
-         fhir:display [ fhir:v "Cambodian" ]
-       ] [
-         fhir:code [ fhir:v "2034-7" ] ;
-         fhir:display [ fhir:v "Chinese" ]
-       ] [
-         fhir:code [ fhir:v "2036-2" ] ;
-         fhir:display [ fhir:v "Filipino" ]
-       ] [
-         fhir:code [ fhir:v "2037-0" ] ;
-         fhir:display [ fhir:v "Hmong" ]
-       ] [
-         fhir:code [ fhir:v "2029-7" ] ;
-         fhir:display [ fhir:v "Indian" ]
-       ] [
-         fhir:code [ fhir:v "2038-8" ] ;
-         fhir:display [ fhir:v "Indonesian" ]
-       ] [
-         fhir:code [ fhir:v "2039-6" ] ;
-         fhir:display [ fhir:v "Japanese" ]
-       ] [
-         fhir:code [ fhir:v "2040-4" ] ;
-         fhir:display [ fhir:v "Korean" ]
-       ] [
-         fhir:code [ fhir:v "2041-2" ] ;
-         fhir:display [ fhir:v "Lao" ]
-       ] [
-         fhir:code [ fhir:v "2050-3" ] ;
-         fhir:display [ fhir:v "Nepalese" ]
-       ] [
-         fhir:code [ fhir:v "2044-6" ] ;
-         fhir:display [ fhir:v "Pakistani" ]
-       ] [
-         fhir:code [ fhir:v "2045-3" ] ;
-         fhir:display [ fhir:v "Sri Lankan" ]
-       ] [
-         fhir:code [ fhir:v "2046-1" ] ;
-         fhir:display [ fhir:v "Thai" ]
-       ] [
-         fhir:code [ fhir:v "2047-9" ] ;
-         fhir:display [ fhir:v "Vietnamese" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "ASKU" ] ;
-         fhir:display [ fhir:v "I don't know" ]
-       ] )
-     ] [
-       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "CNTR" ] ;
-         fhir:display [ fhir:v "I choose not to respond at this time" ]
-       ] [
-         fhir:code [ fhir:v "PSIN" ] ;
-         fhir:display [ fhir:v "Please specify if not listed above" ]
-       ] )
-     ] )
-  ] . # 
+  fhir:Resource.id [ fhir:value "ahip-background-asian-category"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-asian-category</b></p><a name=\"ahip-background-asian-category\"> </a><a name=\"hcahip-background-asian-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2126-1</td><td>Afghan</td></tr><tr><td>2030-5</td><td>Bangladeshi</td></tr><tr><td>2032-1</td><td>Burmese</td></tr><tr><td>2033-9</td><td>Cambodian</td></tr><tr><td>2034-7</td><td>Chinese</td></tr><tr><td>2036-2</td><td>Filipino</td></tr><tr><td>2037-0</td><td>Hmong</td></tr><tr><td>2029-7</td><td>Indian</td></tr><tr><td>2038-8</td><td>Indonesian</td></tr><tr><td>2039-6</td><td>Japanese</td></tr><tr><td>2040-4</td><td>Korean</td></tr><tr><td>2041-2</td><td>Lao</td></tr><tr><td>2050-3</td><td>Nepalese</td></tr><tr><td>2044-6</td><td>Pakistani</td></tr><tr><td>2045-3</td><td>Sri Lankan</td></tr><tr><td>2046-1</td><td>Thai</td></tr><tr><td>2047-9</td><td>Vietnamese</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references\"> version ?3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-background-asian-category"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "AHIPBackgroundAsianCategories"] ;
+  fhir:ValueSet.title [ fhir:value "AHIP Asian Background Categories"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "AHIP Asian Background Categories"] ;
+  fhir:ValueSet.copyright [ fhir:value "Used by permission of HL7 International, all rights reserved Creative Commons License"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "urn:oid:2.16.840.1.113883.6.238" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2126-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Afghan" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2030-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bangladeshi" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2032-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burmese" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2033-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cambodian" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2034-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chinese" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2036-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Filipino" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2037-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hmong" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2029-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indian" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2038-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indonesian" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2039-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Japanese" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2040-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Korean" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2041-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lao" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2050-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nepalese" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2044-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pakistani" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2045-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sri Lankan" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2046-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thai" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2047-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vietnamese" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-NullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ASKU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I don't know" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I choose not to respond at this time" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PSIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Please specify if not listed above" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-background-asian-category.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

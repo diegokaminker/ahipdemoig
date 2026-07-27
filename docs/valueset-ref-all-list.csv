@@ -1,4 +1,4 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
 http://ahip.org/demographics/ValueSet/ahip-background-asian-category,0.1.0,draft,,AHIPBackgroundAsianCategories,AHIP Asian Background Categories,"AHIP Asian Background Categories","Questionnaire/AHIPDemoQuestionnaire","THO (V3),hl7.terminology.r4,Other"
 http://ahip.org/demographics/ValueSet/ahip-background-black-category,0.1.0,draft,,AHIPBackgroundBlackCategories,AHIP Black Background Categories,"AHIP Black Background Categories","Questionnaire/AHIPDemoQuestionnaire","THO (V3),hl7.terminology.r4,Other"
 http://ahip.org/demographics/ValueSet/ahip-background-latino-category,0.1.0,draft,,AHIPBackgroundLatinoCategories,AHIP Hispanic Latino Background Categories,"AHIP Hispanic Latino Background Categories","Questionnaire/AHIPDemoQuestionnaire","THO (V3),hl7.terminology.r4,Other"

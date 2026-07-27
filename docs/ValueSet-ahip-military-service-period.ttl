@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,61 +7,78 @@
 
 <http://ahip.org/demographics/ValueSet/ahip-military-service-period> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ahip-military-service-period"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-military-service-period</b></p><a name=\"ahip-military-service-period\"> </a><a name=\"hcahip-military-service-period\"> </a><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-military-period</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>P0911</td><td>September 2001 or later (Post 9/11)</td></tr><tr><td>GULFW</td><td>August 1990 through August 2001 (including the Persian Gulf War)</td></tr><tr><td>Y7590</td><td>June 1975 through July 1990</td></tr><tr><td>VIETN</td><td>August 1964 through May 1975 (including the Vietnam War)</td></tr><tr><td>Y5564</td><td>February 1955 through July 1964</td></tr><tr><td>KOREA</td><td>June 1950 through January 1955 (including the Korean War)</td></tr><tr><td>Y4750</td><td>January 1947 through May 1950</td></tr><tr><td>WWII</td><td>December 1941 through December 1946 (including World War II)</td></tr><tr><td>PRE41</td><td>November 1941 or earlier</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:url [ fhir:v "http://ahip.org/demographics/ValueSet/ahip-military-service-period"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "AHIPMilitaryPeriod"] ; # 
-  fhir:title [ fhir:v "AHIP US Military Service Period Codes"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "AHIP"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "AHIP" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://ahip.org" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "AHIP US Military Service Period Codes"] ; # 
-  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [ fhir:v "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-military-period"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "P0911" ] ;
-         fhir:display [ fhir:v "September 2001 or later (Post 9/11)" ]
-       ] [
-         fhir:code [ fhir:v "GULFW" ] ;
-         fhir:display [ fhir:v "August 1990 through August 2001 (including the Persian Gulf War)" ]
-       ] [
-         fhir:code [ fhir:v "Y7590" ] ;
-         fhir:display [ fhir:v "June 1975 through July 1990" ]
-       ] [
-         fhir:code [ fhir:v "VIETN" ] ;
-         fhir:display [ fhir:v "August 1964 through May 1975 (including the Vietnam War)" ]
-       ] [
-         fhir:code [ fhir:v "Y5564" ] ;
-         fhir:display [ fhir:v "February 1955 through July 1964" ]
-       ] [
-         fhir:code [ fhir:v "KOREA" ] ;
-         fhir:display [ fhir:v "June 1950 through January 1955 (including the Korean War)" ]
-       ] [
-         fhir:code [ fhir:v "Y4750" ] ;
-         fhir:display [ fhir:v "January 1947 through May 1950" ]
-       ] [
-         fhir:code [ fhir:v "WWII" ] ;
-         fhir:display [ fhir:v "December 1941 through December 1946 (including World War II)" ]
-       ] [
-         fhir:code [ fhir:v "PRE41" ] ;
-         fhir:display [ fhir:v "November 1941 or earlier" ]
-       ] )
-     ] )
-  ] . # 
+  fhir:Resource.id [ fhir:value "ahip-military-service-period"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-military-service-period</b></p><a name=\"ahip-military-service-period\"> </a><a name=\"hcahip-military-service-period\"> </a><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-military-period</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>P0911</td><td>September 2001 or later (Post 9/11)</td></tr><tr><td>GULFW</td><td>August 1990 through August 2001 (including the Persian Gulf War)</td></tr><tr><td>Y7590</td><td>June 1975 through July 1990</td></tr><tr><td>VIETN</td><td>August 1964 through May 1975 (including the Vietnam War)</td></tr><tr><td>Y5564</td><td>February 1955 through July 1964</td></tr><tr><td>KOREA</td><td>June 1950 through January 1955 (including the Korean War)</td></tr><tr><td>Y4750</td><td>January 1947 through May 1950</td></tr><tr><td>WWII</td><td>December 1941 through December 1946 (including World War II)</td></tr><tr><td>PRE41</td><td>November 1941 or earlier</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-military-service-period"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "AHIPMilitaryPeriod"] ;
+  fhir:ValueSet.title [ fhir:value "AHIP US Military Service Period Codes"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "AHIP US Military Service Period Codes"] ;
+  fhir:ValueSet.copyright [ fhir:value "Used by permission of HL7 International, all rights reserved Creative Commons License"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-military-period" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P0911" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "September 2001 or later (Post 9/11)" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GULFW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "August 1990 through August 2001 (including the Persian Gulf War)" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Y7590" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "June 1975 through July 1990" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VIETN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "August 1964 through May 1975 (including the Vietnam War)" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Y5564" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "February 1955 through July 1964" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "KOREA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "June 1950 through January 1955 (including the Korean War)" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Y4750" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "January 1947 through May 1950" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WWII" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "December 1941 through December 1946 (including World War II)" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRE41" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "November 1941 or earlier" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-military-service-period.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

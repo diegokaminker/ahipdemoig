@@ -14,12 +14,9 @@
 - Madelynn Valu (Civitas)
 - Rebecca Parsons (HL7)
 
-## Process guidance
+## Technical support and guidance
 
 - Joginder Madra (Madra Consulting, Inc.)
-
-## Terminology support
-
 - Jessica Bota (Apelon)
 
 ## Sponsoring work group
