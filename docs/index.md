@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ImplementationGuide/ahip.demo | *Version*:0.1.0 |
-| Draft as of 2026-07-27 | *Computable Name*:AhipDemoIG |
+| Draft as of 2026-07-29 | *Computable Name*:AhipDemoIG |
 
 # AhipDemoIG
 
@@ -52,7 +52,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
   "version" : "0.1.0",
   "name" : "AhipDemoIG",
   "status" : "draft",
-  "date" : "2026-07-27T16:39:33-03:00",
+  "date" : "2026-07-29T14:03:41-03:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
