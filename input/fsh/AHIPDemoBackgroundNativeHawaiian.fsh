@@ -1,4 +1,4 @@
-ValueSet: AHIPRaceNativeHawaiianCategories
+ValueSet: AHIPBackgroundNativeHawaiianCategories
 Id: ahip-background-native-hawaiian-category
 Title: "AHIP Native Hawaiian Background Categories"
 Description: "AHIP Native Hawaiian Background Categories"
