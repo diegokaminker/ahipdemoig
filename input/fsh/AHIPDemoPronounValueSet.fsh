@@ -1,11 +1,11 @@
 ValueSet: AHIPPreferredPronouns
 Id: ahip-preferred-pronouns
 Title: "AHIP Preferred Pronouns"
-Description: "Based on LOINC"
+Description: "Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC"
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US

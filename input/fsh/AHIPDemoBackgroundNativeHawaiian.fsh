@@ -1,11 +1,11 @@
 ValueSet: AHIPBackgroundNativeHawaiianCategories
 Id: ahip-background-native-hawaiian-category
 Title: "AHIP Native Hawaiian Background Categories"
-Description: "AHIP Native Hawaiian Background Categories"
+Description: "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US

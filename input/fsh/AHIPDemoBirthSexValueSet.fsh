@@ -1,11 +1,11 @@
 ValueSet: AHIPBirthSex
 Id: ahip-birth-sex
 Title: "AHIP Birth Sex"
-Description: "Based on SNOMED CT and US Core Birth Sex Value Set"
+Description: "Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set"
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US

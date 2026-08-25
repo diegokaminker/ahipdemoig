@@ -1,10 +1,10 @@
-CodeSystem: AHIPDemoAdditionalDisabilityCodes
-Id: ahip-demo-additional-disability-codes
-Title: "AHIP Demo Additional Disability Codes"
-Description: "An additional collection of disability codes"
+CodeSystem: AHIPDemoDisabilityCodes
+Id: ahip-demo-disability-codes
+Title: "AHIP Demo Disability Codes"
+Description: "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living."
 * ^language = #en
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^date = "2025-03-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
@@ -23,4 +23,3 @@ Description: "An additional collection of disability codes"
 * #ERRA "Doing errands alone, such as shopping or visiting a doctor’s office"
 * #COMM "Communicating or being understood using your usual language"
 * #UNDE "Understanding when someone speaks in your usual language"
-* #NONE "None"

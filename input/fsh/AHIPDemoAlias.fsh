@@ -9,6 +9,7 @@ Alias: $ReligionCodes = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffili
 Alias: $ReadingMode = http://terminology.hl7.org/CodeSystem/reading-mode
 Alias: $ParticipationMode = http://terminology.hl7.org/CodeSystem/v3-ParticipationMode
 Alias: $USMilitaryServicePeriod = http://terminology.hl7.org/CodeSystem/us-military-service-period
+Alias: $CareConsideration = http://terminology.hl7.org/CodeSystem/care-consideration
 
 Alias: $DesignationUsage = http://terminology.hl7.org/CodeSystem/designation-usage
 
@@ -16,9 +17,8 @@ Alias: $AHIPDemoAdditionalLanguageCodes = http://ahip.org/demographics/CodeSyste
 Alias: $AHIPDemoAdditionalNullFlavor = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor
 Alias: $AHIPDemoAdditionalBackgroundCodes  = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes
 Alias: $AHIPDemoAdditionalRelationshipStatusCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes
-Alias: $AHIPDemoAdditionalDisabilityCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-disability-codes
+Alias: $AHIPDemoDisabilityCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes
 Alias: $AHIPDemoAdditionalReligionCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes
-Alias: $AHIPDemoAdditionalCareConsiderationCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-care-consideration-codes
 
 Alias: $AHIPDemoRaceValueSet =  http://ahip.org/demographics/ValueSet/ahip-race-category
 Alias: $AHIPDemoBackgroundNativeAmericanValueSet = http://ahip.org/demographics/ValueSet/ahip-background-native-american-category
@@ -30,8 +30,8 @@ Alias: $AHIPDemoBackgroundBlackValueSet = http://ahip.org/demographics/ValueSet/
 Alias: $AHIPDemoBackgroundWhiteValueSet = http://ahip.org/demographics/ValueSet/ahip-background-white-category
 Alias: $AHIPDemoSpeakingLanguagePreferencesValueSet = http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences
 Alias: $AHIPDemoReadingLanguagePreferencesValueSet = http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences
-Alias: $AHIPDemoYesNoValueSet = http://ahip.org/demographics/ValueSet/ahip-yes-no
-Alias: $AHIPDemoYesNoPlainValueSet = http://ahip.org/demographics/ValueSet/ahip-yes-no-plain
+Alias: $AHIPDemoYesNoDontKnowNoResponseValueSet = http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response
+Alias: $AHIPDemoYesNoNoResponseValueSet = http://ahip.org/demographics/ValueSet/ahip-yes-no-no-response
 Alias: $AHIPDemoInterpreterModesValueSet = http://ahip.org/demographics/ValueSet/ahip-interpreter-modes
 Alias: $AHIPDemoOutreachModesValueSet = http://ahip.org/demographics/ValueSet/ahip-outreach-mode
 Alias: $AHIPDemoSexualOrientationValueSet = http://ahip.org/demographics/ValueSet/ahip-sexual-orientation
@@ -46,5 +46,4 @@ Alias: $AHIPDemoReligionChristianValueSet = http://ahip.org/demographics/ValueSe
 Alias: $AHIPDemoReligionJewishValueSet = http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail
 Alias: $AHIPCareConsiderationValueSet = http://ahip.org/demographics/ValueSet/ahip-care-consideration
 
-Alias: $AHIPCDCRaceEthnicityDisplaySupplement = http://ahip.org/demographics/ValueSet/ahip-cdc-race-ethnicity-display-supplement
 // End of Alias definitions

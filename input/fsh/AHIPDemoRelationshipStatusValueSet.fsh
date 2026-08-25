@@ -1,11 +1,11 @@
 ValueSet: AHIPRelationshipStatus
 Id: ahip-relationship-status
 Title: "AHIP Relationship Status"
-Description: "Based on HL7 Marital Status Value Set"
+Description: "Used as the answer options for the relationship status question in the SOGI and Relationship Status Section."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US

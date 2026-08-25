@@ -1,11 +1,11 @@
 ValueSet: AHIPBackgroundBlackCategories
 Id: ahip-background-black-category
 Title: "AHIP Black Background Categories"
-Description: "AHIP Black Background Categories"
+Description: "Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US

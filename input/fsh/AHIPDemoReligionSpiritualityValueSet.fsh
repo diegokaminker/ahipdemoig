@@ -1,11 +1,11 @@
 ValueSet: AHIPReligionSpirituality
 Id: ahip-religion-spirituality
 Title: "AHIP Religion/Spirituality Value Set"
-Description: "Based on HL7 Religion Value Set"
+Description: "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US

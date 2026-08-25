@@ -1,11 +1,11 @@
 ValueSet: AHIPOutreachMode
 Id: ahip-outreach-mode
 Title: "AHIP Outreach Modes"
-Description: "Outreach Modes"
+Description: "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US

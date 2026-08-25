@@ -1,11 +1,11 @@
 ValueSet: AHIPReadingLanguagePreferences
 Id: ahip-reading-language-prereferences
 Title: "AHIP Reading Language Preferences"
-Description: "Based on IETF 3066 Language Codes"
+Description: "Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US

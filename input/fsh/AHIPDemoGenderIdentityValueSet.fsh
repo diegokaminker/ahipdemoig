@@ -1,11 +1,11 @@
 ValueSet: AHIPDemoGenderIdentityValueSet
 Id: ahip-demo-gender-identity
-Title: "AHIP Gender"
-Description: "Based on HL7 Gender-Identity"
+Title: "AHIP Gender Identity"
+Description: "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set"
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
