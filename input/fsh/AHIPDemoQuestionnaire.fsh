@@ -164,7 +164,7 @@ Usage: #example
 * item[=].item[=].required = true
 * item[=].item[=].linkId = "L-2.3"
 * item[=].item[=].text = "If an interpreter in your preferred language were available right now, would you choose to use one for your health care visit?"
-* item[=].item[=].answerValueSet = $AHIPDemoYesNoPlainValueSet
+* item[=].item[=].answerValueSet = $AHIPDemoYesNoNoResponseValueSet
 
 * item[=].item[+].type = #choice
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
@@ -263,7 +263,7 @@ Usage: #example
 * item[=].item[=].required = true
 * item[=].item[=].linkId = "MS-5.1"
 * item[=].item[=].text = "Have you ever served in the United States Armed Forces, military Reserves, or National Guard? Select one."
-* item[=].item[=].answerValueSet = $AHIPDemoYesNoValueSet
+* item[=].item[=].answerValueSet = $AHIPDemoYesNoDontKnowNoResponseValueSet
 
 * item[=].item[+].type = #choice
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
@@ -293,7 +293,7 @@ Usage: #example
 * item[=].item[=].required = false
 * item[=].item[=].linkId = "MS-5.4"
 * item[=].item[=].text = "Did an immediate family member who you live or lived with ever serve in the United States Armed Forces, military Reserves, or National Guard? (i.e., parent, guardian, spouse, partner, child, sibling etc.) Select one.​"
-* item[=].item[=].answerValueSet = $AHIPDemoYesNoValueSet
+* item[=].item[=].answerValueSet = $AHIPDemoYesNoDontKnowNoResponseValueSet
 
 * item[=].item[+].type = #group
 * item[=].item[=].repeats = true
@@ -305,7 +305,7 @@ Usage: #example
 * item[=].item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].item[=].item[=].linkId = "MS-5.5.1"
 * item[=].item[=].item[=].text = "Are you serving or have you ever served in the armed forces of a country other than the United States? (Select one)​"
-* item[=].item[=].item[=].answerValueSet = $AHIPDemoYesNoValueSet
+* item[=].item[=].item[=].answerValueSet = $AHIPDemoYesNoDontKnowNoResponseValueSet
 
 * item[=].item[=].item[+].type = #string
 * item[=].item[=].item[=].repeats = true
@@ -330,7 +330,7 @@ Usage: #example
 * item[=].item[=].item[=].required = false
 * item[=].item[=].item[=].linkId = "MS-5.5.4"
 * item[=].item[=].item[=].text = "Do you live with, or have you ever lived with, someone who is currently or has ever served in the armed forces of a country other than the United States? (i.e., parent, guardian, spouse, partner, child, sibling etc.) (Select one)"
-* item[=].item[=].item[=].answerValueSet = $AHIPDemoYesNoValueSet
+* item[=].item[=].item[=].answerValueSet = $AHIPDemoYesNoDontKnowNoResponseValueSet
 
 * item[+].type = #group
 * item[=].required = false

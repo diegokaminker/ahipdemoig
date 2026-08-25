@@ -1,11 +1,11 @@
 ValueSet: AHIPBackgroundNativeAmericanCategories
 Id: ahip-background-native-american-category
 Title: "AHIP Native American Background Categories"
-Description: "AHIP Native American Background Categories"
+Description: "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
@@ -18,9 +18,11 @@ Description: "AHIP Native American Background Categories"
 * $CDCRACE#1123-9 "Chippewa"
 * $CDCRACE#1155-1 "Choctaw"
 * $CDCRACE#3109-6 "Comanche"
+* $CDCRACE#3745-7 "Inupiat"
 * $CDCRACE#1340-9 "Lumbee"
 * $CDCRACE#1833-3 "Lingít (Tlingit)"
 * $CDCRACE#4093-1 "Mayan"
+* $CDCRACE#1193-2 "Muscogee (Creek)"
 * $CDCRACE#3321-7 "Navajo"
 * $CDCRACE#1407-6 "Osage"
 * $CDCRACE#1609-7 "Sioux"
@@ -28,8 +30,6 @@ Description: "AHIP Native American Background Categories"
 * $CDCRACE#1896-0 "Yu’pik Eskimo"
 * $AHIPDemoAdditionalBackgroundCodes#9999-1 "Athabascan"
 * $AHIPDemoAdditionalBackgroundCodes#9999-2 "Haudenosaunee"
-* $AHIPDemoAdditionalBackgroundCodes#9999-3 "Inupiat"
-* $AHIPDemoAdditionalBackgroundCodes#9999-4 "Muscogee (Eastern, Lower, Star Clan) "
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
 * $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"

@@ -1,11 +1,11 @@
 ValueSet: AHIPBackgroundWhiteCategories
 Id: ahip-background-white-category
 Title: "AHIP White Background Categories"
-Description: "AHIP White Background Categories"
+Description: "Used as the granular follow-up answer options shown when the patient selects White or European on the race/ethnicity question."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
@@ -17,7 +17,6 @@ Description: "AHIP White Background Categories"
 * $CDCRACE#2114-7 "Italian"
 * $CDCRACE#2115-4 "Polish"
 * $CDCRACE#2116-2 "Scottish"
-* $AHIPDemoAdditionalBackgroundCodes#9999-19 "Saudi"
 * $AHIPDemoAdditionalBackgroundCodes#9999-20 "Danish"
 * $AHIPDemoAdditionalBackgroundCodes#9999-21 "Dutch"
 * $AHIPDemoAdditionalBackgroundCodes#9999-22 "Greek"

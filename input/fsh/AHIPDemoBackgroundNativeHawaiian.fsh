@@ -1,11 +1,11 @@
-ValueSet: AHIPRaceNativeHawaiianCategories
+ValueSet: AHIPBackgroundNativeHawaiianCategories
 Id: ahip-background-native-hawaiian-category
 Title: "AHIP Native Hawaiian Background Categories"
-Description: "AHIP Native Hawaiian Background Categories"
+Description: "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
@@ -14,15 +14,15 @@ Description: "AHIP Native Hawaiian Background Categories"
 * $CDCRACE#2088-3 "Chamorro"
 * $CDCRACE#2101-4 "Fijian"
 * $CDCRACE#2078-4 "Polynesian"
-* $CDCRACE#2093-3 "Kosraean"
+// * $CDCRACE#2093-3 "Kosraean"
 * $CDCRACE#2090-9 "Marshallese"
 * $CDCRACE#2079-2 "Native Hawaiian"
 * $CDCRACE#2091-7 "Palauan"
 * $CDCRACE#2102-2 "Papua New Guinean"
-* $CDCRACE#2094-1 "Pohnpeian"
+// * $CDCRACE#2094-1 "Pohnpeian"
 * $CDCRACE#2080-0 "Samoan"
 * $CDCRACE#2082-6 "Tongan"
-* $CDCRACE#2098-2 "Yapese"
+* $CDCRACE#2098-2 "Yap"
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
 * $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"

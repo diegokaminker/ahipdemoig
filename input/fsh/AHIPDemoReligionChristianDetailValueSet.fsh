@@ -1,11 +1,11 @@
 ValueSet: AHIPReligionChristianDetail
 Id: ahip-religion-christian-detail
 Title: "AHIP Christian Religion Detail Value Set"
-Description: "AHIP Christian Religion Detail Codes"
+Description: "Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US   

@@ -4,8 +4,8 @@ Title: "AHIP Demo Additional Background Codes"
 Description: "An additional collection of background codes completing the gaps in CDC codes"
 * ^language = #en
 * ^version = "0.0.1"
-* ^status = #draft
-* ^date = "2025-03-25T00:00:00-04:00"
+* ^status = #active
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^content = #complete

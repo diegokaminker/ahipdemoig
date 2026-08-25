@@ -1,0 +1,17 @@
+ValueSet: AHIPOutreachMode
+Id: ahip-outreach-mode
+Title: "AHIP Outreach Modes"
+Description: "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach."
+* ^version = "0.0.1"
+* ^status = #active
+* ^experimental = false
+* ^date = "2026-08-25T00:00:00-04:00"
+* ^publisher = "AHIP"
+* ^contact.name = "AHIP"
+* ^jurisdiction = urn:iso:std:iso:3166#US
+* ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
+* $ParticipationMode#EMAILWRIT "Email"
+* $ParticipationMode#PHONE "Phone Call"
+* $ParticipationMode#MAILWRIT "Mailed Letter"
+* $ParticipationMode#MSGWRIT "Text Message"
+* $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"

@@ -1,11 +1,11 @@
 ValueSet: AHIPBackgroundBlackCategories
 Id: ahip-background-black-category
 Title: "AHIP Black Background Categories"
-Description: "AHIP Black Background Categories"
+Description: "Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question."
 * ^version = "0.0.1"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-24T00:00:00-04:00"
+* ^date = "2026-08-25T00:00:00-04:00"
 * ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
@@ -18,6 +18,7 @@ Description: "AHIP Black Background Categories"
 * $CDCRACE#2072-7 "Jamaican"
 * $CDCRACE#2063-6 "Liberian"
 * $CDCRACE#2065-1 "Nigerian"
+* $CDCRACE#4186-3 "Somali"
 * $CDCRACE#2074-3 "Trinidadian"
 * $AHIPDemoAdditionalBackgroundCodes#9999-5 "Angolan"
 * $AHIPDemoAdditionalBackgroundCodes#9999-6 "Cabo Verdean"
@@ -25,7 +26,6 @@ Description: "AHIP Black Background Categories"
 * $AHIPDemoAdditionalBackgroundCodes#9999-8 "Ghanaian"
 * $AHIPDemoAdditionalBackgroundCodes#9999-9 "Kenyan"
 * $AHIPDemoAdditionalBackgroundCodes#9999-10 "Sudanese"
-* $AHIPDemoAdditionalBackgroundCodes#9999-11 "Somali"
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
 * $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
