@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-military-service-period | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPMilitaryPeriod |
+| Active as of 2026-08-25 | *Computable Name*:AHIPMilitaryPeriod |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-AHIP US Military Service Period Codes 
+Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served. 
 
  **References** 
 
@@ -24,8 +24,6 @@ AHIP US Military Service Period Codes
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPMilitaryPeriod",
   "title" : "AHIP US Military Service Period Codes",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,47 +61,11 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP US Military Service Period Codes",
+  "description" : "Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-military-period",
-      "concept" : [{
-        "code" : "P0911",
-        "display" : "September 2001 or later (Post 9/11)"
-      },
-      {
-        "code" : "GULFW",
-        "display" : "August 1990 through August 2001 (including the Persian Gulf War)"
-      },
-      {
-        "code" : "Y7590",
-        "display" : "June 1975 through July 1990"
-      },
-      {
-        "code" : "VIETN",
-        "display" : "August 1964 through May 1975 (including the Vietnam War)"
-      },
-      {
-        "code" : "Y5564",
-        "display" : "February 1955 through July 1964"
-      },
-      {
-        "code" : "KOREA",
-        "display" : "June 1950 through January 1955 (including the Korean War)"
-      },
-      {
-        "code" : "Y4750",
-        "display" : "January 1947 through May 1950"
-      },
-      {
-        "code" : "WWII",
-        "display" : "December 1941 through December 1946 (including World War II)"
-      },
-      {
-        "code" : "PRE41",
-        "display" : "November 1941 or earlier"
-      }]
+      "system" : "http://terminology.hl7.org/CodeSystem/us-military-service-period"
     }]
   }
 }

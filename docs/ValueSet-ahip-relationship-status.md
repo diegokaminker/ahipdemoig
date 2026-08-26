@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-relationship-status | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPRelationshipStatus |
+| Active as of 2026-08-25 | *Computable Name*:AHIPRelationshipStatus |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Based on HL7 Marital Status Value Set 
+Used as the answer options for the relationship status question in the SOGI and Relationship Status Section. 
 
  **References** 
 
@@ -24,8 +24,6 @@ Based on HL7 Marital Status Value Set
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPRelationshipStatus",
   "title" : "AHIP Relationship Status",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,7 +61,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on HL7 Marital Status Value Set",
+  "description" : "Used as the answer options for the relationship status question in the SOGI and Relationship Status Section.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -94,22 +92,22 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-relationship-status-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes",
       "concept" : [{
         "code" : "DATI",
-        "display" : "Dating (non-committed relationship)"
+        "display" : "Dating (in a non-committed relationship with one person or more than one person)"
       },
       {
         "code" : "MONR",
-        "display" : "Monogamous Relationship (In a committed relationship with one person but not married"
+        "display" : "In a committed relationship with one person but not married (monogamous relationship)"
       },
       {
         "code" : "POLY",
-        "display" : "Polyamorous Relationship (In a committed relationship with more than one person)"
+        "display" : "In a committed relationship with more than one person (polyamorous relationship)"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "PSIN",
         "display" : "Please specify if not listed above"

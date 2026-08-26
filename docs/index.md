@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ImplementationGuide/ahip.demo | *Version*:0.1.0 |
-| Draft as of 2026-07-29 | *Computable Name*:AhipDemoIG |
+| Draft as of 2026-08-26 | *Computable Name*:AhipDemoIG |
 
 # AhipDemoIG
 
@@ -52,7 +52,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
   "version" : "0.1.0",
   "name" : "AhipDemoIG",
   "status" : "draft",
-  "date" : "2026-07-29T14:03:41-03:00",
+  "date" : "2026-08-26T11:54:47-03:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -78,7 +78,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
     "id" : "hl7_terminology_r4",
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.2.0"
+    "version" : "7.3.0"
   }],
   "definition" : {
     "extension" : [{
@@ -648,7 +648,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-background-asian-category"
       },
       "name" : "AHIP Asian Background Categories",
-      "description" : "AHIP Asian Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Asian or Asian American on the race/ethnicity question.",
       "exampleBoolean" : false
     },
     {
@@ -664,7 +664,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-birth-sex"
       },
       "name" : "AHIP Birth Sex",
-      "description" : "Based on SNOMED CT and US Core Birth Sex Value Set",
+      "description" : "Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set",
       "exampleBoolean" : false
     },
     {
@@ -680,7 +680,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-background-black-category"
       },
       "name" : "AHIP Black Background Categories",
-      "description" : "AHIP Black Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question.",
       "exampleBoolean" : false
     },
     {
@@ -696,7 +696,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-care-consideration"
       },
       "name" : "AHIP Care Consideration Value Set",
-      "description" : "AHIP Care Consideration Codes",
+      "description" : "Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care.",
       "exampleBoolean" : false
     },
     {
@@ -712,7 +712,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-religion-christian-detail"
       },
       "name" : "AHIP Christian Religion Detail Value Set",
-      "description" : "AHIP Christian Religion Detail Codes",
+      "description" : "Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question.",
       "exampleBoolean" : false
     },
     {
@@ -754,70 +754,6 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-care-consideration-codes.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-care-consideration-codes"
-      },
-      "name" : "AHIP Demo Additional Care Consideration Codes",
-      "description" : "An additional collection of care consideration codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-disability-codes.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-disability-codes"
-      },
-      "name" : "AHIP Demo Additional Disability Codes",
-      "description" : "An additional collection of disability codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-gender-codes.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-gender-codes"
-      },
-      "name" : "AHIP Demo Additional Gender Codes",
-      "description" : "An additional collection of gender codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-interpreter-modes.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-interpreter-modes"
-      },
-      "name" : "AHIP Demo Additional Interpreter modes",
-      "description" : "An additional collection of interpreter modes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "CodeSystem-AHIP-Demo-Additional-Language.html"
       }],
       "reference" : {
@@ -834,22 +770,6 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-military-period.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-military-period"
-      },
-      "name" : "AHIP Demo Additional Military Period",
-      "description" : "An additional collection of codes specifying US Military Periods",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "CodeSystem-AHIP-Demo-Additional-NullFlavor.html"
       }],
       "reference" : {
@@ -857,38 +777,6 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       },
       "name" : "AHIP Demo Additional NullFlavor",
       "description" : "An additional collection of codes specifying why a valid value is not present.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-outreach-modes.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-outreach-modes"
-      },
-      "name" : "AHIP Demo Additional Outreach modes",
-      "description" : "An additional collection of outreach modes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-AHIP-Demo-Additional-Reading-Modes.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/AHIP-Demo-Additional-Reading-Modes"
-      },
-      "name" : "AHIP Demo Additional Reading Modes",
-      "description" : "An additional collection of codes specifying reading modes",
       "exampleBoolean" : false
     },
     {
@@ -926,6 +814,22 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-ahip-demo-disability-codes.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ahip-demo-disability-codes"
+      },
+      "name" : "AHIP Demo Disability Codes",
+      "description" : "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       },
       {
@@ -936,7 +840,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-disability"
       },
       "name" : "AHIP Disability",
-      "description" : "Based on our own list of disabilities",
+      "description" : "Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition.",
       "exampleBoolean" : false
     },
     {
@@ -951,8 +855,8 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       "reference" : {
         "reference" : "ValueSet/ahip-demo-gender-identity"
       },
-      "name" : "AHIP Gender",
-      "description" : "Based on HL7 Gender-Identity",
+      "name" : "AHIP Gender Identity",
+      "description" : "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set",
       "exampleBoolean" : false
     },
     {
@@ -968,7 +872,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-background-latino-category"
       },
       "name" : "AHIP Hispanic Latino Background Categories",
-      "description" : "AHIP Hispanic Latino Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Hispanic or Latino/a/e on the race/ethnicity question.",
       "exampleBoolean" : false
     },
     {
@@ -984,7 +888,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-interpreter-modes"
       },
       "name" : "AHIP Interpreter Modes",
-      "description" : "Interpreter Modes",
+      "description" : "Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using.",
       "exampleBoolean" : false
     },
     {
@@ -1000,7 +904,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-religion-jewish-detail"
       },
       "name" : "AHIP Jewish Religion Detail Value Set",
-      "description" : "AHIP Jewish Religion Detail Codes",
+      "description" : "Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question.",
       "exampleBoolean" : false
     },
     {
@@ -1016,7 +920,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-background-middle-eastern-category"
       },
       "name" : "AHIP Middle Eastern Background Categories",
-      "description" : "AHIP Middle Eastern Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Middle Eastern or North African on the race/ethnicity question.",
       "exampleBoolean" : false
     },
     {
@@ -1032,7 +936,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-background-native-american-category"
       },
       "name" : "AHIP Native American Background Categories",
-      "description" : "AHIP Native American Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question.",
       "exampleBoolean" : false
     },
     {
@@ -1048,7 +952,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-background-native-hawaiian-category"
       },
       "name" : "AHIP Native Hawaiian Background Categories",
-      "description" : "AHIP Native Hawaiian Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question.",
       "exampleBoolean" : false
     },
     {
@@ -1064,7 +968,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-outreach-mode"
       },
       "name" : "AHIP Outreach Modes",
-      "description" : "Outreach Modes",
+      "description" : "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach.",
       "exampleBoolean" : false
     },
     {
@@ -1080,7 +984,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-preferred-pronouns"
       },
       "name" : "AHIP Preferred Pronouns",
-      "description" : "Based on LOINC",
+      "description" : "Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC",
       "exampleBoolean" : false
     },
     {
@@ -1095,8 +999,8 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       "reference" : {
         "reference" : "ValueSet/ahip-race-category"
       },
-      "name" : "AHIP Race Categories",
-      "description" : "Based on OMB Categories but adding Hispanic/Latino for consistency",
+      "name" : "AHIP Race and Ethnicity Categories",
+      "description" : "Used as the answer options for the initial race/ethnicity question in the Race & Ethnicity Section; the selection made here drives which granular background value set is conditionally shown next.",
       "exampleBoolean" : false
     },
     {
@@ -1112,7 +1016,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-reading-language-prereferences"
       },
       "name" : "AHIP Reading Language Preferences",
-      "description" : "Based on IETF 3066 Language Codes",
+      "description" : "Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials.",
       "exampleBoolean" : false
     },
     {
@@ -1128,7 +1032,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-relationship-status"
       },
       "name" : "AHIP Relationship Status",
-      "description" : "Based on HL7 Marital Status Value Set",
+      "description" : "Used as the answer options for the relationship status question in the SOGI and Relationship Status Section.",
       "exampleBoolean" : false
     },
     {
@@ -1144,7 +1048,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-religion-spirituality"
       },
       "name" : "AHIP Religion/Spirituality Value Set",
-      "description" : "Based on HL7 Religion Value Set",
+      "description" : "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section.",
       "exampleBoolean" : false
     },
     {
@@ -1160,7 +1064,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-sexual-orientation"
       },
       "name" : "AHIP Sexual Orientation",
-      "description" : "Based on SNOMED CT and US Core Orientation Value Set",
+      "description" : "Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set",
       "exampleBoolean" : false
     },
     {
@@ -1176,7 +1080,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-speaking-language-prereferences"
       },
       "name" : "AHIP Speaking Language Preferences",
-      "description" : "Based on IETF 3066 Language Codes",
+      "description" : "Used as the answer options for the speaking language preferences question in the Language Section, capturing the language(s) a patient feels most comfortable speaking about their health care. Based on IETF 3066 Language Codes",
       "exampleBoolean" : false
     },
     {
@@ -1192,7 +1096,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-military-service-period"
       },
       "name" : "AHIP US Military Service Period Codes",
-      "description" : "AHIP US Military Service Period Codes",
+      "description" : "Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served.",
       "exampleBoolean" : false
     },
     {
@@ -1208,7 +1112,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         "reference" : "ValueSet/ahip-background-white-category"
       },
       "name" : "AHIP White Background Categories",
-      "description" : "AHIP White Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects White or European on the race/ethnicity question.",
       "exampleBoolean" : false
     },
     {
@@ -1218,13 +1122,13 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-ahip-yes-no.html"
+        "valueUri" : "ValueSet-ahip-yes-no-dont-know-no-response.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/ahip-yes-no"
+        "reference" : "ValueSet/ahip-yes-no-dont-know-no-response"
       },
-      "name" : "AHIP Yes or No Answer",
-      "description" : "Based on LOINC Codes",
+      "name" : "AHIP Yes, No, Don't Know, or No Response",
+      "description" : "Used as the answer options used across multiple questions in the Questionnaire.",
       "exampleBoolean" : false
     },
     {
@@ -1234,13 +1138,13 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-ahip-yes-no-plain.html"
+        "valueUri" : "ValueSet-ahip-yes-no-no-response.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/ahip-yes-no-plain"
+        "reference" : "ValueSet/ahip-yes-no-no-response"
       },
-      "name" : "AHIP Yes or No Answer",
-      "description" : "Based on LOINC Codes",
+      "name" : "AHIP Yes, No, or No Response",
+      "description" : "Used as the answer options used across multiple questions in the Questionnaire.",
       "exampleBoolean" : false
     }],
     "page" : {

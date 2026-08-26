@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-interpreter-modes | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPInterpreterModes |
+| Active as of 2026-08-25 | *Computable Name*:AHIPInterpreterModes |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Interpreter Modes 
+Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using. 
 
  **References** 
 
@@ -24,8 +24,6 @@ Interpreter Modes
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPInterpreterModes",
   "title" : "AHIP Interpreter Modes",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,26 +61,26 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Interpreter Modes",
+  "description" : "Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-interpreter-modes",
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
       "concept" : [{
-        "code" : "T",
+        "code" : "PHONE",
         "display" : "Telephone"
       },
       {
-        "code" : "V",
+        "code" : "VIDEOCONF",
         "display" : "Video"
       },
       {
-        "code" : "I",
-        "display" : "In Person"
+        "code" : "FACE",
+        "display" : "In-Person"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

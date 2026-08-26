@@ -9,16 +9,16 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ahip-outreach-mode"] ;
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-outreach-mode</b></p><a name=\"ahip-outreach-mode\"> </a><a name=\"hcahip-outreach-mode\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-outreach-modes</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>E</td><td>Email</td></tr><tr><td>P</td><td>Phone Call</td></tr><tr><td>M</td><td>Mailed Letter</td></tr><tr><td>T</td><td>Text Message</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li></ul></div>"
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-outreach-mode</b></p><a name=\"ahip-outreach-mode\"> </a><a name=\"hcahip-outreach-mode\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationMode</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 6.0.0, the version found through the package references\"> version ?6.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-EMAILWRIT\">EMAILWRIT</a></td><td>Email</td><td>Participation by text or diagrams transmitted over an electronic mail system.</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-PHONE\">PHONE</a></td><td>Phone Call</td><td>Participation by voice communication where the voices of the communicating parties are transported over an electronic medium</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-MAILWRIT\">MAILWRIT</a></td><td>Mailed Letter</td><td>Participation by text or diagrams printed on paper transmitted physically (e.g. by courier service, postal service).</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-MSGWRIT\">MSGWRIT</a></td><td>Text Message</td><td>Participation by messaging typically from a mobile phone or mobile device through a cellular network or Internet. Includes secured or unsecured messaging transmission and includes online chat. Also includes submission of photos or other images.</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-AHIP-Demo-Additional-NullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td></tr></table></li></ul></div>"
   ] ;
   fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-outreach-mode"] ;
   fhir:ValueSet.version [ fhir:value "0.1.0"] ;
   fhir:ValueSet.name [ fhir:value "AHIPOutreachMode"] ;
   fhir:ValueSet.title [ fhir:value "AHIP Outreach Modes"] ;
-  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:ValueSet.date [ fhir:value "2025-03-24T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.date [ fhir:value "2026-08-25T00:00:00-04:00"^^xsd:dateTime] ;
   fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
   fhir:ValueSet.contact [
      fhir:index 0 ;
@@ -29,32 +29,32 @@
        fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
      ]
   ] ;
-  fhir:ValueSet.description [ fhir:value "Outreach Modes"] ;
+  fhir:ValueSet.description [ fhir:value "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach."] ;
   fhir:ValueSet.copyright [ fhir:value "Used by permission of HL7 International, all rights reserved Creative Commons License"] ;
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0 ;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-outreach-modes" ] ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode" ] ;
        fhir:ValueSet.compose.include.concept [
          fhir:index 0 ;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "E" ] ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EMAILWRIT" ] ;
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Email" ]
        ], [
          fhir:index 1 ;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "P" ] ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PHONE" ] ;
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Phone Call" ]
        ], [
          fhir:index 2 ;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "M" ] ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAILWRIT" ] ;
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Mailed Letter" ]
        ], [
          fhir:index 3 ;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "T" ] ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MSGWRIT" ] ;
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Text Message" ]
        ]
      ], [
        fhir:index 1 ;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor" ] ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor" ] ;
        fhir:ValueSet.compose.include.concept [
          fhir:index 0 ;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTR" ] ;

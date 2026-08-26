@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPReadingLanguagePreferences |
+| Active as of 2026-08-25 | *Computable Name*:AHIPReadingLanguagePreferences |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Based on IETF 3066 Language Codes 
+Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials. 
 
  **References** 
 
@@ -24,8 +24,6 @@ Based on IETF 3066 Language Codes
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPReadingLanguagePreferences",
   "title" : "AHIP Reading Language Preferences",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,38 +61,34 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on IETF 3066 Language Codes",
+  "description" : "Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://tools.ietf.org/html/bcp47",
+      "system" : "urn:ietf:bcp:47",
       "concept" : [{
-        "code" : "amh",
+        "code" : "am",
         "display" : "Amharic"
       },
       {
-        "code" : "ara",
+        "code" : "ar",
         "display" : "Arabic"
       },
       {
-        "code" : "ath",
-        "display" : "Athabaskan (Na-Deme)"
-      },
-      {
-        "code" : "ben",
+        "code" : "bn",
         "display" : "Bengali"
       },
       {
-        "code" : "bur",
+        "code" : "my",
         "display" : "Burmese"
       },
       {
         "code" : "yue",
-        "display" : "Chinese (Simplified)"
+        "display" : "Cantonese"
       },
       {
-        "code" : "cha",
-        "display" : "Chamorro"
+        "code" : "chr",
+        "display" : "Cherokee"
       },
       {
         "code" : "chk",
@@ -109,43 +103,35 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Dakota"
       },
       {
-        "code" : "dan",
-        "display" : "Danish"
-      },
-      {
         "code" : "prs",
         "display" : "Dari"
       },
       {
-        "code" : "dut",
+        "code" : "nl",
         "display" : "Dutch"
       },
       {
-        "code" : "eng",
+        "code" : "en",
         "display" : "English"
       },
       {
-        "code" : "far",
+        "code" : "fa",
         "display" : "Farsi"
       },
       {
-        "code" : "fij",
-        "display" : "Fijian"
-      },
-      {
-        "code" : "fre",
+        "code" : "fr",
         "display" : "French"
       },
       {
-        "code" : "ger",
+        "code" : "de",
         "display" : "German"
       },
       {
-        "code" : "gre",
+        "code" : "el",
         "display" : "Greek"
       },
       {
-        "code" : "hat",
+        "code" : "ht",
         "display" : "Haitian Creole"
       },
       {
@@ -153,11 +139,11 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Hawaiian"
       },
       {
-        "code" : "heb",
+        "code" : "he",
         "display" : "Hebrew"
       },
       {
-        "code" : "hin",
+        "code" : "hi",
         "display" : "Hindi"
       },
       {
@@ -165,19 +151,15 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Hmong"
       },
       {
-        "code" : "ind",
-        "display" : "Indonesian"
-      },
-      {
-        "code" : "ipk",
+        "code" : "ik",
         "display" : "Inupiaq"
       },
       {
-        "code" : "ita",
+        "code" : "it",
         "display" : "Italian"
       },
       {
-        "code" : "jpn",
+        "code" : "ja",
         "display" : "Japanese"
       },
       {
@@ -189,39 +171,27 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Karenni"
       },
       {
-        "code" : "khm",
-        "display" : "Central Khmer"
+        "code" : "km",
+        "display" : "Khmer"
       },
       {
-        "code" : "kor",
+        "code" : "ko",
         "display" : "Korean"
-      },
-      {
-        "code" : "kos",
-        "display" : "Kosraean"
-      },
-      {
-        "code" : "kur",
-        "display" : "Kurdish"
       },
       {
         "code" : "lkt",
         "display" : "Lakota (sioux)"
       },
       {
-        "code" : "lao",
+        "code" : "lo",
         "display" : "Lao"
       },
       {
-        "code" : "lit",
-        "display" : "Lithuanian"
-      },
-      {
         "code" : "cmn",
-        "display" : "Chinese (Traditional)"
+        "display" : "Mandarin"
       },
       {
-        "code" : "mah",
+        "code" : "mh",
         "display" : "Marshallese"
       },
       {
@@ -229,19 +199,11 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Muscogee"
       },
       {
-        "code" : "nav",
+        "code" : "nv",
         "display" : "Navajo (Dine')"
       },
       {
-        "code" : "nep",
-        "display" : "Nepali"
-      },
-      {
-        "code" : "nor",
-        "display" : "Norwegian"
-      },
-      {
-        "code" : "oji",
+        "code" : "oj",
         "display" : "Ojibwe"
       },
       {
@@ -253,19 +215,11 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Pennsylvania Dutch (Pennsylvania German)"
       },
       {
-        "code" : "pau",
-        "display" : "Palauan"
-      },
-      {
-        "code" : "pus",
+        "code" : "ps",
         "display" : "Pashto"
       },
       {
-        "code" : "per",
-        "display" : "Persian"
-      },
-      {
-        "code" : "pol",
+        "code" : "pl",
         "display" : "Polish"
       },
       {
@@ -273,92 +227,60 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Pohnpeian"
       },
       {
-        "code" : "por",
+        "code" : "pt",
         "display" : "Portuguese"
       },
       {
-        "code" : "rus",
+        "code" : "ru",
         "display" : "Russian"
       },
       {
-        "code" : "smo",
+        "code" : "sm",
         "display" : "Samoan"
       },
       {
-        "code" : "sin",
-        "display" : "Sinhala"
-      },
-      {
-        "code" : "som",
+        "code" : "so",
         "display" : "Somali"
       },
       {
-        "code" : "spa",
+        "code" : "es",
         "display" : "Spanish"
       },
       {
-        "code" : "swa",
+        "code" : "sw",
         "display" : "Swahili"
       },
       {
-        "code" : "swe",
+        "code" : "sv",
         "display" : "Swedish"
       },
       {
-        "code" : "tgl",
+        "code" : "tl",
         "display" : "Tagalog"
       },
       {
-        "code" : "tam",
-        "display" : "Tamil"
+        "code" : "tnq",
+        "display" : "Taino"
       },
       {
-        "code" : "tha",
+        "code" : "th",
         "display" : "Thai"
       },
       {
-        "code" : "ton",
+        "code" : "to",
         "display" : "Tongan"
       },
       {
-        "code" : "tli",
-        "display" : "Tlingit"
-      },
-      {
-        "code" : "tpi",
-        "display" : "Tok Pisin"
-      },
-      {
-        "code" : "ukr",
-        "display" : "Ukrainian"
-      },
-      {
-        "code" : "urd",
-        "display" : "Urdu"
-      },
-      {
-        "code" : "vie",
+        "code" : "vi",
         "display" : "Vietnamese"
-      },
-      {
-        "code" : "wel",
-        "display" : "Welsh"
       },
       {
         "code" : "apw",
         "display" : "Western Apache"
       },
       {
-        "code" : "yap",
-        "display" : "Yapese"
-      },
-      {
-        "code" : "yid",
+        "code" : "yi",
         "display" : "Yiddish"
-      },
-      {
-        "code" : "ypk",
-        "display" : "Yu'pik"
       },
       {
         "code" : "zun",
@@ -366,24 +288,17 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalLanguage",
+      "system" : "http://terminology.hl7.org/CodeSystem/reading-mode",
       "concept" : [{
-        "code" : "tai",
-        "display" : "Taino"
-      }]
-    },
-    {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalReadingModes",
-      "concept" : [{
-        "code" : "x-bra",
+        "code" : "braille",
         "display" : "Braille"
       },
       {
-        "code" : "x-lar",
+        "code" : "large-print",
         "display" : "Large Print"
       },
       {
-        "code" : "x-dds",
+        "code" : "digital-spoken",
         "display" : "Digital Documents that Can Be Spoken Out Loud​"
       }]
     },
@@ -395,7 +310,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

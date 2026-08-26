@@ -2,16 +2,16 @@
   "resourceType" : "ValueSet",
   "id" : "ahip-religion-jewish-detail",
   "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-religion-jewish-detail</b></p><a name=\"ahip-religion-jewish-detail\"> </a><a name=\"hcahip-religion-jewish-detail\"> </a><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>JREF</td><td>Reform</td></tr><tr><td>JCON</td><td>Conservative</td></tr><tr><td>JORT</td><td>Orthodox</td></tr></table></li></ul></div>"
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-religion-jewish-detail</b></p><a name=\"ahip-religion-jewish-detail\"> </a><a name=\"hcahip-religion-jewish-detail\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-religion-codes.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-religion-codes.html#ahip-demo-additional-religion-codes-JREF\">JREF</a></td><td>Reform</td><td>Jewish Reform Movement</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-religion-codes.html#ahip-demo-additional-religion-codes-JCON\">JCON</a></td><td>Conservative</td><td>Jewish Conservative Movement</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-religion-codes.html#ahip-demo-additional-religion-codes-JORT\">JORT</a></td><td>Orthodox</td><td>Jewish Orthodox Movement</td></tr></table></li></ul></div>"
   },
   "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail",
   "version" : "0.1.0",
   "name" : "AHIPReligionJewishDetail",
   "title" : "AHIP Jewish Religion Detail Value Set",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -20,11 +20,11 @@
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Jewish Religion Detail Codes",
+  "description" : "Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
       "concept" : [{
         "code" : "JREF",
         "display" : "Reform"

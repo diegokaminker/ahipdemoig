@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-sexual-orientation | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPSexualOrientation |
+| Active as of 2026-08-25 | *Computable Name*:AHIPSexualOrientation |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Based on SNOMED CT and US Core Orientation Value Set 
+Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set 
 
  **References** 
 
@@ -24,8 +24,6 @@ Based on SNOMED CT and US Core Orientation Value Set
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPSexualOrientation",
   "title" : "AHIP Sexual Orientation",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,11 +61,12 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on SNOMED CT and US Core Orientation Value Set",
+  "description" : "Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108",
       "concept" : [{
         "code" : "20430005",
         "display" : "Straight or heterosexual (attracted to gender different from your own)​"
@@ -90,7 +89,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "PSIN",
         "display" : "Please specify if not listed above"

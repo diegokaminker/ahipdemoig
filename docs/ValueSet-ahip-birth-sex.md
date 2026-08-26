@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-birth-sex | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPBirthSex |
+| Active as of 2026-08-25 | *Computable Name*:AHIPBirthSex |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Based on SNOMED CT and US Core Birth Sex Value Set 
+Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set 
 
  **References** 
 
@@ -24,8 +24,6 @@ Based on SNOMED CT and US Core Birth Sex Value Set
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPBirthSex",
   "title" : "AHIP Birth Sex",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,18 +61,19 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on SNOMED CT and US Core Birth Sex Value Set",
+  "description" : "Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108",
       "concept" : [{
         "code" : "248153007",
-        "display" : "Male"
+        "display" : "Male, Man"
       },
       {
         "code" : "248152002",
-        "display" : "Female"
+        "display" : "Female, Woman"
       },
       {
         "code" : "32570691000036108",
@@ -82,7 +81,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

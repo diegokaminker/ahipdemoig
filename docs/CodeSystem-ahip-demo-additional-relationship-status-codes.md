@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes | *Version*:0.1.0 |
-| Draft as of 2025-03-25 | *Computable Name*:AHIPDemoAdditionalRelationshipStatusCodes |
+| Active as of 2026-08-25 | *Computable Name*:AHIPDemoAdditionalRelationshipStatusCodes |
 
  
 An additional collection of relationship status codes 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [AHIPRelationshipStatus](ValueSet-ahip-relationship-status.md)
 
 
 
@@ -31,9 +31,9 @@ An additional collection of relationship status codes
   "version" : "0.1.0",
   "name" : "AHIPDemoAdditionalRelationshipStatusCodes",
   "title" : "AHIP Demo Additional Relationship Status Codes",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-25T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",

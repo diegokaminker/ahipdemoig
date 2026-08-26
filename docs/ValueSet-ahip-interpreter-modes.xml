@@ -3,15 +3,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ahip-interpreter-modes"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-interpreter-modes</b></p><a name="ahip-interpreter-modes"> </a><a name="hcahip-interpreter-modes"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-interpreter-modes</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>T</td><td>Telephone</td></tr><tr><td>V</td><td>Video</td></tr><tr><td>I</td><td>In Person</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li></ul></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-interpreter-modes</b></p><a name="ahip-interpreter-modes"> </a><a name="hcahip-interpreter-modes"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html"><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationMode</code></a><span title="Version is not explicitly stated, which means it is fixed to 6.0.0, the version found through the package references"> version &#x1F4E6;6.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-PHONE">PHONE</a></td><td>Telephone</td><td>Participation by voice communication where the voices of the communicating parties are transported over an electronic medium</td></tr><tr><td><a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-VIDEOCONF">VIDEOCONF</a></td><td>Video</td><td>Participation by voice and visual communication where the voices and images of the communicating parties are transported over an electronic medium</td></tr><tr><td><a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-FACE">FACE</a></td><td>In-Person</td><td>Participation by voice communication where parties speak to each other directly.</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html"><code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR">CNTR</a></td><td>I choose not to respond at this time</td><td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td></tr></table></li></ul></div>
   </text>
   <url value="http://ahip.org/demographics/ValueSet/ahip-interpreter-modes"/>
   <version value="0.1.0"/>
   <name value="AHIPInterpreterModes"/>
   <title value="AHIP Interpreter Modes"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-03-24T00:00:00-04:00"/>
+  <date value="2026-08-25T00:00:00-04:00"/>
   <publisher value="AHIP"/>
   <contact>
     <name value="AHIP"/>
@@ -20,26 +20,26 @@
       <value value="http://ahip.org"/>
     </telecom>
   </contact>
-  <description value="Interpreter Modes"/>
+  <description value="Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using."/>
   <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
   <compose>
     <include>
-      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-interpreter-modes"/>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"/>
       <concept>
-        <code value="T"/>
+        <code value="PHONE"/>
         <display value="Telephone"/>
       </concept>
       <concept>
-        <code value="V"/>
+        <code value="VIDEOCONF"/>
         <display value="Video"/>
       </concept>
       <concept>
-        <code value="I"/>
-        <display value="In Person"/>
+        <code value="FACE"/>
+        <display value="In-Person"/>
       </concept>
     </include>
     <include>
-      <system value="http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor"/>
+      <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
       <concept>
         <code value="CNTR"/>
         <display value="I choose not to respond at this time"/>

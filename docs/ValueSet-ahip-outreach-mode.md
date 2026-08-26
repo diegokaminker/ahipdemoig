@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-outreach-mode | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPOutreachMode |
+| Active as of 2026-08-25 | *Computable Name*:AHIPOutreachMode |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Outreach Modes 
+Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach. 
 
  **References** 
 
@@ -24,8 +24,6 @@ Outreach Modes
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPOutreachMode",
   "title" : "AHIP Outreach Modes",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,30 +61,30 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Outreach Modes",
+  "description" : "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-outreach-modes",
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
       "concept" : [{
-        "code" : "E",
+        "code" : "EMAILWRIT",
         "display" : "Email"
       },
       {
-        "code" : "P",
+        "code" : "PHONE",
         "display" : "Phone Call"
       },
       {
-        "code" : "M",
+        "code" : "MAILWRIT",
         "display" : "Mailed Letter"
       },
       {
-        "code" : "T",
+        "code" : "MSGWRIT",
         "display" : "Text Message"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-background-native-american-category | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPBackgroundNativeAmericanCategories |
+| Active as of 2026-08-25 | *Computable Name*:AHIPBackgroundNativeAmericanCategories |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-AHIP Native American Background Categories 
+Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question. 
 
  **References** 
 
@@ -24,8 +24,6 @@ AHIP Native American Background Categories
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPBackgroundNativeAmericanCategories",
   "title" : "AHIP Native American Background Categories",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,7 +61,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Native American Background Categories",
+  "description" : "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -101,6 +99,10 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Comanche"
       },
       {
+        "code" : "3745-7",
+        "display" : "Inupiat"
+      },
+      {
         "code" : "1340-9",
         "display" : "Lumbee"
       },
@@ -111,6 +113,10 @@ No Expansion for this valueset (Unknown Code System)
       {
         "code" : "4093-1",
         "display" : "Mayan"
+      },
+      {
+        "code" : "1193-2",
+        "display" : "Muscogee (Creek)"
       },
       {
         "code" : "3321-7",
@@ -134,7 +140,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
       "concept" : [{
         "code" : "9999-1",
         "display" : "Athabascan"
@@ -142,14 +148,6 @@ No Expansion for this valueset (Unknown Code System)
       {
         "code" : "9999-2",
         "display" : "Haudenosaunee"
-      },
-      {
-        "code" : "9999-3",
-        "display" : "Inupiat"
-      },
-      {
-        "code" : "9999-4",
-        "display" : "Muscogee (Eastern, Lower, Star Clan) "
       }]
     },
     {
@@ -160,7 +158,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

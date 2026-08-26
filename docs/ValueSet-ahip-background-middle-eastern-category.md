@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-background-middle-eastern-category | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPBackgroundMiddleEasternCategories |
+| Active as of 2026-08-25 | *Computable Name*:AHIPBackgroundMiddleEasternCategories |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-AHIP Middle Eastern Background Categories 
+Used as the granular follow-up answer options shown when the patient selects Middle Eastern or North African on the race/ethnicity question. 
 
  **References** 
 
@@ -24,8 +24,6 @@ AHIP Middle Eastern Background Categories
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPBackgroundMiddleEasternCategories",
   "title" : "AHIP Middle Eastern Background Categories",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,7 +61,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Middle Eastern Background Categories",
+  "description" : "Used as the granular follow-up answer options shown when the patient selects Middle Eastern or North African on the race/ethnicity question.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -98,7 +96,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
       "concept" : [{
         "code" : "9999-13",
         "display" : "Emirati"
@@ -140,7 +138,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

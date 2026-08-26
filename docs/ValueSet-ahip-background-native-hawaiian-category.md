@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPRaceNativeHawaiianCategories |
+| Active as of 2026-08-25 | *Computable Name*:AHIPBackgroundNativeHawaiianCategories |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-AHIP Native Hawaiian Background Categories 
+Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question. 
 
  **References** 
 
@@ -24,8 +24,6 @@ AHIP Native Hawaiian Background Categories
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -50,11 +48,11 @@ No Expansion for this valueset (Unknown Code System)
   "id" : "ahip-background-native-hawaiian-category",
   "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category",
   "version" : "0.1.0",
-  "name" : "AHIPRaceNativeHawaiianCategories",
+  "name" : "AHIPBackgroundNativeHawaiianCategories",
   "title" : "AHIP Native Hawaiian Background Categories",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,7 +61,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Native Hawaiian Background Categories",
+  "description" : "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -85,10 +83,6 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Polynesian"
       },
       {
-        "code" : "2093-3",
-        "display" : "Kosraean"
-      },
-      {
         "code" : "2090-9",
         "display" : "Marshallese"
       },
@@ -105,10 +99,6 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Papua New Guinean"
       },
       {
-        "code" : "2094-1",
-        "display" : "Pohnpeian"
-      },
-      {
         "code" : "2080-0",
         "display" : "Samoan"
       },
@@ -118,7 +108,7 @@ No Expansion for this valueset (Unknown Code System)
       },
       {
         "code" : "2098-2",
-        "display" : "Yapese"
+        "display" : "Yap"
       }]
     },
     {
@@ -129,7 +119,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

@@ -21,16 +21,10 @@
 
 * [AHIP Demo Additional Language](CodeSystem-AHIP-Demo-Additional-Language.md)
 * [AHIP Demo Additional NullFlavor](CodeSystem-AHIP-Demo-Additional-NullFlavor.md)
-* [AHIP Demo Additional Reading Modes](CodeSystem-AHIP-Demo-Additional-Reading-Modes.md)
 * [AHIP Demo Additional Background Codes](CodeSystem-ahip-demo-additional-background-codes.md)
-* [AHIP Demo Additional Care Consideration Codes](CodeSystem-ahip-demo-additional-care-consideration-codes.md)
-* [AHIP Demo Additional Disability Codes](CodeSystem-ahip-demo-additional-disability-codes.md)
-* [AHIP Demo Additional Gender Codes](CodeSystem-ahip-demo-additional-gender-codes.md)
-* [AHIP Demo Additional Interpreter modes](CodeSystem-ahip-demo-additional-interpreter-modes.md)
-* [AHIP Demo Additional Military Period](CodeSystem-ahip-demo-additional-military-period.md)
-* [AHIP Demo Additional Outreach modes](CodeSystem-ahip-demo-additional-outreach-modes.md)
 * [AHIP Demo Additional Relationship Status Codes](CodeSystem-ahip-demo-additional-relationship-status-codes.md)
 * [AHIP Demo Additional Religion Codes](CodeSystem-ahip-demo-additional-religion-codes.md)
+* [AHIP Demo Disability Codes](CodeSystem-ahip-demo-disability-codes.md)
 
 ### ValueSets
 
@@ -43,13 +37,13 @@
 * [AHIP White Background Categories](ValueSet-ahip-background-white-category.md)
 * [AHIP Birth Sex](ValueSet-ahip-birth-sex.md)
 * [AHIP Care Consideration Value Set](ValueSet-ahip-care-consideration.md)
-* [AHIP Gender](ValueSet-ahip-demo-gender-identity.md)
+* [AHIP Gender Identity](ValueSet-ahip-demo-gender-identity.md)
 * [AHIP Disability](ValueSet-ahip-disability.md)
 * [AHIP Interpreter Modes](ValueSet-ahip-interpreter-modes.md)
 * [AHIP US Military Service Period Codes](ValueSet-ahip-military-service-period.md)
 * [AHIP Outreach Modes](ValueSet-ahip-outreach-mode.md)
 * [AHIP Preferred Pronouns](ValueSet-ahip-preferred-pronouns.md)
-* [AHIP Race Categories](ValueSet-ahip-race-category.md)
+* [AHIP Race and Ethnicity Categories](ValueSet-ahip-race-category.md)
 * [AHIP Reading Language Preferences](ValueSet-ahip-reading-language-prereferences.md)
 * [AHIP Relationship Status](ValueSet-ahip-relationship-status.md)
 * [AHIP Christian Religion Detail Value Set](ValueSet-ahip-religion-christian-detail.md)
@@ -57,8 +51,8 @@
 * [AHIP Religion/Spirituality Value Set](ValueSet-ahip-religion-spirituality.md)
 * [AHIP Sexual Orientation](ValueSet-ahip-sexual-orientation.md)
 * [AHIP Speaking Language Preferences](ValueSet-ahip-speaking-language-prereferences.md)
-* [AHIP Yes or No Answer](ValueSet-ahip-yes-no-plain.md)
-* [AHIP Yes or No Answer](ValueSet-ahip-yes-no.md)
+* [AHIP Yes, No, Don't Know, or No Response](ValueSet-ahip-yes-no-dont-know-no-response.md)
+* [AHIP Yes, No, or No Response](ValueSet-ahip-yes-no-no-response.md)
 
 ### ImplementationGuides
 

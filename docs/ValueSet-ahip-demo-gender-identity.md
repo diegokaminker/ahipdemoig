@@ -1,19 +1,19 @@
-# AHIP Gender - v0.1.0
+# AHIP Gender Identity - v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **AHIP Gender**
+* **AHIP Gender Identity**
 
-## ValueSet: AHIP Gender 
+## ValueSet: AHIP Gender Identity 
 
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPDemoGenderIdentityValueSet |
+| Active as of 2026-08-25 | *Computable Name*:AHIPDemoGenderIdentityValueSet |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Based on HL7 Gender-Identity 
+Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set 
 
  **References** 
 
@@ -24,8 +24,6 @@ Based on HL7 Gender-Identity
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -51,10 +49,10 @@ No Expansion for this valueset (Unknown Code System)
   "url" : "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity",
   "version" : "0.1.0",
   "name" : "AHIPDemoGenderIdentityValueSet",
-  "title" : "AHIP Gender",
-  "status" : "draft",
+  "title" : "AHIP Gender Identity",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,45 +61,43 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on HL7 Gender-Identity",
+  "description" : "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/gender-identity",
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/731000124108",
       "concept" : [{
-        "code" : "male",
+        "code" : "446151000124109",
         "display" : "Man"
       },
       {
-        "code" : "female",
+        "code" : "446141000124107",
         "display" : "Woman"
       },
       {
-        "code" : "transgender-man",
+        "code" : "911621000124109",
         "display" : "Transgender Man"
       },
       {
-        "code" : "transgender-woman",
+        "code" : "911581000124109",
         "display" : "Transgender Woman"
       },
       {
-        "code" : "non-binary",
+        "code" : "33791000087105",
         "display" : "Non-Binary (neither exclusively male nor female)"
-      }]
-    },
-    {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-gender-codes",
-      "concept" : [{
-        "code" : "#GF",
+      },
+      {
+        "code" : "911671000124105",
         "display" : "Gender Fluid (non-fixed gender indentity that may change overtime)"
       },
       {
-        "code" : "TS",
+        "code" : "911541000124103",
         "display" : "Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "PSIN",
         "display" : "Please specify if not listed above"

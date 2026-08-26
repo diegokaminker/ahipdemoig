@@ -1,19 +1,19 @@
-# AHIP Race Categories - v0.1.0
+# AHIP Race and Ethnicity Categories - v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **AHIP Race Categories**
+* **AHIP Race and Ethnicity Categories**
 
-## ValueSet: AHIP Race Categories 
+## ValueSet: AHIP Race and Ethnicity Categories 
 
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-race-category | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPRaceCategories |
+| Active as of 2026-08-25 | *Computable Name*:AHIPRaceEtnicityCategories |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Based on OMB Categories but adding Hispanic/Latino for consistency 
+Used as the answer options for the initial race/ethnicity question in the Race & Ethnicity Section; the selection made here drives which granular background value set is conditionally shown next. 
 
  **References** 
 
@@ -24,8 +24,6 @@ Based on OMB Categories but adding Hispanic/Latino for consistency
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -50,11 +48,11 @@ No Expansion for this valueset (Unknown Code System)
   "id" : "ahip-race-category",
   "url" : "http://ahip.org/demographics/ValueSet/ahip-race-category",
   "version" : "0.1.0",
-  "name" : "AHIPRaceCategories",
-  "title" : "AHIP Race Categories",
-  "status" : "draft",
+  "name" : "AHIPRaceEtnicityCategories",
+  "title" : "AHIP Race and Ethnicity Categories",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,7 +61,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on OMB Categories but adding Hispanic/Latino for consistency",
+  "description" : "Used as the answer options for the initial race/ethnicity question in the Race & Ethnicity Section; the selection made here drives which granular background value set is conditionally shown next.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -74,7 +72,7 @@ No Expansion for this valueset (Unknown Code System)
       },
       {
         "code" : "2028-9",
-        "display" : "Asian"
+        "display" : "Asian or Asian American"
       },
       {
         "code" : "2054-5",
@@ -90,10 +88,10 @@ No Expansion for this valueset (Unknown Code System)
       },
       {
         "code" : "2106-3",
-        "display" : "White"
+        "display" : "White or European"
       },
       {
-        "code" : "2131-1",
+        "code" : "2135-2",
         "display" : "Hispanic or Latino/a/e"
       }]
     },
@@ -105,7 +103,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

@@ -9,14 +9,35 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor | *Version*:0.1.0 |
-| Draft as of 2025-03-25 | *Computable Name*:AHIPDemoAdditionalNullFlavor |
+| Active as of 2026-08-25 | *Computable Name*:AHIPDemoAdditionalNullFlavor |
 
  
 An additional collection of codes specifying why a valid value is not present. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [AHIPBackgroundAsianCategories](ValueSet-ahip-background-asian-category.md)
+* [AHIPBackgroundBlackCategories](ValueSet-ahip-background-black-category.md)
+* [AHIPBackgroundLatinoCategories](ValueSet-ahip-background-latino-category.md)
+* [AHIPBackgroundMiddleEasternCategories](ValueSet-ahip-background-middle-eastern-category.md)
+* [AHIPBackgroundNativeAmericanCategories](ValueSet-ahip-background-native-american-category.md)
+* [AHIPBackgroundNativeHawaiianCategories](ValueSet-ahip-background-native-hawaiian-category.md)
+* [AHIPBackgroundWhiteCategories](ValueSet-ahip-background-white-category.md)
+* [AHIPBirthSex](ValueSet-ahip-birth-sex.md)
+* [AHIPCareConsideration](ValueSet-ahip-care-consideration.md)
+* [AHIPDemoGenderIdentityValueSet](ValueSet-ahip-demo-gender-identity.md)
+* [AHIPDisability](ValueSet-ahip-disability.md)
+* [AHIPInterpreterModes](ValueSet-ahip-interpreter-modes.md)
+* [AHIPOutreachMode](ValueSet-ahip-outreach-mode.md)
+* [AHIPPreferredPronouns](ValueSet-ahip-preferred-pronouns.md)
+* [AHIPRaceEtnicityCategories](ValueSet-ahip-race-category.md)
+* [AHIPReadingLanguagePreferences](ValueSet-ahip-reading-language-prereferences.md)
+* [AHIPRelationshipStatus](ValueSet-ahip-relationship-status.md)
+* [AHIPReligionSpirituality](ValueSet-ahip-religion-spirituality.md)
+* [AHIPSexualOrientation](ValueSet-ahip-sexual-orientation.md)
+* [AHIPSpeakingLanguagePreferences](ValueSet-ahip-speaking-language-prereferences.md)
+* [AHIPDemoYesNoDontKnowNoResponse](ValueSet-ahip-yes-no-dont-know-no-response.md)
+* [AHIPDemoYesNoNoResponse](ValueSet-ahip-yes-no-no-response.md)
 
 
 
@@ -31,9 +52,9 @@ An additional collection of codes specifying why a valid value is not present.
   "version" : "0.1.0",
   "name" : "AHIPDemoAdditionalNullFlavor",
   "title" : "AHIP Demo Additional NullFlavor",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-25T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",

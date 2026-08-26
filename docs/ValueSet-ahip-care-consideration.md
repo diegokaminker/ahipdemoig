@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-care-consideration | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPCareConsideration |
+| Active as of 2026-08-25 | *Computable Name*:AHIPCareConsideration |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-AHIP Care Consideration Codes 
+Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care. 
 
  **References** 
 
@@ -24,8 +24,6 @@ AHIP Care Consideration Codes
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPCareConsideration",
   "title" : "AHIP Care Consideration Value Set",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,35 +61,11 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Care Consideration Codes",
+  "description" : "Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-care-consideration-codes",
-      "concept" : [{
-        "code" : "HEBE",
-        "display" : "Health beliefs"
-      },
-      {
-        "code" : "CUPR",
-        "display" : "Cultural preferences"
-      },
-      {
-        "code" : "REBE",
-        "display" : "Religious beliefs (e.g., no blood transfusions, need or want particular people in the room with you or before procedures or for end of life rituals, etc.)"
-      },
-      {
-        "code" : "SPBE",
-        "display" : "Spiritual beliefs"
-      },
-      {
-        "code" : "DIET",
-        "display" : "Specific diet followed (e.g., Halal, Kosher, Pescatarian, Vegetarian, Vegan)"
-      },
-      {
-        "code" : "CARE",
-        "display" : "Caregiving status"
-      }]
+      "system" : "http://terminology.hl7.org/CodeSystem/care-consideration"
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
@@ -101,7 +75,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

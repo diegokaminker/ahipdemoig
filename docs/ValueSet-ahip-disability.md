@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-disability | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPDisability |
+| Active as of 2026-08-25 | *Computable Name*:AHIPDisability |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Based on our own list of disabilities 
+Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition. 
 
  **References** 
 
@@ -24,8 +24,6 @@ Based on our own list of disabilities
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPDisability",
   "title" : "AHIP Disability",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,62 +61,21 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on our own list of disabilities",
+  "description" : "Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-disability-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes"
+    },
+    {
+      "system" : "http://loinc.org",
       "concept" : [{
-        "code" : "COMM",
-        "display" : "Communicating or being understood using your usual language"
-      },
-      {
-        "code" : "CONC",
-        "display" : "Concentrating, remembering, or making decisions"
-      },
-      {
-        "code" : "COOK",
-        "display" : "Cooking for oneself"
-      },
-      {
-        "code" : "DRES",
-        "display" : "Dressing or bathing"
-      },
-      {
-        "code" : "ERRA",
-        "display" : "Doing errands alone"
-      },
-      {
-        "code" : "FEED",
-        "display" : "Feeding oneself"
-      },
-      {
-        "code" : "HEAR",
-        "display" : "Hearing"
-      },
-      {
-        "code" : "SEEI",
-        "display" : "Seeing (even when wearing glasses)"
-      },
-      {
-        "code" : "UNDE",
-        "display" : "Understanding when someone speaks in your usual language"
-      },
-      {
-        "code" : "TOIL",
-        "display" : "Using the toilet"
-      },
-      {
-        "code" : "WALK",
-        "display" : "Walking or climbing stairs"
-      },
-      {
-        "code" : "NONE",
+        "code" : "LA137-2",
         "display" : "None"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "PSIN",
         "display" : "Other difficulties when doing activities throughout your day (please describe)"

@@ -9,14 +9,18 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes | *Version*:0.1.0 |
-| Draft as of 2025-03-25 | *Computable Name*:AHIPDemoAdditionalBackgroundCodes |
+| Active as of 2026-08-25 | *Computable Name*:AHIPDemoAdditionalBackgroundCodes |
 
  
 An additional collection of background codes completing the gaps in CDC codes 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [AHIPBackgroundBlackCategories](ValueSet-ahip-background-black-category.md)
+* [AHIPBackgroundLatinoCategories](ValueSet-ahip-background-latino-category.md)
+* [AHIPBackgroundMiddleEasternCategories](ValueSet-ahip-background-middle-eastern-category.md)
+* [AHIPBackgroundNativeAmericanCategories](ValueSet-ahip-background-native-american-category.md)
+* [AHIPBackgroundWhiteCategories](ValueSet-ahip-background-white-category.md)
 
 
 
@@ -31,9 +35,9 @@ An additional collection of background codes completing the gaps in CDC codes
   "version" : "0.1.0",
   "name" : "AHIPDemoAdditionalBackgroundCodes",
   "title" : "AHIP Demo Additional Background Codes",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-25T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",

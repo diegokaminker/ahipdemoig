@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPReligionJewishDetail |
+| Active as of 2026-08-25 | *Computable Name*:AHIPReligionJewishDetail |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-AHIP Jewish Religion Detail Codes 
+Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question. 
 
  **References** 
 
@@ -24,8 +24,6 @@ AHIP Jewish Religion Detail Codes
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPReligionJewishDetail",
   "title" : "AHIP Jewish Religion Detail Value Set",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,11 +61,11 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Jewish Religion Detail Codes",
+  "description" : "Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
       "concept" : [{
         "code" : "JREF",
         "display" : "Reform"

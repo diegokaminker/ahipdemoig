@@ -10,9 +10,9 @@
   "version" : "0.1.0",
   "name" : "AHIPDemoAdditionalReligionCodes",
   "title" : "AHIP Demo Additional Religion Codes",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-25T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",

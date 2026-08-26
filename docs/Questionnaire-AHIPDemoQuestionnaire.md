@@ -337,7 +337,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
       "text" : "If an interpreter in your preferred language were available right now, would you choose to use one for your health care visit?",
       "type" : "open-choice",
       "required" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-plain"
+      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-no-response"
     },
     {
       "extension" : [{
@@ -522,7 +522,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
       "text" : "Have you ever served in the United States Armed Forces, military Reserves, or National Guard? Select one.",
       "type" : "choice",
       "required" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no"
+      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response"
     },
     {
       "extension" : [{
@@ -581,7 +581,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
       "text" : "Did an immediate family member who you live or lived with ever serve in the United States Armed Forces, military Reserves, or National Guard? (i.e., parent, guardian, spouse, partner, child, sibling etc.) Select one.​",
       "type" : "choice",
       "required" : false,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no"
+      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response"
     },
     {
       "linkId" : "MS-5.5",
@@ -603,7 +603,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
         "linkId" : "MS-5.5.1",
         "text" : "Are you serving or have you ever served in the armed forces of a country other than the United States? (Select one)​",
         "type" : "choice",
-        "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no"
+        "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response"
       },
       {
         "linkId" : "MS-5.5.2",
@@ -649,7 +649,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
         "text" : "Do you live with, or have you ever lived with, someone who is currently or has ever served in the armed forces of a country other than the United States? (i.e., parent, guardian, spouse, partner, child, sibling etc.) (Select one)",
         "type" : "choice",
         "required" : false,
-        "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no"
+        "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response"
       }]
     }]
   },
@@ -715,7 +715,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
         "question" : "SAOC-6.2",
         "operator" : "=",
         "answerCoding" : {
-          "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes",
+          "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
           "code" : "CHRI"
         }
       }],

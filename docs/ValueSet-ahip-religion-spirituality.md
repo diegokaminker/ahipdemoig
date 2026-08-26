@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-spirituality | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPReligionSpirituality |
+| Active as of 2026-08-25 | *Computable Name*:AHIPReligionSpirituality |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-Based on HL7 Religion Value Set 
+Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section. 
 
  **References** 
 
@@ -24,8 +24,6 @@ Based on HL7 Religion Value Set
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPReligionSpirituality",
   "title" : "AHIP Religion/Spirituality Value Set",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,7 +61,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on HL7 Religion Value Set",
+  "description" : "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -150,7 +148,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
       "concept" : [{
         "code" : "CHRI",
         "display" : "Christianity (e.g. Protestant, Roman Catholic, Russian Orthodox, Seventh-day Adventist)"
@@ -165,7 +163,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "PSIN",
         "display" : "Please specify if not listed above"

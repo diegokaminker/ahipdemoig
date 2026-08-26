@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-background-black-category | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPBackgroundBlackCategories |
+| Active as of 2026-08-25 | *Computable Name*:AHIPBackgroundBlackCategories |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-AHIP Black Background Categories 
+Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question. 
 
  **References** 
 
@@ -24,8 +24,6 @@ AHIP Black Background Categories
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPBackgroundBlackCategories",
   "title" : "AHIP Black Background Categories",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,7 +61,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Black Background Categories",
+  "description" : "Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -101,12 +99,16 @@ No Expansion for this valueset (Unknown Code System)
         "display" : "Nigerian"
       },
       {
+        "code" : "4186-3",
+        "display" : "Somali"
+      },
+      {
         "code" : "2074-3",
         "display" : "Trinidadian"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-background-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
       "concept" : [{
         "code" : "9999-5",
         "display" : "Angolan"
@@ -130,10 +132,6 @@ No Expansion for this valueset (Unknown Code System)
       {
         "code" : "9999-10",
         "display" : "Sudanese"
-      },
-      {
-        "code" : "9999-11",
-        "display" : "Somali"
       }]
     },
     {
@@ -144,7 +142,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

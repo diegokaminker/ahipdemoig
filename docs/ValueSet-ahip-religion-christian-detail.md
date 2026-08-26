@@ -9,11 +9,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail | *Version*:0.1.0 |
-| Draft as of 2025-03-24 | *Computable Name*:AHIPReligionChristianDetail |
+| Active as of 2026-08-25 | *Computable Name*:AHIPReligionChristianDetail |
 | **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
 
  
-AHIP Christian Religion Detail Codes 
+Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question. 
 
  **References** 
 
@@ -24,8 +24,6 @@ AHIP Christian Religion Detail Codes
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -52,9 +50,9 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "0.1.0",
   "name" : "AHIPReligionChristianDetail",
   "title" : "AHIP Christian Religion Detail Value Set",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -63,7 +61,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Christian Religion Detail Codes",
+  "description" : "Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -122,7 +120,7 @@ No Expansion for this valueset (Unknown Code System)
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-religion-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
       "concept" : [{
         "code" : "ORCO",
         "display" : "Orthodox Coptic"

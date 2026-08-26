@@ -3,15 +3,15 @@
   "id" : "ahip-care-consideration",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-care-consideration</b></p><a name=\"ahip-care-consideration\"> </a><a name=\"hcahip-care-consideration\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-care-consideration-codes</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>HEBE</td><td>Health beliefs</td></tr><tr><td>CUPR</td><td>Cultural preferences</td></tr><tr><td>REBE</td><td>Religious beliefs (e.g., no blood transfusions, need or want particular people in the room with you or before procedures or for end of life rituals, etc.)</td></tr><tr><td>SPBE</td><td>Spiritual beliefs</td></tr><tr><td>DIET</td><td>Specific diet followed (e.g., Halal, Kosher, Pescatarian, Vegetarian, Vegan)</td></tr><tr><td>CARE</td><td>Caregiving status</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references\"> version &#x1F4E6;3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>Asked but unknown</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-care-consideration</b></p><a name=\"ahip-care-consideration\"> </a><a name=\"hcahip-care-consideration\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-care-consideration.html\"><code>http://terminology.hl7.org/CodeSystem/care-consideration</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 1.0.0, the version found through the package references\"> version &#x1F4E6;1.0.0</span></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 4.0.0, the version found through the package references\"> version &#x1F4E6;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>Asked but unknown</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-AHIP-Demo-Additional-NullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td></tr><tr><td><a href=\"CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN\">PSIN</a></td><td>Please specify if not listed above</td><td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td></tr></table></li></ul></div>"
   },
   "url" : "http://ahip.org/demographics/ValueSet/ahip-care-consideration",
   "version" : "0.1.0",
   "name" : "AHIPCareConsideration",
   "title" : "AHIP Care Consideration Value Set",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -20,35 +20,11 @@
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "AHIP Care Consideration Codes",
+  "description" : "Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-care-consideration-codes",
-      "concept" : [{
-        "code" : "HEBE",
-        "display" : "Health beliefs"
-      },
-      {
-        "code" : "CUPR",
-        "display" : "Cultural preferences"
-      },
-      {
-        "code" : "REBE",
-        "display" : "Religious beliefs (e.g., no blood transfusions, need or want particular people in the room with you or before procedures or for end of life rituals, etc.)"
-      },
-      {
-        "code" : "SPBE",
-        "display" : "Spiritual beliefs"
-      },
-      {
-        "code" : "DIET",
-        "display" : "Specific diet followed (e.g., Halal, Kosher, Pescatarian, Vegetarian, Vegan)"
-      },
-      {
-        "code" : "CARE",
-        "display" : "Caregiving status"
-      }]
+      "system" : "http://terminology.hl7.org/CodeSystem/care-consideration"
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
@@ -58,7 +34,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

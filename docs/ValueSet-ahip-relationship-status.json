@@ -3,15 +3,15 @@
   "id" : "ahip-relationship-status",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-relationship-status</b></p><a name=\"ahip-relationship-status\"> </a><a name=\"hcahip-relationship-status\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-MaritalStatus.html\"><code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references\"> version &#x1F4E6;3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-M\">M</a></td><td>Married</td><td>A current marriage contract is active</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-D\">D</a></td><td>Divorced</td><td>Marriage contract has been declared dissolved and inactive</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-L\">L</a></td><td>Separated</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-W\">W</a></td><td>Widowed</td><td>The spouse has died</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-T\">T</a></td><td>In a registered domestic partnership</td><td>Person declares that a domestic partner relationship exists.</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-U\">U</a></td><td>Single</td><td>Currently not in a marriage contract.</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-relationship-status-codes</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>DATI</td><td>Dating (non-committed relationship)</td></tr><tr><td>MONR</td><td>Monogamous Relationship (In a committed relationship with one person but not married</td></tr><tr><td>POLY</td><td>Polyamorous Relationship (In a committed relationship with more than one person)</td></tr></table></li><li>Include these codes as defined in <code>http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>PSIN</td><td>Please specify if not listed above</td></tr><tr><td>CNTR</td><td>I choose not to respond at this time</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-relationship-status</b></p><a name=\"ahip-relationship-status\"> </a><a name=\"hcahip-relationship-status\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-MaritalStatus.html\"><code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 5.0.0, the version found through the package references\"> version &#x1F4E6;5.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-M\">M</a></td><td>Married</td><td>A current marriage contract is active</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-D\">D</a></td><td>Divorced</td><td>Marriage contract has been declared dissolved and inactive</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-L\">L</a></td><td>Separated</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-W\">W</a></td><td>Widowed</td><td>The spouse has died</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-T\">T</a></td><td>In a registered domestic partnership</td><td>Person declares that a domestic partner relationship exists.</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-U\">U</a></td><td>Single</td><td>Currently not in a marriage contract.</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-relationship-status-codes.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-relationship-status-codes.html#ahip-demo-additional-relationship-status-codes-DATI\">DATI</a></td><td>Dating (in a non-committed relationship with one person or more than one person)</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-relationship-status-codes.html#ahip-demo-additional-relationship-status-codes-MONR\">MONR</a></td><td>In a committed relationship with one person but not married (monogamous relationship)</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-relationship-status-codes.html#ahip-demo-additional-relationship-status-codes-POLY\">POLY</a></td><td>In a committed relationship with more than one person (polyamorous relationship)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-AHIP-Demo-Additional-NullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN\">PSIN</a></td><td>Please specify if not listed above</td><td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td></tr><tr><td><a href=\"CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td></tr></table></li></ul></div>"
   },
   "url" : "http://ahip.org/demographics/ValueSet/ahip-relationship-status",
   "version" : "0.1.0",
   "name" : "AHIPRelationshipStatus",
   "title" : "AHIP Relationship Status",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-24T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -20,7 +20,7 @@
       "value" : "http://ahip.org"
     }]
   }],
-  "description" : "Based on HL7 Marital Status Value Set",
+  "description" : "Used as the answer options for the relationship status question in the SOGI and Relationship Status Section.",
   "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "compose" : {
     "include" : [{
@@ -51,22 +51,22 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/ahip-demo-additional-relationship-status-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes",
       "concept" : [{
         "code" : "DATI",
-        "display" : "Dating (non-committed relationship)"
+        "display" : "Dating (in a non-committed relationship with one person or more than one person)"
       },
       {
         "code" : "MONR",
-        "display" : "Monogamous Relationship (In a committed relationship with one person but not married"
+        "display" : "In a committed relationship with one person but not married (monogamous relationship)"
       },
       {
         "code" : "POLY",
-        "display" : "Polyamorous Relationship (In a committed relationship with more than one person)"
+        "display" : "In a committed relationship with more than one person (polyamorous relationship)"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo/CodeSystem/AHIPDemoAdditionalNullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
         "code" : "PSIN",
         "display" : "Please specify if not listed above"

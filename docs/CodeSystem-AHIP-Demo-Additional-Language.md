@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language | *Version*:0.1.0 |
-| Draft as of 2025-03-25 | *Computable Name*:AHIPDemoAdditionalLanguage |
+| Active as of 2026-08-25 | *Computable Name*:AHIPDemoAdditionalLanguage |
 
  
 An additional collection of codes specifying languages 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [AHIPSpeakingLanguagePreferences](ValueSet-ahip-speaking-language-prereferences.md)
 
 
 
@@ -31,9 +31,9 @@ An additional collection of codes specifying languages
   "version" : "0.1.0",
   "name" : "AHIPDemoAdditionalLanguage",
   "title" : "AHIP Demo Additional Language",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-25T00:00:00-04:00",
+  "date" : "2026-08-25T00:00:00-04:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -45,12 +45,8 @@ An additional collection of codes specifying languages
   "description" : "An additional collection of codes specifying languages",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 2,
+  "count" : 1,
   "concept" : [{
-    "code" : "tai",
-    "display" : "Taino"
-  },
-  {
     "code" : "osl",
     "display" : "Other Sign Language"
   }]
