@@ -16,7 +16,7 @@ An additional collection of relationship status codes
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [AHIPRelationshipStatus](ValueSet-ahip-relationship-status.md)
+* [AHIP Relationship Status](ValueSet-ahip-relationship-status.md)
 
 
 

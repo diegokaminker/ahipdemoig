@@ -16,9 +16,9 @@ An additional collection of religion and spiritual belief codes
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [AHIPReligionChristianDetail](ValueSet-ahip-religion-christian-detail.md)
-* [AHIPReligionJewishDetail](ValueSet-ahip-religion-jewish-detail.md)
-* [AHIPReligionSpirituality](ValueSet-ahip-religion-spirituality.md)
+* [AHIP Christian Religion Detail Value Set](ValueSet-ahip-religion-christian-detail.md)
+* [AHIP Jewish Religion Detail Value Set](ValueSet-ahip-religion-jewish-detail.md)
+* [AHIP Religion/Spirituality Value Set](ValueSet-ahip-religion-spirituality.md)
 
 
 

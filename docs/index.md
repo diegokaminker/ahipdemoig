@@ -52,7 +52,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
   "version" : "0.1.0",
   "name" : "AhipDemoIG",
   "status" : "draft",
-  "date" : "2026-08-26T12:43:40-03:00",
+  "date" : "2026-08-26T12:50:43-03:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",

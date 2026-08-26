@@ -16,11 +16,11 @@ An additional collection of background codes completing the gaps in CDC codes
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [AHIPBackgroundBlackCategories](ValueSet-ahip-background-black-category.md)
-* [AHIPBackgroundLatinoCategories](ValueSet-ahip-background-latino-category.md)
-* [AHIPBackgroundMiddleEasternCategories](ValueSet-ahip-background-middle-eastern-category.md)
-* [AHIPBackgroundNativeAmericanCategories](ValueSet-ahip-background-native-american-category.md)
-* [AHIPBackgroundWhiteCategories](ValueSet-ahip-background-white-category.md)
+* [AHIP Black Background Categories](ValueSet-ahip-background-black-category.md)
+* [AHIP Hispanic Latino Background Categories](ValueSet-ahip-background-latino-category.md)
+* [AHIP Middle Eastern Background Categories](ValueSet-ahip-background-middle-eastern-category.md)
+* [AHIP Native American Background Categories](ValueSet-ahip-background-native-american-category.md)
+* [AHIP White Background Categories](ValueSet-ahip-background-white-category.md)
 
 
 

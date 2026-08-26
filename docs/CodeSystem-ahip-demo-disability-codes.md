@@ -16,7 +16,7 @@ AHIP-specific codes identifying functional difficulty categories used to determi
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [AHIPDisability](ValueSet-ahip-disability.md)
+* [AHIP Disability](ValueSet-ahip-disability.md)
 
 
 
