@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "ahip.demo",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 26 Aug, 2026 11:54:47 -0300",
-  "dateISO8601" : "2026-08-26T11:54:47-03:00",
-  "errs" : 3,
+  "date" : "Wed, 26 Aug, 2026 12:43:40 -0300",
+  "dateISO8601" : "2026-08-26T12:43:40-03:00",
+  "errs" : 0,
   "warnings" : 36,
   "hints" : 143,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 512821680
+  "maxMemory" : 783222616
 }

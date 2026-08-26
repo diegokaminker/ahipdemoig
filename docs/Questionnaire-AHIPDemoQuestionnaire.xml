@@ -84,17 +84,12 @@
       <code>
         <system value="urn:oid:2.16.840.1.113883.6.238"/>
         <code value="1000-9"/>
-        <display value="Race Category"/>
-      </code>
-      <code>
-        <system value="urn:oid:2.16.840.1.113883.6.238"/>
-        <code value="2106-3"/>
-        <display value="Race Category"/>
+        <display value="Race"/>
       </code>
       <code>
         <system value="urn:oid:2.16.840.1.113883.6.238"/>
         <code value="2133-7"/>
-        <display value="Ethnicity Group"/>
+        <display value="Ethnicity"/>
       </code>
       <text value="Please tell us your background. Check all that apply. (If your background is not listed, please let us know by writing on the blank line)"/>
       <type value="choice"/>

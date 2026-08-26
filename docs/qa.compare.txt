@@ -1,7 +1,7 @@
 AhipDemoIG : Validation Results
 =========================================
 
-err = 3, warn = 36, info = 143
+err = 0, warn = 36, info = 143
 $--
 Generated $--. FHIR version $-- for ahip.demo#$-- (canonical = http://ahip.org/demographics)
  Build Errors : 0 / 4 / 0
@@ -12,7 +12,7 @@ Generated $--. FHIR version $-- for ahip.demo#$-- (canonical = http://ahip.org/d
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-ahip-demo-additional-religion-codes : 0 / 1 / 1
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-ahip-demo-disability-codes : 0 / 1 / 1
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ImplementationGuide-ahip.demo : 0 / 0 / 2
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/Questionnaire-AHIPDemoQuestionnaire : 3 / 1 / 29
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/Questionnaire-AHIPDemoQuestionnaire : 0 / 1 / 29
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-asian-category : 0 / 1 / 5
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-black-category : 0 / 1 / 2
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-latino-category : 0 / 1 / 5
@@ -60,9 +60,6 @@ WARNING: Resource: The resource CodeSystem/ahip-demo-disability-codes should hav
 INFORMATION: Resource: The resource ImplementationGuide/ahip.demo could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/Questionnaire-AHIPDemoQuestionnaire.json ==
 INFORMATION: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[0].item[0].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
-ERROR: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[0].item[0].code[0].display: Wrong Display Name 'Race Category' for urn:oid:2.16.840.1.113883.6.238#1000-9. Valid display is 'Race' (for the language(s) 'en-US')
-ERROR: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[0].item[0].code[1].display: Wrong Display Name 'Race Category' for urn:oid:2.16.840.1.113883.6.238#2106-3. Valid display is 'White' (for the language(s) 'en-US')
-ERROR: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[0].item[0].code[2].display: Wrong Display Name 'Ethnicity Group' for urn:oid:2.16.840.1.113883.6.238#2133-7. Valid display is 'Ethnicity' (for the language(s) 'en-US')
 INFORMATION: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[0].item[1].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
 INFORMATION: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[0].item[2].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
 INFORMATION: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[0].item[3].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1

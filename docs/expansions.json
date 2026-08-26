@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "9b485934-d044-4ebc-8b2d-c0c8121f7dec",
+  "id" : "fde3659f-21f2-4acc-9fcf-91efd2c35876",
   "meta" : {
-    "lastUpdated" : "2026-08-26T11:54:47.981-03:00"
+    "lastUpdated" : "2026-08-26T12:43:40.914-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -21,8 +21,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:610debf5-5abb-4460-8fa5-b4f8f045febd",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:68aa802f-45f0-4cbd-9614-3758b8dcef07",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 20,
         "offset" : 0,
         "parameter" : [{
@@ -172,8 +172,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:116868ce-45d0-4706-89e7-922282ea7929",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:f7c98417-26fb-4b14-9987-314fd6b9d62e",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 19,
         "offset" : 0,
         "parameter" : [{
@@ -322,8 +322,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2e9f93f4-7cad-41ae-9674-d4fb49756bca",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:7913677e-5c02-430b-b8a5-999e32799aeb",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 22,
         "offset" : 0,
         "parameter" : [{
@@ -487,8 +487,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e913f580-be45-486c-a870-38a05abd35e5",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:4a9193c2-5c64-478f-8f06-cab8a471ff58",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
@@ -632,8 +632,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0b50dd9c-db0a-4f8e-be33-9b7efb18397e",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:a5c52758-2976-43c7-9e68-3c4a08df5c93",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 23,
         "offset" : 0,
         "parameter" : [{
@@ -802,8 +802,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:62bd9820-000f-4141-9490-b690b8f64213",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:cc6292a8-8146-49dd-a6be-38e1ec63008b",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 14,
         "offset" : 0,
         "parameter" : [{
@@ -923,8 +923,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:08e528c5-eedc-42dd-b4f1-92db27ee39a8",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:1e875e56-437c-4e9f-afce-8c182af178ff",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 22,
         "offset" : 0,
         "parameter" : [{
@@ -1088,8 +1088,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c6eaf21d-61eb-49b2-8ef0-dc120f2578f5",
-        "timestamp" : "2026-08-26T11:56:23-03:00",
+        "identifier" : "urn:uuid:d4fa76e9-870f-42f1-a517-2e6de6f58b8d",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1172,8 +1172,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:4a3b8140-4626-4aec-99ec-c6cfa49d78be",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:4e1916b0-dd18-41af-b392-2d7188c2532b",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1268,8 +1268,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:64ceaedd-3de9-4569-9d3c-635480a21a51",
-        "timestamp" : "2026-08-26T11:56:24-03:00",
+        "identifier" : "urn:uuid:5e347908-f61c-41c8-9e0d-20e478ebcf24",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -1377,8 +1377,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:95184427-f7af-44f2-afe3-9fde17a2e954",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:60b5322d-f36a-4411-9e7c-8efd0182740c",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 14,
         "offset" : 0,
         "parameter" : [{
@@ -1510,8 +1510,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:996c384d-f753-46ef-b2bb-467713aec7e9",
-        "timestamp" : "2026-08-26T11:56:23-03:00",
+        "identifier" : "urn:uuid:89fbe34f-7fb0-416c-b6e6-e4bfa6594620",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1577,8 +1577,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:dfc16949-6e87-439a-8a32-c282ec8349e2",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:16d3abfd-57c7-4809-a9ae-7e21d3d4e656",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1665,8 +1665,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ec29675f-d29c-4226-9204-63c90167b7d2",
-        "timestamp" : "2026-08-26T11:56:23-03:00",
+        "identifier" : "urn:uuid:cc7a0680-40ea-43db-ad65-d2e664bf15bc",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1737,8 +1737,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6506ea02-4597-4e96-9596-57446426d387",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:8512be1d-95b2-41b1-b65e-368aaa8f9f30",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1841,8 +1841,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ce5576bb-ab7d-423e-a16c-941e783f3297",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:b46962e2-81b6-4e19-b1b6-e5b7368a927f",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1937,8 +1937,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b06e574f-a826-4760-a825-988a3918ced9",
-        "timestamp" : "2026-08-26T11:56:22-03:00",
+        "identifier" : "urn:uuid:d0ee9c87-8ef9-46ae-bdfd-bce47efe246a",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 61,
         "offset" : 0,
         "parameter" : [{
@@ -2305,8 +2305,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e5abe6f3-254a-4e6e-b039-b172a5077beb",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:b67cc328-9239-4445-9b21-2cc49c321372",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -2411,8 +2411,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b79d01fe-abcf-4c8d-af90-e0d8d62ae908",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:c7d88537-43d2-4a18-8bc6-fb2837d22b85",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -2538,8 +2538,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:55a58652-0cd7-4867-85f5-41302c2c2835",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:5e41275b-c3c1-4f1c-a7e7-d9e4985c42d8",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2596,8 +2596,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0c79c8a0-8a80-4987-9698-0b65d26b6bc9",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:c2de04ae-5147-4aec-a7f1-f2776c1442b6",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 26,
         "offset" : 0,
         "parameter" : [{
@@ -2781,8 +2781,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e47e9e2a-cf5a-4140-b598-4ea135676064",
-        "timestamp" : "2026-08-26T11:56:23-03:00",
+        "identifier" : "urn:uuid:d6fd17cf-46fe-429f-a8ef-791236b21461",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -2880,8 +2880,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8802ffd1-c3e2-4250-8287-75c9bd604256",
-        "timestamp" : "2026-08-26T11:56:21-03:00",
+        "identifier" : "urn:uuid:675fd2de-f379-4029-8bc0-8de9bebcf028",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 60,
         "offset" : 0,
         "parameter" : [{
@@ -3243,8 +3243,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7ef7244d-8b0d-4066-8cae-cae5e2593caa",
-        "timestamp" : "2026-08-26T11:56:25-03:00",
+        "identifier" : "urn:uuid:f7f23b95-3df8-4691-ac85-32c43f06b4ee",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -3322,8 +3322,8 @@
       "experimental" : false,
       "date" : "2026-08-25T00:00:00-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:da73a368-6658-4194-9cb8-a71abf4c4ac7",
-        "timestamp" : "2026-08-26T11:56:22-03:00",
+        "identifier" : "urn:uuid:c9efc2b2-2aba-4a48-9395-ba9cc7dfd1e3",
+        "timestamp" : "2026-08-26T12:44:37-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

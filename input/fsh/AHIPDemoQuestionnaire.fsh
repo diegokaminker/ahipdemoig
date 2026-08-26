@@ -24,9 +24,8 @@ Usage: #example
 
 
 * item[=].item[0].type = #choice
-* item[=].item[=].code[0] = urn:oid:2.16.840.1.113883.6.238#1000-9 "Race Category"
-* item[=].item[=].code[+] = urn:oid:2.16.840.1.113883.6.238#2106-3 "Race Category"
-* item[=].item[=].code[+] = urn:oid:2.16.840.1.113883.6.238#2133-7 "Ethnicity Group"
+* item[=].item[=].code[0] = $CDCRACE#1000-9 "Race"
+* item[=].item[=].code[+] = $CDCRACE#2133-7 "Ethnicity"
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"

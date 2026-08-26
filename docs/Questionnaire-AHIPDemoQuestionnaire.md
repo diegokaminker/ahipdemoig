@@ -64,17 +64,12 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
       "code" : [{
         "system" : "urn:oid:2.16.840.1.113883.6.238",
         "code" : "1000-9",
-        "display" : "Race Category"
-      },
-      {
-        "system" : "urn:oid:2.16.840.1.113883.6.238",
-        "code" : "2106-3",
-        "display" : "Race Category"
+        "display" : "Race"
       },
       {
         "system" : "urn:oid:2.16.840.1.113883.6.238",
         "code" : "2133-7",
-        "display" : "Ethnicity Group"
+        "display" : "Ethnicity"
       }],
       "text" : "Please tell us your background. Check all that apply. (If your background is not listed, please let us know by writing on the blank line)",
       "type" : "choice",
