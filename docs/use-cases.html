@@ -41,8 +41,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"5"}
-    h3,h4,h5,h6{--heading-prefix:"5"}</style>
+    <style type="text/css">h2{--heading-prefix:"6"}
+    h3,h4,h5,h6{--heading-prefix:"6"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -92,10 +92,10 @@
     <a href="conventions.html">Conventions</a>
   </li>
   <li>
-    <a href="use-cases.html">Use Cases</a>
+    <a href="introduction.html">Introduction</a>
   </li>
   <li>
-    <a href="introduction.html">Introduction</a>
+    <a href="use-cases.html">Use Cases</a>
   </li>
   <li>
     <a href="supporting-specifications.html">Supporting Specifications</a>
@@ -170,9 +170,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>The Questionnaire can be administered by a variety of organizations across the healthcare ecosystem. Providers, for example, may integrate the questions and response choices in the EHRs or as part of their patient portals. Health plans may integrate the information into their enrollment forms, health risk assessments, or as part of their patient applications. Regardless of where the data are collected, given it is a standardized FHIR resource, it can be seamlessly shared among trusted parties. This could include public health agencies, community-based organizations, HIEs, and other stakeholders with a vested interest and role in improving access to and the quality of care.</p>
 
-<h2 id="example-use-case--provider-to-payer-social-and-clinical-needs-exchange">Example Use Case — Provider-to-Payer Social and Clinical Needs Exchange</h2>
+<h2 id="example-use-case-provider-to-payer-social-and-clinical-needs-exchange">Example Use Case: Provider-to-Payer Social and Clinical Needs Exchange</h2>
 
-<p>A primary care clinic embeds the standardized Questionnaire (per the Implementation Guide) in its EHR intake workflow and collects patient responses during visits or via the patient portal. The EHR exports a FHIR Questionnaire Response conforming to the IG and transmits it securely to the patient’s health plan via a FHIR REST API (or secure HIE) with appropriate consent and patient matching. The payer ingests the structured data to populate enrollment records, streamline prior-authorization decisions, and target member outreach (care management, SDOH referrals). Because both parties follow the IG, data semantics, validation rules, and versioning are consistent, enabling automated processing, reduced manual follow-up, and auditable exchanges.</p>
+<p>A primary care clinic embeds the standardized Questionnaire (per the Implementation Guide) in its EHR intake workflow and collects patient responses during visits or via the patient portal. The EHR exports a FHIR Questionnaire Response conforming to the IG and transmits it securely to the patient's health plan via a FHIR REST API (or secure HIE) with appropriate consent and patient matching. The payer ingests the structured data to populate enrollment records, track trends by population, offer guidance to provider partners, and target member outreach (care management, SDOH referrals). Because both parties follow the IG, data semantics, validation rules, and versioning are consistent, enabling automated processing, reduced manual follow-up, and auditable exchanges.</p>
+
+<h2 id="example-use-case-provider-using-the-demo-questionnaire-during-intake">Example Use Case: Provider Using the DEMo Questionnaire During Intake</h2>
+
+<p>A healthcare provider incorporates the DEMo FHIR Questionnaire into its patient intake process to collect standardized demographic information directly from patients. The Questionnaire is made available through the patient portal, pre-visit workflow, registration process, or another electronic intake application. Before a health care encounter, the patient is invited to complete the DEMo Questionnaire. The Questionnaire provides a standardized approach to collecting demographic information while allowing patients to provide responses that accurately reflect how they identify. After the patient completes the DEMo Questionnaire, the standardized response options ensure that demographic information is captured consistently while preserving appropriate opportunities for self-identification, including responses such as "prefer not to answer" when applicable. The responses are captured as a FHIR QuestionnaireResponse and demographic information is incorporated into the patient's record. The provider may then use the standardized responses to populate or update appropriate demographic information in the patient's electronic health record and the patient's responses support more culturally competent care delivery. Clinicians and care teams use this demographic information to support patient-centered communication, care planning, identification of disparities, and other clinical or operational workflows. The standardized data can also be used for population health, quality measurement, and disparities analysis.</p>
+
+<h2 id="example-use-case-payer-collecting-the-demo-questionnaire-during-enrollment">Example Use Case: Payer Collecting the DEMo Questionnaire During Enrollment</h2>
+
+<p>A health plan incorporates the DEMo FHIR Questionnaire into its member enrollment process to collect standardized demographic information directly from new and existing members. The questionnaire is presented through the plan's member portal, enrollment application, or other digital enrollment workflow.</p>
+
+<p>The questionnaire is presented during enrollment, and as part of the enrollment process, the member is invited to complete the DEMo Questionnaire. The Questionnaire uses standardized questions, response options, and terminology to support consistent collection of demographic information. The member completes the Questionnaire and provides demographic information directly, including the ability to select applicable responses and, where appropriate, indicate that they prefer not to answer or that a particular response does not apply. The member's responses are captured as a FHIR QuestionnaireResponse. The payer's system then creates a structured QuestionnaireResponse linked to the member and the specific version of the DEMo Questionnaire used for data collection. Their responses are incorporated into the member's record, and the payer may use the standardized responses to populate or update demographic information within the member's administrative record. Because this information is collected using a standardized questionnaire, the payer can maintain greater consistency across enrollment channels and reduce reliance on locally defined demographic questions and response options.</p>
 
 
 
@@ -193,7 +203,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ahip.org">AHIP</a>.  Package ahip.demo#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 26, 2026 12:50-0300">2026-08-26</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ahip.org">AHIP</a>.  Package ahip.demo#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 6, 2026 16:25-0300">2026-10-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

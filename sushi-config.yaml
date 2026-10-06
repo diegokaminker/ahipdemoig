@@ -77,10 +77,10 @@ pages:
     title: Intellectual Property Considerations
   conventions.md:
     title: Conventions
-  use-cases.md:
-    title: Use Cases
   introduction.md:
     title: Introduction
+  use-cases.md:
+    title: Use Cases
   supporting-specifications.md:
     title: Supporting Specifications
   projects-and-participants.md:
@@ -105,8 +105,8 @@ menu:
   Background: background.html
   "Intellectual Property": intellectual-property.html
   Conventions: conventions.html
-  "Use Cases": use-cases.html
   Introduction: introduction.html
+  "Use Cases": use-cases.html
   "Supporting Specifications": supporting-specifications.html
   "Projects and Participants": projects-and-participants.html
   Security: security.html

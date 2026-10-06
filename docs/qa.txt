@@ -2,8 +2,8 @@ AhipDemoIG : Validation Results
 =========================================
 
 err = 0, warn = 36, info = 143
-IG Publisher Version: 2.3.2
-Generated Wed Aug 26 12:52:01 ART 2026. FHIR version 4.0.1 for ahip.demo#0.1.0 (canonical = http://ahip.org/demographics)
+IG Publisher Version: 2.3.2 Out of date - current version is 2.3.5
+Generated Tue Oct 06 16:26:57 ART 2026. FHIR version 4.0.1 for ahip.demo#0.1.0 (canonical = http://ahip.org/demographics)
  Build Errors : 0 / 4 / 0
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-AHIP-Demo-Additional-Language : 0 / 1 / 1
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-AHIP-Demo-Additional-NullFlavor : 0 / 1 / 1

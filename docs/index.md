@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ImplementationGuide/ahip.demo | *Version*:0.1.0 |
-| Draft as of 2026-08-26 | *Computable Name*:AhipDemoIG |
+| Draft as of 2026-10-06 | *Computable Name*:AhipDemoIG |
 
 # AhipDemoIG
 
@@ -52,7 +52,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
   "version" : "0.1.0",
   "name" : "AhipDemoIG",
   "status" : "draft",
-  "date" : "2026-08-26T12:50:43-03:00",
+  "date" : "2026-10-06T16:25:33-03:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -1194,19 +1194,19 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "use-cases.html"
+          "valueUrl" : "introduction.html"
         }],
-        "nameUrl" : "use-cases.html",
-        "title" : "Use Cases",
+        "nameUrl" : "introduction.html",
+        "title" : "Introduction",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "introduction.html"
+          "valueUrl" : "use-cases.html"
         }],
-        "nameUrl" : "introduction.html",
-        "title" : "Introduction",
+        "nameUrl" : "use-cases.html",
+        "title" : "Use Cases",
         "generation" : "markdown"
       },
       {

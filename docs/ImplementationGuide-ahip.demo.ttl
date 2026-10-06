@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"] ;
   fhir:ImplementationGuide.name [ fhir:value "AhipDemoIG"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-08-26T12:50:43-03:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-06T16:25:33-03:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "AHIP"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -1166,20 +1166,20 @@
          fhir:Element.extension [
            fhir:index 0 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "use-cases.html" ]
+           fhir:Extension.valueUrl [ fhir:value "introduction.html" ]
          ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "use-cases.html" ] ;
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "introduction.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Introduction" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 5 ;
          fhir:Element.extension [
            fhir:index 0 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "introduction.html" ]
+           fhir:Extension.valueUrl [ fhir:value "use-cases.html" ]
          ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "introduction.html" ] ;
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Introduction" ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "use-cases.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 6 ;
