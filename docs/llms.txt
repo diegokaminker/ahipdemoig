@@ -6,7 +6,6 @@
 * [Artifacts Summary](artifacts.md)
 * [Support](support-menu.md)
 * [Conventions](conventions.md)
-* [Mapping](mapping.md)
 * [Intellectual Property Considerations](intellectual-property.md)
 * [Security](security.md)
 * [Supporting Specifications](supporting-specifications.md)
@@ -19,7 +18,6 @@
 
 ### CodeSystems
 
-* [AHIP Demo Additional Language](CodeSystem-AHIP-Demo-Additional-Language.md)
 * [AHIP Demo Additional NullFlavor](CodeSystem-AHIP-Demo-Additional-NullFlavor.md)
 * [AHIP Demo Additional Background Codes](CodeSystem-ahip-demo-additional-background-codes.md)
 * [AHIP Demo Additional Relationship Status Codes](CodeSystem-ahip-demo-additional-relationship-status-codes.md)

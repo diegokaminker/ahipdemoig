@@ -33,6 +33,5 @@ Description: "Used as the answer options for the religion, spirituality, or beli
 * $ReligionCodes#1056 "VooDoo"
 * $ReligionCodes#1060 "Zoroastrianism"
 * $AHIPDemoAdditionalReligionCodes#SBNR "Spiritual but not religious"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
 * $nullFlavor#ASKU "Asked but unknown"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"

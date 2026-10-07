@@ -304,6 +304,7 @@ Used as the answer options for the reading language preferences question in the 
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
         "display" : "I don't know"
@@ -314,10 +315,6 @@ Used as the answer options for the reading language preferences question in the 
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"
-      },
-      {
-        "code" : "PSIN",
-        "display" : "Please specify if not listed above"
       }]
     }]
   }

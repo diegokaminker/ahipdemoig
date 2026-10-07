@@ -16,6 +16,5 @@ Description: "Used as the answer options for the preferred pronouns question in 
 * $LOINC#LA29523-0 "Ze, hir, hirs (non-binary)​"
 * $LOINC#LA29521-4 "Ze, zir, zirs (non-binary)"
 * $AHIPDemoAdditionalNullFlavor#UMN "Use my name"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR  "I choose not to respond at this time"

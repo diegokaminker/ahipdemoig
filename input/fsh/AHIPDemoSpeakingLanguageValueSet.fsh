@@ -66,7 +66,5 @@ Description: "Used as the answer options for the speaking language preferences q
 * $isolang#yi "Yiddish"
 * $isolang#zun "Zuni"
 * $isolang#ase "American Sign Language"
-* $AHIPDemoAdditionalLanguageCodes#osl "Other Sign Language - Please specify"
 * $nullFlavor#ASKU "Asked but unknown"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"

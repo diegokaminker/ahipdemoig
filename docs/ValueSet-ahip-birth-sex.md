@@ -89,6 +89,7 @@ Used as the answer options for the birth sex question in the SOGI and Relationsh
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
         "display" : "I don't know"

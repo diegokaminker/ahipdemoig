@@ -31,5 +31,4 @@ Description: "Used as the granular follow-up answer options shown when the patie
 * $AHIPDemoAdditionalBackgroundCodes#9999-12 "Brazilian"
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
 

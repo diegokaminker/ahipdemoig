@@ -1,11 +1,4 @@
 [{
-  "id" : "AHIP-Demo-Additional-Language",
-  "type" : "CodeSystem",
-  "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language",
-  "version" : "0.1.0",
-  "name" : "AHIPDemoAdditionalLanguage"
-},
-{
   "id" : "AHIP-Demo-Additional-NullFlavor",
   "type" : "CodeSystem",
   "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",

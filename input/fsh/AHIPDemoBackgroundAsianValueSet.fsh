@@ -29,6 +29,5 @@ Description: "Used as the granular follow-up answer options shown when the patie
 * $CDCRACE#2047-9 "Vietnamese"	
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
 
 

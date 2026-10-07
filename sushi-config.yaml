@@ -26,6 +26,7 @@ publisher:
 #
 dependencies:
   hl7.terminology.r4: 7.3.0
+  hl7.fhir.uv.sdc: 4.0.0
 #   hl7.fhir.us.core: 7.0.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
@@ -87,8 +88,6 @@ pages:
     title: Projects and Participants
   security.md:
     title: Security
-  mapping.md:
-    title: Mapping
   support-menu.md:
     title: Support
 
@@ -110,7 +109,6 @@ menu:
   "Supporting Specifications": supporting-specifications.html
   "Projects and Participants": projects-and-participants.html
   Security: security.html
-  Mapping: mapping.html
   Support: support-menu.html
   Artifacts: artifacts.html
 

@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="AhipDemoIG"/>
   <status value="draft"/>
-  <date value="2026-10-06T16:25:33-03:00"/>
+  <date value="2026-10-07T11:14:11-03:00"/>
   <publisher value="AHIP"/>
   <contact>
     <name value="AHIP"/>
@@ -33,6 +33,11 @@
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
     <version value="7.3.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_sdc">
+    <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
+    <packageId value="hl7.fhir.uv.sdc"/>
+    <version value="4.0.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -520,17 +525,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/AHIP-Demo-Additional-Language"/>
-      </reference>
-      <name value="AHIP Demo Additional Language"/>
-      <description value="An additional collection of codes specifying languages"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
       </reference>
       <name value="AHIP Demo Additional NullFlavor"/>
@@ -867,14 +861,6 @@
         </extension>
         <nameUrl value="security.html"/>
         <title value="Security"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="mapping.html"/>
-        </extension>
-        <nameUrl value="mapping.html"/>
-        <title value="Mapping"/>
         <generation value="markdown"/>
       </page>
       <page>

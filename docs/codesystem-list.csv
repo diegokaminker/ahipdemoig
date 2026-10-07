@@ -1,5 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language,0.1.0,active,,AHIPDemoAdditionalLanguage,AHIP Demo Additional Language,"An additional collection of codes specifying languages",
 http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor,0.1.0,active,,AHIPDemoAdditionalNullFlavor,AHIP Demo Additional NullFlavor,"An additional collection of codes specifying why a valid value is not present.",
 http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes,0.1.0,active,,AHIPDemoAdditionalBackgroundCodes,AHIP Demo Additional Background Codes,"An additional collection of background codes completing the gaps in CDC codes",
 http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes,0.1.0,active,,AHIPDemoAdditionalRelationshipStatusCodes,AHIP Demo Additional Relationship Status Codes,"An additional collection of relationship status codes",

@@ -39,6 +39,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "RAE-1.2"
@@ -52,6 +54,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "RAE-1.2-AAPI"
@@ -65,6 +69,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "RAE1.2-BAOAA"
@@ -78,6 +84,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "RAE1.2-HOL"
@@ -92,6 +100,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "RAE1.2-MEONA"
@@ -105,6 +115,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "RAE-1.2-NHOPI"
@@ -118,6 +130,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "RAE1.2-W"
@@ -140,6 +154,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "L-2.1"
@@ -150,6 +166,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "L-2.2"
@@ -194,6 +212,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 * item[=].item[=].linkId = "SOGIARS-3.1"
@@ -214,6 +234,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 * item[=].item[=].linkId = "SOGIARS-3.3"
@@ -224,6 +246,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "SOGIARS-3.4"
 * item[=].item[=].text = "Preferred Pronouns - Optional: We would like to be respectful. What pronouns do you use to identify yourself? Select all that apply.​"
@@ -233,6 +257,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "SOGIARS-3.5"
 * item[=].item[=].text = "Optional: What is your relationship status? (Select all that apply)​"
@@ -246,6 +272,8 @@ Usage: #example
 * item[=].item.extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item.extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item.extension.valueCodeableConcept.text = "Drop down"
+* item[=].item.extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item.extension[=].valueString = "Other difficulties when doing activities throughout your day (please describe)"
 * item[=].item.repeats = true
 * item[=].item.linkId = "D-1"
 * item[=].item.text = "Because of a physical or mental health condition, do you currently have difficulty with any of the following? Check all that apply.​"
@@ -340,6 +368,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].repeats = true
 * item[=].item[=].required = false
 * item[=].item[=].linkId = "SAOC-6.1"
@@ -350,6 +380,8 @@ Usage: #example
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
+* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
 * item[=].item[=].repeats = true
 * item[=].item[=].required = false
 * item[=].item[=].linkId = "SAOC-6.2"

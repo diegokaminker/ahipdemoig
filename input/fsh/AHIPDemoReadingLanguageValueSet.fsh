@@ -70,4 +70,3 @@ Description: "Used as the answer options for the reading language preferences qu
 * $ReadingMode#digital-spoken "Digital Documents that Can Be Spoken Out Loud​"
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"

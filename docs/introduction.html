@@ -107,9 +107,6 @@
     <a href="security.html">Security</a>
   </li>
   <li>
-    <a href="mapping.html">Mapping</a>
-  </li>
-  <li>
     <a href="support-menu.html">Support</a>
   </li>
   <li>
@@ -231,7 +228,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>A conformant FHIR QuestionnaireResponse for recording responses to the DEMo Questionnaire;</li>
   <li>Standardized representation of the demographic domains addressed by the DEMo Initiative;</li>
   <li>Terminology and value sets needed to encode structured response choices;</li>
-  <li>Representation of "I do not know," "I choose not to respond at this time," write-in responses and other response patterns established through the DEMo process;</li>
+  <li>Representation of "I do not know," "I choose not to respond at this time," and write-in / free-text responses via FHIR <code class="language-plaintext highlighter-rouge">open-choice</code> items with the SDC <a href="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel">openLabel</a> extension, along with other response patterns established through the DEMo process;</li>
   <li>Identification of the Questionnaire and version used to collect the information;</li>
   <li>Exchange of DEMo-conformant information across provider, payer, public health, health information exchange, community and other authorized systems;</li>
   <li>Mapping between QuestionnaireResponse content and applicable FHIR demographic elements, profiles, extensions and terminology;</li>
@@ -282,7 +279,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ahip.org">AHIP</a>.  Package ahip.demo#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 6, 2026 16:25-0300">2026-10-06</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ahip.org">AHIP</a>.  Package ahip.demo#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 7, 2026 11:14-0300">2026-10-07</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

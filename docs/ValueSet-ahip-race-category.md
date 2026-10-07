@@ -97,6 +97,7 @@ Used as the answer options for the initial race/ethnicity question in the Race &
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
         "display" : "I don't know"

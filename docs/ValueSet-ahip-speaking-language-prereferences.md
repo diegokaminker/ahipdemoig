@@ -292,14 +292,8 @@ Used as the answer options for the speaking language preferences question in the
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language",
-      "concept" : [{
-        "code" : "osl",
-        "display" : "Other Sign Language - Please specify"
-      }]
-    },
-    {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
         "display" : "Asked but unknown"
@@ -310,10 +304,6 @@ Used as the answer options for the speaking language preferences question in the
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"
-      },
-      {
-        "code" : "PSIN",
-        "display" : "Please specify if not listed above"
       }]
     }]
   }

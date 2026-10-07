@@ -249,7 +249,6 @@
     "title" : "AHIP Speaking Language Preferences",
     "description" : "Used as the answer options for the speaking language preferences question in the Language Section, capturing the language(s) a patient feels most comfortable speaking about their health care. Based on IETF 3066 Language Codes",
     "systems" : ["urn:ietf:bcp:47",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language",
     "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"]
   },

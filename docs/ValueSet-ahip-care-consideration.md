@@ -69,6 +69,7 @@ Used as the answer options for the care considerations question in the Spiritual
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
         "display" : "Asked but unknown"
@@ -79,10 +80,6 @@ Used as the answer options for the care considerations question in the Spiritual
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"
-      },
-      {
-        "code" : "PSIN",
-        "display" : "Please specify if not listed above"
       }]
     }]
   }

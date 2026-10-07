@@ -77,6 +77,7 @@ Used as the answer options used across multiple questions in the Questionnaire.
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
         "display" : "I don't know"

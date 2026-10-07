@@ -12,5 +12,4 @@ Description: "Used as the answer options for the functional difficulty question 
 * ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
 * include codes from system $AHIPDemoDisabilityCodes
 * $LOINC#LA137-2 "None"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Other difficulties when doing activities throughout your day (please describe)"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"

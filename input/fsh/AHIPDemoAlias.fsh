@@ -13,7 +13,6 @@ Alias: $CareConsideration = http://terminology.hl7.org/CodeSystem/care-considera
 
 Alias: $DesignationUsage = http://terminology.hl7.org/CodeSystem/designation-usage
 
-Alias: $AHIPDemoAdditionalLanguageCodes = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language
 Alias: $AHIPDemoAdditionalNullFlavor = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor
 Alias: $AHIPDemoAdditionalBackgroundCodes  = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes
 Alias: $AHIPDemoAdditionalRelationshipStatusCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes

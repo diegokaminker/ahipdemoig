@@ -14,4 +14,3 @@ Description: "An additional collection of codes specifying why a valid value is 
 
 * #CNTR "I choose not to respond at this time" "**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time"
 * #UMN  "Use My Name" "**Description:**This code is to represent explicitly that the patient do not want a pronoun to be used but instead use their name"
-* #PSIN "Please specify if not listed above" "**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above"

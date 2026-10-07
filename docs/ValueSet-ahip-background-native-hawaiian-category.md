@@ -113,6 +113,7 @@ Used as the granular follow-up answer options shown when the patient selects Nat
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
         "display" : "I don't know"
@@ -123,10 +124,6 @@ Used as the granular follow-up answer options shown when the patient selects Nat
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"
-      },
-      {
-        "code" : "PSIN",
-        "display" : "Please specify if not listed above"
       }]
     }]
   }

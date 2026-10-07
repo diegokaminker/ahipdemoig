@@ -53,7 +53,7 @@ This version of the guide supports:
 * A conformant FHIR QuestionnaireResponse for recording responses to the DEMo Questionnaire;
 * Standardized representation of the demographic domains addressed by the DEMo Initiative;
 * Terminology and value sets needed to encode structured response choices;
-* Representation of "I do not know," "I choose not to respond at this time," write-in responses and other response patterns established through the DEMo process;
+* Representation of "I do not know," "I choose not to respond at this time," and write-in / free-text responses via FHIR `open-choice` items with the SDC [openLabel](http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel) extension, along with other response patterns established through the DEMo process;
 * Identification of the Questionnaire and version used to collect the information;
 * Exchange of DEMo-conformant information across provider, payer, public health, health information exchange, community and other authorized systems;
 * Mapping between QuestionnaireResponse content and applicable FHIR demographic elements, profiles, extensions and terminology;

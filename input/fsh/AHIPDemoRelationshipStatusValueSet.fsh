@@ -19,5 +19,4 @@ Description: "Used as the answer options for the relationship status question in
 * $AHIPDemoAdditionalRelationshipStatusCodes#DATI "Dating (in a non-committed relationship with one person or more than one person)"
 * $AHIPDemoAdditionalRelationshipStatusCodes#MONR "In a committed relationship with one person but not married (monogamous relationship)"
 * $AHIPDemoAdditionalRelationshipStatusCodes#POLY "In a committed relationship with more than one person (polyamorous relationship)"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"

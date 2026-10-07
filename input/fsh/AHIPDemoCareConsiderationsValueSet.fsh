@@ -13,4 +13,3 @@ Description: "Used as the answer options for the care considerations question in
 * include codes from system $CareConsideration
 * $nullFlavor#ASKU "Asked but unknown"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
