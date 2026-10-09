@@ -1,7 +1,8 @@
 CodeSystem: AHIPDemoTemporaryCodes
-Id: AHIP-Demo-Temporary-Codes
+Id: ahip-demo-temporary-codes
 Title: "AHIP Demo Temporary Codes"
 Description: "Codes temporarily defined as part of the AHIP DEMo implementation guide. These will eventually migrate into officially maintained terminologies (such as CDCREC for background concepts and HL7 Terminology code systems (e.g.,v3-MaritalStatus for relationship status and v3-ReligiousAffiliation for religion and spirituality). The canonical URL (and likely the codes themselves) for all codes appearing in this code system ARE expected to change in a future release. Implementers should prepare for this transition when they write their code, allowing for the possibility of checking for both the old and new code and ensuring it is straightforward to transmit both the old and new code when the time comes. Concept maps will likely be made available to assist with this transition."
+* insert DEMoStandardMetadata
 * ^language = #en
 * ^version = "0.0.1"
 * ^status = #active

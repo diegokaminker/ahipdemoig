@@ -1,12 +1,12 @@
 CodeSystem: AHIPDemoAdditionalNullFlavor
-Id: AHIP-Demo-Additional-NullFlavor
+Id: ahip-demo-additional-nullFlavor
 Title: "AHIP Demo Additional NullFlavor"
 Description: "An additional collection of codes specifying why a valid value is not present."
+* insert DEMoStandardMetadata
 * ^language = #en
 * ^version = "0.0.1"
 * ^status = #active
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^content = #complete
 * ^caseSensitive = true

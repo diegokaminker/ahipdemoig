@@ -2,14 +2,20 @@ ValueSet: AHIPReadingLanguagePreferences
 Id: ahip-reading-language-prereferences
 Title: "AHIP Reading Language Preferences"
 Description: "Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials."
+* insert DEMoStandardMetadata
 * ^version = "0.0.1"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
-* ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
+* ^copyright = """
+This value set includes codes from IETF BCP 47, Tags for Identifying Languages (RFC 5646 and RFC 4647), published by the Internet Engineering Task Force (IETF). The BCP 47 documents are copyright © IETF Trust and the persons identified as the document authors. For more information see https://www.rfc-editor.org/info/bcp47.
+
+This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html
+
+This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).
+"""
 * $isolang#am "Amharic"
 * $isolang#ar "Arabic"
 * $isolang#ath "Athabaskan (Na-Dene)"

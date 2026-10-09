@@ -2,11 +2,11 @@ CodeSystem: AHIPDemoDisabilityCodes
 Id: ahip-demo-disability-codes
 Title: "AHIP Demo Disability Codes"
 Description: "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living."
+* insert DEMoStandardMetadata
 * ^language = #en
 * ^version = "0.0.1"
 * ^status = #active
 * ^date = "2025-03-25T00:00:00-04:00"
-* ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^content = #complete
 * ^caseSensitive = true

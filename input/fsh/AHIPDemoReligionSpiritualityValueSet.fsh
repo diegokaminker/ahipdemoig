@@ -2,14 +2,18 @@ ValueSet: AHIPReligionSpirituality
 Id: ahip-religion-spirituality
 Title: "AHIP Religion/Spirituality Value Set"
 Description: "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section."
+* insert DEMoStandardMetadata
 * ^version = "0.0.1"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
-* ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
+* ^copyright = """
+This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html
+
+This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).
+"""
 * $ReligionCodes#1006 "Animism"
 * $ReligionCodes#1004 "Agnostic (not sure if there is a God)​"
 * $ReligionCodes#1007 "Atheist (do not believe in God)​" 

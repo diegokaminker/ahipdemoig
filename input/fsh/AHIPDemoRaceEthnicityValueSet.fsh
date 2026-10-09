@@ -2,11 +2,11 @@ ValueSet: AHIPRaceEtnicityCategories
 Id: ahip-race-category
 Title: "AHIP Race and Ethnicity Categories"
 Description: "Used as the answer options for the initial race/ethnicity question in the Race & Ethnicity Section; the selection made here drives which granular background value set is conditionally shown next."
+* insert DEMoStandardMetadata
 * ^version = "0.0.1"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = """
