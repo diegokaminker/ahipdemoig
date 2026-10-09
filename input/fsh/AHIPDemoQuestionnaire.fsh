@@ -155,7 +155,7 @@ Usage: #example
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
-* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
+* item[=].item[=].extension[=].valueString = "Other Language (including spoken or sign language, please specify)"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "L-2.1"
@@ -167,7 +167,7 @@ Usage: #example
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
-* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
+* item[=].item[=].extension[=].valueString = "Other Language (please specify)"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "L-2.2"
@@ -369,7 +369,7 @@ Usage: #example
 * item[=].item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].item[=].extension[+].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel"
-* item[=].item[=].extension[=].valueString = "Please specify if not listed above"
+* item[=].item[=].extension[=].valueString = "Other (please write)"
 * item[=].item[=].repeats = true
 * item[=].item[=].required = false
 * item[=].item[=].linkId = "SAOC-6.1"
@@ -397,7 +397,7 @@ Usage: #example
 * item[=].item[=].linkId = "SAOC-6.2.1"
 * item[=].item[=].text = "Which form of Christianity do you practice?"
 * item[=].item[=].answerValueSet = $AHIPDemoReligionChristianValueSet
-* item[=].item[=].enableWhen.answerCoding = $AHIPDemoAdditionalReligionCodes#CHRI
+* item[=].item[=].enableWhen.answerCoding = $AHIPDemoTemporaryCodes#CHRI
 * item[=].item[=].enableWhen.question = "SAOC-6.2"
 * item[=].item[=].enableWhen.operator = #=
 

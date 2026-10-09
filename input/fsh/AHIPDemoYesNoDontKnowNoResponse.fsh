@@ -2,14 +2,20 @@ ValueSet: AHIPDemoYesNoDontKnowNoResponse
 Id: ahip-yes-no-dont-know-no-response
 Title: "AHIP Yes, No, Don't Know, or No Response"
 Description: "Used as the answer options used across multiple questions in the Questionnaire."
+* insert DEMoStandardMetadata
 * ^version = "0.0.1"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^publisher = "AHIP"
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
-* ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
+* ^copyright = """
+This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+
+This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html
+
+This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).
+"""
 * $LOINC#LA33-6 "Yes"
 * $LOINC#LA32-8 "No"
 * $nullFlavor#ASKU "I don't know"

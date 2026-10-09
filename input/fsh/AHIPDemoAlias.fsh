@@ -10,14 +10,9 @@ Alias: $ReadingMode = http://terminology.hl7.org/CodeSystem/reading-mode
 Alias: $ParticipationMode = http://terminology.hl7.org/CodeSystem/v3-ParticipationMode
 Alias: $USMilitaryServicePeriod = http://terminology.hl7.org/CodeSystem/us-military-service-period
 Alias: $CareConsideration = http://terminology.hl7.org/CodeSystem/care-consideration
-
-Alias: $DesignationUsage = http://terminology.hl7.org/CodeSystem/designation-usage
-
-Alias: $AHIPDemoAdditionalNullFlavor = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor
-Alias: $AHIPDemoAdditionalBackgroundCodes  = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes
-Alias: $AHIPDemoAdditionalRelationshipStatusCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes
+Alias: $AHIPDemoAdditionalNullFlavor = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor
 Alias: $AHIPDemoDisabilityCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes
-Alias: $AHIPDemoAdditionalReligionCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes
+Alias: $AHIPDemoTemporaryCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes
 
 Alias: $AHIPDemoRaceValueSet =  http://ahip.org/demographics/ValueSet/ahip-race-category
 Alias: $AHIPDemoBackgroundNativeAmericanValueSet = http://ahip.org/demographics/ValueSet/ahip-background-native-american-category
@@ -44,5 +39,9 @@ Alias: $AHIPDemoReligionValueSet = http://ahip.org/demographics/ValueSet/ahip-re
 Alias: $AHIPDemoReligionChristianValueSet = http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail
 Alias: $AHIPDemoReligionJewishValueSet = http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail
 Alias: $AHIPCareConsiderationValueSet = http://ahip.org/demographics/ValueSet/ahip-care-consideration
+
+Alias: $wg = http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+Alias: $fmm = http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+Alias: $standards-status = http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
 
 // End of Alias definitions
