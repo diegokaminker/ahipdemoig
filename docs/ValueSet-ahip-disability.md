@@ -77,10 +77,6 @@ Used as the answer options for the functional difficulty question in the Disabil
     {
       "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
-        "code" : "PSIN",
-        "display" : "Other difficulties when doing activities throughout your day (please describe)"
-      },
-      {
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"
       }]

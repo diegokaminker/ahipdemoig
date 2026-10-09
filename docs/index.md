@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ImplementationGuide/ahip.demo | *Version*:0.1.0 |
-| Draft as of 2026-08-26 | *Computable Name*:AhipDemoIG |
+| Draft as of 2026-10-07 | *Computable Name*:AhipDemoIG |
 
 # AhipDemoIG
 
@@ -52,7 +52,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
   "version" : "0.1.0",
   "name" : "AhipDemoIG",
   "status" : "draft",
-  "date" : "2026-08-26T12:50:43-03:00",
+  "date" : "2026-10-07T11:14:11-03:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -79,6 +79,12 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
     "version" : "7.3.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_sdc",
+    "uri" : "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+    "packageId" : "hl7.fhir.uv.sdc",
+    "version" : "4.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -754,22 +760,6 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-AHIP-Demo-Additional-Language.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/AHIP-Demo-Additional-Language"
-      },
-      "name" : "AHIP Demo Additional Language",
-      "description" : "An additional collection of codes specifying languages",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "CodeSystem-AHIP-Demo-Additional-NullFlavor.html"
       }],
       "reference" : {
@@ -1194,19 +1184,19 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "use-cases.html"
+          "valueUrl" : "introduction.html"
         }],
-        "nameUrl" : "use-cases.html",
-        "title" : "Use Cases",
+        "nameUrl" : "introduction.html",
+        "title" : "Introduction",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "introduction.html"
+          "valueUrl" : "use-cases.html"
         }],
-        "nameUrl" : "introduction.html",
-        "title" : "Introduction",
+        "nameUrl" : "use-cases.html",
+        "title" : "Use Cases",
         "generation" : "markdown"
       },
       {
@@ -1234,15 +1224,6 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
         }],
         "nameUrl" : "security.html",
         "title" : "Security",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "mapping.html"
-        }],
-        "nameUrl" : "mapping.html",
-        "title" : "Mapping",
         "generation" : "markdown"
       },
       {

@@ -46,7 +46,6 @@ These define new code systems used by systems conforming to this implementation 
 | | |
 | :--- | :--- |
 | [AHIP Demo Additional Background Codes](CodeSystem-ahip-demo-additional-background-codes.md) | An additional collection of background codes completing the gaps in CDC codes |
-| [AHIP Demo Additional Language](CodeSystem-AHIP-Demo-Additional-Language.md) | An additional collection of codes specifying languages |
 | [AHIP Demo Additional NullFlavor](CodeSystem-AHIP-Demo-Additional-NullFlavor.md) | An additional collection of codes specifying why a valid value is not present. |
 | [AHIP Demo Additional Relationship Status Codes](CodeSystem-ahip-demo-additional-relationship-status-codes.md) | An additional collection of relationship status codes |
 | [AHIP Demo Additional Religion Codes](CodeSystem-ahip-demo-additional-religion-codes.md) | An additional collection of religion and spiritual belief codes |

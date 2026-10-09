@@ -12,3 +12,4 @@ Description: "Used as the answer options for the care considerations question in
 * ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
 * include codes from system $CareConsideration
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
+

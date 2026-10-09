@@ -26,7 +26,7 @@ Feedback on those IGs should be submitted per their respective project instructi
 
 ## Terminology and external standards
 
-Where this IG aligns with or references external code systems (e.g., LOINC, SNOMED CT, OMB standards for race/ethnicity), implementers must comply with those specifications and their licensing terms. Specific mappings or crosswalks may be documented on the [Mapping](mapping.html) page when available.
+Where this IG aligns with or references external code systems (e.g., LOINC, SNOMED CT, OMB standards for race/ethnicity), implementers must comply with those specifications and their licensing terms.
 
 ## How to submit feedback on this IG
 

@@ -1,13 +1,5 @@
 {
   "codeSystems" : [{
-    "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language",
-    "version" : "0.1.0",
-    "status" : "active",
-    "name" : "AHIPDemoAdditionalLanguage",
-    "title" : "AHIP Demo Additional Language",
-    "description" : "An additional collection of codes specifying languages"
-  },
-  {
     "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
     "version" : "0.1.0",
     "status" : "active",

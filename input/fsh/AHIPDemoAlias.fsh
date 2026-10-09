@@ -10,10 +10,9 @@ Alias: $ReadingMode = http://terminology.hl7.org/CodeSystem/reading-mode
 Alias: $ParticipationMode = http://terminology.hl7.org/CodeSystem/v3-ParticipationMode
 Alias: $USMilitaryServicePeriod = http://terminology.hl7.org/CodeSystem/us-military-service-period
 Alias: $CareConsideration = http://terminology.hl7.org/CodeSystem/care-consideration
-
-Alias: $AHIPDemoTemporaryCodes = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Temporary-Codes
 Alias: $AHIPDemoAdditionalNullFlavor = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor
 Alias: $AHIPDemoDisabilityCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes
+Alias: $AHIPDemoTemporaryCodes = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Temporary-Codes
 
 Alias: $AHIPDemoRaceValueSet =  http://ahip.org/demographics/ValueSet/ahip-race-category
 Alias: $AHIPDemoBackgroundNativeAmericanValueSet = http://ahip.org/demographics/ValueSet/ahip-background-native-american-category

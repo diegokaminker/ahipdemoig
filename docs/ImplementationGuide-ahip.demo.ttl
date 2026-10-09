@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"] ;
   fhir:ImplementationGuide.name [ fhir:value "AhipDemoIG"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-08-26T12:50:43-03:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-07T11:14:11-03:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "AHIP"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -56,6 +56,15 @@
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ] ;
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "7.3.0" ]
+  ], [
+     fhir:index 2 ;
+     fhir:Element.id [ fhir:value "hl7_fhir_uv_sdc" ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc" ;
+       fhir:link <http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.sdc" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "4.0.0" ]
   ] ;
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -769,20 +778,6 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language> ;
-         fhir:Reference.reference [ fhir:value "CodeSystem/AHIP-Demo-Additional-Language" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Demo Additional Language" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An additional collection of codes specifying languages" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 8 ;
-       fhir:Element.extension [
-         fhir:index 0 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/AHIP-Demo-Additional-NullFlavor" ]
        ] ;
@@ -790,7 +785,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An additional collection of codes specifying why a valid value is not present." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9 ;
+       fhir:index 8 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -804,7 +799,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An additional collection of relationship status codes" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10 ;
+       fhir:index 9 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -818,7 +813,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An additional collection of religion and spiritual belief codes" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11 ;
+       fhir:index 10 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -832,7 +827,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12 ;
+       fhir:index 11 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -846,7 +841,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 13 ;
+       fhir:index 12 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -860,7 +855,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 14 ;
+       fhir:index 13 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -874,7 +869,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Hispanic or Latino/a/e on the race/ethnicity question." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15 ;
+       fhir:index 14 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -888,7 +883,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16 ;
+       fhir:index 15 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -902,7 +897,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17 ;
+       fhir:index 16 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -916,7 +911,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Middle Eastern or North African on the race/ethnicity question." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 18 ;
+       fhir:index 17 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -930,7 +925,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19 ;
+       fhir:index 18 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -944,7 +939,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 20 ;
+       fhir:index 19 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -958,7 +953,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 21 ;
+       fhir:index 20 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -972,7 +967,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 22 ;
+       fhir:index 21 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -986,7 +981,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the initial race/ethnicity question in the Race & Ethnicity Section; the selection made here drives which granular background value set is conditionally shown next." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 23 ;
+       fhir:index 22 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1000,7 +995,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 24 ;
+       fhir:index 23 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1014,7 +1009,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the relationship status question in the SOGI and Relationship Status Section." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 25 ;
+       fhir:index 24 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1028,7 +1023,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 26 ;
+       fhir:index 25 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1042,7 +1037,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 27 ;
+       fhir:index 26 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1056,7 +1051,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the speaking language preferences question in the Language Section, capturing the language(s) a patient feels most comfortable speaking about their health care. Based on IETF 3066 Language Codes" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 28 ;
+       fhir:index 27 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1070,7 +1065,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 29 ;
+       fhir:index 28 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1084,7 +1079,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects White or European on the race/ethnicity question." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 30 ;
+       fhir:index 29 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1098,7 +1093,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options used across multiple questions in the Questionnaire." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 31 ;
+       fhir:index 30 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1166,20 +1161,20 @@
          fhir:Element.extension [
            fhir:index 0 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "use-cases.html" ]
+           fhir:Extension.valueUrl [ fhir:value "introduction.html" ]
          ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "use-cases.html" ] ;
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "introduction.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Introduction" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 5 ;
          fhir:Element.extension [
            fhir:index 0 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "introduction.html" ]
+           fhir:Extension.valueUrl [ fhir:value "use-cases.html" ]
          ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "introduction.html" ] ;
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Introduction" ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "use-cases.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 6 ;
@@ -1213,16 +1208,6 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 9 ;
-         fhir:Element.extension [
-           fhir:index 0 ;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "mapping.html" ]
-         ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "mapping.html" ] ;
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Mapping" ] ;
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 10 ;
          fhir:Element.extension [
            fhir:index 0 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;

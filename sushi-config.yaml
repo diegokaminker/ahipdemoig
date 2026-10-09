@@ -26,6 +26,7 @@ publisher:
 #
 dependencies:
   hl7.terminology.r4: 7.3.0
+  hl7.fhir.uv.sdc: 4.0.0
 #   hl7.fhir.us.core: 7.0.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
@@ -77,18 +78,16 @@ pages:
     title: Intellectual Property Considerations
   conventions.md:
     title: Conventions
-  use-cases.md:
-    title: Use Cases
   introduction.md:
     title: Introduction
+  use-cases.md:
+    title: Use Cases
   supporting-specifications.md:
     title: Supporting Specifications
   projects-and-participants.md:
     title: Projects and Participants
   security.md:
     title: Security
-  mapping.md:
-    title: Mapping
   support-menu.md:
     title: Support
 
@@ -105,12 +104,11 @@ menu:
   Background: background.html
   "Intellectual Property": intellectual-property.html
   Conventions: conventions.html
-  "Use Cases": use-cases.html
   Introduction: introduction.html
+  "Use Cases": use-cases.html
   "Supporting Specifications": supporting-specifications.html
   "Projects and Participants": projects-and-participants.html
   Security: security.html
-  Mapping: mapping.html
   Support: support-menu.html
   Artifacts: artifacts.html
 

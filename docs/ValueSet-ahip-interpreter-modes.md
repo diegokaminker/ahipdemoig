@@ -66,6 +66,7 @@ Used as the answer options for the interpreter modes question in the Language Se
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "version" : "6.0.0",
       "concept" : [{
         "code" : "PHONE",
         "display" : "Telephone"

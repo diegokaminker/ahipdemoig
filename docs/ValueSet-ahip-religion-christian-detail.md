@@ -66,6 +66,7 @@ Used as the answer options for the Christian denomination detail question, shown
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "1005",
         "display" : "Anglican"

@@ -88,6 +88,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "RAE-1.2",
       "text" : "Please tell us your background. Check all that apply",
@@ -115,6 +119,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "RAE-1.2-AAPI",
       "text" : "Please tell us your background. Check all that apply",
@@ -142,6 +150,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "RAE1.2-BAOAA",
       "text" : "Please tell us your background. Check all that apply",
@@ -169,6 +181,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "RAE1.2-HOL",
       "text" : "Please tell us your background. Check all that apply",
@@ -197,6 +213,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "RAE1.2-MEONA",
       "text" : "Please tell us your background. Check all that apply",
@@ -224,6 +244,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "RAE-1.2-NHOPI",
       "text" : "Please tell us your background. Check all that apply",
@@ -251,6 +275,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "RAE1.2-W",
       "text" : "Please tell us your background. Check all that apply",
@@ -289,6 +317,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "L-2.1",
       "text" : "In which language(s) do you feel most comfortable speaking about your health care? This can include a specific language and/or different types of sign language. (Granular options can be customized to local level.) Select all that apply",
@@ -308,6 +340,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "L-2.2",
       "text" : "In which language(s) do you prefer to use when reading materials related to your health care? This can include a specific language, Braille, large print, or digital documents that can be spoken out loud. (Granular options can be customized to local level.) Select all that apply.​",
@@ -389,6 +425,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "SOGIARS-3.1",
       "text" : "Sexual Orientation- At this time, do you think of yourself as (select one):​",
@@ -427,6 +467,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "SOGIARS-3.3",
       "text" : "What is your gender? (Select one)",
@@ -446,6 +490,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "SOGIARS-3.4",
       "text" : "Preferred Pronouns - Optional: We would like to be respectful. What pronouns do you use to identify yourself? Select all that apply.​",
@@ -464,6 +512,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "SOGIARS-3.5",
       "text" : "Optional: What is your relationship status? (Select all that apply)​",
@@ -488,6 +540,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Other difficulties when doing activities throughout your day (please describe)"
       }],
       "linkId" : "D-1",
       "text" : "Because of a physical or mental health condition, do you currently have difficulty with any of the following? Check all that apply.​",
@@ -664,6 +720,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "SAOC-6.1",
       "text" : "Which of the following would you like us to know about you before we provide care? Select all that apply.",
@@ -683,6 +743,10 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
           }],
           "text" : "Drop down"
         }
+      },
+      {
+        "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
+        "valueString" : "Please specify if not listed above"
       }],
       "linkId" : "SAOC-6.2",
       "text" : "What is your current religion, spirituality, or belief system, if any? ​Check all that apply.",

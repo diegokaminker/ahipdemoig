@@ -66,7 +66,7 @@ An additional collection of codes specifying why a valid value is not present.
   "description" : "An additional collection of codes specifying why a valid value is not present.",
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 3,
+  "count" : 2,
   "concept" : [{
     "code" : "CNTR",
     "display" : "I choose not to respond at this time",
@@ -76,11 +76,6 @@ An additional collection of codes specifying why a valid value is not present.
     "code" : "UMN",
     "display" : "Use My Name",
     "definition" : "**Description:**This code is to represent explicitly that the patient do not want a pronoun to be used but instead use their name"
-  },
-  {
-    "code" : "PSIN",
-    "display" : "Please specify if not listed above",
-    "definition" : "**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above"
   }]
 }
 

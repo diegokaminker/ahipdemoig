@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="7e34ed8a-c9e4-4fc2-b0b7-9ca710d00904"/>
+  <id value="9caa4dff-68cf-4e1e-a3c7-aecd7d29ea37"/>
   <meta>
-    <lastUpdated value="2026-08-26T12:50:43.811-03:00"/>
+    <lastUpdated value="2026-10-07T11:14:11.602-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -15,7 +15,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion performed internally based on:</p>
+              <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
@@ -29,15 +29,14 @@
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
-                <li>
-                  <a href="http://tx.fhir.org/r4/ValueSet/935">codesystem CDC Race and Ethnicity v1.3 (CodeSystem)</a>
+                <li>codesystem CDC Race and Ethnicity version 1.3
                   <span class="copy-text-inline">
                     <button data-clipboard-text="urn:oid:2.16.840.1.113883.6.238|1.3" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
             </div>
-            <p>This value set contains 20 concepts</p>
+            <p>This value set contains 19 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -64,19 +63,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2126-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2126-1">2126-1</a>
-                </td>
-                <td>Afghan</td>
+                <td style="white-space:nowrap">  2126-1</td>
+                <td>Afghanistani</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2126-1&quot;, &quot;display&quot;: &quot;Afghan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2126-1&quot;, &quot;display&quot;: &quot;Afghanistani&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2126-1&quot;&gt;&lt;display value=&quot;Afghan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2126-1&quot;&gt;&lt;display value=&quot;Afghanistani&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -85,9 +82,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2030-5"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2030-5">2030-5</a>
-                </td>
+                <td style="white-space:nowrap">  2030-5</td>
                 <td>Bangladeshi</td>
                 <td/>
                 <td>
@@ -106,9 +101,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2032-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2032-1">2032-1</a>
-                </td>
+                <td style="white-space:nowrap">  2032-1</td>
                 <td>Burmese</td>
                 <td/>
                 <td>
@@ -127,9 +120,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2033-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2033-9">2033-9</a>
-                </td>
+                <td style="white-space:nowrap">  2033-9</td>
                 <td>Cambodian</td>
                 <td/>
                 <td>
@@ -148,9 +139,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2034-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2034-7">2034-7</a>
-                </td>
+                <td style="white-space:nowrap">  2034-7</td>
                 <td>Chinese</td>
                 <td/>
                 <td>
@@ -169,9 +158,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2036-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2036-2">2036-2</a>
-                </td>
+                <td style="white-space:nowrap">  2036-2</td>
                 <td>Filipino</td>
                 <td/>
                 <td>
@@ -190,9 +177,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2037-0"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2037-0">2037-0</a>
-                </td>
+                <td style="white-space:nowrap">  2037-0</td>
                 <td>Hmong</td>
                 <td/>
                 <td>
@@ -211,19 +196,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2029-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2029-7">2029-7</a>
-                </td>
-                <td>Indian</td>
+                <td style="white-space:nowrap">  2029-7</td>
+                <td>Asian Indian</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2029-7&quot;, &quot;display&quot;: &quot;Indian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2029-7&quot;, &quot;display&quot;: &quot;Asian Indian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2029-7&quot;&gt;&lt;display value=&quot;Indian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2029-7&quot;&gt;&lt;display value=&quot;Asian Indian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -232,9 +215,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2038-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2038-8">2038-8</a>
-                </td>
+                <td style="white-space:nowrap">  2038-8</td>
                 <td>Indonesian</td>
                 <td/>
                 <td>
@@ -253,9 +234,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2039-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2039-6">2039-6</a>
-                </td>
+                <td style="white-space:nowrap">  2039-6</td>
                 <td>Japanese</td>
                 <td/>
                 <td>
@@ -274,9 +253,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2040-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2040-4">2040-4</a>
-                </td>
+                <td style="white-space:nowrap">  2040-4</td>
                 <td>Korean</td>
                 <td/>
                 <td>
@@ -295,19 +272,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2041-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2041-2">2041-2</a>
-                </td>
-                <td>Lao</td>
+                <td style="white-space:nowrap">  2041-2</td>
+                <td>Laotian</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2041-2&quot;, &quot;display&quot;: &quot;Lao&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2041-2&quot;, &quot;display&quot;: &quot;Laotian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2041-2&quot;&gt;&lt;display value=&quot;Lao&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2041-2&quot;&gt;&lt;display value=&quot;Laotian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -316,9 +291,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2050-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2050-3">2050-3</a>
-                </td>
+                <td style="white-space:nowrap">  2050-3</td>
                 <td>Nepalese</td>
                 <td/>
                 <td>
@@ -337,9 +310,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2044-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2044-6">2044-6</a>
-                </td>
+                <td style="white-space:nowrap">  2044-6</td>
                 <td>Pakistani</td>
                 <td/>
                 <td>
@@ -358,9 +329,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2045-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2045-3">2045-3</a>
-                </td>
+                <td style="white-space:nowrap">  2045-3</td>
                 <td>Sri Lankan</td>
                 <td/>
                 <td>
@@ -379,9 +348,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2046-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2046-1">2046-1</a>
-                </td>
+                <td style="white-space:nowrap">  2046-1</td>
                 <td>Thai</td>
                 <td/>
                 <td>
@@ -400,9 +367,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2047-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2047-9">2047-9</a>
-                </td>
+                <td style="white-space:nowrap">  2047-9</td>
                 <td>Vietnamese</td>
                 <td/>
                 <td>
@@ -463,27 +428,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -495,9 +439,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:b877b80b-ab19-49a7-ae5b-20d4e3d4c818"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="20"/>
+          <identifier value="urn:uuid:52802e3b-6e6f-4d18-a0b2-dfc47500d9e3"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="19"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -516,6 +460,14 @@
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
             <name value="used-codesystem"/>
             <valueUri value="urn:oid:2.16.840.1.113883.6.238|1.3"/>
           </parameter>
@@ -530,7 +482,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2126-1"/>
-            <display value="Afghan"/>
+            <display value="Afghanistani"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -565,7 +517,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2029-7"/>
-            <display value="Indian"/>
+            <display value="Asian Indian"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -585,7 +537,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2041-2"/>
-            <display value="Lao"/>
+            <display value="Laotian"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -622,11 +574,6 @@
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
           </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -640,7 +587,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion performed internally based on:</p>
+              <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
@@ -660,15 +607,14 @@
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
-                <li>
-                  <a href="http://tx.fhir.org/r4/ValueSet/935">codesystem CDC Race and Ethnicity v1.3 (CodeSystem)</a>
+                <li>codesystem CDC Race and Ethnicity version 1.3
                   <span class="copy-text-inline">
                     <button data-clipboard-text="urn:oid:2.16.840.1.113883.6.238|1.3" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
             </div>
-            <p>This value set contains 19 concepts</p>
+            <p>This value set contains 18 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -695,9 +641,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2058-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2058-6">2058-6</a>
-                </td>
+                <td style="white-space:nowrap">  2058-6</td>
                 <td>African American</td>
                 <td/>
                 <td>
@@ -716,9 +660,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2068-5"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2068-5">2068-5</a>
-                </td>
+                <td style="white-space:nowrap">  2068-5</td>
                 <td>Barbadian</td>
                 <td/>
                 <td>
@@ -737,9 +679,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2184-0"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2184-0">2184-0</a>
-                </td>
+                <td style="white-space:nowrap">  2184-0</td>
                 <td>Dominican</td>
                 <td/>
                 <td>
@@ -758,9 +698,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2062-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2062-8">2062-8</a>
-                </td>
+                <td style="white-space:nowrap">  2062-8</td>
                 <td>Ethiopian</td>
                 <td/>
                 <td>
@@ -779,9 +717,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2071-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2071-9">2071-9</a>
-                </td>
+                <td style="white-space:nowrap">  2071-9</td>
                 <td>Haitian</td>
                 <td/>
                 <td>
@@ -800,9 +736,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2072-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2072-7">2072-7</a>
-                </td>
+                <td style="white-space:nowrap">  2072-7</td>
                 <td>Jamaican</td>
                 <td/>
                 <td>
@@ -821,9 +755,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2063-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2063-6">2063-6</a>
-                </td>
+                <td style="white-space:nowrap">  2063-6</td>
                 <td>Liberian</td>
                 <td/>
                 <td>
@@ -842,9 +774,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2065-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2065-1">2065-1</a>
-                </td>
+                <td style="white-space:nowrap">  2065-1</td>
                 <td>Nigerian</td>
                 <td/>
                 <td>
@@ -863,9 +793,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-4186-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-4186-3">4186-3</a>
-                </td>
+                <td style="white-space:nowrap">  4186-3</td>
                 <td>Somali</td>
                 <td/>
                 <td>
@@ -884,9 +812,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2074-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2074-3">2074-3</a>
-                </td>
+                <td style="white-space:nowrap">  2074-3</td>
                 <td>Trinidadian</td>
                 <td/>
                 <td>
@@ -1073,27 +999,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -1105,9 +1010,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:0223bdde-f584-4026-97ea-3f83e373e61f"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="19"/>
+          <identifier value="urn:uuid:0298f15b-7156-47e4-a4a5-497cec2edb9f"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="18"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -1123,6 +1028,14 @@
           </parameter>
           <parameter>
             <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
@@ -1231,11 +1144,6 @@
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
           </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -1249,7 +1157,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion performed internally based on:</p>
+              <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
@@ -1269,15 +1177,14 @@
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
-                <li>
-                  <a href="http://tx.fhir.org/r4/ValueSet/935">codesystem CDC Race and Ethnicity v1.3 (CodeSystem)</a>
+                <li>codesystem CDC Race and Ethnicity version 1.3
                   <span class="copy-text-inline">
                     <button data-clipboard-text="urn:oid:2.16.840.1.113883.6.238|1.3" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
             </div>
-            <p>This value set contains 22 concepts</p>
+            <p>This value set contains 21 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -1304,19 +1211,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2166-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2166-7">2166-7</a>
-                </td>
-                <td>Argentinian</td>
+                <td style="white-space:nowrap">  2166-7</td>
+                <td>Argentinean</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2166-7&quot;, &quot;display&quot;: &quot;Argentinian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2166-7&quot;, &quot;display&quot;: &quot;Argentinean&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2166-7&quot;&gt;&lt;display value=&quot;Argentinian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2166-7&quot;&gt;&lt;display value=&quot;Argentinean&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1325,9 +1230,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2168-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2168-3">2168-3</a>
-                </td>
+                <td style="white-space:nowrap">  2168-3</td>
                 <td>Chilean</td>
                 <td/>
                 <td>
@@ -1346,9 +1249,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2169-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2169-1">2169-1</a>
-                </td>
+                <td style="white-space:nowrap">  2169-1</td>
                 <td>Colombian</td>
                 <td/>
                 <td>
@@ -1367,9 +1268,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2156-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2156-8">2156-8</a>
-                </td>
+                <td style="white-space:nowrap">  2156-8</td>
                 <td>Costa Rican</td>
                 <td/>
                 <td>
@@ -1388,9 +1287,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2182-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2182-4">2182-4</a>
-                </td>
+                <td style="white-space:nowrap">  2182-4</td>
                 <td>Cuban</td>
                 <td/>
                 <td>
@@ -1409,9 +1306,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2184-0"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2184-0">2184-0</a>
-                </td>
+                <td style="white-space:nowrap">  2184-0</td>
                 <td>Dominican</td>
                 <td/>
                 <td>
@@ -1430,9 +1325,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2170-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2170-9">2170-9</a>
-                </td>
+                <td style="white-space:nowrap">  2170-9</td>
                 <td>Ecuadorian</td>
                 <td/>
                 <td>
@@ -1451,9 +1344,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2157-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2157-6">2157-6</a>
-                </td>
+                <td style="white-space:nowrap">  2157-6</td>
                 <td>Guatemalan</td>
                 <td/>
                 <td>
@@ -1472,9 +1363,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2158-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2158-4">2158-4</a>
-                </td>
+                <td style="white-space:nowrap">  2158-4</td>
                 <td>Honduran</td>
                 <td/>
                 <td>
@@ -1493,9 +1382,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2148-5"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2148-5">2148-5</a>
-                </td>
+                <td style="white-space:nowrap">  2148-5</td>
                 <td>Mexican</td>
                 <td/>
                 <td>
@@ -1514,19 +1401,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2151-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2151-9">2151-9</a>
-                </td>
-                <td>Chicano/a</td>
+                <td style="white-space:nowrap">  2151-9</td>
+                <td>Chicano</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2151-9&quot;, &quot;display&quot;: &quot;Chicano/a&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2151-9&quot;, &quot;display&quot;: &quot;Chicano&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2151-9&quot;&gt;&lt;display value=&quot;Chicano/a&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2151-9&quot;&gt;&lt;display value=&quot;Chicano&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1535,9 +1420,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2159-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2159-2">2159-2</a>
-                </td>
+                <td style="white-space:nowrap">  2159-2</td>
                 <td>Nicaraguan</td>
                 <td/>
                 <td>
@@ -1556,9 +1439,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2160-0"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2160-0">2160-0</a>
-                </td>
+                <td style="white-space:nowrap">  2160-0</td>
                 <td>Panamanian</td>
                 <td/>
                 <td>
@@ -1577,9 +1458,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2172-5"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2172-5">2172-5</a>
-                </td>
+                <td style="white-space:nowrap">  2172-5</td>
                 <td>Peruvian</td>
                 <td/>
                 <td>
@@ -1598,9 +1477,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2180-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2180-8">2180-8</a>
-                </td>
+                <td style="white-space:nowrap">  2180-8</td>
                 <td>Puerto Rican</td>
                 <td/>
                 <td>
@@ -1619,9 +1496,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2161-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2161-8">2161-8</a>
-                </td>
+                <td style="white-space:nowrap">  2161-8</td>
                 <td>Salvadoran</td>
                 <td/>
                 <td>
@@ -1640,19 +1515,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2137-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2137-8">2137-8</a>
-                </td>
-                <td>Spanish</td>
+                <td style="white-space:nowrap">  2137-8</td>
+                <td>Spaniard</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2137-8&quot;, &quot;display&quot;: &quot;Spanish&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2137-8&quot;, &quot;display&quot;: &quot;Spaniard&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2137-8&quot;&gt;&lt;display value=&quot;Spanish&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2137-8&quot;&gt;&lt;display value=&quot;Spaniard&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1661,9 +1534,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2174-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2174-1">2174-1</a>
-                </td>
+                <td style="white-space:nowrap">  2174-1</td>
                 <td>Venezuelan</td>
                 <td/>
                 <td>
@@ -1745,27 +1616,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -1777,9 +1627,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:fd96a07c-5a11-40a5-bba7-433816ac8110"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="22"/>
+          <identifier value="urn:uuid:cb9a5205-5897-4199-839f-469f74d94f75"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="21"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -1795,6 +1645,14 @@
           </parameter>
           <parameter>
             <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
@@ -1816,7 +1674,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2166-7"/>
-            <display value="Argentinian"/>
+            <display value="Argentinean"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -1866,7 +1724,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2151-9"/>
-            <display value="Chicano/a"/>
+            <display value="Chicano"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -1896,7 +1754,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2137-8"/>
-            <display value="Spanish"/>
+            <display value="Spaniard"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -1918,11 +1776,6 @@
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
           </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -1936,7 +1789,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion performed internally based on:</p>
+              <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
@@ -1956,15 +1809,14 @@
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
-                <li>
-                  <a href="http://tx.fhir.org/r4/ValueSet/935">codesystem CDC Race and Ethnicity v1.3 (CodeSystem)</a>
+                <li>codesystem CDC Race and Ethnicity version 1.3
                   <span class="copy-text-inline">
                     <button data-clipboard-text="urn:oid:2.16.840.1.113883.6.238|1.3" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
             </div>
-            <p>This value set contains 18 concepts</p>
+            <p>This value set contains 17 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -1991,9 +1843,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2120-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2120-4">2120-4</a>
-                </td>
+                <td style="white-space:nowrap">  2120-4</td>
                 <td>Egyptian</td>
                 <td/>
                 <td>
@@ -2012,9 +1862,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2122-0"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2122-0">2122-0</a>
-                </td>
+                <td style="white-space:nowrap">  2122-0</td>
                 <td>Iraqi</td>
                 <td/>
                 <td>
@@ -2033,9 +1881,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2121-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2121-2">2121-2</a>
-                </td>
+                <td style="white-space:nowrap">  2121-2</td>
                 <td>Iranian</td>
                 <td/>
                 <td>
@@ -2054,9 +1900,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2127-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2127-9">2127-9</a>
-                </td>
+                <td style="white-space:nowrap">  2127-9</td>
                 <td>Israeli</td>
                 <td/>
                 <td>
@@ -2075,9 +1919,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2123-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2123-8">2123-8</a>
-                </td>
+                <td style="white-space:nowrap">  2123-8</td>
                 <td>Lebanese</td>
                 <td/>
                 <td>
@@ -2096,9 +1938,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2124-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2124-6">2124-6</a>
-                </td>
+                <td style="white-space:nowrap">  2124-6</td>
                 <td>Palestinian</td>
                 <td/>
                 <td>
@@ -2117,9 +1957,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2125-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2125-3">2125-3</a>
-                </td>
+                <td style="white-space:nowrap">  2125-3</td>
                 <td>Syrian</td>
                 <td/>
                 <td>
@@ -2348,27 +2186,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -2380,9 +2197,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:80d9389e-9ad1-494d-91bd-a3c3a26df3e1"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="18"/>
+          <identifier value="urn:uuid:b762cb49-6762-4f7b-9f75-185b72d1d2e5"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="17"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -2398,6 +2215,14 @@
           </parameter>
           <parameter>
             <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
@@ -2501,11 +2326,6 @@
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
           </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -2519,7 +2339,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion performed internally based on:</p>
+              <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
@@ -2539,15 +2359,14 @@
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
-                <li>
-                  <a href="http://tx.fhir.org/r4/ValueSet/935">codesystem CDC Race and Ethnicity v1.3 (CodeSystem)</a>
+                <li>codesystem CDC Race and Ethnicity version 1.3
                   <span class="copy-text-inline">
                     <button data-clipboard-text="urn:oid:2.16.840.1.113883.6.238|1.3" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
             </div>
-            <p>This value set contains 23 concepts</p>
+            <p>This value set contains 22 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -2574,9 +2393,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1010-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1010-8">1010-8</a>
-                </td>
+                <td style="white-space:nowrap">  1010-8</td>
                 <td>Apache</td>
                 <td/>
                 <td>
@@ -2595,9 +2412,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-4111-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-4111-1">4111-1</a>
-                </td>
+                <td style="white-space:nowrap">  4111-1</td>
                 <td>Aztec</td>
                 <td/>
                 <td>
@@ -2616,19 +2431,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1035-5"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1035-5">1035-5</a>
-                </td>
-                <td>Blackfeet</td>
+                <td style="white-space:nowrap">  1035-5</td>
+                <td>Blackfeet Tribe of the Blackfeet Indian Reservation of Montana</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1035-5&quot;, &quot;display&quot;: &quot;Blackfeet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1035-5&quot;, &quot;display&quot;: &quot;Blackfeet Tribe of the Blackfeet Indian Reservation of Montana&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1035-5&quot;&gt;&lt;display value=&quot;Blackfeet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1035-5&quot;&gt;&lt;display value=&quot;Blackfeet Tribe of the Blackfeet Indian Reservation of Montana&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2637,9 +2450,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1088-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1088-4">1088-4</a>
-                </td>
+                <td style="white-space:nowrap">  1088-4</td>
                 <td>Cherokee</td>
                 <td/>
                 <td>
@@ -2658,9 +2469,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1102-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1102-3">1102-3</a>
-                </td>
+                <td style="white-space:nowrap">  1102-3</td>
                 <td>Cheyenne</td>
                 <td/>
                 <td>
@@ -2679,9 +2488,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1123-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1123-9">1123-9</a>
-                </td>
+                <td style="white-space:nowrap">  1123-9</td>
                 <td>Chippewa</td>
                 <td/>
                 <td>
@@ -2700,9 +2507,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1155-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1155-1">1155-1</a>
-                </td>
+                <td style="white-space:nowrap">  1155-1</td>
                 <td>Choctaw</td>
                 <td/>
                 <td>
@@ -2721,19 +2526,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-3109-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-3109-6">3109-6</a>
-                </td>
-                <td>Comanche</td>
+                <td style="white-space:nowrap">  3109-6</td>
+                <td>Comanche Nation, Oklahoma</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;3109-6&quot;, &quot;display&quot;: &quot;Comanche&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;3109-6&quot;, &quot;display&quot;: &quot;Comanche Nation, Oklahoma&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;3109-6&quot;&gt;&lt;display value=&quot;Comanche&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;3109-6&quot;&gt;&lt;display value=&quot;Comanche Nation, Oklahoma&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2742,19 +2545,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-3745-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-3745-7">3745-7</a>
-                </td>
-                <td>Inupiat</td>
+                <td style="white-space:nowrap">  3745-7</td>
+                <td>Inupiat (inupiaq)</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;3745-7&quot;, &quot;display&quot;: &quot;Inupiat&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;3745-7&quot;, &quot;display&quot;: &quot;Inupiat (inupiaq)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;3745-7&quot;&gt;&lt;display value=&quot;Inupiat&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;3745-7&quot;&gt;&lt;display value=&quot;Inupiat (inupiaq)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2763,19 +2564,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1340-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1340-9">1340-9</a>
-                </td>
-                <td>Lumbee</td>
+                <td style="white-space:nowrap">  1340-9</td>
+                <td>Lumbee Tribe of North Carolina</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1340-9&quot;, &quot;display&quot;: &quot;Lumbee&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1340-9&quot;, &quot;display&quot;: &quot;Lumbee Tribe of North Carolina&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1340-9&quot;&gt;&lt;display value=&quot;Lumbee&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1340-9&quot;&gt;&lt;display value=&quot;Lumbee Tribe of North Carolina&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2784,19 +2583,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1833-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1833-3">1833-3</a>
-                </td>
-                <td>Lingít (Tlingit)</td>
+                <td style="white-space:nowrap">  1833-3</td>
+                <td>Tlingit</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1833-3&quot;, &quot;display&quot;: &quot;Lingít (Tlingit)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1833-3&quot;, &quot;display&quot;: &quot;Tlingit&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1833-3&quot;&gt;&lt;display value=&quot;Lingít (Tlingit)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1833-3&quot;&gt;&lt;display value=&quot;Tlingit&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2805,19 +2602,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-4093-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-4093-1">4093-1</a>
-                </td>
-                <td>Mayan</td>
+                <td style="white-space:nowrap">  4093-1</td>
+                <td>Guatemalan Mayan</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;4093-1&quot;, &quot;display&quot;: &quot;Mayan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;4093-1&quot;, &quot;display&quot;: &quot;Guatemalan Mayan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;4093-1&quot;&gt;&lt;display value=&quot;Mayan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;4093-1&quot;&gt;&lt;display value=&quot;Guatemalan Mayan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2826,19 +2621,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1193-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1193-2">1193-2</a>
-                </td>
-                <td>Muscogee (Creek)</td>
+                <td style="white-space:nowrap">  1193-2</td>
+                <td>The Muscogee (Creek) Nation</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1193-2&quot;, &quot;display&quot;: &quot;Muscogee (Creek)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1193-2&quot;, &quot;display&quot;: &quot;The Muscogee (Creek) Nation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1193-2&quot;&gt;&lt;display value=&quot;Muscogee (Creek)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1193-2&quot;&gt;&lt;display value=&quot;The Muscogee (Creek) Nation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2847,19 +2640,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-3321-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-3321-7">3321-7</a>
-                </td>
-                <td>Navajo</td>
+                <td style="white-space:nowrap">  3321-7</td>
+                <td>Navajo Nation, Arizona, New Mexico &amp; Utah</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;3321-7&quot;, &quot;display&quot;: &quot;Navajo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;3321-7&quot;, &quot;display&quot;: &quot;Navajo Nation, Arizona, New Mexico &amp; Utah&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;3321-7&quot;&gt;&lt;display value=&quot;Navajo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;3321-7&quot;&gt;&lt;display value=&quot;Navajo Nation, Arizona, New Mexico &amp;amp; Utah&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2868,19 +2659,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1407-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1407-6">1407-6</a>
-                </td>
-                <td>Osage</td>
+                <td style="white-space:nowrap">  1407-6</td>
+                <td>The Osage Nation</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1407-6&quot;, &quot;display&quot;: &quot;Osage&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1407-6&quot;, &quot;display&quot;: &quot;The Osage Nation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1407-6&quot;&gt;&lt;display value=&quot;Osage&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1407-6&quot;&gt;&lt;display value=&quot;The Osage Nation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -2889,9 +2678,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1609-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1609-7">1609-7</a>
-                </td>
+                <td style="white-space:nowrap">  1609-7</td>
                 <td>Sioux</td>
                 <td/>
                 <td>
@@ -2910,9 +2697,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-4178-0"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-4178-0">4178-0</a>
-                </td>
+                <td style="white-space:nowrap">  4178-0</td>
                 <td>Taino</td>
                 <td/>
                 <td>
@@ -2931,19 +2716,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1896-0"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1896-0">1896-0</a>
-                </td>
-                <td>Yu’pik Eskimo</td>
+                <td style="white-space:nowrap">  1896-0</td>
+                <td>Yup’ik (Yup’ik Eskimo)</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1896-0&quot;, &quot;display&quot;: &quot;Yu’pik Eskimo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1896-0&quot;, &quot;display&quot;: &quot;Yup’ik (Yup’ik Eskimo)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1896-0&quot;&gt;&lt;display value=&quot;Yu’pik Eskimo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1896-0&quot;&gt;&lt;display value=&quot;Yup’ik (Yup’ik Eskimo)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -3036,27 +2819,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -3068,9 +2830,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:4362cbbf-0cea-4020-859c-a5ede4f6bc97"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="23"/>
+          <identifier value="urn:uuid:ccd01e4d-c850-4e46-9f9c-2c10aa7f1838"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="22"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -3086,6 +2848,14 @@
           </parameter>
           <parameter>
             <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
@@ -3117,7 +2887,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="1035-5"/>
-            <display value="Blackfeet"/>
+            <display value="Blackfeet Tribe of the Blackfeet Indian Reservation of Montana"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -3142,42 +2912,42 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="3109-6"/>
-            <display value="Comanche"/>
+            <display value="Comanche Nation, Oklahoma"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="3745-7"/>
-            <display value="Inupiat"/>
+            <display value="Inupiat (inupiaq)"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="1340-9"/>
-            <display value="Lumbee"/>
+            <display value="Lumbee Tribe of North Carolina"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="1833-3"/>
-            <display value="Lingít (Tlingit)"/>
+            <display value="Tlingit"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="4093-1"/>
-            <display value="Mayan"/>
+            <display value="Guatemalan Mayan"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="1193-2"/>
-            <display value="Muscogee (Creek)"/>
+            <display value="The Muscogee (Creek) Nation"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="3321-7"/>
-            <display value="Navajo"/>
+            <display value="Navajo Nation, Arizona, New Mexico &amp; Utah"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="1407-6"/>
-            <display value="Osage"/>
+            <display value="The Osage Nation"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -3192,7 +2962,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="1896-0"/>
-            <display value="Yu’pik Eskimo"/>
+            <display value="Yup’ik (Yup’ik Eskimo)"/>
           </contains>
           <contains>
             <system value="http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes"/>
@@ -3214,11 +2984,6 @@
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
           </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -3232,7 +2997,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion performed internally based on:</p>
+              <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
@@ -3246,15 +3011,14 @@
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
-                <li>
-                  <a href="http://tx.fhir.org/r4/ValueSet/935">codesystem CDC Race and Ethnicity v1.3 (CodeSystem)</a>
+                <li>codesystem CDC Race and Ethnicity version 1.3
                   <span class="copy-text-inline">
                     <button data-clipboard-text="urn:oid:2.16.840.1.113883.6.238|1.3" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
             </div>
-            <p>This value set contains 14 concepts</p>
+            <p>This value set contains 13 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -3281,9 +3045,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2097-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2097-4">2097-4</a>
-                </td>
+                <td style="white-space:nowrap">  2097-4</td>
                 <td>Chuukese</td>
                 <td/>
                 <td>
@@ -3302,9 +3064,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2088-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2088-3">2088-3</a>
-                </td>
+                <td style="white-space:nowrap">  2088-3</td>
                 <td>Chamorro</td>
                 <td/>
                 <td>
@@ -3323,9 +3083,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2101-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2101-4">2101-4</a>
-                </td>
+                <td style="white-space:nowrap">  2101-4</td>
                 <td>Fijian</td>
                 <td/>
                 <td>
@@ -3344,9 +3102,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2078-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2078-4">2078-4</a>
-                </td>
+                <td style="white-space:nowrap">  2078-4</td>
                 <td>Polynesian</td>
                 <td/>
                 <td>
@@ -3365,9 +3121,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2090-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2090-9">2090-9</a>
-                </td>
+                <td style="white-space:nowrap">  2090-9</td>
                 <td>Marshallese</td>
                 <td/>
                 <td>
@@ -3386,9 +3140,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2079-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2079-2">2079-2</a>
-                </td>
+                <td style="white-space:nowrap">  2079-2</td>
                 <td>Native Hawaiian</td>
                 <td/>
                 <td>
@@ -3407,9 +3159,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2091-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2091-7">2091-7</a>
-                </td>
+                <td style="white-space:nowrap">  2091-7</td>
                 <td>Palauan</td>
                 <td/>
                 <td>
@@ -3428,9 +3178,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2102-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2102-2">2102-2</a>
-                </td>
+                <td style="white-space:nowrap">  2102-2</td>
                 <td>Papua New Guinean</td>
                 <td/>
                 <td>
@@ -3449,9 +3197,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2080-0"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2080-0">2080-0</a>
-                </td>
+                <td style="white-space:nowrap">  2080-0</td>
                 <td>Samoan</td>
                 <td/>
                 <td>
@@ -3470,9 +3216,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2082-6"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2082-6">2082-6</a>
-                </td>
+                <td style="white-space:nowrap">  2082-6</td>
                 <td>Tongan</td>
                 <td/>
                 <td>
@@ -3491,19 +3235,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2098-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2098-2">2098-2</a>
-                </td>
-                <td>Yap</td>
+                <td style="white-space:nowrap">  2098-2</td>
+                <td>Yapese</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2098-2&quot;, &quot;display&quot;: &quot;Yap&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2098-2&quot;, &quot;display&quot;: &quot;Yapese&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2098-2&quot;&gt;&lt;display value=&quot;Yap&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2098-2&quot;&gt;&lt;display value=&quot;Yapese&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -3554,27 +3296,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -3586,9 +3307,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:d157957a-b9c0-4c7b-8e6f-ba4d31edd5a6"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="14"/>
+          <identifier value="urn:uuid:6d529e60-dea0-41ac-823b-c107db9228ba"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="13"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -3604,6 +3325,14 @@
           </parameter>
           <parameter>
             <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
@@ -3671,7 +3400,7 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2098-2"/>
-            <display value="Yap"/>
+            <display value="Yapese"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
@@ -3682,11 +3411,6 @@
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
-          </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -3701,7 +3425,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion performed internally based on:</p>
+              <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
@@ -3721,15 +3445,14 @@
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
-                <li>
-                  <a href="http://tx.fhir.org/r4/ValueSet/935">codesystem CDC Race and Ethnicity v1.3 (CodeSystem)</a>
+                <li>codesystem CDC Race and Ethnicity version 1.3
                   <span class="copy-text-inline">
                     <button data-clipboard-text="urn:oid:2.16.840.1.113883.6.238|1.3" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
             </div>
-            <p>This value set contains 22 concepts</p>
+            <p>This value set contains 21 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -3756,9 +3479,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2110-5"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2110-5">2110-5</a>
-                </td>
+                <td style="white-space:nowrap">  2110-5</td>
                 <td>English</td>
                 <td/>
                 <td>
@@ -3777,9 +3498,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2111-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2111-3">2111-3</a>
-                </td>
+                <td style="white-space:nowrap">  2111-3</td>
                 <td>French</td>
                 <td/>
                 <td>
@@ -3798,9 +3517,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2112-1"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2112-1">2112-1</a>
-                </td>
+                <td style="white-space:nowrap">  2112-1</td>
                 <td>German</td>
                 <td/>
                 <td>
@@ -3819,9 +3536,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2113-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2113-9">2113-9</a>
-                </td>
+                <td style="white-space:nowrap">  2113-9</td>
                 <td>Irish</td>
                 <td/>
                 <td>
@@ -3840,9 +3555,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2114-7"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2114-7">2114-7</a>
-                </td>
+                <td style="white-space:nowrap">  2114-7</td>
                 <td>Italian</td>
                 <td/>
                 <td>
@@ -3861,9 +3574,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2115-4"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2115-4">2115-4</a>
-                </td>
+                <td style="white-space:nowrap">  2115-4</td>
                 <td>Polish</td>
                 <td/>
                 <td>
@@ -3882,9 +3593,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2116-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2116-2">2116-2</a>
-                </td>
+                <td style="white-space:nowrap">  2116-2</td>
                 <td>Scottish</td>
                 <td/>
                 <td>
@@ -4197,27 +3906,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -4229,9 +3917,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:92ed63b3-236e-4e1a-837d-26ef7aea9d20"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="22"/>
+          <identifier value="urn:uuid:b5bed74d-af7e-4953-9962-60af54c19d41"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="21"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -4247,6 +3935,14 @@
           </parameter>
           <parameter>
             <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
@@ -4369,11 +4065,6 @@
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
-          </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -4552,8 +4243,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:8c0ee6f0-bd03-4976-b05c-8ba537851f08"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
+          <identifier value="urn:uuid:204977ac-3439-4864-a09c-5007fbb945dc"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -4652,7 +4343,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 9 concepts</p>
+            <p>This value set contains 8 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -4847,27 +4538,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -4879,9 +4549,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:1b380aef-684d-450a-8557-d1522f6b50ce"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="9"/>
+          <identifier value="urn:uuid:f12b83b1-1d5b-4d62-af88-84bbace2260e"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="8"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -4951,11 +4621,6 @@
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
           </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -4990,7 +4655,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 10 concepts</p>
+            <p>This value set contains 9 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -5161,48 +4826,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR">CNTR</a>
-                </td>
-                <td>I choose not to respond at this time</td>
-                <td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CNTR&quot;, &quot;display&quot;: &quot;I choose not to respond at this time&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CNTR&quot;&gt;&lt;display value=&quot;I choose not to respond at this time&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-http://terminology.hl7.org/CodeSystem/v3-NullFlavor-ASKU"> </a>
                   <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code>
                 </td>
@@ -5227,6 +4850,27 @@
                   </span>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
+                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR">CNTR</a>
+                </td>
+                <td>I choose not to respond at this time</td>
+                <td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CNTR&quot;, &quot;display&quot;: &quot;I choose not to respond at this time&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CNTR&quot;&gt;&lt;display value=&quot;I choose not to respond at this time&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
             </table>
           </div>
         </text>
@@ -5238,9 +4882,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:068e7612-8710-405d-be21-91b060f275cc"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="10"/>
+          <identifier value="urn:uuid:3f32c734-78d4-4df3-8050-90e15aa23e59"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="9"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -5272,11 +4916,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor|0.1.0"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0"/>
+            <valueUri value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor|0.1.0"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -5314,19 +4958,14 @@
             <display value="Identifies as Two-Spirit gender"/>
           </contains>
           <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+            <code value="ASKU"/>
+            <display value="I don't know"/>
           </contains>
           <contains>
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
-            <code value="ASKU"/>
-            <display value="I don't know"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -5362,7 +5001,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 14 concepts</p>
+            <p>This value set contains 13 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -5638,27 +5277,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Other difficulties when doing activities throughout your day (please describe)</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Other difficulties when doing activities throughout your day (please describe)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Other difficulties when doing activities throughout your day (please describe)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
                   <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
                 </td>
@@ -5689,9 +5307,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:941fe80f-40c2-439d-a1db-690c792025d4"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="14"/>
+          <identifier value="urn:uuid:0d899c1c-c543-4703-b6a9-3ff0f0238768"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="13"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -5792,11 +5410,6 @@
             <system value="http://loinc.org"/>
             <code value="LA137-2"/>
             <display value="None"/>
-          </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Other difficulties when doing activities throughout your day (please describe)"/>
           </contains>
           <contains>
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
@@ -5949,8 +5562,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:7d6fece8-dd6d-4a39-be2a-2744fb62a2a4"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
+          <identifier value="urn:uuid:69390abc-89ca-4c32-89c7-97731f3b5f68"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -6237,8 +5850,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:5ea96472-82a0-45d1-aa46-fedbecebb761"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
+          <identifier value="urn:uuid:715793ff-cc0d-4641-a100-dc567fd0c562"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -6473,8 +6086,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:80b7b6fb-ba7a-4db1-b8ae-4e4b63400298"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
+          <identifier value="urn:uuid:109f54f7-cb46-41d6-a6b1-dad63fbe5b57"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -6560,7 +6173,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 9 concepts</p>
+            <p>This value set contains 8 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -6710,27 +6323,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
                   <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
                 </td>
@@ -6787,9 +6379,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:b4f40b9d-43db-4fd4-9c70-2ba086bcc8a1"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="9"/>
+          <identifier value="urn:uuid:108c6f70-7c5c-445f-a9df-620b8d76e7d2"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="8"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -6859,11 +6451,6 @@
           </contains>
           <contains>
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
-          </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
           </contains>
@@ -6885,7 +6472,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion performed internally based on:</p>
+              <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
@@ -6899,8 +6486,7 @@
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
-                <li>
-                  <a href="http://tx.fhir.org/r4/ValueSet/935">codesystem CDC Race and Ethnicity v1.3 (CodeSystem)</a>
+                <li>codesystem CDC Race and Ethnicity version 1.3
                   <span class="copy-text-inline">
                     <button data-clipboard-text="urn:oid:2.16.840.1.113883.6.238|1.3" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
@@ -6934,19 +6520,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-1002-5"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-1002-5">1002-5</a>
-                </td>
-                <td>Native American, Alaska Native, or Indigenous</td>
+                <td style="white-space:nowrap">  1002-5</td>
+                <td>American Indian or Alaska Native</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1002-5&quot;, &quot;display&quot;: &quot;Native American, Alaska Native, or Indigenous&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;1002-5&quot;, &quot;display&quot;: &quot;American Indian or Alaska Native&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1002-5&quot;&gt;&lt;display value=&quot;Native American, Alaska Native, or Indigenous&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;1002-5&quot;&gt;&lt;display value=&quot;American Indian or Alaska Native&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -6955,19 +6539,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2028-9"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2028-9">2028-9</a>
-                </td>
-                <td>Asian or Asian American</td>
+                <td style="white-space:nowrap">  2028-9</td>
+                <td>Asian</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2028-9&quot;, &quot;display&quot;: &quot;Asian or Asian American&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2028-9&quot;, &quot;display&quot;: &quot;Asian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2028-9&quot;&gt;&lt;display value=&quot;Asian or Asian American&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2028-9&quot;&gt;&lt;display value=&quot;Asian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -6976,19 +6558,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2054-5"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2054-5">2054-5</a>
-                </td>
-                <td>Black, African or African American</td>
+                <td style="white-space:nowrap">  2054-5</td>
+                <td>Black or African American</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2054-5&quot;, &quot;display&quot;: &quot;Black, African or African American&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2054-5&quot;, &quot;display&quot;: &quot;Black or African American&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2054-5&quot;&gt;&lt;display value=&quot;Black, African or African American&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2054-5&quot;&gt;&lt;display value=&quot;Black or African American&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -6997,9 +6577,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2118-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2118-8">2118-8</a>
-                </td>
+                <td style="white-space:nowrap">  2118-8</td>
                 <td>Middle Eastern or North African</td>
                 <td/>
                 <td>
@@ -7018,9 +6596,7 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2076-8"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2076-8">2076-8</a>
-                </td>
+                <td style="white-space:nowrap">  2076-8</td>
                 <td>Native Hawaiian or Other Pacific Islander</td>
                 <td/>
                 <td>
@@ -7039,19 +6615,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2106-3"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2106-3">2106-3</a>
-                </td>
-                <td>White or European</td>
+                <td style="white-space:nowrap">  2106-3</td>
+                <td>White</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2106-3&quot;, &quot;display&quot;: &quot;White or European&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2106-3&quot;, &quot;display&quot;: &quot;White&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2106-3&quot;&gt;&lt;display value=&quot;White or European&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2106-3&quot;&gt;&lt;display value=&quot;White&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -7060,19 +6634,17 @@
                   <a name="x-urn:oid:2.16.840.1.113883.6.238-2135-2"> </a>
                   <code>urn:oid:2.16.840.1.113883.6.238</code>
                 </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://tx.fhir.org/r4/ValueSet/935#935-2135-2">2135-2</a>
-                </td>
-                <td>Hispanic or Latino/a/e</td>
+                <td style="white-space:nowrap">  2135-2</td>
+                <td>Hispanic or Latino</td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2135-2&quot;, &quot;display&quot;: &quot;Hispanic or Latino/a/e&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:oid:2.16.840.1.113883.6.238&quot;, &quot;version&quot;: &quot;1.3&quot;, &quot;code&quot;: &quot;2135-2&quot;, &quot;display&quot;: &quot;Hispanic or Latino&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2135-2&quot;&gt;&lt;display value=&quot;Hispanic or Latino/a/e&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:oid:2.16.840.1.113883.6.238&quot;&gt;&lt;version value=&quot;1.3&quot;&gt;&lt;code value=&quot;2135-2&quot;&gt;&lt;display value=&quot;Hispanic or Latino&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -7134,8 +6706,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:58d3166f-bf6e-46f2-9da9-7f55fd6c4046"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
+          <identifier value="urn:uuid:de68fe4c-59e6-4fc2-91ce-a15f4f5197e8"/>
+          <timestamp value="2026-10-07T11:16:12-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -7155,6 +6727,14 @@
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
             <name value="used-codesystem"/>
             <valueUri value="urn:oid:2.16.840.1.113883.6.238|1.3"/>
           </parameter>
@@ -7169,17 +6749,17 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="1002-5"/>
-            <display value="Native American, Alaska Native, or Indigenous"/>
+            <display value="American Indian or Alaska Native"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2028-9"/>
-            <display value="Asian or Asian American"/>
+            <display value="Asian"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2054-5"/>
-            <display value="Black, African or African American"/>
+            <display value="Black or African American"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
@@ -7194,12 +6774,12 @@
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2106-3"/>
-            <display value="White or European"/>
+            <display value="White"/>
           </contains>
           <contains>
             <system value="urn:oid:2.16.840.1.113883.6.238"/>
             <code value="2135-2"/>
-            <display value="Hispanic or Latino/a/e"/>
+            <display value="Hispanic or Latino"/>
           </contains>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
@@ -7246,7 +6826,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 61 concepts</p>
+            <p>This value set contains 60 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -8423,27 +8003,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -8455,9 +8014,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:c21b6587-99bb-43f4-86f6-3e8c01d8c38b"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="61"/>
+          <identifier value="urn:uuid:cbbb7565-f83c-44dd-98cc-c721796e2750"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="60"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -8799,11 +8358,6 @@
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
           </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -8839,7 +8393,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 11 concepts</p>
+            <p>This value set contains 10 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -9079,27 +8633,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
                   <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
                 </td>
@@ -9130,9 +8663,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:79aba372-71e9-4da6-ba8f-37bb806a6b0e"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="11"/>
+          <identifier value="urn:uuid:90f9425f-3094-478a-9bb5-32f601d2532a"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="10"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -9206,11 +8739,6 @@
             <system value="http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes"/>
             <code value="POLY"/>
             <display value="In a committed relationship with more than one person (polyamorous relationship)"/>
-          </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
           </contains>
           <contains>
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
@@ -9615,8 +9143,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:345e9164-4549-4ae8-a21d-0f69c7626aa5"/>
-          <timestamp value="2026-08-26T12:51:38-03:00"/>
+          <identifier value="urn:uuid:bedd7951-b77b-4f38-8ef7-6dda9dba24ac"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -9837,8 +9365,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:f6156dc9-c9e7-4d93-ac59-a3f45d432a4b"/>
-          <timestamp value="2026-08-26T12:51:38-03:00"/>
+          <identifier value="urn:uuid:072d0733-7140-462b-8b74-cafc8878c25c"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -9917,7 +9445,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 26 concepts</p>
+            <p>This value set contains 25 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -10424,48 +9952,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR">CNTR</a>
-                </td>
-                <td>I choose not to respond at this time</td>
-                <td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CNTR&quot;, &quot;display&quot;: &quot;I choose not to respond at this time&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CNTR&quot;&gt;&lt;display value=&quot;I choose not to respond at this time&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-http://terminology.hl7.org/CodeSystem/v3-NullFlavor-ASKU"> </a>
                   <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code>
                 </td>
@@ -10490,6 +9976,27 @@
                   </span>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
+                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR">CNTR</a>
+                </td>
+                <td>I choose not to respond at this time</td>
+                <td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CNTR&quot;, &quot;display&quot;: &quot;I choose not to respond at this time&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CNTR&quot;&gt;&lt;display value=&quot;I choose not to respond at this time&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
             </table>
           </div>
         </text>
@@ -10501,9 +10008,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:6c731e59-eea4-4c31-85f6-d5cf01d8ee14"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="26"/>
+          <identifier value="urn:uuid:f45557dc-8bd2-4438-9471-2031552394a8"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="25"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -10531,11 +10038,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor|0.1.0"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0"/>
+            <valueUri value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor|0.1.0"/>
           </parameter>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"/>
@@ -10653,19 +10160,14 @@
             <display value="Spiritual but not religious"/>
           </contains>
           <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+            <code value="ASKU"/>
+            <display value="Asked but unknown"/>
           </contains>
           <contains>
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
-            <code value="ASKU"/>
-            <display value="Asked but unknown"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -10701,7 +10203,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 8 concepts</p>
+            <p>This value set contains 7 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -10830,48 +10332,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR">CNTR</a>
-                </td>
-                <td>I choose not to respond at this time</td>
-                <td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CNTR&quot;, &quot;display&quot;: &quot;I choose not to respond at this time&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CNTR&quot;&gt;&lt;display value=&quot;I choose not to respond at this time&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-http://terminology.hl7.org/CodeSystem/v3-NullFlavor-ASKU"> </a>
                   <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code>
                 </td>
@@ -10896,6 +10356,27 @@
                   </span>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-CNTR"> </a>
+                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR">CNTR</a>
+                </td>
+                <td>I choose not to respond at this time</td>
+                <td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CNTR&quot;, &quot;display&quot;: &quot;I choose not to respond at this time&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CNTR&quot;&gt;&lt;display value=&quot;I choose not to respond at this time&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
             </table>
           </div>
         </text>
@@ -10907,9 +10388,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:4f57b92e-e73c-4cd2-b4e8-54e3afa0667f"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="8"/>
+          <identifier value="urn:uuid:2e920d84-6868-4831-967b-dbbb5e35775c"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="7"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -10941,11 +10422,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor|0.1.0"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0"/>
+            <valueUri value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor|0.1.0"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -10973,19 +10454,14 @@
             <display value="Pansexual"/>
           </contains>
           <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+            <code value="ASKU"/>
+            <display value="I don't know"/>
           </contains>
           <contains>
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
-          </contains>
-          <contains>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
-            <code value="ASKU"/>
-            <display value="I don't know"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -11003,12 +10479,6 @@
               <p>Expansion from tx.fhir.org based on:</p>
               <ul>
                 <li>
-                  <a href="CodeSystem-AHIP-Demo-Additional-Language.html">codesystem AHIP Demo Additional Language v0.1.0 (CodeSystem)</a>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
-                  </span>
-                </li>
-                <li>
                   <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html">codesystem AHIP Demo Additional NullFlavor v0.1.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
@@ -11022,7 +10492,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 60 concepts</p>
+            <p>This value set contains 58 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -12110,27 +11580,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language-osl"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-Language.html#AHIP-Demo-Additional-Language-osl">osl</a>
-                </td>
-                <td>Other Sign Language - Please specify</td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;osl&quot;, &quot;display&quot;: &quot;Other Sign Language - Please specify&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;osl&quot;&gt;&lt;display value=&quot;Other Sign Language - Please specify&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-http://terminology.hl7.org/CodeSystem/v3-NullFlavor-ASKU"> </a>
                   <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code>
                 </td>
@@ -12176,27 +11625,6 @@
                   </span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a name="x-http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor-PSIN"> </a>
-                  <code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-PSIN">PSIN</a>
-                </td>
-                <td>Please specify if not listed above</td>
-                <td>**Description:**This code is to represent explicitly that the patient would like to specify a value that is not listed above</td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PSIN&quot;, &quot;display&quot;: &quot;Please specify if not listed above&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PSIN&quot;&gt;&lt;display value=&quot;Please specify if not listed above&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
             </table>
           </div>
         </text>
@@ -12208,9 +11636,9 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:325f77bb-cb26-4d1c-ba9c-8a9babce5bc6"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
-          <total value="60"/>
+          <identifier value="urn:uuid:d550c777-3fac-4611-8664-312d8535e98e"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
+          <total value="58"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -12239,10 +11667,6 @@
           <parameter>
             <name value="used-codesystem"/>
             <valueUri value="urn:ietf:bcp:47"/>
-          </parameter>
-          <parameter>
-            <name value="used-codesystem"/>
-            <valueUri value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language|0.1.0"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -12533,11 +11957,6 @@
             <display value="American Sign Language"/>
           </contains>
           <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language"/>
-            <code value="osl"/>
-            <display value="Other Sign Language - Please specify"/>
-          </contains>
-          <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
             <code value="ASKU"/>
             <display value="Asked but unknown"/>
@@ -12546,11 +11965,6 @@
             <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
             <code value="CNTR"/>
             <display value="I choose not to respond at this time"/>
-          </contains>
-          <contains>
-            <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
-            <code value="PSIN"/>
-            <display value="Please specify if not listed above"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -12708,8 +12122,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:11942b76-d3e0-4e43-97a4-7b2a2996e53e"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
+          <identifier value="urn:uuid:afe99694-4023-4687-8f50-9e6f5f9813c1"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -12892,8 +12306,8 @@
         <experimental value="false"/>
         <date value="2026-08-25T00:00:00-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:56cdfc1e-b216-4c25-b0ed-f457c6c8084d"/>
-          <timestamp value="2026-08-26T12:51:37-03:00"/>
+          <identifier value="urn:uuid:d93798c9-eb29-4316-8e8e-8bc9414e652d"/>
+          <timestamp value="2026-10-07T11:16:13-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

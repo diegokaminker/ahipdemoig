@@ -66,6 +66,7 @@ Used as the answer options for the relationship status question in the SOGI and 
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "version" : "5.0.0",
       "concept" : [{
         "code" : "M",
         "display" : "Married"
@@ -109,10 +110,6 @@ Used as the answer options for the relationship status question in the SOGI and 
     {
       "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
       "concept" : [{
-        "code" : "PSIN",
-        "display" : "Please specify if not listed above"
-      },
-      {
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"
       }]

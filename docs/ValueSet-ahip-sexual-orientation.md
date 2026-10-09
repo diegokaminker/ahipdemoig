@@ -89,21 +89,18 @@ Used as the answer options for the sexual orientation question in the SOGI and R
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
-      "concept" : [{
-        "code" : "PSIN",
-        "display" : "Please specify if not listed above"
-      },
-      {
-        "code" : "CNTR",
-        "display" : "I choose not to respond at this time"
-      }]
-    },
-    {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
         "display" : "I don't know"
+      }]
+    },
+    {
+      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "concept" : [{
+        "code" : "CNTR",
+        "display" : "I choose not to respond at this time"
       }]
     }]
   }
