@@ -11,6 +11,4 @@ Description: "Used as the answer options for the care considerations question in
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
 * include codes from system $CareConsideration
-* $nullFlavor#ASKU "Asked but unknown"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"

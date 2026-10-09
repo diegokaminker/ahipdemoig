@@ -11,6 +11,7 @@ Description: "Used as the granular follow-up answer options shown when the patie
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
 * $CDCRACE#2166-7 "Argentinian"
+* $CDCRACE#2151-9 "Chicano/a"
 * $CDCRACE#2168-3 "Chilean"
 * $CDCRACE#2169-1 "Colombian"
 * $CDCRACE#2156-8 "Costa Rican"
@@ -20,7 +21,6 @@ Description: "Used as the granular follow-up answer options shown when the patie
 * $CDCRACE#2157-6 "Guatemalan"
 * $CDCRACE#2158-4 "Honduran"
 * $CDCRACE#2148-5 "Mexican"
-* $CDCRACE#2151-9 "Chicano/a"
 * $CDCRACE#2159-2 "Nicaraguan"
 * $CDCRACE#2160-0 "Panamanian"
 * $CDCRACE#2172-5 "Peruvian"
@@ -28,8 +28,7 @@ Description: "Used as the granular follow-up answer options shown when the patie
 * $CDCRACE#2161-8 "Salvadoran"
 * $CDCRACE#2137-8 "Spanish"
 * $CDCRACE#2174-1 "Venezuelan"
-* $AHIPDemoAdditionalBackgroundCodes#9999-12 "Brazilian"
+* $AHIPDemoTemporaryCodes#9999-12 "Brazilian"
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
 

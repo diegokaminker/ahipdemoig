@@ -11,14 +11,9 @@ Alias: $ParticipationMode = http://terminology.hl7.org/CodeSystem/v3-Participati
 Alias: $USMilitaryServicePeriod = http://terminology.hl7.org/CodeSystem/us-military-service-period
 Alias: $CareConsideration = http://terminology.hl7.org/CodeSystem/care-consideration
 
-Alias: $DesignationUsage = http://terminology.hl7.org/CodeSystem/designation-usage
-
-Alias: $AHIPDemoAdditionalLanguageCodes = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-Language
+Alias: $AHIPDemoTemporaryCodes = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Temporary-Codes
 Alias: $AHIPDemoAdditionalNullFlavor = http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor
-Alias: $AHIPDemoAdditionalBackgroundCodes  = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes
-Alias: $AHIPDemoAdditionalRelationshipStatusCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes
 Alias: $AHIPDemoDisabilityCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes
-Alias: $AHIPDemoAdditionalReligionCodes = http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes
 
 Alias: $AHIPDemoRaceValueSet =  http://ahip.org/demographics/ValueSet/ahip-race-category
 Alias: $AHIPDemoBackgroundNativeAmericanValueSet = http://ahip.org/demographics/ValueSet/ahip-background-native-american-category

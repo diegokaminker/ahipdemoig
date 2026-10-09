@@ -15,6 +15,5 @@ Description: "Used as the answer options for the sexual orientation question in 
 * $SNOMEDCT#42035005 "Bisexual (attracted to same gender as your own and gender different from your own)​"
 * $SNOMEDCT#765288000 "Asexual (little or no attraction to any gender)"
 * $SNOMEDCT#51431000087101 "Pansexual (attracted to any gender)​" 
-* $AHIPDemoAdditionalNullFlavor#PSIN "Please specify if not listed above"
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"

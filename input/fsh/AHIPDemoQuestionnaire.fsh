@@ -365,7 +365,7 @@ Usage: #example
 * item[=].item[=].linkId = "SAOC-6.2.1"
 * item[=].item[=].text = "Which form of Christianity do you practice?"
 * item[=].item[=].answerValueSet = $AHIPDemoReligionChristianValueSet
-* item[=].item[=].enableWhen.answerCoding = $AHIPDemoAdditionalReligionCodes#CHRI
+* item[=].item[=].enableWhen.answerCoding = $AHIPDemoTemporaryCodes#CHRI
 * item[=].item[=].enableWhen.question = "SAOC-6.2"
 * item[=].item[=].enableWhen.operator = #=
 

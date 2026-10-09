@@ -10,8 +10,7 @@ Description: "Used as the answer options for the birth sex question in the SOGI 
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
-* $SNOMEDCT#248153007 "Male, Man"
-* $SNOMEDCT#248152002 "Female, Woman"
+* $SNOMEDCT#248153007 "Male"
+* $SNOMEDCT#248152002 "Female"
 * $SNOMEDCT#32570691000036108 "Intersex (having external body parts or reproductive organs that are not only male or female)"
-* $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
 * $nullFlavor#ASKU "I don't know"

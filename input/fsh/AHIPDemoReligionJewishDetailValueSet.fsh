@@ -10,6 +10,6 @@ Description: "Used as the answer options for the Jewish movement detail question
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US   
 * ^copyright = "Used by permission of HL7 International, all rights reserved Creative Commons License"
-* $AHIPDemoAdditionalReligionCodes#JREF "Reform" 
-* $AHIPDemoAdditionalReligionCodes#JCON "Conservative"
-* $AHIPDemoAdditionalReligionCodes#JORT "Orthodox"
+* $AHIPDemoTemporaryCodes#JREF "Reform" 
+* $AHIPDemoTemporaryCodes#JCON "Conservative"
+* $AHIPDemoTemporaryCodes#JORT "Orthodox"
