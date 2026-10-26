@@ -10,4 +10,4 @@ Description: "Used as the answer options for the military service period questio
 * ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"
-* include codes from system $USMilitaryServicePeriod
+* include codes from system $USMilitaryServicePeriod|1.0.0

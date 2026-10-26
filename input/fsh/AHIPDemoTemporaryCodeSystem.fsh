@@ -52,20 +52,28 @@ Description: "Codes temporarily defined as part of the AHIP DEMo implementation 
 // Relationship status — expected destination: HL7 (v3-MaritalStatus)
 // (formerly AHIPDemoAdditionalRelationshipStatusCodes)
 // ---------------------------------------------------------------
-* #DATI "Dating (in a non-committed relationship with one person or more than one person)"
-* #MONR "In a committed relationship with one person but not married (monogamous relationship)"
-* #POLY "In a committed relationship with more than one person (polyamorous relationship)"
+* #DATI "Dating (Non-committed relationship)"
+* #MONR "Monogamous relationship (Committed relationship with one person)"
+* #POLY "Polyamorous relationship (Committed relationship with more than one person)"
 
 // ---------------------------------------------------------------
 // Religion / spirituality — expected destination: HL7 (v3-ReligiousAffiliation)
 // (formerly AHIPDemoAdditionalReligionCodes)
 // ---------------------------------------------------------------
+* #BUDD "Buddhism" "The religious and philosophical traditions based on the teachings of the Buddha"
 * #OBEA "Obeahism" "System of beliefs and practices found primarily in the former British colonies of the Caribbean"
 * #SBNR "Spiritual But Not Religious" "A term used to describe people who have a spiritual philosophy but do not adhere to any particular religious tradition"
 * #ORCO "Coptic Orthodox" "Coptic Orthodox Church, one of the oldest Christian denominations, primarily found in Egypt and the Middle East"
 * #ORGR "Greek Orthodox Church" "A branch of Eastern Orthodoxy, primarily found in Greece and among Greek communities worldwide"
 * #ORRU "Russian Orthodox Church" "The largest autocephalous Orthodox Christian church, primarily found in Russia and Eastern Europe"
 * #CHRI "Christian" "Catholic, Protestant, Orthodox, and other Christian denominations"
+* #CAEA "Eastern Catholic" "Eastern-rite Christian churches in full communion with the Bishop of Rome"
 * #JREF "Reform" "Jewish Reform Movement"
 * #JCON "Conservative" "Jewish Conservative Movement"
 * #JORT "Orthodox" "Jewish Orthodox Movement"
+
+// ---------------------------------------------------------------
+// Language — expected destination: none yet (ISO 639-3 has no single code for Karenni;
+// nearest are eky Eastern Kayah and kyu Western Kayah)
+// ---------------------------------------------------------------
+* #KRNI "Karenni" "The Karenni (Kayah, Red Karen) languages of eastern Myanmar, including Eastern Kayah and Western Kayah."
