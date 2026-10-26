@@ -16,10 +16,10 @@ This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ H
 
 This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).
 """
-* $SNOMEDCT#20430005 "Straight or heterosexual (attracted to gender different from your own)​"
-* $SNOMEDCT#38628009 "Gay or lesbian (attracted to the same gender as your own)​"
-* $SNOMEDCT#42035005 "Bisexual (attracted to same gender as your own and gender different from your own)​"
+* $SNOMEDCT#20430005 "Straight or heterosexual (attracted to gender different from your own)"
+* $SNOMEDCT#38628009 "Gay or lesbian (attracted to the same gender as your own)"
+* $SNOMEDCT#42035005 "Bisexual (attracted to same gender as your own and gender different from your own)"
 * $SNOMEDCT#765288000 "Asexual (little or no attraction to any gender)"
-* $SNOMEDCT#51431000087101 "Pansexual (attracted to any gender)​" 
+* $SNOMEDCT#51431000087101 "Pansexual (attracted to any gender)" 
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"
