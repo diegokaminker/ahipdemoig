@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Outreach Modes 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-outreach-mode | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPOutreachMode |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-outreach-mode | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPOutreachMode |
+| **Copyright/Legal**: This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach. 
@@ -46,6 +46,18 @@ Used as the answer options for the outreach preferences question in the Language
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-outreach-mode",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-outreach-mode",
   "version" : "0.1.0",
   "name" : "AHIPOutreachMode",
@@ -62,7 +74,7 @@ Used as the answer options for the outreach preferences question in the Language
     }]
   }],
   "description" : "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
@@ -85,7 +97,7 @@ Used as the answer options for the outreach preferences question in the Language
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

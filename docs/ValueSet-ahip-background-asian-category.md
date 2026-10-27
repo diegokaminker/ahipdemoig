@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Asian Background Categories 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-background-asian-category | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPBackgroundAsianCategories |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-background-asian-category | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPBackgroundAsianCategories |
+| **Copyright/Legal**: Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission. For information and exceptions regarding use of CDC material please see https://www.cdc.gov/other/agencymaterials.html.This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the granular follow-up answer options shown when the patient selects Asian or Asian American on the race/ethnicity question. 
@@ -46,6 +46,18 @@ Used as the granular follow-up answer options shown when the patient selects Asi
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-background-asian-category",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-background-asian-category",
   "version" : "0.1.0",
   "name" : "AHIPBackgroundAsianCategories",
@@ -62,7 +74,7 @@ Used as the granular follow-up answer options shown when the patient selects Asi
     }]
   }],
   "description" : "Used as the granular follow-up answer options shown when the patient selects Asian or Asian American on the race/ethnicity question.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission. For information and exceptions regarding use of CDC material please see https://www.cdc.gov/other/agencymaterials.html.\n\nThis material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
       "system" : "urn:oid:2.16.840.1.113883.6.238",
@@ -144,7 +156,7 @@ Used as the granular follow-up answer options shown when the patient selects Asi
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

@@ -1,1481 +1,1368 @@
 {
-  "date" : "Wed, 07 Oct, 2026 11:14:11 -0300",
+  "date" : "Tue, 27 Oct, 2026 14:00:31 -0300",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [{
     "name" : "/fsh-generated/resources/ImplementationGuide-ahip.demo.json",
-    "size" : 14072,
+    "size" : 14138,
     "processes" : [{
       "activity" : "load",
-      "start" : 86,
-      "length" : 1
+      "start" : 50,
+      "length" : 63
     },
     {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 52
-    },
-    {
-      "activity" : "load-configure",
-      "start" : 88,
-      "length" : 1
+      "activity" : "scan",
+      "start" : 53,
+      "length" : 2
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 78
+      "start" : 53,
+      "length" : 40
     },
     {
       "activity" : "generateNarratives",
-      "start" : 88,
-      "length" : 446
+      "start" : 53,
+      "length" : 158
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 7687
+      "start" : 60,
+      "length" : 7289
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 109,
+      "start" : 68,
       "length" : 2
     },
     {
       "activity" : "generate1",
-      "start" : 110,
-      "length" : 282
+      "start" : 69,
+      "length" : 362
     },
     {
       "activity" : "generate2",
-      "start" : 118,
-      "length" : 651
-    },
-    {
-      "activity" : "makeDependencies",
-      "start" : 133,
-      "length" : 1
-    },
-    {
-      "activity" : "generateExampleZip",
-      "start" : 147,
-      "length" : 1
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 18
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 197,
-      "length" : 10
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/CodeSystem-AHIP-Demo-Additional-NullFlavor.json",
-    "size" : 1094,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 13
-    },
-    {
-      "activity" : "load",
-      "start" : 85,
-      "length" : 68
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 1
-    },
-    {
-      "activity" : "load-configure",
-      "start" : 88,
-      "length" : 28
-    },
-    {
-      "activity" : "scan",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "loadDepInfo",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "loadInfo",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 88,
-      "length" : 101
-    },
-    {
-      "activity" : "validate",
-      "start" : 92,
-      "length" : 253
-    },
-    {
-      "activity" : "checkConformanceResources",
-      "start" : 109,
-      "length" : 1
-    },
-    {
-      "activity" : "generate1",
-      "start" : 110,
-      "length" : 42
-    },
-    {
-      "activity" : "generate2",
-      "start" : 119,
+      "start" : 77,
       "length" : 433
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 2
+      "start" : 105,
+      "length" : 11
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 117,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 117,
+      "length" : 7
     }]
   },
   {
-    "name" : "fsh-generated/resources/CodeSystem-ahip-demo-additional-background-codes.json",
-    "size" : 2806,
+    "name" : "fsh-generated/resources/CodeSystem-ahip-demo-additional-nullFlavor.json",
+    "size" : 1492,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 5
+      "start" : 50,
+      "length" : 16
     },
     {
       "activity" : "load",
-      "start" : 85,
-      "length" : 43
+      "start" : 50,
+      "length" : 54
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
     },
     {
       "activity" : "load-configure",
-      "start" : 88,
-      "length" : 2
+      "start" : 53,
+      "length" : 23
+    },
+    {
+      "activity" : "scan",
+      "start" : 53,
+      "length" : 1
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "loadInfo",
+      "start" : 53,
+      "length" : 1
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 2
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 88,
-      "length" : 19
-    },
-    {
-      "activity" : "validate",
-      "start" : 92,
-      "length" : 59
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 26
-    },
-    {
-      "activity" : "generate2",
-      "start" : 119,
-      "length" : 226
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 5
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/CodeSystem-ahip-demo-additional-relationship-status-codes.json",
-    "size" : 1085,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 2
-    },
-    {
-      "activity" : "load",
-      "start" : 85,
-      "length" : 31
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 88,
+      "start" : 53,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 88,
-      "length" : 49
+      "start" : 53,
+      "length" : 43
     },
     {
       "activity" : "validate",
-      "start" : 92,
-      "length" : 55
+      "start" : 55,
+      "length" : 1708
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 15
+      "start" : 69,
+      "length" : 93
     },
     {
       "activity" : "generate2",
-      "start" : 120,
-      "length" : 170
+      "start" : 77,
+      "length" : 358
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/CodeSystem-ahip-demo-additional-religion-codes.json",
-    "size" : 2130,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 85,
+      "start" : 105,
       "length" : 10
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 89,
-      "length" : 13
-    },
-    {
-      "activity" : "validate",
-      "start" : 92,
-      "length" : 56
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 17
-    },
-    {
-      "activity" : "generate2",
-      "start" : 120,
-      "length" : 141
     }]
   },
   {
     "name" : "fsh-generated/resources/CodeSystem-ahip-demo-disability-codes.json",
-    "size" : 1646,
+    "size" : 2074,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 2
-    },
-    {
-      "activity" : "load",
-      "start" : 85,
-      "length" : 16
-    },
-    {
-      "activity" : "load-configure",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 89,
-      "length" : 9
-    },
-    {
-      "activity" : "validate",
-      "start" : 92,
-      "length" : 36
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 22
-    },
-    {
-      "activity" : "generate2",
-      "start" : 120,
-      "length" : 90
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 197,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/Questionnaire-AHIPDemoQuestionnaire.json",
-    "size" : 34731,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 49
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 109
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 10
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 89,
-      "length" : 219
-    },
-    {
-      "activity" : "validate",
-      "start" : 108,
-      "length" : 1678
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 297
-    },
-    {
-      "activity" : "generate2",
-      "start" : 120,
-      "length" : 1510
-    },
-    {
-      "activity" : "makeDependencies",
-      "start" : 133,
-      "length" : 1
-    },
-    {
-      "activity" : "generateExampleZip",
-      "start" : 147,
-      "length" : 3
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 41
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 197,
-      "length" : 8
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-background-asian-category.json",
-    "size" : 2949,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
+      "start" : 50,
       "length" : 5
     },
     {
       "activity" : "load",
-      "start" : 85,
-      "length" : 149
+      "start" : 50,
+      "length" : 26
     },
     {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 4
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 89,
-      "length" : 1571
-    },
-    {
-      "activity" : "validate",
-      "start" : 92,
-      "length" : 3100
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 34
-    },
-    {
-      "activity" : "generate2",
-      "start" : 122,
-      "length" : 1933
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 4
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-background-black-category.json",
-    "size" : 3041,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
+      "activity" : "load-configure",
+      "start" : 53,
       "length" : 2
     },
     {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 20
-    },
-    {
       "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 1
+      "start" : 53,
+      "length" : 6
     },
     {
       "activity" : "generateNarratives",
-      "start" : 90,
-      "length" : 334
+      "start" : 53,
+      "length" : 17
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 586
+      "start" : 57,
+      "length" : 61
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 27
+      "start" : 70,
+      "length" : 30
     },
     {
       "activity" : "generate2",
-      "start" : 124,
-      "length" : 322
+      "start" : 78,
+      "length" : 257
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 3
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-background-latino-category.json",
-    "size" : 3315,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 3
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 8
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 19
-    },
-    {
-      "activity" : "validate",
-      "start" : 96,
-      "length" : 467
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 45
-    },
-    {
-      "activity" : "generate2",
-      "start" : 124,
-      "length" : 219
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
+      "start" : 105,
       "length" : 1
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 197,
+      "start" : 117,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ahip-demo-temporary-codes.json",
+    "size" : 6081,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 11
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 16
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 82
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 54
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 614
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 117,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Questionnaire-AHIPDemoQuestionnaire.json",
+    "size" : 34736,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 22
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 110
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 474
+    },
+    {
+      "activity" : "validate",
+      "start" : 68,
+      "length" : 609
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 416
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 3436
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 104,
+      "length" : 2
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 117,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-background-asian-category.json",
+    "size" : 4031,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 80
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 1219
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 340
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 64
+    },
+    {
+      "activity" : "generate2",
+      "start" : 82,
+      "length" : 1244
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-background-black-category.json",
+    "size" : 4111,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 18
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 107
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 47
+    },
+    {
+      "activity" : "generate2",
+      "start" : 83,
+      "length" : 478
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-background-latino-category.json",
+    "size" : 4385,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 35
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 29
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 75
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 56
+    },
+    {
+      "activity" : "generate2",
+      "start" : 84,
+      "length" : 248
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-background-middle-eastern-category.json",
-    "size" : 2971,
+    "size" : 4041,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
+      "start" : 50,
       "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 7
+      "start" : 50,
+      "length" : 6
     },
     {
-      "activity" : "checkR4R4B",
-      "start" : 88,
+      "activity" : "load-configure",
+      "start" : 53,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 14
+      "start" : 55,
+      "length" : 12
     },
     {
       "activity" : "validate",
-      "start" : 96,
-      "length" : 1244
+      "start" : 58,
+      "length" : 31
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 49
+      "start" : 70,
+      "length" : 46
     },
     {
       "activity" : "generate2",
-      "start" : 124,
-      "length" : 327
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 1
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 197,
-      "length" : 1
+      "start" : 84,
+      "length" : 258
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-background-native-american-category.json",
-    "size" : 3441,
+    "size" : 4528,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
+      "start" : 50,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 13
+      "start" : 50,
+      "length" : 8
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 88,
+      "start" : 53,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 282
-    },
-    {
-      "activity" : "validate",
-      "start" : 97,
-      "length" : 651
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 45
-    },
-    {
-      "activity" : "generate2",
-      "start" : 124,
-      "length" : 259
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 6
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-background-native-hawaiian-category.json",
-    "size" : 2490,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 3
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 5
-    },
-    {
-      "activity" : "load-configure",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 203
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 483
-    },
-    {
-      "activity" : "scanForUsageStats",
-      "start" : 109,
-      "length" : 1
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 23
-    },
-    {
-      "activity" : "generate2",
-      "start" : 125,
-      "length" : 231
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 9
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-background-white-category.json",
-    "size" : 3288,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 3
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 4
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 17
-    },
-    {
-      "activity" : "validate",
-      "start" : 99,
-      "length" : 432
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 19
-    },
-    {
-      "activity" : "generate2",
-      "start" : 125,
-      "length" : 210
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 20
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-birth-sex.json",
-    "size" : 1870,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 7
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 91,
+      "start" : 55,
       "length" : 21
     },
     {
       "activity" : "validate",
-      "start" : 99,
-      "length" : 40
+      "start" : 58,
+      "length" : 63
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 13
+      "start" : 70,
+      "length" : 35
     },
     {
       "activity" : "generate2",
-      "start" : 125,
-      "length" : 234
+      "start" : 84,
+      "length" : 306
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 117,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-background-native-hawaiian-category.json",
+    "size" : 3754,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 34
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 31
+    },
+    {
+      "activity" : "generate2",
+      "start" : 85,
+      "length" : 252
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-background-white-category.json",
+    "size" : 4358,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 82
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 34
+    },
+    {
+      "activity" : "generate2",
+      "start" : 85,
+      "length" : 431
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-birth-sex.json",
+    "size" : 2650,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 18
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 21
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 34
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 34
+    },
+    {
+      "activity" : "generate2",
+      "start" : 85,
+      "length" : 347
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-care-consideration.json",
-    "size" : 1503,
+    "size" : 2089,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 18
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 15
-    },
-    {
-      "activity" : "validate",
-      "start" : 99,
-      "length" : 17
-    },
-    {
-      "activity" : "generateLogicalMaps",
-      "start" : 109,
-      "length" : 1
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 14
-    },
-    {
-      "activity" : "generate2",
-      "start" : 125,
-      "length" : 243
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-demo-gender-identity.json",
-    "size" : 2433,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
+      "start" : 50,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 14
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 1
+      "start" : 50,
+      "length" : 5
     },
     {
       "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 9
+      "start" : 55,
+      "length" : 12
     },
     {
       "activity" : "validate",
-      "start" : 99,
-      "length" : 21
+      "start" : 58,
+      "length" : 22
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 23
+      "start" : 70,
+      "length" : 19
     },
     {
       "activity" : "generate2",
-      "start" : 126,
-      "length" : 370
+      "start" : 86,
+      "length" : 228
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-demo-gender-identity.json",
+    "size" : 3480,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
     },
     {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 5
+      "activity" : "load",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 19
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 28
+    },
+    {
+      "activity" : "generate2",
+      "start" : 86,
+      "length" : 302
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-disability.json",
-    "size" : 1406,
+    "size" : 2773,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 1
+      "start" : 50,
+      "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 85,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 14
+      "start" : 50,
+      "length" : 22
     },
     {
       "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 9
+      "start" : 55,
+      "length" : 10
     },
     {
       "activity" : "validate",
-      "start" : 99,
-      "length" : 11
+      "start" : 58,
+      "length" : 39
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 15
+      "start" : 70,
+      "length" : 19
     },
     {
       "activity" : "generate2",
-      "start" : 126,
-      "length" : 570
-    },
-    {
-      "activity" : "generateLogicals",
-      "start" : 132,
-      "length" : 1
+      "start" : 86,
+      "length" : 238
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
+      "start" : 105,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-interpreter-modes.json",
-    "size" : 1512,
+    "size" : 2286,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 3
+      "start" : 50,
+      "length" : 1
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 22
+      "start" : 50,
+      "length" : 26
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 8
+      "start" : 55,
+      "length" : 6
     },
     {
       "activity" : "validate",
-      "start" : 99,
-      "length" : 12
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
+      "start" : 58,
       "length" : 21
     },
     {
-      "activity" : "generate2",
-      "start" : 127,
-      "length" : 247
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
     },
     {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 1
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 39
+    },
+    {
+      "activity" : "generate2",
+      "start" : 86,
+      "length" : 180
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-military-service-period.json",
-    "size" : 1064,
+    "size" : 1672,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
+      "start" : 50,
       "length" : 1
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 11
-    },
-    {
-      "activity" : "load-configure",
-      "start" : 88,
-      "length" : 1
+      "start" : 50,
+      "length" : 5
     },
     {
       "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 3
-    },
-    {
-      "activity" : "validate",
-      "start" : 99,
-      "length" : 24
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 9
-    },
-    {
-      "activity" : "generate2",
-      "start" : 127,
-      "length" : 224
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-outreach-mode.json",
-    "size" : 1604,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 2
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 8
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 91,
+      "start" : 55,
       "length" : 5
     },
     {
       "activity" : "validate",
-      "start" : 99,
-      "length" : 20
+      "start" : 58,
+      "length" : 14
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 21
+      "start" : 71,
+      "length" : 39
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 161
+      "start" : 87,
+      "length" : 138
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-outreach-mode.json",
+    "size" : 2378,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 21
+    },
+    {
+      "activity" : "generate1",
+      "start" : 71,
+      "length" : 26
+    },
+    {
+      "activity" : "generate2",
+      "start" : 87,
+      "length" : 220
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 92,
+      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-preferred-pronouns.json",
-    "size" : 2072,
+    "size" : 3197,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 1
+      "start" : 50,
+      "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 6
+      "start" : 50,
+      "length" : 3
     },
     {
       "activity" : "load-configure",
-      "start" : 88,
+      "start" : 53,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 17
-    },
-    {
-      "activity" : "validate",
-      "start" : 99,
-      "length" : 17
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
+      "start" : 55,
       "length" : 14
     },
     {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 309
+    },
+    {
+      "activity" : "generate1",
+      "start" : 71,
+      "length" : 31
+    },
+    {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 213
+      "start" : 87,
+      "length" : 248
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
+      "start" : 105,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-race-category.json",
-    "size" : 2263,
+    "size" : 3309,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
+      "start" : 50,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 7
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 195
-    },
-    {
-      "activity" : "validate",
-      "start" : 99,
-      "length" : 394
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
-      "length" : 28
-    },
-    {
-      "activity" : "generate2",
-      "start" : 127,
-      "length" : 413
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 2
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-ahip-reading-language-prereferences.json",
-    "size" : 6615,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 85,
-      "length" : 4
-    },
-    {
-      "activity" : "load",
-      "start" : 86,
-      "length" : 304
+      "start" : 50,
+      "length" : 3
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 88,
+      "start" : 53,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 91,
-      "length" : 27
+      "start" : 55,
+      "length" : 8
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 63
+      "start" : 59,
+      "length" : 288
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 40
+      "start" : 71,
+      "length" : 33
     },
     {
       "activity" : "generate2",
-      "start" : 128,
-      "length" : 392
+      "start" : 87,
+      "length" : 209
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ahip-reading-language-prereferences.json",
+    "size" : 9608,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 30
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 22
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 688
+    },
+    {
+      "activity" : "generate1",
+      "start" : 71,
+      "length" : 47
+    },
+    {
+      "activity" : "generate2",
+      "start" : 87,
+      "length" : 262
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
+      "length" : 13
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 197,
+      "start" : 117,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-relationship-status.json",
-    "size" : 2372,
+    "size" : 3265,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 4
+      "start" : 50,
+      "length" : 1
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 22
+      "start" : 50,
+      "length" : 20
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 92,
-      "length" : 11
-    },
-    {
-      "activity" : "validate",
-      "start" : 100,
-      "length" : 35
-    },
-    {
-      "activity" : "generate1",
-      "start" : 111,
+      "start" : 55,
       "length" : 29
     },
     {
+      "activity" : "validate",
+      "start" : 60,
+      "length" : 85
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 71,
+      "length" : 32
+    },
+    {
       "activity" : "generate2",
-      "start" : 128,
-      "length" : 336
+      "start" : 88,
+      "length" : 209
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
+      "start" : 105,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-religion-christian-detail.json",
-    "size" : 2666,
+    "size" : 3444,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
+      "start" : 50,
       "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 17
+      "start" : 50,
+      "length" : 41
     },
     {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 1
+      "activity" : "load-configure",
+      "start" : 53,
+      "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 92,
-      "length" : 15
+      "start" : 55,
+      "length" : 7
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 39
+      "start" : 57,
+      "length" : 1
     },
     {
-      "activity" : "generate1",
-      "start" : 111,
+      "activity" : "validate",
+      "start" : 60,
       "length" : 29
     },
     {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 71,
+      "length" : 25
+    },
+    {
       "activity" : "generate2",
-      "start" : 129,
-      "length" : 365
+      "start" : 88,
+      "length" : 163
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
+      "length" : 6
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-religion-jewish-detail.json",
-    "size" : 1298,
+    "size" : 1821,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 2
+      "start" : 50,
+      "length" : 1
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 16
+      "start" : 50,
+      "length" : 10
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 53,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 92,
-      "length" : 23
+      "start" : 55,
+      "length" : 5
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 36
+      "start" : 60,
+      "length" : 64
     },
     {
-      "activity" : "validate",
-      "start" : 108,
+      "activity" : "scanForUsageStats",
+      "start" : 68,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 15
+      "start" : 71,
+      "length" : 17
     },
     {
       "activity" : "generate2",
-      "start" : 129,
-      "length" : 144
+      "start" : 88,
+      "length" : 125
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
+      "start" : 105,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-religion-spirituality.json",
-    "size" : 3899,
+    "size" : 4654,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 2
+      "start" : 50,
+      "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 10
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 1
+      "start" : 50,
+      "length" : 6
     },
     {
       "activity" : "generateNarratives",
-      "start" : 92,
-      "length" : 25
+      "start" : 55,
+      "length" : 27
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 47
+      "start" : 60,
+      "length" : 68
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 31
+      "start" : 71,
+      "length" : 34
     },
     {
       "activity" : "generate2",
-      "start" : 129,
-      "length" : 201
-    },
-    {
-      "activity" : "makeDependencies",
-      "start" : 133,
-      "length" : 1
+      "start" : 88,
+      "length" : 197
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 2
+      "start" : 105,
+      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-sexual-orientation.json",
-    "size" : 2286,
+    "size" : 3321,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 5
+      "start" : 50,
+      "length" : 1
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 9
+      "start" : 50,
+      "length" : 5
     },
     {
-      "activity" : "load-configure",
-      "start" : 88,
+      "activity" : "checkR4R4B",
+      "start" : 53,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 92,
-      "length" : 26
+      "start" : 55,
+      "length" : 8
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 13
+      "start" : 60,
+      "length" : 510
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 15
+      "start" : 71,
+      "length" : 36
     },
     {
       "activity" : "generate2",
-      "start" : 129,
+      "start" : 88,
       "length" : 171
     },
     {
-      "activity" : "generateValidationPack",
-      "start" : 148,
+      "activity" : "makeDependencies",
+      "start" : 92,
       "length" : 1
     },
     {
-      "activity" : "scanExamplesForR5",
-      "start" : 197,
+      "activity" : "generateValidationPack",
+      "start" : 105,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-speaking-language-prereferences.json",
-    "size" : 6320,
+    "size" : 9279,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 6
+      "start" : 50,
+      "length" : 5
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 8
+      "start" : 50,
+      "length" : 11
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 88,
-      "length" : 2
+      "start" : 53,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 92,
-      "length" : 13
+      "start" : 55,
+      "length" : 12
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 27
-    },
-    {
-      "activity" : "scanForUsageStats",
-      "start" : 109,
-      "length" : 3
+      "start" : 60,
+      "length" : 63
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 35
+      "start" : 71,
+      "length" : 74
     },
     {
       "activity" : "generate2",
-      "start" : 129,
-      "length" : 291
+      "start" : 89,
+      "length" : 232
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 148,
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 117,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-yes-no-dont-know-no-response.json",
-    "size" : 1560,
+    "size" : 2688,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
+      "start" : 50,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 8
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 53,
+      "length" : 1
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 88,
+      "start" : 53,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 92,
-      "length" : 6
+      "start" : 55,
+      "length" : 14
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 19
+      "start" : 60,
+      "length" : 37
     },
     {
       "activity" : "generate1",
-      "start" : 111,
-      "length" : 17
+      "start" : 71,
+      "length" : 44
     },
     {
       "activity" : "generate2",
-      "start" : 130,
-      "length" : 198
+      "start" : 89,
+      "length" : 146
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 105,
+      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-ahip-yes-no-no-response.json",
-    "size" : 1309,
+    "size" : 2196,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 85,
-      "length" : 1
+      "start" : 50,
+      "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 86,
-      "length" : 9
-    },
-    {
-      "activity" : "scan",
-      "start" : 88,
-      "length" : 1
+      "start" : 50,
+      "length" : 8
     },
     {
       "activity" : "generateNarratives",
-      "start" : 92,
-      "length" : 5
+      "start" : 55,
+      "length" : 4
     },
     {
       "activity" : "validate",
-      "start" : 100,
-      "length" : 9
+      "start" : 60,
+      "length" : 24
     },
     {
       "activity" : "generate1",
-      "start" : 112,
-      "length" : 13
+      "start" : 71,
+      "length" : 27
     },
     {
       "activity" : "generate2",
-      "start" : 130,
-      "length" : 137
+      "start" : 89,
+      "length" : 131
     }]
   },
   {
     "name" : "/fsh-generated/includes/fsh-link-references.md",
-    "size" : 2300,
+    "size" : 2082,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
-      "length" : 6
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 148,
-      "length" : 1
+      "start" : 89,
+      "length" : 3
     }]
   },
   {
@@ -1483,8 +1370,8 @@
     "size" : 1664,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
-      "length" : 3
+      "start" : 89,
+      "length" : 1
     }]
   },
   {
@@ -1492,7 +1379,7 @@
     "size" : 1271,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
+      "start" : 89,
       "length" : 1
     }]
   },
@@ -1501,7 +1388,7 @@
     "size" : 7431,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
+      "start" : 89,
       "length" : 3
     }]
   },
@@ -1510,7 +1397,7 @@
     "size" : 459,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
+      "start" : 89,
       "length" : 1
     }]
   },
@@ -1519,8 +1406,8 @@
     "size" : 9741,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
-      "length" : 4
+      "start" : 89,
+      "length" : 3
     }]
   },
   {
@@ -1528,7 +1415,7 @@
     "size" : 2557,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
+      "start" : 89,
       "length" : 1
     }]
   },
@@ -1537,7 +1424,7 @@
     "size" : 1881,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
+      "start" : 89,
       "length" : 1
     }]
   },
@@ -1546,8 +1433,8 @@
     "size" : 2269,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
-      "length" : 2
+      "start" : 89,
+      "length" : 1
     }]
   },
   {
@@ -1555,7 +1442,7 @@
     "size" : 5433,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
+      "start" : 89,
       "length" : 2
     }]
   },
@@ -1564,44 +1451,34 @@
     "size" : 4732,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
+      "start" : 89,
       "length" : 3
     }]
   },
   {
     "name" : "/input/pagecontent/security.md",
-    "size" : 2101,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 130,
-      "length" : 1
-    }]
+    "size" : 2101
   },
   {
     "name" : "/template/config",
     "size" : 0,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
+      "start" : 89,
       "length" : 1
     }]
   },
   {
     "name" : "/template/config/_config.yml",
-    "size" : 140,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 130,
-      "length" : 1
-    }]
+    "size" : 140
   },
   {
     "name" : "/temp/pages/_includes/artifacts.xml",
-    "size" : 16816,
+    "size" : 16615,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 130,
-      "length" : 10
+      "start" : 89,
+      "length" : 9
     }]
   }]
 }

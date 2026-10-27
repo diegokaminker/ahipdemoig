@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Disability 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-disability | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPDisability |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-disability | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPDisability |
+| **Copyright/Legal**: This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition. 
@@ -46,6 +46,18 @@ Used as the answer options for the functional difficulty question in the Disabil
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-disability",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-disability",
   "version" : "0.1.0",
   "name" : "AHIPDisability",
@@ -62,10 +74,11 @@ Used as the answer options for the functional difficulty question in the Disabil
     }]
   }],
   "description" : "Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.\n\nThis material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes"
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes",
+      "version" : "0.1.0"
     },
     {
       "system" : "http://loinc.org",
@@ -75,7 +88,15 @@ Used as the answer options for the functional difficulty question in the Disabil
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "4.0.0",
+      "concept" : [{
+        "code" : "ASKU",
+        "display" : "I don't know"
+      }]
+    },
+    {
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

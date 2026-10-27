@@ -6,10 +6,10 @@
 
 ## CodeSystem: AHIP Demo Disability Codes 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes | *Version*:0.1.0 |
-| Active as of 2025-03-25 | *Computable Name*:AHIPDemoDisabilityCodes |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPDemoDisabilityCodes |
 
  
 AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living. 
@@ -27,6 +27,18 @@ AHIP-specific codes identifying functional difficulty categories used to determi
   "resourceType" : "CodeSystem",
   "id" : "ahip-demo-disability-codes",
   "language" : "en",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes",
   "version" : "0.1.0",
   "name" : "AHIPDemoDisabilityCodes",

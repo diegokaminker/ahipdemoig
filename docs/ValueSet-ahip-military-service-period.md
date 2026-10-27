@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP US Military Service Period Codes 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-military-service-period | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPMilitaryPeriod |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-military-service-period | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPMilitaryPeriod |
+| **Copyright/Legal**: This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html | | |
 
  
 Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served. 
@@ -46,6 +46,18 @@ Used as the answer options for the military service period question in the Milit
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-military-service-period",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-military-service-period",
   "version" : "0.1.0",
   "name" : "AHIPMilitaryPeriod",
@@ -62,10 +74,11 @@ Used as the answer options for the military service period question in the Milit
     }]
   }],
   "description" : "Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html",
   "compose" : {
     "include" : [{
-      "system" : "http://terminology.hl7.org/CodeSystem/us-military-service-period"
+      "system" : "http://terminology.hl7.org/CodeSystem/us-military-service-period",
+      "version" : "1.0.0"
     }]
   }
 }

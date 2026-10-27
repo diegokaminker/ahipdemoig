@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Jewish Religion Detail Value Set 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPReligionJewishDetail |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPReligionJewishDetail |
+| **Copyright/Legal**: This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question. 
@@ -46,6 +46,18 @@ Used as the answer options for the Jewish movement detail question, shown only w
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-religion-jewish-detail",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail",
   "version" : "0.1.0",
   "name" : "AHIPReligionJewishDetail",
@@ -62,10 +74,10 @@ Used as the answer options for the Jewish movement detail question, shown only w
     }]
   }],
   "description" : "Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
       "concept" : [{
         "code" : "JREF",
         "display" : "Reform"

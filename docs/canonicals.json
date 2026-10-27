@@ -1,30 +1,9 @@
 [{
-  "id" : "AHIP-Demo-Additional-NullFlavor",
+  "id" : "ahip-demo-additional-nullFlavor",
   "type" : "CodeSystem",
-  "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
   "version" : "0.1.0",
   "name" : "AHIPDemoAdditionalNullFlavor"
-},
-{
-  "id" : "ahip-demo-additional-background-codes",
-  "type" : "CodeSystem",
-  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
-  "version" : "0.1.0",
-  "name" : "AHIPDemoAdditionalBackgroundCodes"
-},
-{
-  "id" : "ahip-demo-additional-relationship-status-codes",
-  "type" : "CodeSystem",
-  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes",
-  "version" : "0.1.0",
-  "name" : "AHIPDemoAdditionalRelationshipStatusCodes"
-},
-{
-  "id" : "ahip-demo-additional-religion-codes",
-  "type" : "CodeSystem",
-  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
-  "version" : "0.1.0",
-  "name" : "AHIPDemoAdditionalReligionCodes"
 },
 {
   "id" : "ahip-demo-disability-codes",
@@ -32,6 +11,13 @@
   "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes",
   "version" : "0.1.0",
   "name" : "AHIPDemoDisabilityCodes"
+},
+{
+  "id" : "ahip-demo-temporary-codes",
+  "type" : "CodeSystem",
+  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+  "version" : "0.1.0",
+  "name" : "AHIPDemoTemporaryCodes"
 },
 {
   "id" : "ahip.demo",

@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Care Consideration Value Set 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-care-consideration | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPCareConsideration |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-care-consideration | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPCareConsideration |
+| **Copyright/Legal**: This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care. 
@@ -46,6 +46,18 @@ Used as the answer options for the care considerations question in the Spiritual
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-care-consideration",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-care-consideration",
   "version" : "0.1.0",
   "name" : "AHIPCareConsideration",
@@ -62,21 +74,14 @@ Used as the answer options for the care considerations question in the Spiritual
     }]
   }],
   "description" : "Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
-      "system" : "http://terminology.hl7.org/CodeSystem/care-consideration"
+      "system" : "http://terminology.hl7.org/CodeSystem/care-consideration",
+      "version" : "1.0.0"
     },
     {
-      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-      "version" : "4.0.0",
-      "concept" : [{
-        "code" : "ASKU",
-        "display" : "Asked but unknown"
-      }]
-    },
-    {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

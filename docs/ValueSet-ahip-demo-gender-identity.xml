@@ -3,8 +3,17 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ahip-demo-gender-identity"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-demo-gender-identity</b></p><a name="ahip-demo-gender-identity"> </a><a name="hcahip-demo-gender-identity"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is explicitly stated to be http://snomed.info/sct/731000124108"> version &#x1F4CD;http://snomed.info/sct/731000124108</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/446151000124109">446151000124109</a></td><td>Man</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/446141000124107">446141000124107</a></td><td>Woman</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/911621000124109">911621000124109</a></td><td>Transgender Man</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/911581000124109">911581000124109</a></td><td>Transgender Woman</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/33791000087105">33791000087105</a></td><td>Non-Binary (neither exclusively male nor female)</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/911671000124105">911671000124105</a></td><td>Gender Fluid (non-fixed gender indentity that may change overtime)</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/911541000124103">911541000124103</a></td><td>Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-NullFlavor.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title="Version is explicitly stated to be 4.0.0"> version &#x1F4CD;4.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html"><code>http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-AHIP-Demo-Additional-NullFlavor.html#AHIP-Demo-Additional-NullFlavor-CNTR">CNTR</a></td><td>I choose not to respond at this time</td><td>**Description:**This code is to represent explicitly that the patient has chosen not to respond to this question at this time</td></tr></table></li></ul></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-demo-gender-identity</b></p><a name="ahip-demo-gender-identity"> </a><a name="hcahip-demo-gender-identity"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is explicitly stated to be http://snomed.info/sct/731000124108"> version &#x1F4CD;http://snomed.info/sct/731000124108</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/446151000124109">446151000124109</a></td><td>Man</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/446141000124107">446141000124107</a></td><td>Woman</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/911621000124109">911621000124109</a></td><td>Transgender Man</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/911581000124109">911581000124109</a></td><td>Transgender Woman</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/33791000087105">33791000087105</a></td><td>Non-Binary (neither exclusively male nor female)</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/911671000124105">911671000124105</a></td><td>Gender Fluid (non-fixed gender identity that may change over time)</td></tr><tr><td><a href="http://snomed.info/sct/731000124108/id/911541000124103">911541000124103</a></td><td>Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title="Version is explicitly stated to be 4.0.0"> version &#x1F4CD;4.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-ahip-demo-additional-nullFlavor.html"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cgp"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
   <url value="http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity"/>
   <version value="0.1.0"/>
   <name value="AHIPDemoGenderIdentityValueSet"/>
@@ -21,7 +30,7 @@
     </telecom>
   </contact>
   <description value="Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set"/>
-  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.&#xA;&#xA;This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html&#xA;&#xA;This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7)."/>
   <compose>
     <include>
       <system value="http://snomed.info/sct"/>
@@ -48,7 +57,7 @@
       </concept>
       <concept>
         <code value="911671000124105"/>
-        <display value="Gender Fluid (non-fixed gender indentity that may change overtime)"/>
+        <display value="Gender Fluid (non-fixed gender identity that may change over time)"/>
       </concept>
       <concept>
         <code value="911541000124103"/>
@@ -64,7 +73,7 @@
       </concept>
     </include>
     <include>
-      <system value="http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"/>
+      <system value="http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor"/>
       <concept>
         <code value="CNTR"/>
         <display value="I choose not to respond at this time"/>

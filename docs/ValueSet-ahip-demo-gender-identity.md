@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Gender Identity 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPDemoGenderIdentityValueSet |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPDemoGenderIdentityValueSet |
+| **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set 
@@ -46,6 +46,18 @@ Used as the answer options for the gender question in the SOGI and Relationship 
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-demo-gender-identity",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity",
   "version" : "0.1.0",
   "name" : "AHIPDemoGenderIdentityValueSet",
@@ -62,7 +74,7 @@ Used as the answer options for the gender question in the SOGI and Relationship 
     }]
   }],
   "description" : "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n\nThis material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
@@ -89,7 +101,7 @@ Used as the answer options for the gender question in the SOGI and Relationship 
       },
       {
         "code" : "911671000124105",
-        "display" : "Gender Fluid (non-fixed gender indentity that may change overtime)"
+        "display" : "Gender Fluid (non-fixed gender identity that may change over time)"
       },
       {
         "code" : "911541000124103",
@@ -105,7 +117,7 @@ Used as the answer options for the gender question in the SOGI and Relationship 
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

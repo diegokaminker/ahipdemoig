@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ahip.org/demographics/ImplementationGuide/ahip.demo | *Version*:0.1.0 |
-| Draft as of 2026-10-07 | *Computable Name*:AhipDemoIG |
+| Draft as of 2026-10-27 | *Computable Name*:AhipDemoIG |
 
 # AhipDemoIG
 
@@ -52,7 +52,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
   "version" : "0.1.0",
   "name" : "AhipDemoIG",
   "status" : "draft",
-  "date" : "2026-10-07T11:14:11-03:00",
+  "date" : "2026-10-27T14:00:31-03:00",
   "publisher" : "AHIP",
   "contact" : [{
     "name" : "AHIP",
@@ -78,7 +78,7 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
     "id" : "hl7_terminology_r4",
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.3.0"
+    "version" : "7.4.0"
   },
   {
     "id" : "hl7_fhir_uv_sdc",
@@ -744,61 +744,13 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-background-codes.html"
+        "valueUri" : "CodeSystem-ahip-demo-additional-nullFlavor.html"
       }],
       "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-background-codes"
-      },
-      "name" : "AHIP Demo Additional Background Codes",
-      "description" : "An additional collection of background codes completing the gaps in CDC codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-AHIP-Demo-Additional-NullFlavor.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/AHIP-Demo-Additional-NullFlavor"
+        "reference" : "CodeSystem/ahip-demo-additional-nullFlavor"
       },
       "name" : "AHIP Demo Additional NullFlavor",
       "description" : "An additional collection of codes specifying why a valid value is not present.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-relationship-status-codes.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-relationship-status-codes"
-      },
-      "name" : "AHIP Demo Additional Relationship Status Codes",
-      "description" : "An additional collection of relationship status codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-ahip-demo-additional-religion-codes.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ahip-demo-additional-religion-codes"
-      },
-      "name" : "AHIP Demo Additional Religion Codes",
-      "description" : "An additional collection of religion and spiritual belief codes",
       "exampleBoolean" : false
     },
     {
@@ -815,6 +767,22 @@ See [Background](background.md) for context and [Artifacts](artifacts.md) for va
       },
       "name" : "AHIP Demo Disability Codes",
       "description" : "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-ahip-demo-temporary-codes.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ahip-demo-temporary-codes"
+      },
+      "name" : "AHIP Demo Temporary Codes",
+      "description" : "Codes temporarily defined as part of the AHIP DEMo implementation guide. These will eventually migrate into officially maintained terminologies (such as CDCREC for background concepts and HL7 Terminology code systems (e.g.,v3-MaritalStatus for relationship status and v3-ReligiousAffiliation for religion and spirituality). The canonical URL (and likely the codes themselves) for all codes appearing in this code system ARE expected to change in a future release. Implementers should prepare for this transition when they write their code, allowing for the possibility of checking for both the old and new code and ensuring it is straightforward to transmit both the old and new code when the time comes. Concept maps will likely be made available to assist with this transition.",
       "exampleBoolean" : false
     },
     {

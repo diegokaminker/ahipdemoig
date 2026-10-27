@@ -6,8 +6,8 @@
     "name" : "AHIPBackgroundAsianCategories",
     "title" : "AHIP Asian Background Categories",
     "description" : "Used as the granular follow-up answer options shown when the patient selects Asian or Asian American on the race/ethnicity question.",
-    "systems" : ["urn:oid:2.16.840.1.113883.6.238",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "urn:oid:2.16.840.1.113883.6.238",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -20,9 +20,9 @@
     "name" : "AHIPBackgroundBlackCategories",
     "title" : "AHIP Black Background Categories",
     "description" : "Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question.",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
     "urn:oid:2.16.840.1.113883.6.238",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -35,9 +35,9 @@
     "name" : "AHIPBackgroundLatinoCategories",
     "title" : "AHIP Hispanic Latino Background Categories",
     "description" : "Used as the granular follow-up answer options shown when the patient selects Hispanic or Latino/a/e on the race/ethnicity question.",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
     "urn:oid:2.16.840.1.113883.6.238",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -50,9 +50,9 @@
     "name" : "AHIPBackgroundMiddleEasternCategories",
     "title" : "AHIP Middle Eastern Background Categories",
     "description" : "Used as the granular follow-up answer options shown when the patient selects Middle Eastern or North African on the race/ethnicity question.",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
     "urn:oid:2.16.840.1.113883.6.238",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -65,9 +65,9 @@
     "name" : "AHIPBackgroundNativeAmericanCategories",
     "title" : "AHIP Native American Background Categories",
     "description" : "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question.",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
     "urn:oid:2.16.840.1.113883.6.238",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -80,8 +80,8 @@
     "name" : "AHIPBackgroundNativeHawaiianCategories",
     "title" : "AHIP Native Hawaiian Background Categories",
     "description" : "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question.",
-    "systems" : ["urn:oid:2.16.840.1.113883.6.238",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "urn:oid:2.16.840.1.113883.6.238",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -94,9 +94,9 @@
     "name" : "AHIPBackgroundWhiteCategories",
     "title" : "AHIP White Background Categories",
     "description" : "Used as the granular follow-up answer options shown when the patient selects White or European on the race/ethnicity question.",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
     "urn:oid:2.16.840.1.113883.6.238",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -109,8 +109,7 @@
     "name" : "AHIPBirthSex",
     "title" : "AHIP Birth Sex",
     "description" : "Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
-    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
     "http://snomed.info/sct"],
     "uses" : {
     },
@@ -123,8 +122,7 @@
     "name" : "AHIPCareConsideration",
     "title" : "AHIP Care Consideration Value Set",
     "description" : "Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care.",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
-    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
     "http://terminology.hl7.org/CodeSystem/care-consideration"],
     "uses" : {
     },
@@ -137,7 +135,7 @@
     "name" : "AHIPDemoGenderIdentityValueSet",
     "title" : "AHIP Gender Identity",
     "description" : "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
     "http://snomed.info/sct"],
     "uses" : {
@@ -151,9 +149,10 @@
     "name" : "AHIPDisability",
     "title" : "AHIP Disability",
     "description" : "Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition.",
-    "systems" : ["http://loinc.org",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://loinc.org",
     "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"],
+    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
     "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
@@ -165,8 +164,8 @@
     "name" : "AHIPInterpreterModes",
     "title" : "AHIP Interpreter Modes",
     "description" : "Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"],
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"],
     "uses" : {
     },
     "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
@@ -190,8 +189,8 @@
     "name" : "AHIPOutreachMode",
     "title" : "AHIP Outreach Modes",
     "description" : "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"],
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"],
     "uses" : {
     },
     "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
@@ -203,8 +202,8 @@
     "name" : "AHIPPreferredPronouns",
     "title" : "AHIP Preferred Pronouns",
     "description" : "Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC",
-    "systems" : ["http://loinc.org",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://loinc.org",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -217,8 +216,8 @@
     "name" : "AHIPRaceEtnicityCategories",
     "title" : "AHIP Race and Ethnicity Categories",
     "description" : "Used as the answer options for the initial race/ethnicity question in the Race & Ethnicity Section; the selection made here drives which granular background value set is conditionally shown next.",
-    "systems" : ["urn:oid:2.16.840.1.113883.6.238",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "urn:oid:2.16.840.1.113883.6.238",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -232,7 +231,8 @@
     "title" : "AHIP Reading Language Preferences",
     "description" : "Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials.",
     "systems" : ["urn:ietf:bcp:47",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
     "http://terminology.hl7.org/CodeSystem/reading-mode",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
@@ -246,9 +246,10 @@
     "name" : "AHIPRelationshipStatus",
     "title" : "AHIP Relationship Status",
     "description" : "Used as the answer options for the relationship status question in the SOGI and Relationship Status Section.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-    "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"],
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
     "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
@@ -261,7 +262,7 @@
     "title" : "AHIP Christian Religion Detail Value Set",
     "description" : "Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question.",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
-    "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes"],
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes"],
     "uses" : {
     },
     "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
@@ -273,7 +274,7 @@
     "name" : "AHIPReligionJewishDetail",
     "title" : "AHIP Jewish Religion Detail Value Set",
     "description" : "Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question.",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes"],
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes"],
     "uses" : {
     },
     "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"
@@ -285,9 +286,9 @@
     "name" : "AHIPReligionSpirituality",
     "title" : "AHIP Religion/Spirituality Value Set",
     "description" : "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
-    "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -300,7 +301,7 @@
     "name" : "AHIPSexualOrientation",
     "title" : "AHIP Sexual Orientation",
     "description" : "Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set",
-    "systems" : ["http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
     "http://snomed.info/sct"],
     "uses" : {
@@ -315,7 +316,8 @@
     "title" : "AHIP Speaking Language Preferences",
     "description" : "Used as the answer options for the speaking language preferences question in the Language Section, capturing the language(s) a patient feels most comfortable speaking about their health care. Based on IETF 3066 Language Codes",
     "systems" : ["urn:ietf:bcp:47",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -328,8 +330,8 @@
     "name" : "AHIPDemoYesNoDontKnowNoResponse",
     "title" : "AHIP Yes, No, Don't Know, or No Response",
     "description" : "Used as the answer options used across multiple questions in the Questionnaire.",
-    "systems" : ["http://loinc.org",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://loinc.org",
     "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
     "uses" : {
     },
@@ -342,8 +344,8 @@
     "name" : "AHIPDemoYesNoNoResponse",
     "title" : "AHIP Yes, No, or No Response",
     "description" : "Used as the answer options used across multiple questions in the Questionnaire.",
-    "systems" : ["http://loinc.org",
-    "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor"],
+    "systems" : ["http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "http://loinc.org"],
     "uses" : {
     },
     "Questionnaire-AHIPDemoQuestionnaire.html" : "AHIP CIVITAS DEMO QUESTIONNAIRE"

@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Sexual Orientation 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-sexual-orientation | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPSexualOrientation |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-sexual-orientation | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPSexualOrientation |
+| **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set 
@@ -46,6 +46,18 @@ Used as the answer options for the sexual orientation question in the SOGI and R
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-sexual-orientation",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-sexual-orientation",
   "version" : "0.1.0",
   "name" : "AHIPSexualOrientation",
@@ -62,22 +74,22 @@ Used as the answer options for the sexual orientation question in the SOGI and R
     }]
   }],
   "description" : "Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n\nThis material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/731000124108",
       "concept" : [{
         "code" : "20430005",
-        "display" : "Straight or heterosexual (attracted to gender different from your own)​"
+        "display" : "Straight or heterosexual (attracted to gender different from your own)"
       },
       {
         "code" : "38628009",
-        "display" : "Gay or lesbian (attracted to the same gender as your own)​"
+        "display" : "Gay or lesbian (attracted to the same gender as your own)"
       },
       {
         "code" : "42035005",
-        "display" : "Bisexual (attracted to same gender as your own and gender different from your own)​"
+        "display" : "Bisexual (attracted to same gender as your own and gender different from your own)"
       },
       {
         "code" : "765288000",
@@ -85,7 +97,7 @@ Used as the answer options for the sexual orientation question in the SOGI and R
       },
       {
         "code" : "51431000087101",
-        "display" : "Pansexual (attracted to any gender)​"
+        "display" : "Pansexual (attracted to any gender)"
       }]
     },
     {
@@ -97,7 +109,7 @@ Used as the answer options for the sexual orientation question in the SOGI and R
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

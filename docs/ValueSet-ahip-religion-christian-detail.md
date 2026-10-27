@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Christian Religion Detail Value Set 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPReligionChristianDetail |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPReligionChristianDetail |
+| **Copyright/Legal**: This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question. 
@@ -46,6 +46,18 @@ Used as the answer options for the Christian denomination detail question, shown
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-religion-christian-detail",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail",
   "version" : "0.1.0",
   "name" : "AHIPReligionChristianDetail",
@@ -62,7 +74,7 @@ Used as the answer options for the Christian denomination detail question, shown
     }]
   }],
   "description" : "Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
@@ -78,10 +90,6 @@ Used as the answer options for the Christian denomination detail question, shown
       {
         "code" : "1079",
         "display" : "Calvinist/Reformed"
-      },
-      {
-        "code" : "1068",
-        "display" : "Eastern Catholic"
       },
       {
         "code" : "1069",
@@ -121,18 +129,22 @@ Used as the answer options for the Christian denomination detail question, shown
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
       "concept" : [{
         "code" : "ORCO",
-        "display" : "Orthodox Coptic"
+        "display" : "Coptic Orthodox"
+      },
+      {
+        "code" : "CAEA",
+        "display" : "Eastern Catholic"
       },
       {
         "code" : "ORGR",
-        "display" : "Orthodox Greek"
+        "display" : "Greek Orthodox Church"
       },
       {
         "code" : "ORRU",
-        "display" : "Orthodox Russian"
+        "display" : "Russian Orthodox Church"
       }]
     }]
   }

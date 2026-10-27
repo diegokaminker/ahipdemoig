@@ -1,0 +1,250 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ahip-demo-temporary-codes"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-temporary-codes</b></p><a name=\"ahip-demo-temporary-codes\"> </a><a name=\"hcahip-demo-temporary-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">9999-1<a name=\"ahip-demo-temporary-codes-9999-1\"> </a></td><td>Athabascan</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-2<a name=\"ahip-demo-temporary-codes-9999-2\"> </a></td><td>Haudenosaunee</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-4<a name=\"ahip-demo-temporary-codes-9999-4\"> </a></td><td>Muscogee (Eastern, Lower, Star Clan)</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-5<a name=\"ahip-demo-temporary-codes-9999-5\"> </a></td><td>Angolan</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-6<a name=\"ahip-demo-temporary-codes-9999-6\"> </a></td><td>Cabo Verdean</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-7<a name=\"ahip-demo-temporary-codes-9999-7\"> </a></td><td>Congolese</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-8<a name=\"ahip-demo-temporary-codes-9999-8\"> </a></td><td>Ghanaian</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-9<a name=\"ahip-demo-temporary-codes-9999-9\"> </a></td><td>Kenyan</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-10<a name=\"ahip-demo-temporary-codes-9999-10\"> </a></td><td>Sudanese</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-12<a name=\"ahip-demo-temporary-codes-9999-12\"> </a></td><td>Brazilian</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-13<a name=\"ahip-demo-temporary-codes-9999-13\"> </a></td><td>Emirati</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-14<a name=\"ahip-demo-temporary-codes-9999-14\"> </a></td><td>Jewish: Mizrahi</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-15<a name=\"ahip-demo-temporary-codes-9999-15\"> </a></td><td>Jordanian</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-16<a name=\"ahip-demo-temporary-codes-9999-16\"> </a></td><td>Kurdish</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-17<a name=\"ahip-demo-temporary-codes-9999-17\"> </a></td><td>Kuwaiti</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-18<a name=\"ahip-demo-temporary-codes-9999-18\"> </a></td><td>Libyan</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-19<a name=\"ahip-demo-temporary-codes-9999-19\"> </a></td><td>Saudi</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-20<a name=\"ahip-demo-temporary-codes-9999-20\"> </a></td><td>Danish</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-21<a name=\"ahip-demo-temporary-codes-9999-21\"> </a></td><td>Dutch</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-22<a name=\"ahip-demo-temporary-codes-9999-22\"> </a></td><td>Greek</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-23<a name=\"ahip-demo-temporary-codes-9999-23\"> </a></td><td>Jewish: Ashkenazi</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-24<a name=\"ahip-demo-temporary-codes-9999-24\"> </a></td><td>Jewish: Sephardic</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-25<a name=\"ahip-demo-temporary-codes-9999-25\"> </a></td><td>Lithuanian</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-26<a name=\"ahip-demo-temporary-codes-9999-26\"> </a></td><td>Norwegian</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-27<a name=\"ahip-demo-temporary-codes-9999-27\"> </a></td><td>Portuguese</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-28<a name=\"ahip-demo-temporary-codes-9999-28\"> </a></td><td>Russian</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-29<a name=\"ahip-demo-temporary-codes-9999-29\"> </a></td><td>Swedish</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-30<a name=\"ahip-demo-temporary-codes-9999-30\"> </a></td><td>Ukrainian</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-31<a name=\"ahip-demo-temporary-codes-9999-31\"> </a></td><td>Welsh</td><td/></tr><tr><td style=\"white-space:nowrap\">9999-32<a name=\"ahip-demo-temporary-codes-9999-32\"> </a></td><td>Yemeni</td><td/></tr><tr><td style=\"white-space:nowrap\">DATI<a name=\"ahip-demo-temporary-codes-DATI\"> </a></td><td>Dating (Non-committed relationship)</td><td/></tr><tr><td style=\"white-space:nowrap\">MONR<a name=\"ahip-demo-temporary-codes-MONR\"> </a></td><td>Monogamous relationship (Committed relationship with one person)</td><td/></tr><tr><td style=\"white-space:nowrap\">POLY<a name=\"ahip-demo-temporary-codes-POLY\"> </a></td><td>Polyamorous relationship (Committed relationship with more than one person)</td><td/></tr><tr><td style=\"white-space:nowrap\">BUDD<a name=\"ahip-demo-temporary-codes-BUDD\"> </a></td><td>Buddhism</td><td>The religious and philosophical traditions based on the teachings of the Buddha</td></tr><tr><td style=\"white-space:nowrap\">OBEA<a name=\"ahip-demo-temporary-codes-OBEA\"> </a></td><td>Obeahism</td><td>System of beliefs and practices found primarily in the former British colonies of the Caribbean</td></tr><tr><td style=\"white-space:nowrap\">SBNR<a name=\"ahip-demo-temporary-codes-SBNR\"> </a></td><td>Spiritual But Not Religious</td><td>A term used to describe people who have a spiritual philosophy but do not adhere to any particular religious tradition</td></tr><tr><td style=\"white-space:nowrap\">ORCO<a name=\"ahip-demo-temporary-codes-ORCO\"> </a></td><td>Coptic Orthodox</td><td>Coptic Orthodox Church, one of the oldest Christian denominations, primarily found in Egypt and the Middle East</td></tr><tr><td style=\"white-space:nowrap\">ORGR<a name=\"ahip-demo-temporary-codes-ORGR\"> </a></td><td>Greek Orthodox Church</td><td>A branch of Eastern Orthodoxy, primarily found in Greece and among Greek communities worldwide</td></tr><tr><td style=\"white-space:nowrap\">ORRU<a name=\"ahip-demo-temporary-codes-ORRU\"> </a></td><td>Russian Orthodox Church</td><td>The largest autocephalous Orthodox Christian church, primarily found in Russia and Eastern Europe</td></tr><tr><td style=\"white-space:nowrap\">CHRI<a name=\"ahip-demo-temporary-codes-CHRI\"> </a></td><td>Christian</td><td>Catholic, Protestant, Orthodox, and other Christian denominations</td></tr><tr><td style=\"white-space:nowrap\">CAEA<a name=\"ahip-demo-temporary-codes-CAEA\"> </a></td><td>Eastern Catholic</td><td>Eastern-rite Christian churches in full communion with the Bishop of Rome</td></tr><tr><td style=\"white-space:nowrap\">JREF<a name=\"ahip-demo-temporary-codes-JREF\"> </a></td><td>Reform</td><td>Jewish Reform Movement</td></tr><tr><td style=\"white-space:nowrap\">JCON<a name=\"ahip-demo-temporary-codes-JCON\"> </a></td><td>Conservative</td><td>Jewish Conservative Movement</td></tr><tr><td style=\"white-space:nowrap\">JORT<a name=\"ahip-demo-temporary-codes-JORT\"> </a></td><td>Orthodox</td><td>Jewish Orthodox Movement</td></tr><tr><td style=\"white-space:nowrap\">KRNI<a name=\"ahip-demo-temporary-codes-KRNI\"> </a></td><td>Karenni</td><td>The Karenni (Kayah, Red Karen) languages of eastern Myanmar, including Eastern Kayah and Western Kayah.</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "cgp" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ], [
+     fhir:index 2 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "AHIPDemoTemporaryCodes"] ;
+  fhir:CodeSystem.title [ fhir:value "AHIP Demo Temporary Codes"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-09T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "AHIP"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Codes temporarily defined as part of the AHIP DEMo implementation guide. These will eventually migrate into officially maintained terminologies (such as CDCREC for background concepts and HL7 Terminology code systems (e.g.,v3-MaritalStatus for relationship status and v3-ReligiousAffiliation for religion and spirituality). The canonical URL (and likely the codes themselves) for all codes appearing in this code system ARE expected to change in a future release. Implementers should prepare for this transition when they write their code, allowing for the possibility of checking for both the old and new code and ensuring it is straightforward to transmit both the old and new code when the time comes. Concept maps will likely be made available to assist with this transition."] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "45"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Athabascan" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Haudenosaunee" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Muscogee (Eastern, Lower, Star Clan)" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Angolan" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cabo Verdean" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Congolese" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ghanaian" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Kenyan" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sudanese" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Brazilian" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Emirati" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Jewish: Mizrahi" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-15" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Jordanian" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-16" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Kurdish" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-17" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Kuwaiti" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-18" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Libyan" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-19" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Saudi" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-20" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Danish" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dutch" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-22" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Greek" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-23" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Jewish: Ashkenazi" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Jewish: Sephardic" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-25" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lithuanian" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-26" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Norwegian" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-27" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Portuguese" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-28" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Russian" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-29" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Swedish" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-30" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ukrainian" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-31" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Welsh" ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9999-32" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Yemeni" ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DATI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dating (Non-committed relationship)" ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MONR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Monogamous relationship (Committed relationship with one person)" ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "POLY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Polyamorous relationship (Committed relationship with more than one person)" ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BUDD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Buddhism" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "The religious and philosophical traditions based on the teachings of the Buddha" ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OBEA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Obeahism" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "System of beliefs and practices found primarily in the former British colonies of the Caribbean" ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SBNR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Spiritual But Not Religious" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A term used to describe people who have a spiritual philosophy but do not adhere to any particular religious tradition" ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORCO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coptic Orthodox" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Coptic Orthodox Church, one of the oldest Christian denominations, primarily found in Egypt and the Middle East" ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORGR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Greek Orthodox Church" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A branch of Eastern Orthodoxy, primarily found in Greece and among Greek communities worldwide" ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORRU" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Russian Orthodox Church" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "The largest autocephalous Orthodox Christian church, primarily found in Russia and Eastern Europe" ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHRI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Christian" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Catholic, Protestant, Orthodox, and other Christian denominations" ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CAEA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Eastern Catholic" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Eastern-rite Christian churches in full communion with the Bishop of Rome" ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "JREF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Reform" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Jewish Reform Movement" ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "JCON" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Conservative" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Jewish Conservative Movement" ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "JORT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orthodox" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Jewish Orthodox Movement" ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "KRNI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Karenni" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "The Karenni (Kayah, Red Karen) languages of eastern Myanmar, including Eastern Kayah and Western Kayah." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

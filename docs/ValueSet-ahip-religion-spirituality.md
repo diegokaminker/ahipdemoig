@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Religion/Spirituality Value Set 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-spirituality | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPReligionSpirituality |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-religion-spirituality | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPReligionSpirituality |
+| **Copyright/Legal**: This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section. 
@@ -46,6 +46,18 @@ Used as the answer options for the religion, spirituality, or belief system ques
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-religion-spirituality",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-spirituality",
   "version" : "0.1.0",
   "name" : "AHIPReligionSpirituality",
@@ -62,7 +74,7 @@ Used as the answer options for the religion, spirituality, or belief system ques
     }]
   }],
   "description" : "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
@@ -73,19 +85,15 @@ Used as the answer options for the religion, spirituality, or belief system ques
       },
       {
         "code" : "1004",
-        "display" : "Agnostic (not sure if there is a God)​"
+        "display" : "Agnostic (not sure if there is a God)"
       },
       {
         "code" : "1007",
-        "display" : "Atheist (do not believe in God)​"
+        "display" : "Atheist (do not believe in God)"
       },
       {
         "code" : "1008",
         "display" : "Baha'I"
-      },
-      {
-        "code" : "1059",
-        "display" : "Buddhism"
       },
       {
         "code" : "1043",
@@ -105,7 +113,7 @@ Used as the answer options for the religion, spirituality, or belief system ques
       },
       {
         "code" : "1023",
-        "display" : "Islam,Nation of Islam (Muslim)"
+        "display" : "Islam, Nation of Islam (Muslim)"
       },
       {
         "code" : "1025",
@@ -117,7 +125,7 @@ Used as the answer options for the religion, spirituality, or belief system ques
       },
       {
         "code" : "1027",
-        "display" : "Mormonism (Church of Jesus Christ of Latterday Saints/LDS)"
+        "display" : "Mormonism (Church of Jesus Christ of Latter-day Saints/LDS)"
       },
       {
         "code" : "1037",
@@ -149,8 +157,12 @@ Used as the answer options for the religion, spirituality, or belief system ques
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
       "concept" : [{
+        "code" : "BUDD",
+        "display" : "Buddhism"
+      },
+      {
         "code" : "CHRI",
         "display" : "Christianity (e.g. Protestant, Roman Catholic, Russian Orthodox, Seventh-day Adventist)"
       },
@@ -168,11 +180,11 @@ Used as the answer options for the religion, spirituality, or belief system ques
       "version" : "4.0.0",
       "concept" : [{
         "code" : "ASKU",
-        "display" : "Asked but unknown"
+        "display" : "I don't know"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

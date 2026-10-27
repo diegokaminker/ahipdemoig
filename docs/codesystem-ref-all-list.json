@@ -1,6 +1,6 @@
 {
   "codeSystems" : [{
-    "url" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
     "version" : "0.1.0",
     "status" : "active",
     "name" : "AHIPDemoAdditionalNullFlavor",
@@ -8,67 +8,27 @@
     "description" : "An additional collection of codes specifying why a valid value is not present.",
     "uses" : {
     },
-    "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
-    "ValueSet-ahip-reading-language-prereferences.html" : "AHIP Reading Language Preferences",
-    "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
-    "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
-    "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
-    "ValueSet-ahip-yes-no-no-response.html" : "AHIP Yes, No, or No Response",
     "ValueSet-ahip-background-asian-category.html" : "AHIP Asian Background Categories",
+    "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories",
     "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
     "ValueSet-ahip-interpreter-modes.html" : "AHIP Interpreter Modes",
-    "ValueSet-ahip-outreach-mode.html" : "AHIP Outreach Modes",
-    "ValueSet-ahip-speaking-language-prereferences.html" : "AHIP Speaking Language Preferences",
-    "ValueSet-ahip-yes-no-dont-know-no-response.html" : "AHIP Yes, No, Don't Know, or No Response",
-    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories",
-    "ValueSet-ahip-race-category.html" : "AHIP Race and Ethnicity Categories",
-    "ValueSet-ahip-disability.html" : "AHIP Disability",
-    "ValueSet-ahip-demo-gender-identity.html" : "AHIP Gender Identity",
-    "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories",
-    "ValueSet-ahip-sexual-orientation.html" : "AHIP Sexual Orientation",
-    "ValueSet-ahip-relationship-status.html" : "AHIP Relationship Status",
-    "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns",
     "ValueSet-ahip-care-consideration.html" : "AHIP Care Consideration Value Set",
-    "ValueSet-ahip-birth-sex.html" : "AHIP Birth Sex"
-  },
-  {
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
-    "version" : "0.1.0",
-    "status" : "active",
-    "name" : "AHIPDemoAdditionalBackgroundCodes",
-    "title" : "AHIP Demo Additional Background Codes",
-    "description" : "An additional collection of background codes completing the gaps in CDC codes",
-    "uses" : {
-    },
-    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories",
-    "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
+    "ValueSet-ahip-demo-gender-identity.html" : "AHIP Gender Identity",
+    "ValueSet-ahip-race-category.html" : "AHIP Race and Ethnicity Categories",
+    "ValueSet-ahip-sexual-orientation.html" : "AHIP Sexual Orientation",
     "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
-    "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
-    "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories"
-  },
-  {
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-relationship-status-codes",
-    "version" : "0.1.0",
-    "status" : "active",
-    "name" : "AHIPDemoAdditionalRelationshipStatusCodes",
-    "title" : "AHIP Demo Additional Relationship Status Codes",
-    "description" : "An additional collection of relationship status codes",
-    "uses" : {
-    },
-    "ValueSet-ahip-relationship-status.html" : "AHIP Relationship Status"
-  },
-  {
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
-    "version" : "0.1.0",
-    "status" : "active",
-    "name" : "AHIPDemoAdditionalReligionCodes",
-    "title" : "AHIP Demo Additional Religion Codes",
-    "description" : "An additional collection of religion and spiritual belief codes",
-    "uses" : {
-    },
+    "ValueSet-ahip-relationship-status.html" : "AHIP Relationship Status",
+    "ValueSet-ahip-speaking-language-prereferences.html" : "AHIP Speaking Language Preferences",
+    "ValueSet-ahip-disability.html" : "AHIP Disability",
     "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
-    "ValueSet-ahip-religion-christian-detail.html" : "AHIP Christian Religion Detail Value Set",
-    "ValueSet-ahip-religion-jewish-detail.html" : "AHIP Jewish Religion Detail Value Set"
+    "ValueSet-ahip-yes-no-dont-know-no-response.html" : "AHIP Yes, No, Don't Know, or No Response",
+    "ValueSet-ahip-yes-no-no-response.html" : "AHIP Yes, No, or No Response",
+    "ValueSet-ahip-reading-language-prereferences.html" : "AHIP Reading Language Preferences",
+    "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns",
+    "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
+    "ValueSet-ahip-outreach-mode.html" : "AHIP Outreach Modes",
+    "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
+    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories"
   },
   {
     "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes",
@@ -82,6 +42,27 @@
     "ValueSet-ahip-disability.html" : "AHIP Disability"
   },
   {
+    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "AHIPDemoTemporaryCodes",
+    "title" : "AHIP Demo Temporary Codes",
+    "description" : "Codes temporarily defined as part of the AHIP DEMo implementation guide. These will eventually migrate into officially maintained terminologies (such as CDCREC for background concepts and HL7 Terminology code systems (e.g.,v3-MaritalStatus for relationship status and v3-ReligiousAffiliation for religion and spirituality). The canonical URL (and likely the codes themselves) for all codes appearing in this code system ARE expected to change in a future release. Implementers should prepare for this transition when they write their code, allowing for the possibility of checking for both the old and new code and ensuring it is straightforward to transmit both the old and new code when the time comes. Concept maps will likely be made available to assist with this transition.",
+    "uses" : {
+    },
+    "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories",
+    "ValueSet-ahip-religion-jewish-detail.html" : "AHIP Jewish Religion Detail Value Set",
+    "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
+    "ValueSet-ahip-reading-language-prereferences.html" : "AHIP Reading Language Preferences",
+    "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
+    "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
+    "ValueSet-ahip-relationship-status.html" : "AHIP Relationship Status",
+    "ValueSet-ahip-speaking-language-prereferences.html" : "AHIP Speaking Language Preferences",
+    "ValueSet-ahip-religion-christian-detail.html" : "AHIP Christian Religion Detail Value Set",
+    "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
+    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories"
+  },
+  {
     "url" : "http://loinc.org",
     "version" : "3.1.0",
     "status" : "active",
@@ -91,10 +72,10 @@
     "oids" : ["2.16.840.1.113883.6.1"],
     "uses" : {
     },
-    "ValueSet-ahip-yes-no-dont-know-no-response.html" : "AHIP Yes, No, Don't Know, or No Response",
     "ValueSet-ahip-yes-no-no-response.html" : "AHIP Yes, No, or No Response",
+    "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns",
     "ValueSet-ahip-disability.html" : "AHIP Disability",
-    "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns"
+    "ValueSet-ahip-yes-no-dont-know-no-response.html" : "AHIP Yes, No, Don't Know, or No Response"
   },
   {
     "url" : "http://snomed.info/sct",
@@ -165,23 +146,24 @@
     "oids" : ["2.16.840.1.113883.5.1008"],
     "uses" : {
     },
-    "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
-    "ValueSet-ahip-reading-language-prereferences.html" : "AHIP Reading Language Preferences",
-    "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
-    "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
-    "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
     "ValueSet-ahip-background-asian-category.html" : "AHIP Asian Background Categories",
-    "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
-    "ValueSet-ahip-speaking-language-prereferences.html" : "AHIP Speaking Language Preferences",
-    "ValueSet-ahip-yes-no-dont-know-no-response.html" : "AHIP Yes, No, Don't Know, or No Response",
-    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories",
-    "ValueSet-ahip-race-category.html" : "AHIP Race and Ethnicity Categories",
-    "ValueSet-ahip-demo-gender-identity.html" : "AHIP Gender Identity",
     "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories",
+    "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
+    "ValueSet-ahip-demo-gender-identity.html" : "AHIP Gender Identity",
+    "ValueSet-ahip-race-category.html" : "AHIP Race and Ethnicity Categories",
     "ValueSet-ahip-sexual-orientation.html" : "AHIP Sexual Orientation",
+    "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
+    "ValueSet-ahip-relationship-status.html" : "AHIP Relationship Status",
+    "ValueSet-ahip-speaking-language-prereferences.html" : "AHIP Speaking Language Preferences",
+    "ValueSet-ahip-disability.html" : "AHIP Disability",
+    "ValueSet-ahip-birth-sex.html" : "AHIP Birth Sex",
+    "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
+    "ValueSet-ahip-yes-no-dont-know-no-response.html" : "AHIP Yes, No, Don't Know, or No Response",
+    "ValueSet-ahip-reading-language-prereferences.html" : "AHIP Reading Language Preferences",
     "ValueSet-ahip-preferred-pronouns.html" : "AHIP Preferred Pronouns",
-    "ValueSet-ahip-care-consideration.html" : "AHIP Care Consideration Value Set",
-    "ValueSet-ahip-birth-sex.html" : "AHIP Birth Sex"
+    "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
+    "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
+    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
@@ -206,8 +188,8 @@
     "oids" : ["2.16.840.1.113883.5.1076"],
     "uses" : {
     },
-    "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set",
-    "ValueSet-ahip-religion-christian-detail.html" : "AHIP Christian Religion Detail Value Set"
+    "ValueSet-ahip-religion-christian-detail.html" : "AHIP Christian Religion Detail Value Set",
+    "ValueSet-ahip-religion-spirituality.html" : "AHIP Religion/Spirituality Value Set"
   },
   {
     "url" : "urn:ietf:bcp:47",
@@ -231,13 +213,13 @@
     "oids" : ["2.16.840.1.113883.6.238"],
     "uses" : {
     },
+    "ValueSet-ahip-background-asian-category.html" : "AHIP Asian Background Categories",
+    "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories",
+    "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
     "ValueSet-ahip-background-native-hawaiian-category.html" : "AHIP Native Hawaiian Background Categories",
-    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories",
     "ValueSet-ahip-race-category.html" : "AHIP Race and Ethnicity Categories",
     "ValueSet-ahip-background-white-category.html" : "AHIP White Background Categories",
     "ValueSet-ahip-background-black-category.html" : "AHIP Black Background Categories",
-    "ValueSet-ahip-background-asian-category.html" : "AHIP Asian Background Categories",
-    "ValueSet-ahip-background-middle-eastern-category.html" : "AHIP Middle Eastern Background Categories",
-    "ValueSet-ahip-background-latino-category.html" : "AHIP Hispanic Latino Background Categories"
+    "ValueSet-ahip-background-native-american-category.html" : "AHIP Native American Background Categories"
   }]
 }

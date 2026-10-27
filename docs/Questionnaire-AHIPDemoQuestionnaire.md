@@ -320,7 +320,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
       },
       {
         "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
-        "valueString" : "Please specify if not listed above"
+        "valueString" : "Other Language (including spoken or sign language, please specify)"
       }],
       "linkId" : "L-2.1",
       "text" : "In which language(s) do you feel most comfortable speaking about your health care? This can include a specific language and/or different types of sign language. (Granular options can be customized to local level.) Select all that apply",
@@ -343,7 +343,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
       },
       {
         "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
-        "valueString" : "Please specify if not listed above"
+        "valueString" : "Other Language (please specify)"
       }],
       "linkId" : "L-2.2",
       "text" : "In which language(s) do you prefer to use when reading materials related to your health care? This can include a specific language, Braille, large print, or digital documents that can be spoken out loud. (Granular options can be customized to local level.) Select all that apply.​",
@@ -723,7 +723,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
       },
       {
         "url" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel",
-        "valueString" : "Please specify if not listed above"
+        "valueString" : "Other (please write)"
       }],
       "linkId" : "SAOC-6.1",
       "text" : "Which of the following would you like us to know about you before we provide care? Select all that apply.",
@@ -774,7 +774,7 @@ GATHER DEMOGRAPHIC DATA FROM PATIENTS
         "question" : "SAOC-6.2",
         "operator" : "=",
         "answerCoding" : {
-          "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-religion-codes",
+          "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
           "code" : "CHRI"
         }
       }],

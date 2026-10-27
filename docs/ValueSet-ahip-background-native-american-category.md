@@ -6,11 +6,11 @@
 
 ## ValueSet: AHIP Native American Background Categories 
 
-| | |
-| :--- | :--- |
-| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-background-native-american-category | *Version*:0.1.0 |
-| Active as of 2026-08-25 | *Computable Name*:AHIPBackgroundNativeAmericanCategories |
-| **Copyright/Legal**: Used by permission of HL7 International, all rights reserved Creative Commons License | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:http://ahip.org/demographics/ValueSet/ahip-background-native-american-category | *Version*:0.1.0 | |
+| * Standards status: *[Trial-use](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:AHIPBackgroundNativeAmericanCategories |
+| **Copyright/Legal**: Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission. For information and exceptions regarding use of CDC material please see https://www.cdc.gov/other/agencymaterials.html.This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.htmlThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). | | |
 
  
 Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question. 
@@ -46,6 +46,18 @@ Used as the granular follow-up answer options shown when the patient selects Nat
 {
   "resourceType" : "ValueSet",
   "id" : "ahip-background-native-american-category",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
   "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-american-category",
   "version" : "0.1.0",
   "name" : "AHIPBackgroundNativeAmericanCategories",
@@ -62,7 +74,7 @@ Used as the granular follow-up answer options shown when the patient selects Nat
     }]
   }],
   "description" : "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question.",
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "copyright" : "Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission. For information and exceptions regarding use of CDC material please see https://www.cdc.gov/other/agencymaterials.html.\n\nThis material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).",
   "compose" : {
     "include" : [{
       "system" : "urn:oid:2.16.840.1.113883.6.238",
@@ -111,12 +123,8 @@ Used as the granular follow-up answer options shown when the patient selects Nat
         "display" : "Lingít (Tlingit)"
       },
       {
-        "code" : "4093-1",
-        "display" : "Mayan"
-      },
-      {
-        "code" : "1193-2",
-        "display" : "Muscogee (Creek)"
+        "code" : "4185-5",
+        "display" : "Maya"
       },
       {
         "code" : "3321-7",
@@ -136,11 +144,11 @@ Used as the granular follow-up answer options shown when the patient selects Nat
       },
       {
         "code" : "1896-0",
-        "display" : "Yu’pik Eskimo"
+        "display" : "Yup'ik Eskimo"
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-background-codes",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
       "concept" : [{
         "code" : "9999-1",
         "display" : "Athabascan"
@@ -148,6 +156,10 @@ Used as the granular follow-up answer options shown when the patient selects Nat
       {
         "code" : "9999-2",
         "display" : "Haudenosaunee"
+      },
+      {
+        "code" : "9999-4",
+        "display" : "Muscogee (Eastern, Lower, Star Clan)"
       }]
     },
     {
@@ -159,7 +171,7 @@ Used as the granular follow-up answer options shown when the patient selects Nat
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/AHIP-Demo-Additional-NullFlavor",
+      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

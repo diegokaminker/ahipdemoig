@@ -45,11 +45,9 @@ These define new code systems used by systems conforming to this implementation 
 
 | | |
 | :--- | :--- |
-| [AHIP Demo Additional Background Codes](CodeSystem-ahip-demo-additional-background-codes.md) | An additional collection of background codes completing the gaps in CDC codes |
-| [AHIP Demo Additional NullFlavor](CodeSystem-AHIP-Demo-Additional-NullFlavor.md) | An additional collection of codes specifying why a valid value is not present. |
-| [AHIP Demo Additional Relationship Status Codes](CodeSystem-ahip-demo-additional-relationship-status-codes.md) | An additional collection of relationship status codes |
-| [AHIP Demo Additional Religion Codes](CodeSystem-ahip-demo-additional-religion-codes.md) | An additional collection of religion and spiritual belief codes |
+| [AHIP Demo Additional NullFlavor](CodeSystem-ahip-demo-additional-nullFlavor.md) | An additional collection of codes specifying why a valid value is not present. |
 | [AHIP Demo Disability Codes](CodeSystem-ahip-demo-disability-codes.md) | AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living. |
+| [AHIP Demo Temporary Codes](CodeSystem-ahip-demo-temporary-codes.md) | Codes temporarily defined as part of the AHIP DEMo implementation guide. These will eventually migrate into officially maintained terminologies (such as CDCREC for background concepts and HL7 Terminology code systems (e.g.,v3-MaritalStatus for relationship status and v3-ReligiousAffiliation for religion and spirituality). The canonical URL (and likely the codes themselves) for all codes appearing in this code system ARE expected to change in a future release. Implementers should prepare for this transition when they write their code, allowing for the possibility of checking for both the old and new code and ensuring it is straightforward to transmit both the old and new code when the time comes. Concept maps will likely be made available to assist with this transition. |
 
 ### Example: Example Instances 
 
