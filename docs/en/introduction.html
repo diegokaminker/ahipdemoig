@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Introduction -  v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/liquid.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/header-logos.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+<div id="project-nav">
+  <a id="ahip-logo" data-no-external="true" href="https://www.ahip.org/">
+    <img height="44" alt="AHIP" src="assets/images/ahip-logo.svg"/>
+  </a>
+  <a id="hl7-logo" data-no-external="true" href="https://www.hl7.org/">
+    <img height="44" alt="HL7" src="assets/images/hl7-logo-header.png"/>
+  </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" data-no-external="true" href="https://hl7.org/fhir/">
+    <img height="44" alt="HL7 FHIR" src="assets/images/fhir-logo-www.png"/>
+  </a>
+</div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="background.html">Background</a>
+  </li>
+  <li>
+    <a href="intellectual-property.html">Intellectual Property</a>
+  </li>
+  <li>
+    <a href="conventions.html">Conventions</a>
+  </li>
+  <li>
+    <a href="introduction.html">Introduction</a>
+  </li>
+  <li>
+    <a href="use-cases.html">Use Cases</a>
+  </li>
+  <li>
+    <a href="supporting-specifications.html">Supporting Specifications</a>
+  </li>
+  <li>
+    <a href="projects-and-participants.html">Projects and Participants</a>
+  </li>
+  <li>
+    <a href="security.html">Security</a>
+  </li>
+  <li>
+    <a href="support-menu.html">Support</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Introduction</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">AhipDemoIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://ahip.org/demographics/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Introduction</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#actors-and-systems" id="markdown-toc-actors-and-systems">Actors and Systems</a></li>
+  <li><a href="#scope" id="markdown-toc-scope">Scope</a></li>
+</ul>
+
+</div>
+<p>The Demographic Data Element Modernization (DEMo) Implementation Guide provides a standardized, FHIR-based approach for representing, collecting and exchanging person-reported demographic information in a healthcare setting in the United States. It translates the DEMo Initiative's evidence-based, consensus-driven demographic questions and response choices into computable artifacts and implementation guidance that can be incorporated into health information technology systems and workflows.</p>
+
+<p>Specific objectives include:</p>
+
+<ul>
+  <li><strong>Standardization:</strong> Define HL7-conformant data models, value sets, and profiles for DEMo demographic domains (race, ethnicity, sexual orientation, sex/gender, pronouns, relationship status, disability, military experience, preferred language, spiritual beliefs).</li>
+  <li><strong>Interoperability:</strong> Enable consistent exchange and mapping across EHRs, registries, public health systems, payer systems, and analytics platforms.</li>
+  <li><strong>Actionability:</strong> Support capture of granular, person-centered data elements needed to identify disparities and inform clinical, operational, and population-health decisions.</li>
+  <li><strong>Cultural responsiveness:</strong> Preserve stakeholder-driven language and response options from DEMo to ensure culturally sensitive collection and minimize harm or misclassification.</li>
+</ul>
+
+<p>The guide is centered on the DEMo Questionnaire that individuals complete about themselves based on their lived experiences and perceptions. However, a caregiver may be enlisted to assist, or a clinician or other medical professional may administer the questions. The Questionnaire can be collected as part of an electronic systems—whether by patient, caregiver, or clinician— or via paper and subsequently integrated into electronic systems.</p>
+
+<p>The Questionnaire provides standardized questions, standardized response choices and associated terminology across the 10 demographic domains addressed by the DEMo Initiative. The guide also provides the profiles, value sets, mappings and other conformance requirements needed to support consistent interpretation and exchange of those data. In addition, the guide provides patient-tested language on how to introduce the Questionnaire to provide transparency and build trust to improve response rates and minimize blank fields.</p>
+
+<p>We note that the Questionnaire underwent <a href="https://civitasforhealth.org/wp-content/uploads/2024/07/Demographic-Element-Modernization-DEMo-Initiative.pdf">cognitive testing</a> with patients as a complete instrument. Testing showed that patients largely understood what was being asked of them, were comfortable answering the questions, and that they felt represented by the response options. The Questionnaire is structured such that those administering it can choose the level of detail—some questions are listed as optional and, in some cases, the granular level detail can be rolled up to higher level categories so that regardless of the level of detail collected the information can be compared across locations. However, the Questionnaire is designed to be given as is and in whole; if a site choses to use only certain questions, change the wording of the question, select only certain response choices, or use only the compiled value sets, we recommend the site further test for validity and accuracy of the results.</p>
+
+<p>Once the data is collected, it can be integrated into the organization's systems for internal purposes as well as shared with trusted parties for their use. An objective of the initiative is to collect the information once and use it many times by seamlessly sharing the standardized data with other organizations critical to patient care and outcomes. The modernized questions and response choices seek to ensure that the way in which the data is sought is trustworthy, easy to understand, and culturally sensitive and that the data obtained is complete, sufficiently granular, and standardized. The results are intended to provide actionable information to various actors in the ecosystem to support initiatives to improve reliable care for all populations and patients by identifying where additional effort is warranted.</p>
+
+<h3 id="actors-and-systems">Actors and Systems</h3>
+
+<p>Implementers may include:</p>
+
+<ul>
+  <li>Individuals who provide demographic information directly or through an authorized representative;</li>
+  <li>Health care providers and their electronic health record, registration, scheduling, intake and patient-portal systems;</li>
+  <li>Health plans and their enrollment, member-portal, care management and administrative systems;</li>
+  <li>Community-based and social care organizations, when authorized and appropriate;</li>
+  <li>Health information exchanges and health data utilities;</li>
+  <li>Public health agencies, registries and governmental programs;</li>
+  <li>Researchers, quality-measurement entities and analytics organizations; and</li>
+  <li>Health information technology developers and intermediaries that enable the collection, storage, mapping or exchange of the standardized information.</li>
+</ul>
+
+<p>The collection could be built into an electronic medical record and part of a visit, a patient portal as a pre-visit task, a health plan's enrollment process or administration of a health risk assessment, a pharmacy system when a patient receives a vaccine, an intake system for a community benefit organization, or other systems that interface with patients.</p>
+
+<p>A system may serve as a data collection system, a source system, a receiving system or more than one of these. This guide does not presume that demographic information will be collected by a single type of organization or at a single point in a person's interactions with the health care system. Collection may occur through registration, enrollment, intake, a health risk assessment, a patient or member portal, or another appropriate workflow. Subject to applicable law, authorization and organizational policy, standardized information may subsequently be exchanged among trusted entities to reduce duplicative collection and support appropriate reuse.</p>
+
+<h3 id="scope">Scope</h3>
+
+<h4 id="in-scope">In scope</h4>
+
+<p>This guide is designed for the U.S. health care environment. It uses U.S.-specific terminology and builds upon applicable U.S. realm specifications and demographic data standards. Although some of its underlying structures and implementation approaches may be useful outside the United States, use in another jurisdiction may require different terminology, value sets, legal considerations and implementation guidance.</p>
+
+<p>This version of the guide supports:</p>
+
+<ul>
+  <li>A computable FHIR Questionnaire containing the DEMo questions, explanatory language, response choices and indications of which items are required or optional;</li>
+  <li>A conformant FHIR QuestionnaireResponse for recording responses to the DEMo Questionnaire;</li>
+  <li>Standardized representation of the demographic domains addressed by the DEMo Initiative;</li>
+  <li>Terminology and value sets needed to encode structured response choices;</li>
+  <li>Representation of "I do not know," "I choose not to respond at this time," and write-in / free-text responses via FHIR <code class="language-plaintext highlighter-rouge">open-choice</code> items with the SDC <a href="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel">openLabel</a> extension, along with other response patterns established through the DEMo process;</li>
+  <li>Identification of the Questionnaire and version used to collect the information;</li>
+  <li>Exchange of DEMo-conformant information across provider, payer, public health, health information exchange, community and other authorized systems;</li>
+  <li>Mapping between QuestionnaireResponse content and applicable FHIR demographic elements, profiles, extensions and terminology;</li>
+  <li>The ability to preserve relevant context concerning the source and timing of the information; and</li>
+  <li>Implementation examples illustrating selected collection and exchange scenarios.</li>
+</ul>
+
+<h4 id="out-of-scope">Out of scope</h4>
+
+<p>This version of the guide does not:</p>
+
+<ul>
+  <li>Require an organization to collect every DEMo domain or every question, but we will note that the Questionnaire has been tested as a whole and subdividing it may impact results;</li>
+  <li>Establish the circumstances under which an organization must ask a demographic question;</li>
+  <li>Require an individual to provide demographic information;</li>
+  <li>Define eligibility, coverage, payment, benefits or clinical decision rules based on demographic information;</li>
+  <li>Authorize access to or disclosure of information that is not otherwise permitted;</li>
+  <li>Replace applicable federal, state, tribal or local privacy, security, consent or civil rights requirements;</li>
+  <li>Determine whether a particular response is clinically relevant or appropriate for a particular purpose;</li>
+  <li>Define health-related social needs screening or the collection of social-risk information that is not a demographic characteristic;</li>
+  <li>Require receiving systems to overwrite existing demographic information automatically;</li>
+  <li>Resolve discrepancies among responses collected at different times or by different organizations; or</li>
+  <li>Establish a comprehensive longitudinal demographic profile controlled and exchanged by the individual.</li>
+</ul>
+
+<p>Implementers may use DEMo-conformant information as part of broader clinical, administrative, public health, quality measurement, research or population health workflows. Those downstream workflows and decisions remain governed by the applicable implementation context and are not themselves standardized by this guide.</p>
+
+<h4 id="future-considerations">Future considerations</h4>
+
+<p>Future versions of the guide may address additional workflows identified through implementation and pilot testing, including more detailed guidance for updating and reconciling information collected at different times, representing an individual-controlled longitudinal demographic profile, and supporting additional person-directed exchange. Such capabilities are not required for conformance with this version of the guide.</p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ahip.org">AHIP</a>.  
+          Package ahip.demo#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-10-28 11:16:00 -0300">
+    2026-10-28
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

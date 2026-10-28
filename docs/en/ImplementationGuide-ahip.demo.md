@@ -1,0 +1,971 @@
+# Resource AhipDemoIG
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "ahip.demo",
+  "language" : "en",
+  "url" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo",
+  "version" : "0.1.0",
+  "name" : "AhipDemoIG",
+  "status" : "draft",
+  "date" : "2026-10-28T11:16:26-03:00",
+  "publisher" : "AHIP",
+  "contact" : [{
+    "name" : "AHIP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ahip.org"
+    }]
+  }],
+  "packageId" : "ahip.demo",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["4.0.1"],
+  "dependsOn" : [{
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "version" : "5.4.0"
+  },
+  {
+    "id" : "hl7_terminology_r4",
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r4",
+    "version" : "7.4.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_sdc",
+    "uri" : "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+    "packageId" : "hl7.fhir.uv.sdc",
+    "version" : "4.0.0"
+  }],
+  "definition" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.3.0"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "copyrightyear"
+      },
+      {
+        "url" : "value",
+        "valueString" : "2025+"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "releaselabel"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "autoload-resources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-liquid-template"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-liquid-template"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-qa"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/qa"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-temp"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/pages"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-output"
+      },
+      {
+        "url" : "value",
+        "valueString" : "output"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-suppressed-warnings"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://ahip.org/demographics/history.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "template-html"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "template-md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page-md.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-contact"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-context"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-copyright"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-license"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-publisher"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-wg"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "active-tables"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "fmm-definition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/versions.html#maturity"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "propagate-status"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "excludelogbinaryformat"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "tabbed-snapshots"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "en"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-background-asian-category.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-background-asian-category"
+      },
+      "name" : "AHIP Asian Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Asian or Asian American on the race/ethnicity question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-birth-sex.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-birth-sex"
+      },
+      "name" : "AHIP Birth Sex",
+      "description" : "Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-background-black-category.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-background-black-category"
+      },
+      "name" : "AHIP Black Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-care-consideration.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-care-consideration"
+      },
+      "name" : "AHIP Care Consideration Value Set",
+      "description" : "Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-religion-christian-detail.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-religion-christian-detail"
+      },
+      "name" : "AHIP Christian Religion Detail Value Set",
+      "description" : "Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Questionnaire-AHIPDemoQuestionnaire.html"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/AHIPDemoQuestionnaire"
+      },
+      "name" : "AHIP CIVITAS DEMO QUESTIONNAIRE",
+      "description" : "DRAFT QUESTIONNAIRE FOR AHIP - DRAFT VERSION FOR DISCUSSION ONLY",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-ahip-demo-additional-nullFlavor.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ahip-demo-additional-nullFlavor"
+      },
+      "name" : "AHIP Demo Additional NullFlavor",
+      "description" : "An additional collection of codes specifying why a valid value is not present.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-ahip-demo-disability-codes.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ahip-demo-disability-codes"
+      },
+      "name" : "AHIP Demo Disability Codes",
+      "description" : "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-ahip-demo-temporary-codes.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ahip-demo-temporary-codes"
+      },
+      "name" : "AHIP Demo Temporary Codes",
+      "description" : "Codes temporarily defined as part of the AHIP DEMo implementation guide. These will eventually migrate into officially maintained terminologies (such as CDCREC for background concepts and HL7 Terminology code systems (e.g.,v3-MaritalStatus for relationship status and v3-ReligiousAffiliation for religion and spirituality). The canonical URL (and likely the codes themselves) for all codes appearing in this code system ARE expected to change in a future release. Implementers should prepare for this transition when they write their code, allowing for the possibility of checking for both the old and new code and ensuring it is straightforward to transmit both the old and new code when the time comes. Concept maps will likely be made available to assist with this transition.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-disability.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-disability"
+      },
+      "name" : "AHIP Disability",
+      "description" : "Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-demo-gender-identity.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-demo-gender-identity"
+      },
+      "name" : "AHIP Gender Identity",
+      "description" : "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-background-latino-category.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-background-latino-category"
+      },
+      "name" : "AHIP Hispanic Latino Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Hispanic or Latino/a/e on the race/ethnicity question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-interpreter-modes.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-interpreter-modes"
+      },
+      "name" : "AHIP Interpreter Modes",
+      "description" : "Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-religion-jewish-detail.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-religion-jewish-detail"
+      },
+      "name" : "AHIP Jewish Religion Detail Value Set",
+      "description" : "Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-background-middle-eastern-category.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-background-middle-eastern-category"
+      },
+      "name" : "AHIP Middle Eastern Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Middle Eastern or North African on the race/ethnicity question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-background-native-american-category.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-background-native-american-category"
+      },
+      "name" : "AHIP Native American Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-background-native-hawaiian-category.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-background-native-hawaiian-category"
+      },
+      "name" : "AHIP Native Hawaiian Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-outreach-mode.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-outreach-mode"
+      },
+      "name" : "AHIP Outreach Modes",
+      "description" : "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-preferred-pronouns.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-preferred-pronouns"
+      },
+      "name" : "AHIP Preferred Pronouns",
+      "description" : "Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-race-category.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-race-category"
+      },
+      "name" : "AHIP Race and Ethnicity Categories",
+      "description" : "Used as the answer options for the initial race/ethnicity question in the Race & Ethnicity Section; the selection made here drives which granular background value set is conditionally shown next.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-reading-language-prereferences.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-reading-language-prereferences"
+      },
+      "name" : "AHIP Reading Language Preferences",
+      "description" : "Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-relationship-status.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-relationship-status"
+      },
+      "name" : "AHIP Relationship Status",
+      "description" : "Used as the answer options for the relationship status question in the SOGI and Relationship Status Section.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-religion-spirituality.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-religion-spirituality"
+      },
+      "name" : "AHIP Religion/Spirituality Value Set",
+      "description" : "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-sexual-orientation.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-sexual-orientation"
+      },
+      "name" : "AHIP Sexual Orientation",
+      "description" : "Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-speaking-language-prereferences.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-speaking-language-prereferences"
+      },
+      "name" : "AHIP Speaking Language Preferences",
+      "description" : "Used as the answer options for the speaking language preferences question in the Language Section, capturing the language(s) a patient feels most comfortable speaking about their health care. Based on IETF 3066 Language Codes",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-military-service-period.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-military-service-period"
+      },
+      "name" : "AHIP US Military Service Period Codes",
+      "description" : "Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-background-white-category.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-background-white-category"
+      },
+      "name" : "AHIP White Background Categories",
+      "description" : "Used as the granular follow-up answer options shown when the patient selects White or European on the race/ethnicity question.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-yes-no-dont-know-no-response.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-yes-no-dont-know-no-response"
+      },
+      "name" : "AHIP Yes, No, Don't Know, or No Response",
+      "description" : "Used as the answer options used across multiple questions in the Questionnaire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ahip-yes-no-no-response.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ahip-yes-no-no-response"
+      },
+      "name" : "AHIP Yes, No, or No Response",
+      "description" : "Used as the answer options used across multiple questions in the Questionnaire.",
+      "exampleBoolean" : false
+    }],
+    "page" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+        "valueUrl" : "toc.html"
+      }],
+      "nameUrl" : "toc.html",
+      "title" : "Table of Contents",
+      "generation" : "html",
+      "page" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "index.html"
+        }],
+        "nameUrl" : "index.html",
+        "title" : "AhipDemoIG",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "background.html"
+        }],
+        "nameUrl" : "background.html",
+        "title" : "Background",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "intellectual-property.html"
+        }],
+        "nameUrl" : "intellectual-property.html",
+        "title" : "Intellectual Property Considerations",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "conventions.html"
+        }],
+        "nameUrl" : "conventions.html",
+        "title" : "Conventions",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "introduction.html"
+        }],
+        "nameUrl" : "introduction.html",
+        "title" : "Introduction",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "use-cases.html"
+        }],
+        "nameUrl" : "use-cases.html",
+        "title" : "Use Cases",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "supporting-specifications.html"
+        }],
+        "nameUrl" : "supporting-specifications.html",
+        "title" : "Supporting Specifications",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "projects-and-participants.html"
+        }],
+        "nameUrl" : "projects-and-participants.html",
+        "title" : "Projects and Participants + Credits",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "security.html"
+        }],
+        "nameUrl" : "security.html",
+        "title" : "Security",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "support-menu.html"
+        }],
+        "nameUrl" : "support-menu.html",
+        "title" : "Support Menu",
+        "generation" : "markdown"
+      }]
+    },
+    "parameter" : [{
+      "code" : "path-resource",
+      "value" : "input/capabilities"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/examples"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/extensions"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/models"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/operations"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/profiles"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/resources"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/vocabulary"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/maps"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/testing"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/history"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "fsh-generated/resources"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "template/config"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "input/assets"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "input/images"
+    },
+    {
+      "code" : "path-tx-cache",
+      "value" : "input-cache/txcache"
+    }]
+  }
+}
+
+```

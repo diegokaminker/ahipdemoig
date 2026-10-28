@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-military-service-period> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ahip-military-service-period"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-military-service-period</b></p><a name=\"ahip-military-service-period\"> </a><a name=\"hcahip-military-service-period\"> </a><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-us-military-service-period.html\"><code>http://terminology.hl7.org/CodeSystem/us-military-service-period</code></a><span title=\"Version is explicitly stated to be 1.0.0\"> version ?1.0.0</span></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "cgp" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-military-service-period"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "AHIPMilitaryPeriod"] ;
+  fhir:ValueSet.title [ fhir:value "AHIP US Military Service Period Codes"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-08-25T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served."] ;
+  fhir:ValueSet.copyright [ fhir:value "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/us-military-service-period" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "1.0.0" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-military-service-period.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

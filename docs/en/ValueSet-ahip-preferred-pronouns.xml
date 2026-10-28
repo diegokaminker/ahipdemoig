@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ahip-preferred-pronouns"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-preferred-pronouns</b></p><a name="ahip-preferred-pronouns"> </a><a name="hcahip-preferred-pronouns"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/LA29518-0/">LA29518-0</a></td><td>He, him, his</td></tr><tr><td><a href="https://loinc.org/LA29519-8/">LA29519-8</a></td><td>She, her, hers</td></tr><tr><td><a href="https://loinc.org/LA29520-6/">LA29520-6</a></td><td>They, them, theirs (non-binary)</td></tr><tr><td><a href="https://loinc.org/LA29521-4/">LA29521-4</a></td><td>Ze, hir, hirs (non-binary)</td></tr><tr><td><a href="https://loinc.org/LA29523-0/">LA29523-0</a></td><td>Ze, zir, zirs (non-binary)</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-ahip-demo-additional-nullFlavor.html"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-UMN">UMN</a></td><td>Use my name</td><td>This code is to represent explicitly that the patient do not want a pronoun to be used but instead use their name.</td></tr><tr><td><a href="CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title="Version is explicitly stated to be 4.0.0"> version &#x1F4CD;4.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cgp"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <url value="http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns"/>
+  <version value="0.1.0"/>
+  <name value="AHIPPreferredPronouns"/>
+  <title value="AHIP Preferred Pronouns"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-08-25T00:00:00-04:00"/>
+  <publisher value="AHIP"/>
+  <contact>
+    <name value="AHIP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ahip.org"/>
+    </telecom>
+  </contact>
+  <description value="Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC"/>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.&#xA;&#xA;This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html&#xA;&#xA;This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7)."/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="LA29518-0"/>
+        <display value="He, him, his"/>
+      </concept>
+      <concept>
+        <code value="LA29519-8"/>
+        <display value="She, her, hers"/>
+      </concept>
+      <concept>
+        <code value="LA29520-6"/>
+        <display value="They, them, theirs (non-binary)"/>
+      </concept>
+      <concept>
+        <code value="LA29521-4"/>
+        <display value="Ze, hir, hirs (non-binary)"/>
+      </concept>
+      <concept>
+        <code value="LA29523-0"/>
+        <display value="Ze, zir, zirs (non-binary)"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor"/>
+      <concept>
+        <code value="UMN"/>
+        <display value="Use my name"/>
+      </concept>
+      <concept>
+        <code value="CNTR"/>
+        <display value="I choose not to respond at this time"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <version value="4.0.0"/>
+      <concept>
+        <code value="ASKU"/>
+        <display value="I don't know"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

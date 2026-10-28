@@ -1,0 +1,108 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ahip-demo-gender-identity"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-demo-gender-identity</b></p><a name=\"ahip-demo-gender-identity\"> </a><a name=\"hcahip-demo-gender-identity\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is explicitly stated to be http://snomed.info/sct/731000124108\"> version ?http://snomed.info/sct/731000124108</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/446151000124109\">446151000124109</a></td><td>Man</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/446141000124107\">446141000124107</a></td><td>Woman</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911621000124109\">911621000124109</a></td><td>Transgender Man</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911581000124109\">911581000124109</a></td><td>Transgender Woman</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/33791000087105\">33791000087105</a></td><td>Non-Binary (neither exclusively male nor female)</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911671000124105\">911671000124105</a></td><td>Gender Fluid (non-fixed gender identity that may change over time)</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911541000124103\">911541000124103</a></td><td>Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "cgp" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "AHIPDemoGenderIdentityValueSet"] ;
+  fhir:ValueSet.title [ fhir:value "AHIP Gender Identity"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-08-25T00:00:00-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set"] ;
+  fhir:ValueSet.copyright [ fhir:value "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n\nThis material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html\n\nThis value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7)."] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "http://snomed.info/sct/731000124108" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "446151000124109" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Man" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "446141000124107" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Woman" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "911621000124109" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transgender Man" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "911581000124109" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transgender Woman" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33791000087105" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Non-Binary (neither exclusively male nor female)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "911671000124105" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gender Fluid (non-fixed gender identity that may change over time)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "911541000124103" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)" ]
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-NullFlavor" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "4.0.0" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ASKU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I don't know" ]
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I choose not to respond at this time" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,979 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ahip.org/demographics/ImplementationGuide/ahip.demo> a fhir:ImplementationGuide ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ahip.demo"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ahip.demo</b></p><a name=\"ahip.demo\"> </a><a name=\"hcahip.demo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>AhipDemoIG</h2><p>The official URL for this implementation guide is: </p><pre>http://ahip.org/demographics/ImplementationGuide/ahip.demo</pre></div>"
+  ] ;
+  fhir:ImplementationGuide.url [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo"] ;
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"] ;
+  fhir:ImplementationGuide.name [ fhir:value "AhipDemoIG"] ;
+  fhir:ImplementationGuide.status [ fhir:value "draft"] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-28T11:16:26-03:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.publisher [ fhir:value "AHIP"] ;
+  fhir:ImplementationGuide.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+     ]
+  ] ;
+  fhir:ImplementationGuide.packageId [ fhir:value "ahip.demo"] ;
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"] ;
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1" ;
+     fhir:index -1
+  ] ;
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index -1 ;
+     fhir:Element.id [ fhir:value "hl7ext" ] ;
+     fhir:Element.extension [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment" ] ;
+       fhir:Extension.valueMarkdown [ fhir:value "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack" ]
+     ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions" ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.extensions.r4" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.4.0" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Element.id [ fhir:value "hl7_terminology_r4" ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://terminology.hl7.org/ImplementationGuide/hl7.terminology" ;
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "7.4.0" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Element.id [ fhir:value "hl7_fhir_uv_sdc" ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc" ;
+       fhir:link <http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.sdc" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "4.0.0" ]
+  ] ;
+  fhir:ImplementationGuide.definition [
+     fhir:Element.extension [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency" ] ;
+       fhir:Extension.valueCode [ fhir:value "hl7.fhir.uv.tools.r4#1.3.0" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "copyrightyear" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "2025+" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "releaselabel" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "autoload-resources" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-liquid-template" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "template/liquid" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-liquid-template" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "input/liquid" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-qa" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "temp/qa" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-temp" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "temp/pages" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-output" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "output" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-suppressed-warnings" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-history" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "http://ahip.org/demographics/history.html" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "template-html" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "template-page.html" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "template-md" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "template-page-md.html" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-context" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-license" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-publisher" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-version" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-wg" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "active-tables" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "fmm-definition" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "propagate-status" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "excludelogbinaryformat" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "tabbed-snapshots" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "i18n-default-lang" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "en" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ] ;
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-asian-category> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-asian-category" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Asian Background Categories" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Asian or Asian American on the race/ethnicity question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-birth-sex> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-birth-sex" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Birth Sex" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-black-category> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-black-category" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Black Background Categories" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-care-consideration> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-care-consideration" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Care Consideration Value Set" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the care considerations question in the Spirituality and Other Considerations Section, letting a patient flag considerations they want their care team to know before providing care." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-religion-christian-detail" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Christian Religion Detail Value Set" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the Christian denomination detail question, shown only when the patient selects Christian on the religion/spirituality question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/Questionnaire/AHIPDemoQuestionnaire> ;
+         fhir:Reference.reference [ fhir:value "Questionnaire/AHIPDemoQuestionnaire" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP CIVITAS DEMO QUESTIONNAIRE" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "DRAFT QUESTIONNAIRE FOR AHIP - DRAFT VERSION FOR DISCUSSION ONLY" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ahip-demo-additional-nullFlavor" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Demo Additional NullFlavor" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An additional collection of codes specifying why a valid value is not present." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ahip-demo-disability-codes" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Demo Disability Codes" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ahip-demo-temporary-codes" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Demo Temporary Codes" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes temporarily defined as part of the AHIP DEMo implementation guide. These will eventually migrate into officially maintained terminologies (such as CDCREC for background concepts and HL7 Terminology code systems (e.g.,v3-MaritalStatus for relationship status and v3-ReligiousAffiliation for religion and spirituality). The canonical URL (and likely the codes themselves) for all codes appearing in this code system ARE expected to change in a future release. Implementers should prepare for this transition when they write their code, allowing for the possibility of checking for both the old and new code and ensuring it is straightforward to transmit both the old and new code when the time comes. Concept maps will likely be made available to assist with this transition." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-disability> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-disability" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Disability" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the functional difficulty question in the Disability Section, capturing difficulty with activities of daily living due to a physical or mental health condition." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-demo-gender-identity" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Gender Identity" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-latino-category> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-latino-category" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Hispanic Latino Background Categories" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Hispanic or Latino/a/e on the race/ethnicity question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-interpreter-modes> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-interpreter-modes" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Interpreter Modes" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-religion-jewish-detail" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Jewish Religion Detail Value Set" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-middle-eastern-category> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-middle-eastern-category" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Middle Eastern Background Categories" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Middle Eastern or North African on the race/ethnicity question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-native-american-category> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-native-american-category" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Native American Background Categories" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-native-hawaiian-category" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Native Hawaiian Background Categories" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-outreach-mode> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-outreach-mode" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Outreach Modes" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the outreach preferences question in the Language Section, capturing a patient's preferred channels for health care outreach." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-preferred-pronouns" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Preferred Pronouns" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-race-category> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-race-category" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Race and Ethnicity Categories" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the initial race/ethnicity question in the Race & Ethnicity Section; the selection made here drives which granular background value set is conditionally shown next." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-reading-language-prereferences" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Reading Language Preferences" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the reading language preferences question in the Language Section, capturing the languages and formats a patient prefers when reading health care materials." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-relationship-status> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-relationship-status" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Relationship Status" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the relationship status question in the SOGI and Relationship Status Section." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-religion-spirituality> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-religion-spirituality" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Religion/Spirituality Value Set" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-sexual-orientation> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-sexual-orientation" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Sexual Orientation" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the sexual orientation question in the SOGI and Relationship Status Section, capturing how a patient currently thinks of their sexual orientation. Based on SNOMED CT and US Core Orientation Value Set" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-speaking-language-prereferences" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Speaking Language Preferences" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the speaking language preferences question in the Language Section, capturing the language(s) a patient feels most comfortable speaking about their health care. Based on IETF 3066 Language Codes" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-military-service-period> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-military-service-period" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP US Military Service Period Codes" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-white-category> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-white-category" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP White Background Categories" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects White or European on the race/ethnicity question." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-yes-no-dont-know-no-response" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Yes, No, Don't Know, or No Response" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options used across multiple questions in the Questionnaire." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ahip.org/demographics/ValueSet/ahip-yes-no-no-response> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ahip-yes-no-no-response" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Yes, No, or No Response" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Used as the answer options used across multiple questions in the Questionnaire." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ] ;
+     fhir:ImplementationGuide.definition.page [
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+         fhir:Extension.valueUrl [ fhir:value "toc.html" ]
+       ] ;
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ] ;
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ] ;
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ] ;
+       fhir:ImplementationGuide.definition.page.page [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "index.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "AhipDemoIG" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "background.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "background.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Background" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "intellectual-property.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "intellectual-property.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Intellectual Property Considerations" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "conventions.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "conventions.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Conventions" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "introduction.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "introduction.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Introduction" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "use-cases.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "use-cases.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "supporting-specifications.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "supporting-specifications.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Supporting Specifications" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "projects-and-participants.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "projects-and-participants.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Projects and Participants + Credits" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "security.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "security.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Security" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "support-menu.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "support-menu.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Support Menu" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ]
+     ] ;
+     fhir:ImplementationGuide.definition.parameter [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/testing" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/history" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "fsh-generated/resources" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/assets" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ahip.org/demographics/ImplementationGuide/ahip.demo.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
