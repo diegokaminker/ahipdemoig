@@ -1,0 +1,17 @@
+#project-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  line-height: normal;
+}
+
+#project-nav a {
+  display: inline-block;
+  line-height: 0;
+}
+
+#project-nav img,
+#family-logo img {
+  height: 44px;
+  width: auto;
+}

@@ -1,5 +1,3 @@
-# Intellectual Property Considerations
-
 This Implementation Guide may contain or reference intellectual property owned by third parties ("Third Party IP"). Implementers and testers of this specification **SHALL** comply with the license requirements for each terminology or other artifact they use.
 
 Terminology and other IP licenses **SHALL** be obtained from the relevant Third-Party IP owner for each code system, value set, or other artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure that its implementations comply with all applicable Third-Party IP and licensing requirements.
@@ -16,11 +14,11 @@ This publication may include or reference IP covered under one or more of the fo
 
 ---
 
-## Sources and citations
+### Sources and citations
 
 The demographic content in this Implementation Guide draws on public sources and consensus materials across multiple domains. The citations below are provided for transparency and do not replace implementers' obligation to comply with applicable third-party IP and licensing requirements.
 
-### Veteran status / military experience
+#### Veteran status / military experience
 
 - 38 U.S. Code § 101
 - Eligibility for VA health care. (2024). U.S. Department of Veterans Affairs. https://www.va.gov/health-care/eligibility/
@@ -29,7 +27,7 @@ The demographic content in this Implementation Guide draws on public sources and
 - Why We Ask Questions About Veteran Status. (2019). United States Census Bureau. https://www.census.gov/acs/www/about/why-we-ask-each-question/veterans/
 - American Community Survey. (2024). United States Census Bureau. https://www2.census.gov/programs-surveys/acs/methodology/questionnaires/2024/quest24.pdf
 
-### Disability status
+#### Disability status
 
 - 42 U.S. Code § 12102
 - Introduction to the Americans with Disabilities Act. (2023). ADA.gov. https://www.ada.gov/topics/intro-to-ada/
@@ -38,19 +36,19 @@ The demographic content in this Implementation Guide draws on public sources and
 - Disability Report – Adult. (2024). Social Security Administration. https://www.ssa.gov/forms/ssa-3368-bk.pdf
 - American Community Survey. (2024). United States Census Bureau. https://www2.census.gov/programs-surveys/acs/methodology/questionnaires/2024/quest24.pdf
 
-### Sexual orientation, sex, and gender
+#### Sexual orientation, sex, and gender
 
 - Collecting Sexual Orientation and Gender Identity (SO/GI) Data In Electronic Health Records. (2020). National LGBT Health Education Center. https://fenwayhealth.org/wp-content/uploads/4.-Collecting-SOGI-Data.pdf
 
-### Pronouns
+#### Pronouns
 
 - Gender Pronouns. (2024). University of Wisconsin Milwaukee. https://uwm.edu/lgbtrc/resources/gender-pronouns/
 
-### Relationship status
+#### Relationship status
 
 - Collecting Sexual Orientation and Gender Identity (SO/GI) Data In Electronic Health Records. (2020). National LGBT Health Education Center. https://fenwayhealth.org/wp-content/uploads/4.-Collecting-SOGI-Data.pdf
 
-### Race and ethnicity
+#### Race and ethnicity
 
 - Detailed Races and Ethnicities in the United States and Puerto Rico: 2020 Census. (2023). United States Census Bureau. https://www.census.gov/library/visualizations/interactive/detailed-race-ethnicities-2020-census.html
 - Asian Indian Was The Largest Asian Alone Population Group in 2020. (2023). United States Census Bureau. https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html
@@ -65,7 +63,7 @@ The demographic content in this Implementation Guide draws on public sources and
 - Who is Hispanic? (2023). Pew Research Center. https://www.pewresearch.org/short-reads/2023/09/05/who-is-hispanic/
 - European Americans. (2023). Wikipedia. https://en.wikipedia.org/wiki/European_Americans
 
-### Language
+#### Language
 
 - What Languages Do We Speak in the United States? (2022). United States Census Bureau. https://www.census.gov/library/stories/2022/12/languages-we-speak-in-united-states.html
 - Languages Spoken at Home. (2022). United States Census Bureau. https://data.census.gov/table/ACSST1Y2022.S1601?t=Language%20Spoken%20at%20Home&g=010XX00US
@@ -73,7 +71,7 @@ The demographic content in this Implementation Guide draws on public sources and
 - Census Shows Native Languages Count. (2023). Language Magazine. https://www.languagemagazine.com/census-shows-native-languages-count/
 - Besides English and Spanish, which language do you think is the most commonly spoken in the U.S.? (2021). World Economic Forum. https://www.weforum.org/agenda/2021/12/spoken-language-united-states-america-english-spanish-mandarin/
 
-### Spirituality
+#### Spirituality
 
 - Religious Landscape Study. (2024). Pew Research Center. https://www.pewresearch.org/religion/religious-landscape-study/
 - Religion in the United States. (2024). Wikipedia. https://en.wikipedia.org/wiki/Religion_in_the_United_States

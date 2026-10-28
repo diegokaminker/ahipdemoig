@@ -1,5 +1,3 @@
-# Conventions
-
 This implementation guide (IG) uses specific terminology to flag statements that have relevance for the evaluation of conformance with the guide:
 
 - **SHALL** indicates requirements that must be met to be conformant with the specification.
@@ -8,13 +6,13 @@ This implementation guide (IG) uses specific terminology to flag statements that
 
 ---
 
-## Must Support
+### Must Support
 
 For profiles defined in other IGs, the meaning of Must Support is established in the defining IG. Note that the Must Support requirements for this IG are modeled after the US Core Implementation Guide. For further information see the Must Support section in the [Introduction](introduction.html) page.
 
 ---
 
-## Security and Privacy
+### Security and Privacy
 
 Security and Privacy are critically important when exchanging information.
 

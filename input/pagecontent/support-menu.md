@@ -1,10 +1,8 @@
-# Support Menu
-
 This page provides links and short descriptions for project information, how to propose changes, where to discuss the IG, and where to find downloads and examples.
 
 ---
 
-## Project Page
+### Project Page
 
 *[Placeholder.]* Link to the official project or program page (e.g., DEMo Initiative, AHIP Health Equity, or HL7 Confluence) where stakeholders can find meeting schedules, minutes, and high-level scope.
 
@@ -14,7 +12,7 @@ This page provides links and short descriptions for project information, how to 
 
 ---
 
-## Propose a Change
+### Propose a Change
 
 To suggest changes to this Implementation Guide (e.g., new value set members, code system changes, or narrative updates):
 
@@ -25,7 +23,7 @@ To suggest changes to this Implementation Guide (e.g., new value set members, co
 
 ---
 
-## Feedback
+### Feedback
 
 General discussion and questions about this IG:
 
@@ -34,7 +32,7 @@ General discussion and questions about this IG:
 
 ---
 
-## Downloads / Examples
+### Downloads / Examples
 
 The FHIR IG Publisher generates package and download artifacts. When the IG is published:
 

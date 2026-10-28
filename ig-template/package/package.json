@@ -1,0 +1,11 @@
+{
+  "name": "ahip.demo.template",
+  "version": "0.1.0",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "AHIP DEMo header logos on fhir2.base.template",
+  "base": "fhir2.base.template",
+  "dependencies": {
+    "fhir2.base.template": "current"
+  }
+}

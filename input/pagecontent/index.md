@@ -1,6 +1,4 @@
-# AhipDemoIG
-
-## Metadata
+### Metadata
 
 | Field | Value |
 |-------|--------|
@@ -13,7 +11,7 @@
 
 ---
 
-## Plain Language Description
+### Plain Language Description
 
 AHIP, Civitas Networks for Health (Civitas), and Health Level Seven International® (HL7®) launched the Demographic Data Element Modernization (DEMo) Initiative in late 2023. The initiative aims to improve existing and develop new demographic data standards so that health care organizations can better leverage such data to identify disparities, inform culturally responsive care, and improve health outcomes. This multi-phased, multi-stakeholder collaboration began with national focus groups that brought together over 130 diverse organizations to develop enhanced demographic questions and response options, which later underwent cognitive testing and refinements. This Implementation Guide (IG) supports the DEMo Initiative by translating the initiative's refined questions and response options into interoperable, production-ready HL7 standards and implementation guidance.
 

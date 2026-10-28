@@ -71,7 +71,7 @@ dependencies:
 # The pages property corresponds to IG.definition.page. When set, SUSHI will not auto-generate pages.
 pages:
   index.md:
-    title: Home
+    title: AhipDemoIG
   background.md:
     title: Background
   intellectual-property.md:
@@ -85,11 +85,11 @@ pages:
   supporting-specifications.md:
     title: Supporting Specifications
   projects-and-participants.md:
-    title: Projects and Participants
+    title: Projects and Participants + Credits
   security.md:
     title: Security
   support-menu.md:
-    title: Support
+    title: Support Menu
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │

@@ -1,5 +1,3 @@
-# Introduction
-
 The Demographic Data Element Modernization (DEMo) Implementation Guide provides a standardized, FHIR-based approach for representing, collecting and exchanging person-reported demographic information in a healthcare setting in the United States. It translates the DEMo Initiative's evidence-based, consensus-driven demographic questions and response choices into computable artifacts and implementation guidance that can be incorporated into health information technology systems and workflows.
 
 Specific objectives include:
@@ -17,7 +15,7 @@ We note that the Questionnaire underwent [cognitive testing](https://civitasforh
 
 Once the data is collected, it can be integrated into the organization's systems for internal purposes as well as shared with trusted parties for their use. An objective of the initiative is to collect the information once and use it many times by seamlessly sharing the standardized data with other organizations critical to patient care and outcomes. The modernized questions and response choices seek to ensure that the way in which the data is sought is trustworthy, easy to understand, and culturally sensitive and that the data obtained is complete, sufficiently granular, and standardized. The results are intended to provide actionable information to various actors in the ecosystem to support initiatives to improve reliable care for all populations and patients by identifying where additional effort is warranted.
 
-## Actors and Systems
+### Actors and Systems
 
 Implementers may include:
 
@@ -34,9 +32,9 @@ The collection could be built into an electronic medical record and part of a vi
 
 A system may serve as a data collection system, a source system, a receiving system or more than one of these. This guide does not presume that demographic information will be collected by a single type of organization or at a single point in a person's interactions with the health care system. Collection may occur through registration, enrollment, intake, a health risk assessment, a patient or member portal, or another appropriate workflow. Subject to applicable law, authorization and organizational policy, standardized information may subsequently be exchanged among trusted entities to reduce duplicative collection and support appropriate reuse.
 
-## Scope
+### Scope
 
-### In scope
+#### In scope
 
 This guide is designed for the U.S. health care environment. It uses U.S.-specific terminology and builds upon applicable U.S. realm specifications and demographic data standards. Although some of its underlying structures and implementation approaches may be useful outside the United States, use in another jurisdiction may require different terminology, value sets, legal considerations and implementation guidance.
 
@@ -53,7 +51,7 @@ This version of the guide supports:
 - The ability to preserve relevant context concerning the source and timing of the information; and
 - Implementation examples illustrating selected collection and exchange scenarios.
 
-### Out of scope
+#### Out of scope
 
 This version of the guide does not:
 
@@ -71,6 +69,6 @@ This version of the guide does not:
 
 Implementers may use DEMo-conformant information as part of broader clinical, administrative, public health, quality measurement, research or population health workflows. Those downstream workflows and decisions remain governed by the applicable implementation context and are not themselves standardized by this guide.
 
-### Future considerations
+#### Future considerations
 
 Future versions of the guide may address additional workflows identified through implementation and pilot testing, including more detailed guidance for updating and reconciling information collected at different times, representing an individual-controlled longitudinal demographic profile, and supporting additional person-directed exchange. Such capabilities are not required for conformance with this version of the guide.

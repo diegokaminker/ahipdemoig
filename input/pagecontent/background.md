@@ -1,5 +1,3 @@
-# Background
-
 In the U.S., health data collection for key demographic domains is inconsistent, incomplete, lacks interoperability, and often uses ambiguous or non-inclusive concepts. This limits the ability of clinicians, health systems, payers, public health, and researchers to reliably identify disparities, design culturally responsive interventions, and measure outcomes to monitor progress over time.
 
 From 2020 to 2023, AHIP convened a workgroup that developed modernized and enhanced demographic data content standards through a multi-stakeholder-driven process resulting in voluntary best practices for health plans. AHIP identified that the impact of this work would be heightened by creating accredited standards that could be used broadly across the healthcare industry. For example, within electronic health records, as part of health risk assessments, or at health plan enrollment. Thus, AHIP began a partnership with Civitas and HL7 to create the national, multi-phased, multi-stakeholder, DEMo Initiative.
@@ -12,7 +10,7 @@ Following the focus groups, the revised content underwent cognitive testing in c
 
 The DEMo questionnaire and IG are intended to address the gaps in data and data sharing by specifying standardized, granular, and person-centered data elements and exchange mechanisms that preserve respectful language to improve data comprehensiveness, quality, usability, and interoperability.
 
-## Intended use and interactions
+### Intended use and interactions
 
 - **Primary Uses:** Support standardized data collection, data sharing, population-health analytics, quality measurement, and care gap monitoring for point-of-care clinical decision-making, person-centered care, and care management; facilitate public-health reporting and research; and inform operational and policy decisions to reduce disparities in health and health care.
 - **Collection Points and Actors:** Demographic data are intended to be captured primarily via patient self-report at enrollment, registration, intake, patient portals, or structured patient interviews. Clinicians, registration staff, and authorized proxies may also record or update elements when self-reported data is not feasible, following documented consent and verification practices.
